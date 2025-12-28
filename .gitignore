@@ -1,4 +1,6 @@
 /pcb/cyberdeck-alpha-backups
 /pcb/fp-*
-*.kicad_prl
-*.lck
+/pcb/production/
+/pcb/*.kicad_prl
+/pcb/*.lck
+/pcb/fabrication-toolkit-options.json
