@@ -4,3 +4,4 @@
 /pcb/*.kicad_prl
 /pcb/*.lck
 /pcb/fabrication-toolkit-options.json
+/pcb/*.kicad*-bak

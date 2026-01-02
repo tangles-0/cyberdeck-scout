@@ -777,6 +777,12 @@
           "label": "DESCRIPTION",
           "name": "DESCRIPTION",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART_REV",
+          "name": "PART_REV",
+          "show": false
         }
       ],
       "filter_string": "",
