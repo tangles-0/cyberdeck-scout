@@ -464,7 +464,9 @@
       "LibraryGlobalFootprints",
       "EasyEDA_Lib"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "LibraryGlobalSymbols"
+    ]
   },
   "meta": {
     "filename": "cyberdeck-alpha.kicad_pro",

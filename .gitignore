@@ -5,3 +5,4 @@
 /pcb/*.lck
 /pcb/fabrication-toolkit-options.json
 /pcb/*.kicad*-bak
+/pcb/#auto_saved_files#
