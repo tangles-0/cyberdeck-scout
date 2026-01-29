@@ -43642,16 +43642,6 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 488.95) (xy 466.09 490.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a7ddf48-8103-4a23-b9cb-f5bcd59ca4c2")
-	)
-	(wire
-		(pts
 			(xy 76.2 50.8) (xy 71.12 50.8)
 		)
 		(stroke
@@ -46782,16 +46772,6 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 490.22) (xy 467.36 490.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59df34b7-9823-4520-a801-3a47bf55880a")
-	)
-	(wire
-		(pts
 			(xy 219.71 402.59) (xy 220.98 402.59)
 		)
 		(stroke
@@ -47899,6 +47879,16 @@
 			(type default)
 		)
 		(uuid "6a4991ec-bb31-4c6f-a528-63e7014fcc87")
+	)
+	(wire
+		(pts
+			(xy 419.1 575.31) (xy 422.91 575.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6abac026-62fd-4a18-a1b3-7a901d143f17")
 	)
 	(wire
 		(pts
@@ -51672,7 +51662,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 101.6) (xy 474.98 101.6)
+			(xy 469.9 101.6) (xy 477.52 101.6)
 		)
 		(stroke
 			(width 0)
@@ -52282,6 +52272,16 @@
 	)
 	(wire
 		(pts
+			(xy 402.59 563.88) (xy 402.59 575.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a699692f-b4d0-4add-89d5-3c2528c39491")
+	)
+	(wire
+		(pts
 			(xy 775.97 270.51) (xy 782.32 270.51)
 		)
 		(stroke
@@ -52559,6 +52559,16 @@
 			(type default)
 		)
 		(uuid "aa705ee4-77a2-4af5-b5e0-eafc0ada6841")
+	)
+	(wire
+		(pts
+			(xy 430.53 575.31) (xy 435.61 575.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa71efc8-c673-49e4-ba12-7de7a457c34a")
 	)
 	(wire
 		(pts
@@ -54129,6 +54139,16 @@
 			(type default)
 		)
 		(uuid "c3ade830-6c36-40bc-bdc8-0df404dd5226")
+	)
+	(wire
+		(pts
+			(xy 402.59 575.31) (xy 411.48 575.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3fd8bb5-85ac-4d4e-bd63-9c48be456629")
 	)
 	(wire
 		(pts
@@ -58440,16 +58460,6 @@
 		)
 		(uuid "023e1cfd-f452-4d8c-a733-53d90349395f")
 	)
-	(label "CELL-"
-		(at 450.85 521.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "028740db-7ff8-438a-8863-675ff9da68f5")
-	)
 	(label "DAC_3V3_VDD"
 		(at 595.63 74.93 0)
 		(effects
@@ -58459,26 +58469,6 @@
 			(justify left bottom)
 		)
 		(uuid "02a029b4-ee54-4a93-ac52-601f78cab168")
-	)
-	(label "CELL-"
-		(at 378.46 528.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "02a3e6cd-3ddc-4ca1-a619-a060a3880b96")
-	)
-	(label "CELL-"
-		(at 516.89 595.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0353a70b-1d59-4887-98d5-f0ab10dd4090")
 	)
 	(label "MIPI1_CLK_P"
 		(at 782.32 285.75 0)
@@ -58499,6 +58489,16 @@
 			(justify right bottom)
 		)
 		(uuid "047789bd-2e3e-4e9e-ade6-9e2040d8bbad")
+	)
+	(label "BQ_3V3"
+		(at 435.61 575.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04e81612-9b65-4a2c-ac33-282e58ea68e0")
 	)
 	(label "USB31_TX1_N"
 		(at 741.68 476.25 180)
@@ -58571,7 +58571,7 @@
 		(uuid "09743c35-f06c-4079-b869-d8bc83f28ee0")
 	)
 	(label "CELL+"
-		(at 556.26 478.79 180)
+		(at 551.18 471.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61602,7 +61602,7 @@
 		(uuid "85cb441b-f416-4201-820c-9de96250e059")
 	)
 	(label "CELL1"
-		(at 556.26 486.41 180)
+		(at 551.18 478.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62660,16 +62660,6 @@
 			(justify right bottom)
 		)
 		(uuid "b0761f31-5ca2-4fb2-b197-95396e14ad88")
-	)
-	(label "CELL-"
-		(at 467.36 490.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0b1507b-c434-497e-82f6-1c1beb514a96")
 	)
 	(label "USB31_TX1_P"
 		(at 741.68 473.71 180)
@@ -63991,16 +63981,6 @@
 		)
 		(uuid "e6f3311f-a689-4087-8f04-ee3ea8bf710b")
 	)
-	(label "CELL-"
-		(at 534.67 595.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e71d0072-b15d-40d4-9a5c-634c7da855a4")
-	)
 	(label "RIGHT_CH_AMP_IN"
 		(at 434.34 52.07 180)
 		(effects
@@ -64472,7 +64452,7 @@
 		(uuid "f9492407-3d09-4637-913a-f196c0b392e5")
 	)
 	(label "CELL-"
-		(at 556.26 494.03 180)
+		(at 551.18 486.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -90323,6 +90303,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 415.29 575.31 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "199f89cb-bb7c-4341-a2e0-332dd26cae35")
+		(property "Reference" "D36"
+			(at 416.306 572.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_0402"
+			(at 416.306 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 415.29 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 415.29 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 415.29 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41366936 "
+			(at 415.29 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 415.29 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "BATT_LED"
+			(at 416.052 579.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 415.29 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 415.29 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 415.29 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 415.29 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 415.29 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 415.29 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1d8e8e8-86c1-46e0-9283-84c3e297bdb9")
+		)
+		(pin "1"
+			(uuid "9f6c2739-d484-49d7-b93b-bbdbedf83a41")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 491.49 582.93 0)
 		(unit 1)
@@ -103331,6 +103468,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 534.67 595.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "433d8cf9-eace-482a-a84f-1f139b0464ad")
+		(property "Reference" "#PWR0218"
+			(at 534.67 601.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BATT_GND"
+			(at 534.67 600.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 534.67 595.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 534.67 595.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 534.67 595.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "361dc058-e4f8-41b5-9d62-5a986a29b4df")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 97.79 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -113013,6 +113216,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 387.35 574.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b44c114-ae7c-4658-b62d-a0859b5d887d")
+		(property "Reference" "#PWR070"
+			(at 387.35 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BATT_GND"
+			(at 387.35 579.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 387.35 574.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.35 574.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 387.35 574.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dd20fb6-c562-409b-aec9-5a6d3e9d6105")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 450.85 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -113096,7 +113365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "BATT_GND"
 			(at 398.78 595.63 0)
 			(effects
 				(font
@@ -113607,6 +113876,109 @@
 			(project "keyboard-cyberdeck"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 426.72 575.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71bd5b17-87cd-45cc-850f-1263c9030032")
+		(property "Reference" "R98"
+			(at 426.72 575.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 426.72 573.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 426.72 577.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 426.72 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 426.72 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25890"
+			(at 426.72 575.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCS" ""
+			(at 426.72 575.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 426.72 575.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 426.72 575.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbe6f808-e4d1-43de-9cc7-1c770487f09f")
+		)
+		(pin "2"
+			(uuid "50ca29d6-cb68-43d1-9ca2-c89dba1cf1a3")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -118897,7 +119269,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 556.26 491.49 0)
+		(at 551.18 483.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -118906,7 +119278,7 @@
 		(fields_autoplaced yes)
 		(uuid "8635e598-c210-47b3-8b68-de12912003ff")
 		(property "Reference" "BT2"
-			(at 560.07 488.3784 0)
+			(at 554.99 480.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118915,7 +119287,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 560.07 490.9184 0)
+			(at 554.99 483.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118924,7 +119296,7 @@
 			)
 		)
 		(property "Footprint" "LibraryGlobalFootprints:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
-			(at 556.26 489.966 90)
+			(at 551.18 482.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118933,7 +119305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 556.26 489.966 90)
+			(at 551.18 482.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118942,7 +119314,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 556.26 491.49 0)
+			(at 551.18 483.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118951,7 +119323,7 @@
 			)
 		)
 		(property "LCSC" "C7433663 "
-			(at 556.26 491.49 0)
+			(at 551.18 483.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118960,7 +119332,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 556.26 491.49 0)
+			(at 551.18 483.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119996,6 +120368,72 @@
 			(project "keyboard-usb"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 516.89 595.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "897ee79b-541c-42f3-8e0a-c217a8fc41bb")
+		(property "Reference" "#PWR0217"
+			(at 516.89 601.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BATT_GND"
+			(at 516.89 600.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 516.89 595.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 516.89 595.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 516.89 595.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dbca886-69e2-43d3-b386-447f73d8b529")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -124353,72 +124791,6 @@
 			(project "keyboard-cyberdeck"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 387.35 574.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a15f8069-7f2d-4ca7-b7b3-6714eb60c8c0")
-		(property "Reference" "#PWR070"
-			(at 387.35 580.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 387.35 579.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 387.35 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 387.35 574.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a776496e-5e35-420c-bf26-279b4dda4737")
-		)
-		(instances
-			(project "cyberdeck-alpha"
-				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -131775,6 +132147,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 466.09 488.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c70a6c18-275e-4547-827f-7ea023a2f4da")
+		(property "Reference" "#PWR0219"
+			(at 466.09 495.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BATT_GND"
+			(at 466.09 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 466.09 488.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 466.09 488.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 466.09 488.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30556683-b079-474a-bf4f-704039202ede")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 480.06 660.4 0)
 		(unit 1)
@@ -132170,6 +132608,72 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 551.18 486.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7b2d17c-52ca-440e-b2fb-4d86f1885b9d")
+		(property "Reference" "#PWR0215"
+			(at 551.18 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BATT_GND"
+			(at 551.18 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 551.18 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 551.18 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 551.18 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5eec4fbc-a2e0-45e7-b0bb-36c2d058c31e")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -133536,7 +134040,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 556.26 483.87 0)
+		(at 551.18 476.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -133545,7 +134049,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd3be703-d439-4c89-b52b-f2fdb161e74c")
 		(property "Reference" "BT1"
-			(at 560.07 480.7584 0)
+			(at 554.99 473.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133554,7 +134058,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 560.07 483.2984 0)
+			(at 554.99 475.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133563,7 +134067,7 @@
 			)
 		)
 		(property "Footprint" "LibraryGlobalFootprints:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
-			(at 556.26 482.346 90)
+			(at 551.18 474.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133572,7 +134076,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 556.26 482.346 90)
+			(at 551.18 474.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133581,7 +134085,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 556.26 483.87 0)
+			(at 551.18 476.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133590,7 +134094,7 @@
 			)
 		)
 		(property "LCSC" "C7433663 "
-			(at 556.26 483.87 0)
+			(at 551.18 476.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133599,7 +134103,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 556.26 483.87 0)
+			(at 551.18 476.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138950,6 +139454,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 378.46 528.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dee20998-e89f-49ab-9165-fdbd69d69640")
+		(property "Reference" "#PWR0216"
+			(at 378.46 534.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BATT_GND"
+			(at 378.46 533.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 528.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 528.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 378.46 528.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8602c586-e19c-48c4-a74c-bbd605f739d3")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 681.99 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -143220,6 +143790,72 @@
 			(project "keyboard-cyberdeck"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 450.85 521.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f416445b-7e20-4598-9f15-5296cb561691")
+		(property "Reference" "#PWR0214"
+			(at 450.85 528.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BATT_GND"
+			(at 450.85 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 450.85 521.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 450.85 521.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 450.85 521.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faed20d5-cebd-4bc3-927a-90de120cf576")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)

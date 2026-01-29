@@ -584,7 +584,7 @@
       "plot": "output/gerber/",
       "pos_files": "output/",
       "specctra_dsn": "",
-      "step": "../../casing/cyberdeck-alpha-pcb2.step",
+      "step": "../../casing/cyberdeck-alpha-pcb4.step",
       "svg": "",
       "vrml": ""
     },
