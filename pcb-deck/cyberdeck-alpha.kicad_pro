@@ -60,35 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "connection_width|159350979|99724109|4cef1f8e-8d19-4c8b-96ae-1c358b839564|8ab6895c-eaa8-4785-8d80-a1e869197c03",
-          ""
-        ],
-        [
-          "connection_width|245628904|79710218|4c8afaeb-f585-4149-8e46-462753016c73|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "copper_edge_clearance|247292500|86508250|294993fa-d03b-4f25-84da-c3531178dfb6|3918927a-dfc7-40b6-ba86-5ecf9b5a4b14",
-          ""
-        ],
-        [
-          "copper_edge_clearance|247292500|86508250|294993fa-d03b-4f25-84da-c3531178dfb6|67c15219-7fbc-4b42-a803-9ed66c9ef06a",
-          ""
-        ],
-        [
-          "copper_edge_clearance|248042500|78168250|385004ea-c6cf-43ee-95c6-d7dccffecccc|2bf04418-a896-4efc-b40a-53d6914e5d5f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|248042500|78168250|385004ea-c6cf-43ee-95c6-d7dccffecccc|3c1901c3-0644-4196-9be1-fa2325259036",
-          ""
-        ],
-        [
           "footprint_type_mismatch|160020000|99620000|4b80e579-6c54-4d8d-a2f1-ac7b87ff31e9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_type_mismatch|233142567|77051004|e49d92af-5f36-45bb-ba53-8f031427cb83|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -113,10 +85,6 @@
         ],
         [
           "lib_footprint_issues|237923750|112585000|8bc7252b-3942-4995-9c93-362e4c91291b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "npth_inside_courtyard|204862500|87052500|d86ff339-3a32-4b9f-bee2-64bc8d8abe4f|47a2e118-5776-4871-b440-47798a95cc53",
           ""
         ]
       ],
@@ -554,10 +522,32 @@
         "wire_width": 6
       },
       {
-        "name": "HDMI_TX2",
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.2165,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.2,
+        "name": "100Ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.281,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.2,
+        "name": "90Ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.4,
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -567,12 +557,24 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "HDMI_TX2",
-        "pattern": "/HDMI_TX2+"
+        "netclass": "90Ohm",
+        "pattern": "/PCIE*"
       },
       {
-        "netclass": "HDMI_TX2",
-        "pattern": "/HDMI_TX2-"
+        "netclass": "100Ohm",
+        "pattern": "/ETHERNET*"
+      },
+      {
+        "netclass": "90Ohm",
+        "pattern": "/USB3*"
+      },
+      {
+        "netclass": "90Ohm",
+        "pattern": "/USB2*"
+      },
+      {
+        "netclass": "100Ohm",
+        "pattern": "/HDMI*"
       }
     ]
   },
@@ -584,7 +586,7 @@
       "plot": "output/gerber/",
       "pos_files": "output/",
       "specctra_dsn": "",
-      "step": "../../casing/cyberdeck-alpha-pcb4.step",
+      "step": "../../casing/board-only.step",
       "svg": "",
       "vrml": ""
     },

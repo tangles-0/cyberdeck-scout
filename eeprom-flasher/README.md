@@ -1,0 +1,1 @@
+flashes firmware to the EEPROM. use the https://github.com/earlephilhower/arduino-littlefs-upload plugin to upload the .bin file to the ESP32 filesystem. Connect i2c to the cSDA, cSCL, and GND pads on the mainboard. power the board on.
