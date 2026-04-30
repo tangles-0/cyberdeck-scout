@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.16
         }
       },
       "diff_pair_dimensions": [
@@ -558,11 +558,11 @@
     "netclass_patterns": [
       {
         "netclass": "90Ohm",
-        "pattern": "/PCIE*"
+        "pattern": "/PCIE*_P"
       },
       {
-        "netclass": "100Ohm",
-        "pattern": "/ETHERNET*"
+        "netclass": "90Ohm",
+        "pattern": "/PCIE*_N"
       },
       {
         "netclass": "90Ohm",
@@ -574,7 +574,15 @@
       },
       {
         "netclass": "100Ohm",
-        "pattern": "/HDMI*"
+        "pattern": "/HDMI_TX*"
+      },
+      {
+        "netclass": "100Ohm",
+        "pattern": "/MIPI*_P"
+      },
+      {
+        "netclass": "100Ohm",
+        "pattern": "/MIPI*_N"
       }
     ]
   },
