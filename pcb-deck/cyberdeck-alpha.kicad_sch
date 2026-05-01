@@ -33937,7 +33937,7 @@
 	)
 	(rectangle
 		(start 618.49 451.866)
-		(end 854.71 576.58)
+		(end 933.45 576.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -34525,7 +34525,7 @@
 	)
 	(rectangle
 		(start 749.3 586.486)
-		(end 814.07 702.31)
+		(end 814.07 732.79)
 		(stroke
 			(width 0)
 			(type default)
@@ -35060,6 +35060,16 @@
 		)
 		(uuid "2807ffb4-976f-4651-8f61-6c6b5ad775a6")
 	)
+	(text "Ilim (A) = 6800 / Rset (ohm)\n3.4K = 2A, 6.8K = 1A, 10K = 0.68A"
+		(exclude_from_sim no)
+		(at 843.28 610.616 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "28ea6bf7-5dd8-418e-b12b-442b2db0fb33")
+	)
 	(text "Raspberry Pi 40-pin GPIO"
 		(exclude_from_sim no)
 		(at 727.456 332.486 0)
@@ -35153,6 +35163,16 @@
 			)
 		)
 		(uuid "5150bce8-4b2a-4ca1-bb06-2bbd534be9b1")
+	)
+	(text "Ilim (A) = 6800 / Rset (ohm)\n3.4K = 2A, 6.8K = 1A, 10K = 0.68A"
+		(exclude_from_sim no)
+		(at 887.73 491.236 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "51b5966c-c28e-4622-8f83-23ae7c2fb661")
 	)
 	(text "Ilim (A) = 6800 / Rset (ohm)\n3.4K = 2A, 6.8K = 1A, 10K = 0.68A"
 		(exclude_from_sim no)
@@ -35813,6 +35833,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05165664-e158-43eb-a65e-e6df2b76cee5")
+	)
+	(junction
+		(at 828.04 600.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06f4ab0c-ba4a-4bae-8e1c-fbaffa13f3d9")
 	)
 	(junction
 		(at 191.77 31.75)
@@ -36673,6 +36699,12 @@
 		(uuid "53d3c49e-7c5c-450f-8457-9afc26e21238")
 	)
 	(junction
+		(at 835.66 600.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "541a570a-d8b9-444b-881d-c0039e89b462")
+	)
+	(junction
 		(at 267.97 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -37267,6 +37299,12 @@
 		(uuid "8353d18a-10ea-4583-9ee7-70f6f7993f23")
 	)
 	(junction
+		(at 844.55 613.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8391951f-d62d-4780-b057-4a4d6c72c525")
+	)
+	(junction
 		(at 129.54 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -37511,6 +37549,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99d222c5-984e-48d3-8aa9-7bbc98270ed5")
+	)
+	(junction
+		(at 899.16 494.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a4e7a0f-624c-42b6-8879-842922615137")
 	)
 	(junction
 		(at 443.23 692.15)
@@ -38053,6 +38097,12 @@
 		(uuid "bdd7116d-15ac-4441-af26-4be37ea86eb9")
 	)
 	(junction
+		(at 854.71 613.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be275f10-a368-4ddd-afe3-455453a31135")
+	)
+	(junction
 		(at 129.54 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -38131,6 +38181,12 @@
 		(uuid "c5bf0771-5689-4a79-b42d-9a68992c514f")
 	)
 	(junction
+		(at 872.49 481.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5dcd4b1-c3ff-4a3d-ae84-23d70f573bf7")
+	)
+	(junction
 		(at 429.26 666.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -38159,6 +38215,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6890022-469b-4190-9191-2975647132a5")
+	)
+	(junction
+		(at 880.11 481.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6893b41-cf27-4e5c-85c2-817dfa9e5221")
 	)
 	(junction
 		(at 562.61 723.9)
@@ -38491,6 +38553,12 @@
 		(uuid "e75cd57f-04a4-4dfe-959d-9d920bff780b")
 	)
 	(junction
+		(at 434.34 497.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e78503ec-2df3-4d61-bdf3-85d9d7ea7838")
+	)
+	(junction
 		(at 464.82 353.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -38561,6 +38629,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed8ade3f-4510-4f29-8e3d-ff5a8567e207")
+	)
+	(junction
+		(at 889 494.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eda3a20a-5c4b-4bd6-9177-eabe6c9b37c4")
 	)
 	(junction
 		(at 839.47 482.6)
@@ -39287,6 +39361,16 @@
 			(type default)
 		)
 		(uuid "00635365-019b-4f25-9263-5c08a08ade8a")
+	)
+	(wire
+		(pts
+			(xy 835.66 600.71) (xy 844.55 600.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006d5b22-e8c0-4f05-9319-2bd1c1c85dd6")
 	)
 	(wire
 		(pts
@@ -40422,6 +40506,16 @@
 	)
 	(wire
 		(pts
+			(xy 864.87 605.79) (xy 868.68 605.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108c8d5f-dc78-40bf-8f5c-7a6aba9ba6cb")
+	)
+	(wire
+		(pts
 			(xy 311.15 492.76) (xy 314.96 492.76)
 		)
 		(stroke
@@ -40599,6 +40693,16 @@
 			(type default)
 		)
 		(uuid "12141509-0aed-4fcb-8430-3171fe434423")
+	)
+	(wire
+		(pts
+			(xy 847.09 636.27) (xy 844.55 636.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12766aaf-a756-4ce0-823e-7bd0b8fe363e")
 	)
 	(wire
 		(pts
@@ -40832,7 +40936,7 @@
 	)
 	(wire
 		(pts
-			(xy 421.64 497.84) (xy 443.23 497.84)
+			(xy 421.64 497.84) (xy 434.34 497.84)
 		)
 		(stroke
 			(width 0)
@@ -41502,6 +41606,16 @@
 	)
 	(wire
 		(pts
+			(xy 909.32 486.41) (xy 913.13 486.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd34359-a0b0-4245-9837-f522cfedd185")
+	)
+	(wire
+		(pts
 			(xy 553.72 190.5) (xy 553.72 200.66)
 		)
 		(stroke
@@ -41532,6 +41646,16 @@
 	)
 	(wire
 		(pts
+			(xy 847.09 633.73) (xy 844.55 633.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2082f4ae-6483-419d-b436-013735995718")
+	)
+	(wire
+		(pts
 			(xy 473.71 563.88) (xy 478.79 563.88)
 		)
 		(stroke
@@ -41559,6 +41683,16 @@
 			(type default)
 		)
 		(uuid "20f1ff38-7ab2-43ae-8354-8d412a19b7c2")
+	)
+	(wire
+		(pts
+			(xy 835.66 605.79) (xy 835.66 600.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2110c17f-bda7-4c22-a389-933746a27e5e")
 	)
 	(wire
 		(pts
@@ -41612,6 +41746,16 @@
 	)
 	(wire
 		(pts
+			(xy 434.34 497.84) (xy 443.23 497.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216c22e8-5f5c-4336-bd8c-c61bc58fcf62")
+	)
+	(wire
+		(pts
 			(xy 228.6 240.03) (xy 228.6 251.46)
 		)
 		(stroke
@@ -41662,7 +41806,7 @@
 	)
 	(wire
 		(pts
-			(xy 787.4 675.64) (xy 795.02 675.64)
+			(xy 784.86 671.83) (xy 792.48 671.83)
 		)
 		(stroke
 			(width 0)
@@ -42302,6 +42446,16 @@
 	)
 	(wire
 		(pts
+			(xy 872.49 481.33) (xy 880.11 481.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c43a225-07f3-46c2-a5cb-7e6876b294a0")
+	)
+	(wire
+		(pts
 			(xy 429.26 717.55) (xy 429.26 716.28)
 		)
 		(stroke
@@ -42902,6 +43056,16 @@
 	)
 	(wire
 		(pts
+			(xy 844.55 631.19) (xy 847.09 631.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33191840-4f26-4ba7-96f3-f2c889dad126")
+	)
+	(wire
+		(pts
 			(xy 375.92 715.01) (xy 374.65 715.01)
 		)
 		(stroke
@@ -43089,6 +43253,16 @@
 			(type default)
 		)
 		(uuid "35852e3a-6f22-483c-9749-b77840e1ac4b")
+	)
+	(wire
+		(pts
+			(xy 645.16 720.09) (xy 651.51 720.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35abf6ae-39d9-403b-b30e-77cb1c9cb2c3")
 	)
 	(wire
 		(pts
@@ -43363,6 +43537,16 @@
 	)
 	(wire
 		(pts
+			(xy 847.09 662.94) (xy 847.09 664.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39aefb9e-9474-4c3d-ab0f-c75b0975378c")
+	)
+	(wire
+		(pts
 			(xy 231.14 93.98) (xy 256.54 93.98)
 		)
 		(stroke
@@ -43433,7 +43617,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 482.6) (xy 501.65 482.6)
+			(xy 452.12 544.83) (xy 455.93 544.83)
 		)
 		(stroke
 			(width 0)
@@ -43703,6 +43887,16 @@
 	)
 	(wire
 		(pts
+			(xy 844.55 605.79) (xy 843.28 605.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e64be1b-caad-48ea-bc99-f8eb59297ca4")
+	)
+	(wire
+		(pts
 			(xy 416.56 692.15) (xy 436.88 692.15)
 		)
 		(stroke
@@ -43800,6 +43994,16 @@
 			(type default)
 		)
 		(uuid "3f6d02aa-2e91-49c6-9e81-a4833f9887d8")
+	)
+	(wire
+		(pts
+			(xy 872.49 481.33) (xy 872.49 485.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f91802b-c6e5-41e8-82b6-bfe035450d3b")
 	)
 	(wire
 		(pts
@@ -44224,7 +44428,7 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 482.6) (xy 523.24 482.6)
+			(xy 466.09 544.83) (xy 482.6 544.83)
 		)
 		(stroke
 			(width 0)
@@ -44545,6 +44749,16 @@
 	)
 	(wire
 		(pts
+			(xy 844.55 613.41) (xy 854.71 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d0b61d-c85c-423d-bbd1-b9aaa615ff3c")
+	)
+	(wire
+		(pts
 			(xy 619.76 200.66) (xy 629.92 200.66)
 		)
 		(stroke
@@ -44612,6 +44826,16 @@
 			(type default)
 		)
 		(uuid "4ad7124f-78a7-4059-8d81-0d5b97cccc08")
+	)
+	(wire
+		(pts
+			(xy 914.4 481.33) (xy 909.32 481.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b31007a-4a82-4d49-b3df-b88725725bc7")
 	)
 	(wire
 		(pts
@@ -45425,6 +45649,16 @@
 	)
 	(wire
 		(pts
+			(xy 847.09 657.86) (xy 844.55 657.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56af149e-da19-4dba-a1de-c811dff9c444")
+	)
+	(wire
+		(pts
 			(xy 306.07 474.98) (xy 306.07 487.68)
 		)
 		(stroke
@@ -46146,6 +46380,16 @@
 	)
 	(wire
 		(pts
+			(xy 899.16 494.03) (xy 899.16 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60eb2128-4d0c-4410-bf8b-cdf47f377ea0")
+	)
+	(wire
+		(pts
 			(xy 673.1 373.38) (xy 675.64 373.38)
 		)
 		(stroke
@@ -46526,6 +46770,16 @@
 	)
 	(wire
 		(pts
+			(xy 828.04 600.71) (xy 828.04 604.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663efe84-b93d-4be6-aab3-8d30e9c543a6")
+	)
+	(wire
+		(pts
 			(xy 341.63 266.7) (xy 337.82 266.7)
 		)
 		(stroke
@@ -46573,6 +46827,16 @@
 			(type default)
 		)
 		(uuid "679025b3-d099-4395-b8fe-fa76ce63e8d2")
+	)
+	(wire
+		(pts
+			(xy 645.16 717.55) (xy 651.51 717.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6791e8e0-c95a-416e-8201-a52e98af3662")
 	)
 	(wire
 		(pts
@@ -46913,6 +47177,16 @@
 			(type default)
 		)
 		(uuid "6d0d6db2-273e-4244-aaba-551fec39f4d5")
+	)
+	(wire
+		(pts
+			(xy 869.95 600.71) (xy 864.87 600.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d4b03a5-ced9-4241-a580-d8bdc7c0d45d")
 	)
 	(wire
 		(pts
@@ -47474,6 +47748,16 @@
 			(type default)
 		)
 		(uuid "736b6e7c-5c2c-42c0-a225-231db726830c")
+	)
+	(wire
+		(pts
+			(xy 645.16 725.17) (xy 651.51 725.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73cfe28c-5713-4c4a-8d99-7673871d8982")
 	)
 	(wire
 		(pts
@@ -48277,6 +48561,16 @@
 	)
 	(wire
 		(pts
+			(xy 872.49 490.22) (xy 872.49 494.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fadff38-cee9-4adf-b335-9b99c1ac41f2")
+	)
+	(wire
+		(pts
 			(xy 487.68 521.97) (xy 490.22 521.97)
 		)
 		(stroke
@@ -48494,6 +48788,16 @@
 			(type default)
 		)
 		(uuid "81edb2f7-a437-4989-a1f6-cbffdd060128")
+	)
+	(wire
+		(pts
+			(xy 847.09 638.81) (xy 847.09 640.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82025e14-7b4c-48c8-8a40-4e052b4c7c20")
 	)
 	(wire
 		(pts
@@ -48787,6 +49091,16 @@
 	)
 	(wire
 		(pts
+			(xy 847.09 638.81) (xy 844.55 638.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858cb57d-7269-4e58-b048-7e70726f7885")
+	)
+	(wire
+		(pts
 			(xy 439.42 373.38) (xy 438.15 373.38)
 		)
 		(stroke
@@ -48924,6 +49238,16 @@
 			(type default)
 		)
 		(uuid "87a12b06-68f2-4530-9919-6bba0da35610")
+	)
+	(wire
+		(pts
+			(xy 913.13 494.03) (xy 899.16 494.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87afa88c-bcd0-43fd-8e57-c9e1de9ccf8d")
 	)
 	(wire
 		(pts
@@ -50947,6 +51271,16 @@
 	)
 	(wire
 		(pts
+			(xy 880.11 481.33) (xy 889 481.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17e4d02-4a17-4b39-9efc-e7e55f1a3849")
+	)
+	(wire
+		(pts
 			(xy 309.88 791.21) (xy 294.64 791.21)
 		)
 		(stroke
@@ -51839,6 +52173,16 @@
 	)
 	(wire
 		(pts
+			(xy 844.55 613.41) (xy 828.04 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0eacdf-0394-45b0-9600-ced2bb7850e3")
+	)
+	(wire
+		(pts
 			(xy 424.18 725.17) (xy 429.26 725.17)
 		)
 		(stroke
@@ -52079,7 +52423,7 @@
 	)
 	(wire
 		(pts
-			(xy 774.7 675.64) (xy 782.32 675.64)
+			(xy 772.16 671.83) (xy 779.78 671.83)
 		)
 		(stroke
 			(width 0)
@@ -52376,6 +52720,16 @@
 			(type default)
 		)
 		(uuid "b62980c5-6afa-4725-bc3d-7457877c7512")
+	)
+	(wire
+		(pts
+			(xy 844.55 655.32) (xy 847.09 655.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b631fb67-01f6-4f2e-9243-9631a244d0aa")
 	)
 	(wire
 		(pts
@@ -53870,6 +54224,16 @@
 	)
 	(wire
 		(pts
+			(xy 828.04 609.6) (xy 828.04 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9856d42-96d5-47e2-991b-b9631ef44c48")
+	)
+	(wire
+		(pts
 			(xy 180.34 119.38) (xy 205.74 119.38)
 		)
 		(stroke
@@ -53997,6 +54361,16 @@
 			(type default)
 		)
 		(uuid "cbb40f92-b33b-491b-b6e4-9d19da89c974")
+	)
+	(wire
+		(pts
+			(xy 847.09 660.4) (xy 844.55 660.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0d7db2-6300-4d6e-a6de-57de28a2daff")
 	)
 	(wire
 		(pts
@@ -54248,6 +54622,16 @@
 			(type default)
 		)
 		(uuid "ce59d9cd-8c3f-4959-b591-afd0ae5660d3")
+	)
+	(wire
+		(pts
+			(xy 889 494.03) (xy 899.16 494.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7bae28-f851-4035-9c02-b15e43e866dd")
 	)
 	(wire
 		(pts
@@ -54712,6 +55096,16 @@
 	)
 	(wire
 		(pts
+			(xy 868.68 613.41) (xy 854.71 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50d2338-1c0a-4be2-a6ae-d80725f602ef")
+	)
+	(wire
+		(pts
 			(xy 293.37 474.98) (xy 306.07 474.98)
 		)
 		(stroke
@@ -54959,6 +55353,26 @@
 			(type default)
 		)
 		(uuid "d987f09d-03f0-466d-bd2d-133943cff41f")
+	)
+	(wire
+		(pts
+			(xy 880.11 486.41) (xy 880.11 481.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a31c63-9999-4f26-90d4-225b7220af80")
+	)
+	(wire
+		(pts
+			(xy 889 486.41) (xy 887.73 486.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a98824-ec33-4de1-82d6-ffe2a46e9c34")
 	)
 	(wire
 		(pts
@@ -55420,6 +55834,16 @@
 			(type default)
 		)
 		(uuid "df035d3e-cb83-456a-83a8-f91d2bb805b3")
+	)
+	(wire
+		(pts
+			(xy 828.04 600.71) (xy 835.66 600.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df06ebf9-ba71-48c7-8b37-962fe192cfa9")
 	)
 	(wire
 		(pts
@@ -56625,6 +57049,16 @@
 	)
 	(wire
 		(pts
+			(xy 847.09 662.94) (xy 844.55 662.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edb538cf-1de1-42c9-be4d-950a638558dc")
+	)
+	(wire
+		(pts
 			(xy 816.61 474.98) (xy 819.15 474.98)
 		)
 		(stroke
@@ -56852,6 +57286,16 @@
 			(type default)
 		)
 		(uuid "f0f5e7dd-4e2f-4f0c-b2e3-d06a5d70b205")
+	)
+	(wire
+		(pts
+			(xy 854.71 613.41) (xy 854.71 610.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10a837a-808a-4c0d-a5b9-9c67afd5b89e")
 	)
 	(wire
 		(pts
@@ -57375,6 +57819,16 @@
 	)
 	(wire
 		(pts
+			(xy 889 494.03) (xy 872.49 494.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb43414f-16a0-486e-8efe-821cf9ce03a2")
+	)
+	(wire
+		(pts
 			(xy 69.85 791.21) (xy 69.85 789.94)
 		)
 		(stroke
@@ -57592,6 +58046,16 @@
 			(type default)
 		)
 		(uuid "fd51ff5d-d6df-4674-bfe4-ca5eb003a212")
+	)
+	(wire
+		(pts
+			(xy 645.16 727.71) (xy 651.51 727.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5b94c9-751a-4d5a-8570-bc95a4d41907")
 	)
 	(wire
 		(pts
@@ -59523,6 +59987,16 @@
 		)
 		(uuid "42735279-e282-42bd-994f-b2c77b7f7889")
 	)
+	(label "INT_USB0_D+"
+		(at 651.51 720.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42ca51ed-b771-49c9-b07b-098ee3f159aa")
+	)
 	(label "SD_PWR_EN"
 		(at 284.48 783.59 180)
 		(effects
@@ -60153,6 +60627,16 @@
 		)
 		(uuid "5977359f-09d4-41cd-a8e3-3d7af0f26d45")
 	)
+	(label "INT_USB0_D-"
+		(at 847.09 633.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ba1dec4-fb84-45c8-8f09-abdaabcda07e")
+	)
 	(label "5V_MAIN"
 		(at 485.14 410.21 0)
 		(effects
@@ -60543,6 +61027,26 @@
 		)
 		(uuid "66e4c056-2729-4705-b2b1-e22974bf69f2")
 	)
+	(label "INT_USB1_D+"
+		(at 847.09 660.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66f7eb70-07fd-4d1e-ab07-13e8703d919a")
+	)
+	(label "INT_USB0_D-"
+		(at 651.51 717.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67266c32-08b0-40ea-a33f-6ff0d40bccce")
+	)
 	(label "col3"
 		(at 191.77 24.13 0)
 		(effects
@@ -60692,6 +61196,16 @@
 			(justify left bottom)
 		)
 		(uuid "6cbf4bf8-e7c0-4a24-9f59-15f1e8a2bc28")
+	)
+	(label "INT_USB1_D-"
+		(at 847.09 657.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d78697e-71e7-47df-8d0a-5c8b8d2ce323")
 	)
 	(label "MIPI1_CLK_N"
 		(at 565.15 386.08 180)
@@ -61092,6 +61606,16 @@
 			(justify right bottom)
 		)
 		(uuid "7e93091c-b8c8-4db6-8093-ed83c0801346")
+	)
+	(label "SOFT_PWR_OUT"
+		(at 576.58 521.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ea5406c-bbb6-4555-9b60-156d17fc3d24")
 	)
 	(label "LED_PWR"
 		(at 130.81 228.6 90)
@@ -61914,7 +62438,7 @@
 		(uuid "9835f5d4-ad4a-44cb-ab5f-b6c10322af66")
 	)
 	(label "INT_USB1_D+"
-		(at 651.51 717.55 0)
+		(at 651.51 725.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62474,7 +62998,7 @@
 		(uuid "ad6e23fb-baf1-4f66-86b1-3575d620b938")
 	)
 	(label "INT_USB1_D-"
-		(at 651.51 720.09 0)
+		(at 651.51 727.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62572,6 +63096,16 @@
 			(justify left bottom)
 		)
 		(uuid "b3569016-e235-4f21-8039-038f2e80895a")
+	)
+	(label "INT_USB0_D+"
+		(at 847.09 636.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3728260-f96b-4e33-9528-c059fcdd59d1")
 	)
 	(label "GPIO_4"
 		(at 549.91 241.3 180)
@@ -63804,7 +64338,7 @@
 		(uuid "e2204a23-82ba-48e9-9391-93edf50a3087")
 	)
 	(label "PWR_BTN"
-		(at 497.84 482.6 180)
+		(at 452.12 544.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64512,6 +65046,16 @@
 			(justify right bottom)
 		)
 		(uuid "fe2d231a-c7cc-4b70-a969-ed94a152202b")
+	)
+	(label "SOFT_PWR_OUT"
+		(at 367.03 584.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe6cdee3-4b5e-40df-967d-778d3db922a3")
 	)
 	(label "USB31_CC2"
 		(at 645.16 497.84 180)
@@ -84833,6 +85377,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 914.4 481.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "052469fd-201d-495f-99f3-9a41e12bf112")
+		(property "Reference" "#PWR0249"
+			(at 914.4 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_PORT_C"
+			(at 914.4 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 914.4 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 914.4 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 914.4 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf76cc58-7350-4e1e-aca1-e401c9e6fb89")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0249")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LibraryGlobalSymbols:SY6280_Overcurrent_Protection_Diode")
 		(at 294.64 781.05 0)
 		(unit 1)
@@ -87455,6 +88065,72 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 828.04 600.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d695e90-bb2d-4107-8eaf-11151d9fbdc7")
+		(property "Reference" "#PWR0250"
+			(at 828.04 604.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_MAIN"
+			(at 828.04 595.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 828.04 600.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 828.04 600.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 828.04 600.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e348cabe-1932-4654-9c93-f69450c1a342")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0250")
 					(unit 1)
 				)
 			)
@@ -92549,6 +93225,91 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 872.49 487.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d62b363-5738-4908-9f37-4c24b47a7477")
+		(property "Reference" "C137"
+			(at 873.76 491.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 871.474 491.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 872.49 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 872.49 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 872.49 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525 "
+			(at 872.49 487.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 872.49 487.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50052b5d-3ab9-4510-99ab-dcb0e4127544")
+		)
+		(pin "2"
+			(uuid "e4c766c9-da7e-4130-8218-a6b71d3f8f03")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "C137")
 					(unit 1)
 				)
 			)
@@ -98250,6 +99011,72 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 872.49 481.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3070dec5-5346-4b73-b945-7ff91d0d7a61")
+		(property "Reference" "#PWR0247"
+			(at 872.49 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_MAIN"
+			(at 872.49 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 872.49 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 872.49 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 872.49 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fa92a03-3de0-4875-955c-d14b7f64d48a")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0247")
 					(unit 1)
 				)
 			)
@@ -104742,6 +105569,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 839.47 605.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4317fee8-f5b4-4dee-8176-4970df2600a8")
+		(property "Reference" "R120"
+			(at 839.47 605.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 839.724 603.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 839.47 604.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 839.47 605.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 839.47 605.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 839.47 605.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCS" ""
+			(at 839.47 605.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 839.47 605.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 839.47 605.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78e39ccc-b711-498a-8bec-08ab3f673072")
+		)
+		(pin "2"
+			(uuid "93d43ddb-cd25-43de-a51c-04a75f62f771")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "R120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 553.72 609.6 0)
 		(unit 1)
@@ -105729,6 +106659,100 @@
 		)
 	)
 	(symbol
+		(lib_id "LibraryGlobalSymbols:SY6280_Overcurrent_Protection_Diode")
+		(at 854.71 603.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4629470f-be8c-402a-8dae-5b3142a4868e")
+		(property "Reference" "U34"
+			(at 854.202 593.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SY6280_OCP"
+			(at 854.456 596.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 854.71 594.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncp361-d.pdf"
+			(at 854.71 621.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Overcurrent Protection Diode"
+			(at 854.71 603.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C55136"
+			(at 854.71 603.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 854.71 603.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "2f272b18-d344-4ba8-8e83-ebe89b4356d5")
+		)
+		(pin "1"
+			(uuid "e880d534-73bc-4922-9c7b-cf91f5037e19")
+		)
+		(pin "2"
+			(uuid "b52e2376-9075-4f57-8abb-c452bf6f74e9")
+		)
+		(pin "4"
+			(uuid "7ee38c71-35f1-4797-8dbb-4185a92938c3")
+		)
+		(pin "3"
+			(uuid "7511f474-ed4b-4058-89bc-711354a2ac1b")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "U34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 119.38 279.4 0)
 		(unit 1)
@@ -105796,7 +106820,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 515.62 482.6 270)
+		(at 502.92 497.84 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -105805,7 +106829,7 @@
 		(dnp no)
 		(uuid "46d5d88a-9d62-46a7-a894-c24f1d8dcc3e")
 		(property "Reference" "R101"
-			(at 515.874 480.568 90)
+			(at 503.174 495.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105813,7 +106837,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 515.874 482.6 90)
+			(at 503.174 497.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105821,7 +106845,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 515.62 484.378 90)
+			(at 502.92 499.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105830,7 +106854,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 515.62 482.6 0)
+			(at 502.92 497.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105839,7 +106863,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 515.62 482.6 0)
+			(at 502.92 497.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105848,7 +106872,7 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 515.62 482.6 90)
+			(at 502.92 497.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105857,7 +106881,7 @@
 			)
 		)
 		(property "LCSCS" ""
-			(at 515.62 482.6 90)
+			(at 502.92 497.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105866,7 +106890,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 515.62 482.6 90)
+			(at 502.92 497.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105875,7 +106899,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 515.62 482.6 90)
+			(at 502.92 497.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109137,6 +110161,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 844.55 613.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54af4db0-7e29-47ce-83c3-51f8ad1ad3cc")
+		(property "Reference" "#PWR0251"
+			(at 844.55 619.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 844.55 618.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 844.55 613.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 844.55 613.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 844.55 613.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d509af6-3a2c-4849-a980-c851bd089462")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0251")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 31.75 212.09 0)
 		(unit 1)
@@ -110301,6 +111391,71 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 847.09 640.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58cbc7b6-9847-4950-b1b7-7beb938ec1d0")
+		(property "Reference" "#PWR0246"
+			(at 847.09 646.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 846.836 644.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 847.09 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 847.09 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 847.09 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bbdb139-e39e-4b2b-8cfe-cb4d431fe4e5")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -111724,6 +112879,71 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 847.09 664.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ef1d2bf-853a-425f-b614-ef790fd3e738")
+		(property "Reference" "#PWR0254"
+			(at 847.09 670.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 846.836 668.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 847.09 664.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 847.09 664.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 847.09 664.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "621f32c3-0058-4128-a572-608cc40c10d2")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0254")
 					(unit 1)
 				)
 			)
@@ -119358,6 +120578,100 @@
 		)
 	)
 	(symbol
+		(lib_id "LibraryGlobalSymbols:SY6280_Overcurrent_Protection_Diode")
+		(at 899.16 483.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dee4eec-d72f-4ee1-9d09-ac404424f3e4")
+		(property "Reference" "U33"
+			(at 898.652 474.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SY6280_OCP"
+			(at 898.906 477.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 899.16 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncp361-d.pdf"
+			(at 899.16 501.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Overcurrent Protection Diode"
+			(at 899.16 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C55136"
+			(at 899.16 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 899.16 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "533ef735-9c91-4b3b-9ad7-903c4a55d070")
+		)
+		(pin "1"
+			(uuid "9c479fc5-d224-45c2-bacd-06c2e4aaf03e")
+		)
+		(pin "2"
+			(uuid "a03b7d31-d0f8-4fd3-98fc-5af6c8cc3610")
+		)
+		(pin "4"
+			(uuid "20643364-973a-4c7b-962e-5bb074693a17")
+		)
+		(pin "3"
+			(uuid "30f3fa15-fe5f-49e9-8d28-a9fc0fb85eb6")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "U33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 391.16 408.94 180)
 		(unit 1)
@@ -120831,6 +122145,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 847.09 655.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81e1ed8d-f9a1-45da-8486-907e1878bed7")
+		(property "Reference" "#PWR0118"
+			(at 847.09 659.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_INT_USB"
+			(at 847.09 650.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 847.09 655.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 847.09 655.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 847.09 655.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c8b7ed4-09d0-42ac-a05a-7bbf00fbbfc9")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 500.38 124.46 0)
 		(unit 1)
@@ -121738,7 +123118,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 523.24 482.6 0)
+		(at 482.6 544.83 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -121748,7 +123128,7 @@
 		(fields_autoplaced yes)
 		(uuid "84a43f58-4061-4613-b0d0-d2f0eb490eb0")
 		(property "Reference" "#PWR0224"
-			(at 523.24 488.95 0)
+			(at 482.6 551.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121757,7 +123137,7 @@
 			)
 		)
 		(property "Value" "BATT_GND"
-			(at 523.24 487.68 0)
+			(at 482.6 549.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121765,7 +123145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 523.24 482.6 0)
+			(at 482.6 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121774,7 +123154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 523.24 482.6 0)
+			(at 482.6 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121783,7 +123163,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 523.24 482.6 0)
+			(at 482.6 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126223,7 +127603,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 774.7 675.64 0)
+		(at 772.16 671.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -126232,7 +127612,7 @@
 		(fields_autoplaced yes)
 		(uuid "9647ba6f-5373-4ed4-bdb2-9a3a88255bed")
 		(property "Reference" "#PWR0119"
-			(at 774.7 679.45 0)
+			(at 772.16 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126241,7 +127621,7 @@
 			)
 		)
 		(property "Value" "+5V_MAIN"
-			(at 774.7 670.56 0)
+			(at 772.16 666.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126249,7 +127629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 774.7 675.64 0)
+			(at 772.16 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126258,7 +127638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 774.7 675.64 0)
+			(at 772.16 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126267,7 +127647,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 774.7 675.64 0)
+			(at 772.16 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126741,7 +128121,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 506.73 482.6 0)
+		(at 461.01 544.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -126749,7 +128129,7 @@
 		(dnp no)
 		(uuid "9882c35a-a4c1-4f8a-a451-82c516d6305e")
 		(property "Reference" "K_87"
-			(at 506.73 476.6818 0)
+			(at 461.01 538.9118 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -126758,7 +128138,7 @@
 			)
 		)
 		(property "Value" "PWR_BTN"
-			(at 505.968 477.774 0)
+			(at 460.248 540.004 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -126766,7 +128146,7 @@
 			)
 		)
 		(property "Footprint" "LibraryGlobalFootprints:dome-tactile-pad"
-			(at 506.73 477.52 0)
+			(at 461.01 539.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126775,7 +128155,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 506.73 477.52 0)
+			(at 461.01 539.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126784,7 +128164,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 506.73 482.6 0)
+			(at 461.01 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126793,7 +128173,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 506.73 482.6 0)
+			(at 461.01 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126802,7 +128182,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 506.73 482.6 0)
+			(at 461.01 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126811,7 +128191,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 506.73 482.6 0)
+			(at 461.01 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126820,7 +128200,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 506.73 482.6 0)
+			(at 461.01 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126829,7 +128209,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 506.73 482.6 0)
+			(at 461.01 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126838,7 +128218,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 506.73 482.6 0)
+			(at 461.01 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126847,7 +128227,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 506.73 482.6 0)
+			(at 461.01 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126856,7 +128236,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 506.73 482.6 0)
+			(at 461.01 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127213,7 +128593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
+		(property "Footprint" "LibraryGlobalFootprints:SSOP-4_AT3H7B-CuH-S"
 			(at 589.28 599.44 0)
 			(effects
 				(font
@@ -127275,7 +128655,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 784.86 675.64 0)
+		(at 782.32 671.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -127283,7 +128663,7 @@
 		(dnp no)
 		(uuid "9bb35a79-16a4-4a35-8c98-723e673ee4fc")
 		(property "Reference" "F3"
-			(at 784.86 670.56 0)
+			(at 782.32 666.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127291,7 +128671,7 @@
 			)
 		)
 		(property "Value" "500mA"
-			(at 784.86 673.862 0)
+			(at 782.32 670.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127299,7 +128679,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 784.86 675.64 0)
+			(at 782.32 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127308,7 +128688,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 784.86 675.64 0)
+			(at 782.32 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127317,7 +128697,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 784.86 675.64 0)
+			(at 782.32 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127326,7 +128706,7 @@
 			)
 		)
 		(property "LCSC" "C210357"
-			(at 784.86 675.64 0)
+			(at 782.32 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127335,7 +128715,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 784.86 675.64 0)
+			(at 782.32 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127344,7 +128724,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 784.86 675.64 0)
+			(at 782.32 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127353,7 +128733,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 784.86 675.64 0)
+			(at 782.32 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127362,7 +128742,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 784.86 675.64 0)
+			(at 782.32 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127371,7 +128751,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 784.86 675.64 0)
+			(at 782.32 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127380,7 +128760,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 784.86 675.64 0)
+			(at 782.32 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127389,7 +128769,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 784.86 675.64 0)
+			(at 782.32 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127398,7 +128778,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 784.86 675.64 0)
+			(at 782.32 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131192,7 +132572,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 795.02 675.64 0)
+		(at 792.48 671.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -131201,7 +132581,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae72e3e4-b864-4d9b-8ccc-0d8056d645f9")
 		(property "Reference" "#PWR086"
-			(at 795.02 679.45 0)
+			(at 792.48 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131210,7 +132590,7 @@
 			)
 		)
 		(property "Value" "+5V_HUB"
-			(at 795.02 670.56 0)
+			(at 792.48 666.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131218,7 +132598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 795.02 675.64 0)
+			(at 792.48 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131227,7 +132607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 795.02 675.64 0)
+			(at 792.48 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131236,7 +132616,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 795.02 675.64 0)
+			(at 792.48 671.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133805,6 +135185,247 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 839.47 636.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b65c303d-4190-4fb6-a63f-2c5e590bdd95")
+		(property "Reference" "J23"
+			(at 836.93 636.2701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 840.994 643.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryGlobalFootprints:1x04_P2.54 SMD pads only"
+			(at 839.47 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 839.47 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 839.47 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 839.47 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 839.47 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 839.47 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 839.47 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 839.47 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 839.47 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 839.47 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 839.47 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "57f44804-90b0-4ab9-b2f4-f182084f326b")
+		)
+		(pin "1"
+			(uuid "72a545ad-470b-4787-8296-41693f6ef477")
+		)
+		(pin "2"
+			(uuid "10c1d464-ed63-4d85-aff5-4234bfcd8c73")
+		)
+		(pin "4"
+			(uuid "b3d4996e-44f4-41a4-b4c2-34c3ffce4219")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 913.13 490.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b72712f8-c65b-4f8b-8b77-71e090a35d8b")
+		(property "Reference" "R119"
+			(at 913.384 490.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8K"
+			(at 915.416 490.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 914.908 490.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 913.13 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 913.13 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25917"
+			(at 913.13 490.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 913.13 490.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 913.13 490.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d86baf08-730d-4b91-974c-d73370f976b4")
+		)
+		(pin "2"
+			(uuid "e41767d7-08bf-4154-8a96-6dbff5db9e3f")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "R119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 337.82 276.86 0)
 		(unit 1)
@@ -136315,6 +137936,109 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 883.92 486.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c20a0b76-3a75-4c89-b238-86d31cf93843")
+		(property "Reference" "R118"
+			(at 883.92 486.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 884.174 484.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 883.92 484.632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 883.92 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 883.92 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 883.92 486.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCS" ""
+			(at 883.92 486.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 883.92 486.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 883.92 486.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "508da7a4-6d19-4faf-a5a6-583e6c33c001")
+		)
+		(pin "2"
+			(uuid "363e50aa-38c5-4a45-8986-4f7b9673d5c0")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "R118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 351.79 228.6 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -136525,6 +138249,72 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 889 494.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c33f2255-6ba0-4b5d-a1fa-98be2bedade0")
+		(property "Reference" "#PWR0248"
+			(at 889 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 889 499.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 889 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 889 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 889 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dae99a0-2de1-4e72-8638-8d7d8fffc9cd")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0248")
 					(unit 1)
 				)
 			)
@@ -140284,6 +142074,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 847.09 631.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf9bdf94-62f1-4fbc-89ab-ac48807795fc")
+		(property "Reference" "#PWR0253"
+			(at 847.09 635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_INT_USB"
+			(at 847.09 626.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 847.09 631.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 847.09 631.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 847.09 631.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1059ac37-43fb-4e73-acc2-46fd4174b9f9")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0253")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 452.12 421.64 180)
 		(unit 1)
@@ -143706,6 +145562,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 868.68 609.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da5697c9-3c43-4887-8400-0534ad5ea952")
+		(property "Reference" "R121"
+			(at 868.934 609.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8K"
+			(at 870.966 609.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 870.458 609.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 868.68 609.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 868.68 609.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25917"
+			(at 868.68 609.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 868.68 609.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 868.68 609.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f46ae930-4f96-4985-8a96-5d6359a29f6a")
+		)
+		(pin "2"
+			(uuid "267a8fae-8a1d-49ec-81b4-c28010d527b0")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "R121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.225 198.12 0)
 		(unit 1)
@@ -144748,7 +146698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-4_4.4x2.6mm_P1.27mm"
+		(property "Footprint" "LibraryGlobalFootprints:SSOP-4_AT3H7B-CuH-S"
 			(at 579.12 529.59 0)
 			(effects
 				(font
@@ -147311,6 +149261,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 434.34 497.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e91af3ab-2327-4094-854d-8f1eb53945c1")
+		(property "Reference" "TP16"
+			(at 434.34 496.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 435.61 499.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 439.42 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 439.42 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 434.34 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 434.34 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3683fcea-8853-4153-a1bd-cb0b47120a24")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 346.71 199.39 0)
 		(unit 1)
@@ -149054,6 +151080,72 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 869.95 600.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0953759-2edc-4d94-9caf-f7b96e7629a2")
+		(property "Reference" "#PWR0252"
+			(at 869.95 604.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_INT_USB"
+			(at 869.95 595.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 869.95 600.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 869.95 600.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 869.95 600.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1aa2efc-9cb6-4061-a884-b86ea2c53585")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "#PWR0252")
 					(unit 1)
 				)
 			)
@@ -151719,6 +153811,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 828.04 607.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc753665-9c20-4d50-8ea3-13532cb42a8a")
+		(property "Reference" "C138"
+			(at 829.31 610.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 827.024 611.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 828.04 607.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 828.04 607.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 828.04 607.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525 "
+			(at 828.04 607.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 828.04 607.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83fba742-3fe7-4c4e-bf9c-392e2252151e")
+		)
+		(pin "2"
+			(uuid "b4aa04cd-2d6c-4e38-b79a-58719f4fa21c")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "C138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 205.74 648.97 180)
 		(unit 1)
@@ -152371,6 +154548,153 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 839.47 660.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd9acbbd-f510-4717-b3ce-dfcc3b677681")
+		(property "Reference" "J24"
+			(at 836.93 660.4001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 840.994 667.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryGlobalFootprints:1x04_P2.54 SMD pads only"
+			(at 839.47 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 839.47 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 839.47 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 839.47 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 839.47 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 839.47 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 839.47 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 839.47 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 839.47 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 839.47 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 839.47 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b9dedf06-0595-4bcc-88fa-da3cc83b5aab")
+		)
+		(pin "1"
+			(uuid "7dd9b924-bb99-403a-a84a-d4eb977e1ac4")
+		)
+		(pin "2"
+			(uuid "ce21c2fd-693a-4f59-a6ed-aae46ce658e1")
+		)
+		(pin "4"
+			(uuid "99aa5cf4-f2ba-46b3-aa14-468ac464dc28")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "J24")
 					(unit 1)
 				)
 			)
