@@ -1,9 +1,8 @@
-// ATtiny202 (PA7 / pin 3) BQ76905 bring-up
-// Requires megaTinyCore in Arduino IDE
+// ATtiny1604 BQ76905 bring-up / telemetry controller
+// Requires megaTinyCore in Arduino IDE or arduino-cli.
+// Uses hardware TWI (`Wire`) and hardware UART (`Serial`).
 
-#include <avr/io.h>
-#include <avr/interrupt.h>
-#include <util/delay.h>
+#include <Wire.h>
 
 #ifndef PIN_PA7
 #define PIN_PA7 7
@@ -17,7 +16,6 @@
 
 
 static const uint8_t BUTTON_PIN = PIN_PA3;
-static const uint8_t TELEMETRY_PIN = PIN_PA6;
 //#define ENABLE_LED
 #ifdef ENABLE_LED
 static const uint8_t LED_PIN = PIN_PA7;
@@ -78,20 +76,16 @@ static const uint8_t REG_SAFETY_STATUS_B = 0x05;
 static const uint8_t REG_BATTERY_STATUS = 0x12;
 static const uint16_t ALARM_STATUS_CB_MASK = 0x0100; // Alarm/AlarmRaw bit8 = CB (cell balancing active)
 
-// LED timings (ms)
-//static const uint16_t TIME_TINY = 80;
+// Button timings (ms)
 static const uint16_t TIME_SHORT = 200;
-//static const uint16_t TIME_MED = 800;
 static const uint16_t TIME_LONG = 2000;
 
-// Single-wire TX telemetry on PA6 (idle HIGH).
-static const uint16_t TELEMETRY_BAUD = 2400;
-static const uint16_t TELEMETRY_BIT_US = (uint16_t)(1000000UL / TELEMETRY_BAUD);
+// Hardware UART telemetry.
+static const uint32_t SERIAL_BAUD = 115200;
 static const uint16_t TELEMETRY_PERIOD_MS = 100; // 10 Hz stream rate
 static const uint8_t TELEMETRY_SYNC = 0xA5;
 static const uint8_t TELEMETRY_SYNC2 = 0x5A;
 static const uint16_t BALANCE_CELL_THRESHOLD_MV = 3600;
-static const int16_t BALANCE_CURRENT_THRESHOLD = 5;
 static const uint16_t BALANCE_MIN_DELTA_MV = 20;
 static const uint32_t BALANCE_RETRIGGER_MS = 18000; // BQ balancing command timeout is about 20s
 
@@ -112,81 +106,28 @@ static uint8_t checksum(const uint8_t *data, uint8_t len) {
   return (uint8_t)(0xFF & ~sum);
 }
 
-// we implement our own I2C because the library is too big to fit in flash and we don't need all the features
-static void twiInit() {
-  PORTA.DIRCLR = PIN1_bm | PIN2_bm;
-  PORTA.PIN1CTRL |= PORT_PULLUPEN_bm;
-  PORTA.PIN2CTRL |= PORT_PULLUPEN_bm;
-  TWI0.MBAUD = (uint8_t)((F_CPU / (2UL * 100000UL)) - 5);
-  TWI0.MCTRLA = TWI_ENABLE_bm;
-  TWI0.MSTATUS = TWI_BUSSTATE_IDLE_gc;
-}
-
-static bool twiStart(uint8_t addr, uint8_t read) {
-  TWI0.MADDR = (addr << 1) | (read ? 1 : 0);
-  while (!(TWI0.MSTATUS & (TWI_WIF_bm | TWI_RIF_bm))) {
-  }
-  if (TWI0.MSTATUS & TWI_RXACK_bm) {
-    TWI0.MCTRLB = TWI_MCMD_STOP_gc;
-    return false;
-  }
-  return true;
-}
-
-static bool twiWriteByte(uint8_t data) {
-  TWI0.MDATA = data;
-  while (!(TWI0.MSTATUS & TWI_WIF_bm)) {
-  }
-  if (TWI0.MSTATUS & TWI_RXACK_bm) {
-    return false;
-  }
-  return true;
-}
-
-static uint8_t twiReadByte(bool last) {
-  while (!(TWI0.MSTATUS & TWI_RIF_bm)) {
-  }
-  uint8_t data = TWI0.MDATA;
-  if (last) {
-    TWI0.MCTRLB = TWI_ACKACT_bm | TWI_MCMD_STOP_gc;
-  } else {
-    TWI0.MCTRLB = TWI_MCMD_RECVTRANS_gc;
-  }
-  return data;
-}
-
-static void i2cWrite(uint8_t reg, const uint8_t *data, uint8_t len) {
-  if (!twiStart(BQ_ADDR, 0)) {
-    return;
-  }
-  if (!twiWriteByte(reg)) {
-    TWI0.MCTRLB = TWI_MCMD_STOP_gc;
-    return;
-  }
-  for (uint8_t i = 0; i < len; i++) {
-    if (!twiWriteByte(data[i])) {
-      TWI0.MCTRLB = TWI_MCMD_STOP_gc;
-      return;
-    }
-  }
-  TWI0.MCTRLB = TWI_MCMD_STOP_gc;
+static bool i2cWrite(uint8_t reg, const uint8_t *data, uint8_t len) {
+  Wire.beginTransmission(BQ_ADDR);
+  Wire.write(reg);
+  Wire.write(data, len);
+  const uint8_t status = Wire.endTransmission();
   delay(2);
+  return status == 0;
 }
 
 static uint16_t i2cRead16(uint8_t reg) {
-  if (!twiStart(BQ_ADDR, 0)) {
+  Wire.beginTransmission(BQ_ADDR);
+  Wire.write(reg);
+  if (Wire.endTransmission(false) != 0) {
     return 0;
   }
-  if (!twiWriteByte(reg)) {
-    TWI0.MCTRLB = TWI_MCMD_STOP_gc;
+
+  if (Wire.requestFrom((int)BQ_ADDR, 2) != 2) {
     return 0;
   }
-  TWI0.MCTRLB = TWI_MCMD_REPSTART_gc;
-  if (!twiStart(BQ_ADDR, 1)) {
-    return 0;
-  }
-  uint8_t lsb = twiReadByte(false);
-  uint8_t msb = twiReadByte(true);
+
+  const uint8_t lsb = Wire.read();
+  const uint8_t msb = Wire.read();
   return (uint16_t)(msb << 8) | lsb;
 }
 
@@ -311,37 +252,8 @@ static void configureBq76905() {
   
 }
 
-static void telemetryLineIdle() {
-  VPORTA.OUT |= PIN6_bm;
-}
-
-static void telemetryLineDrive(bool high) {
-  if (high) {
-    VPORTA.OUT |= PIN6_bm;
-  } else {
-    VPORTA.OUT &= (uint8_t)~PIN6_bm;
-  }
-}
-
 static void telemetryTxByte(uint8_t byteVal) {
-  uint8_t sreg = SREG;
-  cli();
-
-  // Start bit.
-  telemetryLineDrive(false);
-  delayMicroseconds(TELEMETRY_BIT_US);
-
-  // Data bits, LSB first.
-  for (uint8_t bit = 0; bit < 8; bit++) {
-    telemetryLineDrive((byteVal & (1u << bit)) != 0u);
-    delayMicroseconds(TELEMETRY_BIT_US);
-  }
-
-  // Stop bit.
-  telemetryLineDrive(true);
-  delayMicroseconds(TELEMETRY_BIT_US);
-
-  SREG = sreg;
+  Serial.write(byteVal);
 }
 
 static uint16_t telemetryFrame = 0;
@@ -491,15 +403,14 @@ static void telemetryTask() {
 
 void setup() {
   pinMode(BUTTON_PIN, INPUT_PULLUP);
-  pinMode(TELEMETRY_PIN, OUTPUT);
-
   #ifdef ENABLE_LED
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, HIGH);
   #endif
 
-  telemetryLineIdle();
-  twiInit();
+  Serial.begin(SERIAL_BAUD);
+  Wire.begin();
+  Wire.setClock(100000);
   delay(50);
   configureBq76905();
 }
@@ -517,35 +428,7 @@ static void buttonShortPress () {
 }
 
 bool lastButtonState = false;
-bool isShortPress = false;
-bool isLongPress = false;
-unsigned int long lastBtnPressTime = 0;
-
-// I rewrote this while high and idk if it's better or worse so I kept it here for reference
-// void readButton() {
-//   if (digitalRead(BUTTON_PIN) == LOW) {
-
-//     if (!lastButtonState) {
-//       lastBtnPressTime = millis();
-//       lastButtonState = true;
-//     }
-//     if (millis() - lastBtnPressTime > TIME_SHORT) {
-//       isShortPress = true;
-//     }
-//     if (millis() - lastBtnPressTime > TIME_LONG) {
-//       isLongPress = true;
-//     }
-//   } else {
-//     if (isLongPress) {
-//       buttonLongPress();
-//     } else if (isShortPress) {
-//       buttonShortPress();
-//     }
-//     isShortPress = false;  
-//     isLongPress = false;
-//     lastButtonState = false;
-//   }
-// }
+unsigned long lastBtnPressTime = 0;
 
 void readButton() {
   if (digitalRead(BUTTON_PIN) == LOW) {
