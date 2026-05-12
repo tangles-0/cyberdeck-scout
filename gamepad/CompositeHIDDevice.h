@@ -1,7 +1,11 @@
 /*
  * Composite HID: Gamepad + Mouse for Arduino Mbed RP2040
  *
- * Presents a single HID interface with two Report IDs:
+ * Requires to be installed in board manager:
+ *   "Arduino Mbed OS RP2040 Boards" by Arduino
+ *   v4.5.0 (or greater)
+ *
+ * Presents a single HID interface to the USB host with two Report IDs:
  *  - Report ID 0x01: Gamepad (compatible with PicoGamepad format)
  *  - Report ID 0x02: Mouse   (3 buttons + X/Y + Wheel)
  *

@@ -1,14 +1,33 @@
+/*
+ * Composite HID: Gamepad + Mouse for Arduino Mbed RP2040
+ *
+ * Requires to be installed in board manager:
+ *   "Arduino Mbed OS RP2040 Boards" by Arduino
+ *   v4.5.0 (or greater)
+ *
+ * Presents a single HID interface to the USB host with two Report IDs:
+ *  - Report ID 0x01: Gamepad (compatible with PicoGamepad format)
+ *  - Report ID 0x02: Mouse   (3 buttons + X/Y + Wheel)
+ *
+ * Only supports Arduino Mbed core (uses PluggableUSBHID).
+ */
+
 #include "CompositeHIDDevice.h"
 #include "LittleFileSystem.h"
 #include "mbed.h"
 #include "BlockDevice.h"
 
-#define MODE_SWAP_BTN_HOLD_TIME 500
-#define MOUSE_SWAP_BTN_HOLD_TIME 300
-//#define DISABLE_MOUSE_JOYSTICK
+#define MODE_SWAP_BTN_HOLD_TIME 1000
+#define MOUSE_SWAP_BTN_HOLD_TIME 50
+
+#define DISABLE_JOYSTICK
+
+#define MOUSE_DPAD_ACCEL 0.1
+#define MOUSE_DPAD_BASE_SPEED 10
+#define MOUSE_JOYSTICK_SPEED 30 
 
 #define FORCE_REFORMAT false
-//#define USE_MULTIPLEXER
+//#define USE_MULTIPLEXER // if using a multiplexer chip for more analog inputs. tested successfully on prototype board
 //#define DISABLE_FLASH
 
 // ignored if USE_MULTIPLEXER is defined
@@ -21,40 +40,22 @@
 #define mpxS1Pin 19
 #define mpxS2Pin 20
 
-//#define IS_RPI_PICO
-#ifdef IS_RPI_PICO
+#define GAMEPAD_A 6
+#define GAMEPAD_B 7
+#define GAMEPAD_X 8
+#define GAMEPAD_Y 9
+#define GAMEPAD_SELECT 11
+#define GAMEPAD_START 10
+#define GAMEPAD_HAT_DOWN 12
+#define GAMEPAD_HAT_LEFT 13
+#define GAMEPAD_HAT_UP 14
+#define GAMEPAD_HAT_RIGHT 15
+#define GAMEPAD_RB 21
+#define GAMEPAD_LB 22
+#define GAMEPAD_JOY 20
 
-  #define GAMEPAD_A 6
-  #define GAMEPAD_B 7
-  #define GAMEPAD_X 8
-  #define GAMEPAD_Y 9
-  #define GAMEPAD_SELECT 10
-  #define GAMEPAD_START 11
-  #define GAMEPAD_HAT_DOWN 12
-  #define GAMEPAD_HAT_LEFT 13
-  #define GAMEPAD_HAT_UP 14
-  #define GAMEPAD_HAT_RIGHT 15
-  #define GAMEPAD_RB 21
-  #define GAMEPAD_LB 22
-  #define GAMEPAD_JOY 20
-
-#else // is cyberdeck
-
-  #define GAMEPAD_A 6
-  #define GAMEPAD_B 7
-  #define GAMEPAD_X 8
-  #define GAMEPAD_Y 9
-  #define GAMEPAD_SELECT 11
-  #define GAMEPAD_START 10
-  #define GAMEPAD_HAT_DOWN 12
-  #define GAMEPAD_HAT_LEFT 13
-  #define GAMEPAD_HAT_UP 14
-  #define GAMEPAD_HAT_RIGHT 15
-  #define GAMEPAD_RB 21
-  #define GAMEPAD_LB 22
-  #define GAMEPAD_JOY 20
-
-#endif
+#define CALIBRATION_HOLD_BTN GAMEPAD_SELECT
+#define CALIBRATION_HOLD_TIME 3000
 
 // determines button report order
 int buttonPins[] = {
@@ -70,7 +71,9 @@ int buttonPins[] = {
   GAMEPAD_HAT_DOWN,
   GAMEPAD_HAT_LEFT,
   GAMEPAD_HAT_RIGHT,
+#ifndef DISABLE_JOYSTICK
   GAMEPAD_JOY
+#endif
 };
 #define modeSwapPin 16 
 #define leftClickPin GAMEPAD_A
@@ -80,7 +83,6 @@ int buttonPins[] = {
 
 #define GAMEPAD_AXIS_LIMIT 32767
 //#define GAMEPAD_AXIS_LIMIT 4096
-#define MOUSE_AXIS_LIMIT 40  // Lower top speed for finer control
 #define MOUSE_DEADZONE 15
 
 mbed::BlockDevice *bd = mbed::BlockDevice::get_default_instance();
@@ -90,12 +92,11 @@ static inline int16_t applyMouseCurve(int16_t val) {
   // Square-law curve keeps precise low-speed motion yet preserves max range
   int32_t magnitude = (val >= 0) ? val : -val;
   // cubic: val * |val|^2 keeps output tiny until the stick is near full throw
-  int32_t curved = (static_cast<int32_t>(val) * magnitude * magnitude * magnitude) / (MOUSE_AXIS_LIMIT * MOUSE_AXIS_LIMIT * MOUSE_AXIS_LIMIT);
+  int32_t curved = (static_cast<int32_t>(val) * magnitude * magnitude * magnitude) / (MOUSE_JOYSTICK_SPEED * MOUSE_JOYSTICK_SPEED * MOUSE_JOYSTICK_SPEED);
   return static_cast<int16_t>(curved);
 }
 
 CompositeHIDDevice hid;
-
 
 bool isInMouseMode = false;
 unsigned long lastCalibTime = 0;
@@ -289,10 +290,6 @@ void setup() {
     pinMode(buttonPins[i], INPUT_PULLUP);
   }
   pinMode(modeSwapPin, INPUT_PULLUP);
-  // pinMode(leftClickPin, INPUT_PULLUP);
-  // pinMode(rightClickPin, INPUT_PULLUP);
-  // pinMode(middleClickPin, INPUT_PULLUP);
-  // pinMode(backButtonPin, INPUT_PULLUP);
   pinMode(LED_BUILTIN, OUTPUT);
 
   pinMode(mpxS0Pin, OUTPUT);
@@ -323,7 +320,7 @@ void modeLongPress() {
 }
 void modeShortPress() {
   if (isInMouseMode) {
-    #ifndef DISABLE_MOUSE_JOYSTICK
+    #ifndef DISABLE_JOYSTICK
     mouseUseHatInsteadOfJoystick = !mouseUseHatInsteadOfJoystick;
     #endif
   }
@@ -378,8 +375,8 @@ void loop() {
 
   if (isInMouseMode) {
 
-    int16_t valX = map(xAxisValue, minX, maxX, -MOUSE_AXIS_LIMIT, MOUSE_AXIS_LIMIT);
-    int16_t valY = map(yAxisValue, minY, maxY, -MOUSE_AXIS_LIMIT, MOUSE_AXIS_LIMIT);
+    int16_t valX = map(xAxisValue, minX, maxX, -MOUSE_JOYSTICK_SPEED, MOUSE_JOYSTICK_SPEED);
+    int16_t valY = map(yAxisValue, minY, maxY, -MOUSE_JOYSTICK_SPEED, MOUSE_JOYSTICK_SPEED);
 
     // Apply small deadzone to prevent drift when near center
     if (valX > -MOUSE_DEADZONE && valX < MOUSE_DEADZONE) {
@@ -405,12 +402,12 @@ void loop() {
     if (mouseUseHatInsteadOfJoystick) {
       int xVel = 0;
       int yVel = 0;
-      if (!digitalRead(GAMEPAD_HAT_LEFT)) xVel -= 10;
-      if (!digitalRead(GAMEPAD_HAT_RIGHT)) xVel += 10;
-      if (!digitalRead(GAMEPAD_HAT_UP)) yVel -= 10;
-      if (!digitalRead(GAMEPAD_HAT_DOWN)) yVel += 10;
+      if (!digitalRead(GAMEPAD_HAT_LEFT)) xVel -= MOUSE_DPAD_BASE_SPEED;
+      if (!digitalRead(GAMEPAD_HAT_RIGHT)) xVel += MOUSE_DPAD_BASE_SPEED;
+      if (!digitalRead(GAMEPAD_HAT_UP)) yVel -= MOUSE_DPAD_BASE_SPEED;
+      if (!digitalRead(GAMEPAD_HAT_DOWN)) yVel += MOUSE_DPAD_BASE_SPEED;
       if (xVel != 0 || yVel != 0) {
-        mouseHatAccel += 0.1;
+        mouseHatAccel += MOUSE_DPAD_ACCEL;
       } else {
         mouseHatAccel = 0;
       }
@@ -424,28 +421,31 @@ void loop() {
       else if (!digitalRead(GAMEPAD_HAT_UP)) hid.move(0, 0, 1);   // scroll up
     }
 
-    // Example: Scroll (uncomment to use)
+    // Example: Scrolling (uncomment to use)
     // hid.move(0, 0, 1);   // scroll up
     // hid.move(0, 0, -1);  // scroll down
     delay(15);
 
   } else {
 
-    // Calibration hold on backButtonPin (~3s)
-    if (digitalRead(backButtonPin) == LOW) {
-      if (millis() - lastCalibTime > 3000) {
+    // enter calibration mode when button is held
+    #ifndef DISABLE_JOYSTICK
+    if (digitalRead(CALIBRATION_HOLD_BTN) == LOW) {
+      if (millis() - lastCalibTime > CALIBRATION_HOLD_TIME) {
         runCalibration();
         lastCalibTime = millis();
       }
     } else {
       lastCalibTime = millis();
     }
+    
 
     int16_t valX = map(xAxisValue, minX, maxX, -GAMEPAD_AXIS_LIMIT, GAMEPAD_AXIS_LIMIT);
     int16_t valY = map(yAxisValue, minY, maxY, -GAMEPAD_AXIS_LIMIT, GAMEPAD_AXIS_LIMIT);
 
     hid.SetX(valX);
     hid.SetY(valY);
+    #endif
     hid.SetHat(0, 8);
     for (unsigned int i = 0; i < sizeof(buttonPins) / sizeof(buttonPins[0]); i++) {
       hid.SetButton(i, !digitalRead(buttonPins[i]));

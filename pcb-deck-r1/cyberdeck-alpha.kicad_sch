@@ -64805,7 +64805,7 @@
 			(uuid "f8945af1-c8e3-43e4-bc75-b351db0d3f86")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_6")
 					(unit 1)
@@ -64945,7 +64945,7 @@
 			(uuid "cac938a0-a8d5-42f8-b43e-fad0d3bd5276")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_6")
 					(unit 1)
@@ -65096,7 +65096,7 @@
 			(uuid "149b2752-3df5-4f31-b983-b7649ddc6f59")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_12")
 					(unit 1)
@@ -65236,7 +65236,7 @@
 			(uuid "8b35f81c-b5f5-4238-9001-5dc716b80d1a")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_12")
 					(unit 1)
@@ -65387,7 +65387,7 @@
 			(uuid "c63a5937-b4da-4493-91f6-ad9490747fe4")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_18")
 					(unit 1)
@@ -65527,7 +65527,7 @@
 			(uuid "5b034d65-9e4a-443a-aa47-35b42f405ab0")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_18")
 					(unit 1)
@@ -65678,7 +65678,7 @@
 			(uuid "8cd945a5-30d7-40ec-a8fc-7b7c23a99189")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_23")
 					(unit 1)
@@ -65818,7 +65818,7 @@
 			(uuid "95943dc1-5678-460a-80fb-5a47b14e1566")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_23")
 					(unit 1)
@@ -65969,7 +65969,7 @@
 			(uuid "51b4189f-4154-40c9-9579-2ddd1e1bbe3c")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_29")
 					(unit 1)
@@ -66109,7 +66109,7 @@
 			(uuid "913308f8-219a-4aee-b8d7-e83ca1772231")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_29")
 					(unit 1)
@@ -66260,7 +66260,7 @@
 			(uuid "55e807f2-223f-43fc-9335-5a62fd40b62b")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_35")
 					(unit 1)
@@ -66400,7 +66400,7 @@
 			(uuid "69c66c5e-4457-441d-a68c-285b85bf53ed")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_35")
 					(unit 1)
@@ -66551,7 +66551,7 @@
 			(uuid "78117858-cd1a-4300-ba0a-44a7edf88189")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_42")
 					(unit 1)
@@ -66691,7 +66691,7 @@
 			(uuid "8bdaeb96-e765-4513-a532-54110631c167")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_42")
 					(unit 1)
@@ -66842,7 +66842,7 @@
 			(uuid "c4dfef63-862a-46c8-95e6-6a3c30351fc5")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_47")
 					(unit 1)
@@ -66982,7 +66982,7 @@
 			(uuid "8736a1fe-64cf-4dba-bb1b-cc3037bb7ffb")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_47")
 					(unit 1)
@@ -67133,7 +67133,7 @@
 			(uuid "f5bdf75e-50f3-49c3-b07c-3ab2273538c2")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_53")
 					(unit 1)
@@ -67273,7 +67273,7 @@
 			(uuid "1797cdb5-6317-4640-a459-533a6f612d2b")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_53")
 					(unit 1)
@@ -67424,7 +67424,7 @@
 			(uuid "9c5d3d6b-6621-4249-ba3e-802e01cf6a11")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_63")
 					(unit 1)
@@ -67564,7 +67564,7 @@
 			(uuid "1ecdd48a-9bf5-485e-bd7a-adb156e3a31c")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_63")
 					(unit 1)
@@ -67716,7 +67716,7 @@
 			(uuid "e5a42762-430b-49bb-a602-25cedeb1f3e9")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_1")
 					(unit 1)
@@ -67856,7 +67856,7 @@
 			(uuid "89be829e-e77d-4e25-9d64-d06c63a3fa41")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_1")
 					(unit 1)
@@ -68007,7 +68007,7 @@
 			(uuid "b111720b-3bc2-47c7-a3e0-8bc5e73524a9")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_7")
 					(unit 1)
@@ -68147,7 +68147,7 @@
 			(uuid "d6a39474-0482-4790-8a5b-94236521d8a5")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_7")
 					(unit 1)
@@ -68298,7 +68298,7 @@
 			(uuid "6c6afefb-5183-465a-924e-6fb90054e28f")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_13")
 					(unit 1)
@@ -68438,7 +68438,7 @@
 			(uuid "7314e1b3-5f00-4fbd-a7d6-f97ba412ac0d")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_13")
 					(unit 1)
@@ -68589,7 +68589,7 @@
 			(uuid "05dc8bdc-70a2-4f04-b127-8b391e5c486f")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_19")
 					(unit 1)
@@ -68729,7 +68729,7 @@
 			(uuid "2529cb7d-cc6d-4c2a-a36a-45fb3e7dde52")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_19")
 					(unit 1)
@@ -68880,7 +68880,7 @@
 			(uuid "b07df320-db5d-4262-b71b-0c9018d93c20")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_24")
 					(unit 1)
@@ -69020,7 +69020,7 @@
 			(uuid "94931c4c-dd78-4d6f-9769-4e484064603e")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_24")
 					(unit 1)
@@ -69171,7 +69171,7 @@
 			(uuid "f51a323c-630b-49ce-bbce-f32db391fd8f")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_30")
 					(unit 1)
@@ -69311,7 +69311,7 @@
 			(uuid "7e38a77a-abf8-4fcf-b839-37dc4588b499")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_30")
 					(unit 1)
@@ -69462,7 +69462,7 @@
 			(uuid "7a6a403d-42cf-46f6-8d6a-54eebec39a39")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_36")
 					(unit 1)
@@ -69602,7 +69602,7 @@
 			(uuid "f19d04dd-d6fb-4aca-90b0-031f3c468ae6")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_36")
 					(unit 1)
@@ -69753,7 +69753,7 @@
 			(uuid "64d8d881-fa50-4de9-b9ee-6ff4fa0145df")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_43")
 					(unit 1)
@@ -69893,7 +69893,7 @@
 			(uuid "4be63dd8-7f6f-4686-b51d-8a3fca8ae865")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_43")
 					(unit 1)
@@ -70044,7 +70044,7 @@
 			(uuid "f6adc650-68df-45ee-a2ca-43b783b64c1a")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_48")
 					(unit 1)
@@ -70184,7 +70184,7 @@
 			(uuid "7f83644d-5cfe-4f91-acc1-934be0130bca")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_48")
 					(unit 1)
@@ -70335,7 +70335,7 @@
 			(uuid "f718b43f-5cfd-415a-8d62-bfcc5b26ead7")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_54")
 					(unit 1)
@@ -70475,7 +70475,7 @@
 			(uuid "73199a51-a260-4e74-8130-96741c71401f")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_54")
 					(unit 1)
@@ -70626,7 +70626,7 @@
 			(uuid "f40bbf4f-b774-4185-8896-315e0016194d")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_59")
 					(unit 1)
@@ -70766,7 +70766,7 @@
 			(uuid "a50760fd-3829-4a60-9a98-76061af39e2b")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_59")
 					(unit 1)
@@ -70917,7 +70917,7 @@
 			(uuid "6d85742a-e880-4097-93dd-f62a04af87b1")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_64")
 					(unit 1)
@@ -71057,7 +71057,7 @@
 			(uuid "aa3f389d-9142-4914-9c7a-e8fd9611a0a3")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_64")
 					(unit 1)
@@ -71208,7 +71208,7 @@
 			(uuid "fa017622-7054-41f4-8050-7f0a5cf1266c")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_2")
 					(unit 1)
@@ -71348,7 +71348,7 @@
 			(uuid "7c1836dc-784c-4225-92ed-2e146948533e")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_2")
 					(unit 1)
@@ -71499,7 +71499,7 @@
 			(uuid "8d8ff66f-2f21-43c2-a512-3cbc5f326a99")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_8")
 					(unit 1)
@@ -71639,7 +71639,7 @@
 			(uuid "dfe18b31-83e7-4fad-8986-844c829f8125")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_8")
 					(unit 1)
@@ -71790,7 +71790,7 @@
 			(uuid "3ee804ae-5b3c-4d7d-a12c-45764311f043")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_14")
 					(unit 1)
@@ -71930,7 +71930,7 @@
 			(uuid "e541ac5d-90d4-4f3b-9230-8f92bb373b97")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_14")
 					(unit 1)
@@ -72081,7 +72081,7 @@
 			(uuid "226366b8-aed0-4688-9489-0a0537be987a")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_20")
 					(unit 1)
@@ -72221,7 +72221,7 @@
 			(uuid "5d820083-dfd9-4e24-a4fa-270761856a48")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_20")
 					(unit 1)
@@ -72372,7 +72372,7 @@
 			(uuid "d8499c2b-5da1-4f26-a611-4f05922e34e2")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_25")
 					(unit 1)
@@ -72512,7 +72512,7 @@
 			(uuid "fd024dcc-c7a6-4a15-aa4e-0d2f5cab355b")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_25")
 					(unit 1)
@@ -72663,7 +72663,7 @@
 			(uuid "61186979-ac8d-4d9e-8453-e06afdc53058")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_31")
 					(unit 1)
@@ -72803,7 +72803,7 @@
 			(uuid "4cdd0a05-99ab-4361-9c58-91349b91b25a")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_31")
 					(unit 1)
@@ -72954,7 +72954,7 @@
 			(uuid "cfbcb746-fb74-4b19-b44c-f627a70aa38c")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_37")
 					(unit 1)
@@ -73094,7 +73094,7 @@
 			(uuid "596d3d3d-f9ae-41df-8ed8-1bc9b591dec1")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_37")
 					(unit 1)
@@ -73245,7 +73245,7 @@
 			(uuid "5e03b2ad-eec9-499b-8613-254a1c772777")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_44")
 					(unit 1)
@@ -73385,7 +73385,7 @@
 			(uuid "fcbd1a04-8f4a-4a51-86a1-31cd0cedef90")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_44")
 					(unit 1)
@@ -73536,7 +73536,7 @@
 			(uuid "e1c4bdd6-d9ce-4a98-a70e-f35afce9bd8d")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_49")
 					(unit 1)
@@ -73676,7 +73676,7 @@
 			(uuid "967e6ca9-4893-4638-998a-2f3715ee679f")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_49")
 					(unit 1)
@@ -73827,7 +73827,7 @@
 			(uuid "76720eb2-9a4b-46c9-b48a-7611249fb831")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_55")
 					(unit 1)
@@ -73967,7 +73967,7 @@
 			(uuid "60b619dc-aa39-4913-92e4-6da500d020da")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_55")
 					(unit 1)
@@ -74118,7 +74118,7 @@
 			(uuid "5f55b7d9-30db-4270-9b93-3a3a789a6e06")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_60")
 					(unit 1)
@@ -74258,7 +74258,7 @@
 			(uuid "e3a34772-3411-448c-891b-87ca143fe65e")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_60")
 					(unit 1)
@@ -74409,7 +74409,7 @@
 			(uuid "21f121bb-6e17-405c-8916-5d9415cce72f")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_65")
 					(unit 1)
@@ -74549,7 +74549,7 @@
 			(uuid "b501c872-9a0e-4bb1-8e83-f05cf5e2927b")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_65")
 					(unit 1)
@@ -74700,7 +74700,7 @@
 			(uuid "b03b8b4e-3b5b-437b-ba84-5dbae1e5ad55")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_3")
 					(unit 1)
@@ -74840,7 +74840,7 @@
 			(uuid "d95435c0-7e4c-49a4-b794-ea635e6208f7")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_3")
 					(unit 1)
@@ -74991,7 +74991,7 @@
 			(uuid "1a557f51-9f9a-4e17-bc2a-5d027472cb5c")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_9")
 					(unit 1)
@@ -75131,7 +75131,7 @@
 			(uuid "bf76a22a-82ea-4975-8a43-08d381fbe508")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_9")
 					(unit 1)
@@ -75282,7 +75282,7 @@
 			(uuid "3185c79c-0aa3-4aac-9448-7716814fb637")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_15")
 					(unit 1)
@@ -75422,7 +75422,7 @@
 			(uuid "f841d73e-d0b9-42e7-9e1f-08ea8efd6ff0")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_15")
 					(unit 1)
@@ -75573,7 +75573,7 @@
 			(uuid "2152c39d-96be-4824-88a8-b48cefa8a356")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_21")
 					(unit 1)
@@ -75713,7 +75713,7 @@
 			(uuid "0417019a-e28e-4aa2-ad0a-c1be8cd5269d")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_21")
 					(unit 1)
@@ -75864,7 +75864,7 @@
 			(uuid "4ac318dc-9186-445a-9803-bd9ddcce70dd")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_26")
 					(unit 1)
@@ -76004,7 +76004,7 @@
 			(uuid "998f1b27-fada-46b6-b45d-418e5cb8b3c8")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_26")
 					(unit 1)
@@ -76155,7 +76155,7 @@
 			(uuid "e558f47f-ee93-461c-a23a-527d1007162b")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_32")
 					(unit 1)
@@ -76295,7 +76295,7 @@
 			(uuid "9c044cf4-85bf-4126-a1b6-0bbfe16bba46")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_32")
 					(unit 1)
@@ -76446,7 +76446,7 @@
 			(uuid "a7892811-769b-4010-801e-04d6185ab97a")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_38")
 					(unit 1)
@@ -76586,7 +76586,7 @@
 			(uuid "2305e2af-bea4-429c-9823-fc5e7fff259e")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_38")
 					(unit 1)
@@ -76737,7 +76737,7 @@
 			(uuid "eb41661e-526d-4100-b8f3-69dd50bafd1f")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_45")
 					(unit 1)
@@ -76877,7 +76877,7 @@
 			(uuid "058e7a2b-d151-41d5-9070-18b219edf22d")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_45")
 					(unit 1)
@@ -77028,7 +77028,7 @@
 			(uuid "67b438af-8d94-4f8f-9594-422e50cd11bd")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_50")
 					(unit 1)
@@ -77168,7 +77168,7 @@
 			(uuid "6715b960-63a8-4baf-a2f8-6e9af65b77b0")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_50")
 					(unit 1)
@@ -77319,7 +77319,7 @@
 			(uuid "e729cc83-4308-4d6f-b9e1-2936e01a3da5")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_56")
 					(unit 1)
@@ -77459,7 +77459,7 @@
 			(uuid "ffab1310-dd94-4d2c-9581-bcaa3e074e12")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_56")
 					(unit 1)
@@ -77610,7 +77610,7 @@
 			(uuid "989d8211-0127-42f0-bac8-30ceb8f9a359")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_61")
 					(unit 1)
@@ -77750,7 +77750,7 @@
 			(uuid "ebfcd94e-ec21-44b9-861c-998d63a4401f")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_61")
 					(unit 1)
@@ -77901,7 +77901,7 @@
 			(uuid "29b1a0d0-e9f4-4c10-8bfe-e05037d1417b")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_66")
 					(unit 1)
@@ -78041,7 +78041,7 @@
 			(uuid "29ae4252-eff2-4919-8da0-f7e4745ebfae")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_66")
 					(unit 1)
@@ -78192,7 +78192,7 @@
 			(uuid "7a240296-60ce-4fde-8de7-d7e631ff3747")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_4")
 					(unit 1)
@@ -78332,7 +78332,7 @@
 			(uuid "150fd4da-e67d-4ea3-ad3d-13658b6e7ba8")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_4")
 					(unit 1)
@@ -78483,7 +78483,7 @@
 			(uuid "ac557460-aa6f-43e3-acdd-2abd12514b0c")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_10")
 					(unit 1)
@@ -78623,7 +78623,7 @@
 			(uuid "cf92df21-713a-4d8e-8536-a2b10b4e286d")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_10")
 					(unit 1)
@@ -78774,7 +78774,7 @@
 			(uuid "1eb85c69-b340-46df-bebd-881b2caad182")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_16")
 					(unit 1)
@@ -78914,7 +78914,7 @@
 			(uuid "00507667-30f7-4b78-bc8f-16bcaa63fb14")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_16")
 					(unit 1)
@@ -79065,7 +79065,7 @@
 			(uuid "d9069e59-39bc-47fe-a753-41be39282897")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_22")
 					(unit 1)
@@ -79205,7 +79205,7 @@
 			(uuid "e9550f7d-2d52-42e6-84b1-1990b56f7e6c")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_22")
 					(unit 1)
@@ -79356,7 +79356,7 @@
 			(uuid "417b6a87-1966-4a79-aabe-a7ea6e38a264")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_27")
 					(unit 1)
@@ -79496,7 +79496,7 @@
 			(uuid "0b01b7d7-902f-4d9a-8235-8b8a8f26bd6e")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_27")
 					(unit 1)
@@ -79647,7 +79647,7 @@
 			(uuid "b61882e4-7cb8-4c39-b3ac-31e4420873c7")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_33")
 					(unit 1)
@@ -79787,7 +79787,7 @@
 			(uuid "3801a707-596f-4c14-a728-32581d59e84a")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_33")
 					(unit 1)
@@ -79938,7 +79938,7 @@
 			(uuid "02425e40-7708-4b5e-a1e9-934cbbf794b0")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_39")
 					(unit 1)
@@ -80078,7 +80078,7 @@
 			(uuid "4724f4a0-8718-4877-af02-dffc159ab071")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_39")
 					(unit 1)
@@ -80229,7 +80229,7 @@
 			(uuid "6229f559-83ab-4edc-be0a-f2e3852c3fbc")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_46")
 					(unit 1)
@@ -80369,7 +80369,7 @@
 			(uuid "19fb57c6-fadc-47e0-a1e4-08619eb0c1eb")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_46")
 					(unit 1)
@@ -80520,7 +80520,7 @@
 			(uuid "0fbeeaf8-fcef-4ebe-a196-177c01a445c3")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_51")
 					(unit 1)
@@ -80660,7 +80660,7 @@
 			(uuid "1543668a-81e6-4798-9656-a00215366666")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_51")
 					(unit 1)
@@ -80811,7 +80811,7 @@
 			(uuid "ec10c783-5a23-47ed-b650-97e9caa0575e")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_57")
 					(unit 1)
@@ -80951,7 +80951,7 @@
 			(uuid "710d21c3-e687-4801-a445-e54b47d56f71")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_57")
 					(unit 1)
@@ -81102,7 +81102,7 @@
 			(uuid "ce27e796-63dd-4e35-828d-35f4112239e7")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_67")
 					(unit 1)
@@ -81242,7 +81242,7 @@
 			(uuid "be52a746-9581-4602-9ae2-85dfc647cabf")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_67")
 					(unit 1)
@@ -81393,7 +81393,7 @@
 			(uuid "08d2cca2-f4ea-4e06-a476-3743fb5e5ead")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_11")
 					(unit 1)
@@ -81533,7 +81533,7 @@
 			(uuid "f116a6ba-1d52-490e-b0b0-1c0556a7886c")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_11")
 					(unit 1)
@@ -81684,7 +81684,7 @@
 			(uuid "218f4c3f-e1a4-4993-ab24-7922eac53161")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_5")
 					(unit 1)
@@ -81824,7 +81824,7 @@
 			(uuid "e2e2ad58-c3cf-4e8f-86f7-e0cf3c366035")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_5")
 					(unit 1)
@@ -81975,7 +81975,7 @@
 			(uuid "da850755-00af-4c21-b436-e05c0426561e")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_17")
 					(unit 1)
@@ -82115,7 +82115,7 @@
 			(uuid "92bdc450-5297-44cc-9c68-255d8aaca7fd")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_17")
 					(unit 1)
@@ -82266,7 +82266,7 @@
 			(uuid "c73cb17f-7256-40f9-8173-c7118a453d11")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_28")
 					(unit 1)
@@ -82406,7 +82406,7 @@
 			(uuid "80b42318-e051-4cae-85e2-9411e442371c")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_28")
 					(unit 1)
@@ -82557,7 +82557,7 @@
 			(uuid "1a1abd2f-b9b8-4955-a9da-ec1df324fa7a")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_34")
 					(unit 1)
@@ -82697,7 +82697,7 @@
 			(uuid "5fccb124-c1c5-4605-9de7-8afce9698fcf")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_34")
 					(unit 1)
@@ -82848,7 +82848,7 @@
 			(uuid "059582d9-1e30-4d20-b8db-ea54a4ab67f6")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_52")
 					(unit 1)
@@ -82988,7 +82988,7 @@
 			(uuid "824014f7-5c01-4124-855b-b81f9c2a9d50")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_52")
 					(unit 1)
@@ -83139,7 +83139,7 @@
 			(uuid "e959d77f-db2b-4674-bcdf-32d8e8ce9334")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_58")
 					(unit 1)
@@ -83279,7 +83279,7 @@
 			(uuid "ecc9748e-ec48-4fa5-bf33-05030fd42a19")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_58")
 					(unit 1)
@@ -83430,7 +83430,7 @@
 			(uuid "3f57b330-e400-429e-923d-66c9c1ec5d19")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_62")
 					(unit 1)
@@ -83570,7 +83570,7 @@
 			(uuid "2867a4f3-6f60-4fff-975a-b964fb36d37d")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_62")
 					(unit 1)
@@ -83721,7 +83721,7 @@
 			(uuid "15e1ba51-7d6b-479f-bf05-73b499d98266")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_68")
 					(unit 1)
@@ -83861,7 +83861,7 @@
 			(uuid "820058ab-3fdc-4d3c-b2c1-b53c7b1360e1")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_68")
 					(unit 1)
@@ -83946,7 +83946,7 @@
 			(uuid "889ed14c-350b-43ca-8f39-ca28cc3b2ec8")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C13")
 					(unit 1)
@@ -84049,7 +84049,7 @@
 			(uuid "270c2876-7e3e-4b4b-a992-e7b5f2a1a3a5")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R55")
 					(unit 1)
@@ -84258,7 +84258,7 @@
 			(uuid "c4e8cbd3-7fba-4e36-9269-3119eecad8cf")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0111")
 					(unit 1)
@@ -84406,7 +84406,7 @@
 			(uuid "fc692380-c174-4927-aa5c-c5a9c73e2048")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R18")
 					(unit 1)
@@ -84471,7 +84471,7 @@
 			(uuid "1f2d69f3-bda7-4c20-9563-ebc9c9159b8e")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR081")
 					(unit 1)
@@ -84537,7 +84537,7 @@
 			(uuid "299aa157-70ab-4277-8d44-7f8d00693e92")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR059")
 					(unit 1)
@@ -84603,7 +84603,7 @@
 			(uuid "d1bb166e-7f79-48ed-bd3a-551af01df063")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0108")
 					(unit 1)
@@ -84745,7 +84745,7 @@
 			(uuid "4d69a81a-368d-4201-a34d-791619d3cfd9")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J2")
 					(unit 1)
@@ -84851,7 +84851,7 @@
 			(uuid "00bc78d6-98d1-4d83-99bc-5f9d170b78bc")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "RV1")
 					(unit 1)
@@ -85200,7 +85200,7 @@
 			(uuid "f1c7ea53-5048-41c5-acbe-8ccb0a857253")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR063")
 					(unit 1)
@@ -85417,7 +85417,7 @@
 			(uuid "ff01b3c7-781f-4b21-9e82-814dd20016fe")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR071")
 					(unit 1)
@@ -85586,7 +85586,7 @@
 			(uuid "2b950580-e5f6-4c06-a26f-bcee0c6483c9")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R42")
 					(unit 1)
@@ -85744,7 +85744,7 @@
 			(uuid "718b3fcb-7276-49d9-b328-203174c716f1")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D6")
 					(unit 1)
@@ -85829,7 +85829,7 @@
 			(uuid "3021f699-9188-49e1-8675-ac03e875775d")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R25")
 					(unit 1)
@@ -85980,7 +85980,7 @@
 			(uuid "94b4df22-5ee0-417f-a3f2-4ab87993ce85")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_40")
 					(unit 1)
@@ -86135,7 +86135,7 @@
 			(uuid "90be79eb-4ba3-4ee1-9e6e-5b0621093751")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Q1")
 					(unit 1)
@@ -86201,7 +86201,7 @@
 			(uuid "375e5d8e-cb4a-4f38-b531-753f9b259d00")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR088")
 					(unit 1)
@@ -86304,7 +86304,7 @@
 			(uuid "215c638d-234b-44a5-a2e1-f509ad876c3e")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R61")
 					(unit 1)
@@ -86391,7 +86391,7 @@
 			(uuid "128302a8-f6a5-4c3c-93d1-773ad7edc804")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C34")
 					(unit 1)
@@ -86572,7 +86572,7 @@
 			(uuid "fffb7cd3-4cde-405b-8352-fa9f597a8a01")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R53")
 					(unit 1)
@@ -86952,7 +86952,7 @@
 			(uuid "ea2adb42-d191-47d0-b81d-ac80e44a31c2")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J21")
 					(unit 1)
@@ -87205,7 +87205,7 @@
 			(uuid "f4c7d81a-c24f-4f2d-8215-1935eaf37fa5")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR042")
 					(unit 1)
@@ -87674,7 +87674,7 @@
 			(uuid "f13c0f39-416f-462a-8dd8-b95be17e991e")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C22")
 					(unit 1)
@@ -87759,7 +87759,7 @@
 			(uuid "97bb54a3-32f5-4d15-b6d3-a2253c26b7ac")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "L4")
 					(unit 1)
@@ -87934,7 +87934,7 @@
 			(uuid "38eaec83-7b4a-4215-b0c7-6d91670caa3d")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U6")
 					(unit 1)
@@ -88148,7 +88148,7 @@
 			(uuid "8926109c-9707-40ca-bfaa-b48744e5c6c8")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R10")
 					(unit 1)
@@ -88446,7 +88446,7 @@
 			(uuid "e3948930-e9f6-428c-911e-c95722027e96")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U2")
 					(unit 1)
@@ -88612,7 +88612,7 @@
 			(uuid "9742d5d4-053c-43de-b826-882f209e472f")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C60")
 					(unit 1)
@@ -88875,7 +88875,7 @@
 			(uuid "62e76981-5efd-49d7-b2f1-4731564ac17c")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R43")
 					(unit 1)
@@ -88960,7 +88960,7 @@
 			(uuid "27318296-413d-4bf5-8db4-c9a093bc7b38")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C71")
 					(unit 1)
@@ -89026,7 +89026,7 @@
 			(uuid "af132da5-b54f-4dc1-a6cb-a58126d7397b")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR017")
 					(unit 1)
@@ -89192,7 +89192,7 @@
 			(uuid "1cfaaa7d-7d5f-4c38-b716-87b795cd8895")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R40")
 					(unit 1)
@@ -89353,7 +89353,7 @@
 			(uuid "1393b91d-91ca-4fda-a6d0-3e3c1efd0d08")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U3")
 					(unit 1)
@@ -90466,7 +90466,7 @@
 			(uuid "eba16def-d4aa-4681-b70f-047259958256")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR06")
 					(unit 1)
@@ -90614,7 +90614,7 @@
 			(uuid "2afafc32-a4ae-4d15-b94e-73371b217825")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R2")
 					(unit 1)
@@ -90679,7 +90679,7 @@
 			(uuid "10f16a85-f6f1-4649-85c1-3d9b8640fbf6")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR09")
 					(unit 1)
@@ -90827,7 +90827,7 @@
 			(uuid "a45400a4-4040-496a-a00b-d0845763d8c7")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R19")
 					(unit 1)
@@ -90967,7 +90967,7 @@
 			(uuid "2a49b589-9489-4d08-a16a-33a58dae1579")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_70")
 					(unit 1)
@@ -91133,7 +91133,7 @@
 			(uuid "a3b624d8-f048-452b-b32d-7673010731a5")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C57")
 					(unit 1)
@@ -91237,7 +91237,7 @@
 			(uuid "74758538-191b-4f32-a193-f36495aca54f")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C37")
 					(unit 1)
@@ -91302,7 +91302,7 @@
 			(uuid "37f8f72a-5efb-4e7b-a522-6de95ad04c01")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR044")
 					(unit 1)
@@ -91387,7 +91387,7 @@
 			(uuid "7597a034-ad36-469e-b0df-d6f21d7f692b")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R28")
 					(unit 1)
@@ -91496,7 +91496,7 @@
 			(uuid "2e92e36a-16b1-45e2-a1e5-3c314877f9e4")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "X3")
 					(unit 1)
@@ -91644,7 +91644,7 @@
 			(uuid "1d5a7ca5-ada5-4c8b-9bd5-2d8b64691576")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "F4")
 					(unit 1)
@@ -91813,7 +91813,7 @@
 			(uuid "559228ec-ef64-4c0a-b3fe-be48bba9276d")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C26")
 					(unit 1)
@@ -92209,7 +92209,7 @@
 			(uuid "3c63c369-f4c5-4d5d-a446-e062e7255c23")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J3")
 					(unit 1)
@@ -92418,7 +92418,7 @@
 			(uuid "49c49725-9003-4003-b706-c43c6372dbfa")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR097")
 					(unit 1)
@@ -92815,7 +92815,7 @@
 			(uuid "6050eaaa-f9b1-45a9-a9d7-0e29e4b1ef5a")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Module3")
 					(unit 1)
@@ -92977,7 +92977,7 @@
 			(uuid "0403361e-61de-449b-a831-e31617a95404")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C27")
 					(unit 1)
@@ -93146,7 +93146,7 @@
 			(uuid "48a790fd-c058-44cc-bea9-234dd6402284")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R48")
 					(unit 1)
@@ -93240,7 +93240,7 @@
 			(uuid "0d91d9fe-927e-419b-8874-b501312caf29")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U12")
 					(unit 1)
@@ -93528,7 +93528,7 @@
 			(uuid "b5e21990-c3fc-4712-9c78-62b2660bbcf1")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U4")
 					(unit 1)
@@ -93676,7 +93676,7 @@
 			(uuid "4b47bdf9-ceab-49f9-a4de-2a6e6151bfcf")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R1")
 					(unit 1)
@@ -93919,7 +93919,7 @@
 			(uuid "e6f60dd7-030f-445f-836c-70cdda92b330")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D7")
 					(unit 1)
@@ -94019,7 +94019,7 @@
 			(uuid "9bc87332-dea9-4bfa-bc6c-86c4848b9ec0")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "LS2")
 					(unit 1)
@@ -94306,7 +94306,7 @@
 			(uuid "c41eb621-750f-44ec-a502-74224e260183")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C23")
 					(unit 1)
@@ -94391,7 +94391,7 @@
 			(uuid "cdbbf6af-410f-449a-b277-cd71431ea53e")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C69")
 					(unit 1)
@@ -94542,7 +94542,7 @@
 			(uuid "2561b895-dc8a-4b0b-89c6-6899975463e3")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR023")
 					(unit 1)
@@ -94643,7 +94643,7 @@
 			(uuid "cd11cff5-0760-46f9-90da-cd629749eb65")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J9")
 					(unit 1)
@@ -94881,7 +94881,7 @@
 			(uuid "3351beb7-2a6e-451c-9edf-1811df92dab2")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C5")
 					(unit 1)
@@ -95047,7 +95047,7 @@
 			(uuid "54f67a18-df48-4325-9317-0712b92b5d8f")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C59")
 					(unit 1)
@@ -95205,7 +95205,7 @@
 			(uuid "d521b4a7-0630-4ab6-8bfc-bc071d5578ed")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D21")
 					(unit 1)
@@ -95308,7 +95308,7 @@
 			(uuid "f96894d5-fc96-4af0-9d48-93eca60a7fdc")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D26")
 					(unit 1)
@@ -95729,7 +95729,7 @@
 			(uuid "41584f04-80c1-4d0a-b993-4eb327796cd1")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D2")
 					(unit 1)
@@ -95795,7 +95795,7 @@
 			(uuid "fa219606-c46e-42e4-8f8f-316db223db69")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR093")
 					(unit 1)
@@ -95943,7 +95943,7 @@
 			(uuid "f2728d6e-3cc0-46ee-9915-1a242626c256")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R24")
 					(unit 1)
@@ -96118,7 +96118,7 @@
 			(uuid "61e2fc32-5a94-41e7-9257-bf0f150878ce")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U22")
 					(unit 1)
@@ -96269,7 +96269,7 @@
 			(uuid "59a7e7e3-fbbd-4563-b9a2-636e861dac36")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR080")
 					(unit 1)
@@ -96346,7 +96346,7 @@
 			(uuid "70e9a80a-50cf-4663-80e5-8408b38be4e3")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "NT1")
 					(unit 1)
@@ -96438,7 +96438,7 @@
 			(uuid "2f2663c2-26a6-4ce6-8407-4872bc203e7b")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J1")
 					(unit 1)
@@ -96604,7 +96604,7 @@
 			(uuid "f78e3c5b-4357-4b6b-b15f-105b11970c8b")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C62")
 					(unit 1)
@@ -96700,7 +96700,7 @@
 			(uuid "db1cab76-fa25-4915-9064-339526f1faf2")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C25")
 					(unit 1)
@@ -96766,7 +96766,7 @@
 			(uuid "f15a0b56-30ed-47d2-8b28-d10d4a618fd8")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0101")
 					(unit 1)
@@ -96897,7 +96897,7 @@
 			(uuid "64f530a4-1e0e-404c-b34e-b980c19a3473")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR033")
 					(unit 1)
@@ -97048,7 +97048,7 @@
 			(uuid "e80a02fe-dd0f-4538-beb9-cf87f4e5d717")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_41")
 					(unit 1)
@@ -97261,7 +97261,7 @@
 			(uuid "0aeb2fdb-a2b8-48f1-a855-f3ebe86ac6d6")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U8")
 					(unit 1)
@@ -97393,7 +97393,7 @@
 			(uuid "93fa3ff4-2836-4947-9bb7-f5e8a8bb32ae")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR065")
 					(unit 1)
@@ -97559,7 +97559,7 @@
 			(uuid "0c57ca35-f866-42db-a1bf-c6ee388430e7")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C33")
 					(unit 1)
@@ -97662,7 +97662,7 @@
 			(uuid "85c16452-5b65-40bc-a939-12d317f1757d")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R36")
 					(unit 1)
@@ -97926,7 +97926,7 @@
 			(uuid "048c8335-516d-4940-8fd1-2726c1d87492")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U16")
 					(unit 1)
@@ -98077,7 +98077,7 @@
 			(uuid "b1d75244-87c1-4d52-9d99-c02bcb38a979")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_69")
 					(unit 1)
@@ -98142,7 +98142,7 @@
 			(uuid "184645c3-9f4c-4747-805f-2ead2bcc7acf")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR041")
 					(unit 1)
@@ -98421,7 +98421,7 @@
 			(uuid "75111cab-81bc-4d12-992e-b0af1fed9ef0")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "S1")
 					(unit 1)
@@ -98487,7 +98487,7 @@
 			(uuid "d42610a1-173e-4ed0-8448-980a5809c416")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR058")
 					(unit 1)
@@ -98553,7 +98553,7 @@
 			(uuid "704c66ad-01ed-42f3-aaed-e72069eebf46")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR074")
 					(unit 1)
@@ -98638,7 +98638,7 @@
 			(uuid "bbc461b0-ced7-4981-949b-db3c1a9986bc")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D25")
 					(unit 1)
@@ -98769,7 +98769,7 @@
 			(uuid "5ad0fde4-a304-45be-9c90-c72b8792259f")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR036")
 					(unit 1)
@@ -99154,7 +99154,7 @@
 			(uuid "44b3a6a2-f583-4cc5-8deb-db7ef64f6cf0")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_73")
 					(unit 1)
@@ -99259,7 +99259,7 @@
 			(uuid "fd0f8b60-e914-4ddf-9ce0-ad8fc4e68fdd")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Q7")
 					(unit 1)
@@ -99364,7 +99364,7 @@
 			(uuid "4bb3a63a-a6d8-4382-ba59-c7f2fa4e2a0c")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C45")
 					(unit 1)
@@ -99515,7 +99515,7 @@
 			(uuid "7e603dd8-ab17-414b-bd62-ad8f33f597f4")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J11")
 					(unit 1)
@@ -99600,7 +99600,7 @@
 			(uuid "c7c00b16-ff0c-45ee-bb6c-d028de0be485")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "L1")
 					(unit 1)
@@ -99956,7 +99956,7 @@
 			(uuid "1be35612-2009-4beb-a84e-d12a2309f226")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U5")
 					(unit 1)
@@ -100104,7 +100104,7 @@
 			(uuid "45f3a8eb-bf29-40ea-a02e-e3dbed088e79")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R11")
 					(unit 1)
@@ -100551,7 +100551,7 @@
 			(uuid "259e134c-b092-401a-aa1c-edaf62597f03")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J10")
 					(unit 1)
@@ -100704,7 +100704,7 @@
 			(uuid "505c802b-cea5-4bfd-9a26-5436179aff9f")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C35")
 					(unit 1)
@@ -100852,7 +100852,7 @@
 			(uuid "d0092923-8173-48ec-89b3-6c192f816fbb")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R14")
 					(unit 1)
@@ -101003,7 +101003,7 @@
 			(uuid "39ee53ff-959f-4ded-bbd8-3e0271f7122e")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR012")
 					(unit 1)
@@ -101097,7 +101097,7 @@
 			(uuid "803de7f5-3402-4160-81c6-645bbe193e9c")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "X2")
 					(unit 1)
@@ -101200,7 +101200,7 @@
 			(uuid "757b2327-6f99-4d76-8ca8-de69ddcc71da")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R34")
 					(unit 1)
@@ -101351,7 +101351,7 @@
 			(uuid "5886fd8a-854d-406c-b784-dcd89651b04c")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR030")
 					(unit 1)
@@ -101650,7 +101650,7 @@
 			(uuid "5e0d8cd0-24dd-47bb-93f4-e36e2b5067e7")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R21")
 					(unit 1)
@@ -101914,7 +101914,7 @@
 			(uuid "f8a0fc1c-aa7c-4199-bfd3-5b73d8534ee8")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U9")
 					(unit 1)
@@ -102064,7 +102064,7 @@
 			(uuid "979c3b70-571d-4f3e-89a3-cc20b1a8510e")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR046")
 					(unit 1)
@@ -102373,7 +102373,7 @@
 			(uuid "75602a79-e890-4c10-b9a1-57abb7304f52")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D11")
 					(unit 1)
@@ -102665,7 +102665,7 @@
 			(uuid "cb340d85-9648-4b1c-9892-cfc6b3997963")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C11")
 					(unit 1)
@@ -102938,7 +102938,7 @@
 			(uuid "1501dcca-5d57-49c6-b356-c94495b4bbcf")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U11")
 					(unit 1)
@@ -103321,7 +103321,7 @@
 			(uuid "c3cefca8-2fd1-4635-a8e6-d1b2c3f29fba")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J19")
 					(unit 1)
@@ -103387,7 +103387,7 @@
 			(uuid "6b4683c9-954e-4fd8-862e-e60ea6339825")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR014")
 					(unit 1)
@@ -103472,7 +103472,7 @@
 			(uuid "79e1e6c1-0dd7-4410-bb90-be9a46beebc7")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R26")
 					(unit 1)
@@ -103537,7 +103537,7 @@
 			(uuid "634fc5a8-cf2c-4f36-9d63-538843b10fcb")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR039")
 					(unit 1)
@@ -103718,7 +103718,7 @@
 			(uuid "d57eb4d7-5bdf-42b5-b88d-21110eb9ad74")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C30")
 					(unit 1)
@@ -103816,7 +103816,7 @@
 			(uuid "bec28b64-4e8b-4e55-896a-760a3f029bbc")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U17")
 					(unit 1)
@@ -103964,7 +103964,7 @@
 			(uuid "0376ed79-d3a7-48c7-bdff-c2e811208dc8")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R8")
 					(unit 1)
@@ -104188,7 +104188,7 @@
 			(uuid "4feca2c9-40d7-4a2c-8e06-e9b778cadb25")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D18")
 					(unit 1)
@@ -104386,7 +104386,7 @@
 			(uuid "0443610f-dbf9-4c10-9152-bc59588b293a")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0103")
 					(unit 1)
@@ -105027,7 +105027,7 @@
 			(uuid "98c73ca4-0936-44b5-b2bf-691d318b46b2")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D22")
 					(unit 1)
@@ -105128,7 +105128,7 @@
 			(uuid "3fb6b3f0-b7fd-4c64-9c48-438c938d8f84")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "LS1")
 					(unit 1)
@@ -105224,7 +105224,7 @@
 			(uuid "b82efd7a-a416-469d-ac26-661050830ac3")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C12")
 					(unit 1)
@@ -105875,7 +105875,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "H1")
 					(unit 1)
@@ -106090,7 +106090,7 @@
 			(uuid "1a9f4c97-0d52-4719-bcb4-cbe3938819f8")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_82")
 					(unit 1)
@@ -106256,7 +106256,7 @@
 			(uuid "61a4b083-8e9d-4339-9ead-08ab7dcb27a5")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C61")
 					(unit 1)
@@ -106520,7 +106520,7 @@
 			(uuid "67c35106-66c8-4283-a7fa-029416e29255")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR019")
 					(unit 1)
@@ -106998,7 +106998,7 @@
 			(uuid "60cc6d39-4b99-440c-82d3-48d58d27daff")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J16")
 					(unit 1)
@@ -107146,7 +107146,7 @@
 			(uuid "bc51aee8-37de-4621-b422-1f074395fdce")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R15")
 					(unit 1)
@@ -107343,7 +107343,7 @@
 			(uuid "6f3b3a10-156e-4622-a336-5eb9df8068cc")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR037")
 					(unit 1)
@@ -107531,7 +107531,7 @@
 			(uuid "d2b04c42-6cd1-44c0-9d3c-9dce9d3a731f")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R30")
 					(unit 1)
@@ -107663,7 +107663,7 @@
 			(uuid "6a4c4f94-2a38-42b6-b682-aadc0d648d14")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR089")
 					(unit 1)
@@ -107729,7 +107729,7 @@
 			(uuid "c2f47d33-977c-498b-a7e1-dadde135ff1a")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR05")
 					(unit 1)
@@ -107795,7 +107795,7 @@
 			(uuid "0b59c7d9-1d5b-4764-ae75-31685c455b40")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0110")
 					(unit 1)
@@ -108131,7 +108131,7 @@
 			(uuid "3f47877d-4bdf-4f6e-973c-61ed3022db0a")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C65")
 					(unit 1)
@@ -108551,7 +108551,7 @@
 			(uuid "92147de3-e2f0-4169-8db9-c355418862d4")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C51")
 					(unit 1)
@@ -108739,7 +108739,7 @@
 			(uuid "3a98ba56-feb4-4e06-bca1-c5b0c93f0fe3")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R45")
 					(unit 1)
@@ -108826,7 +108826,7 @@
 			(uuid "26a3fbe4-f00f-4840-bca4-1681e4368cc2")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C31")
 					(unit 1)
@@ -108995,7 +108995,7 @@
 			(uuid "a23dec08-5298-446a-9561-a52966506b41")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR011")
 					(unit 1)
@@ -109126,7 +109126,7 @@
 			(uuid "767cd6aa-4c19-4609-bba3-d314edbffd33")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR066")
 					(unit 1)
@@ -109193,7 +109193,7 @@
 			(uuid "686db02f-45e5-4ca1-8fec-5c4540951c23")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR091")
 					(unit 1)
@@ -109597,7 +109597,7 @@
 			(uuid "9f1d1731-90f0-4084-8df0-b2af731dfba1")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R22")
 					(unit 1)
@@ -109663,7 +109663,7 @@
 			(uuid "7795278c-9899-4593-8ecc-534906323365")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR057")
 					(unit 1)
@@ -109750,7 +109750,7 @@
 			(uuid "9bd166a9-8118-4258-b3c1-68849c44d03c")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C16")
 					(unit 1)
@@ -110001,7 +110001,7 @@
 			(uuid "f2f7feba-41e6-4be8-9349-0963f721b67a")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C55")
 					(unit 1)
@@ -110067,7 +110067,7 @@
 			(uuid "81135caf-0c32-494b-ba6c-56e179470a3d")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR099")
 					(unit 1)
@@ -110227,7 +110227,7 @@
 			(uuid "3bc7f5a5-e116-4d98-8597-dd1f4b9131d5")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C6")
 					(unit 1)
@@ -110470,7 +110470,7 @@
 			(uuid "76095832-541a-46a5-91df-c37f7249ce3c")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D12")
 					(unit 1)
@@ -110555,7 +110555,7 @@
 			(uuid "28f5db65-5934-416a-bd36-93b1ccadc8e4")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R31")
 					(unit 1)
@@ -110620,7 +110620,7 @@
 			(uuid "f0915697-e111-483c-a970-2de5eada573b")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR084")
 					(unit 1)
@@ -110760,7 +110760,7 @@
 			(uuid "a14d0246-1bf9-4398-845c-32d6517d2616")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_72")
 					(unit 1)
@@ -110929,7 +110929,7 @@
 			(uuid "b522f307-79aa-413b-9eeb-69b2065d3605")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR028")
 					(unit 1)
@@ -111077,7 +111077,7 @@
 			(uuid "8031c344-5154-4c3b-87ec-38ac529b5c40")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R5")
 					(unit 1)
@@ -111354,7 +111354,7 @@
 			(uuid "1704313c-a45e-467b-afd1-c463809dbbfb")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_75")
 					(unit 1)
@@ -111420,7 +111420,7 @@
 			(uuid "0e2ba361-2d80-4b48-8fde-d3ea000a0dff")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR026")
 					(unit 1)
@@ -111681,7 +111681,7 @@
 			(uuid "4245a9e2-1fec-4bcd-af3e-3ff2c93ed157")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C42")
 					(unit 1)
@@ -111915,7 +111915,7 @@
 			(uuid "77a0ce8b-442a-49ba-98d9-32f7d847c901")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_74")
 					(unit 1)
@@ -112018,7 +112018,7 @@
 			(uuid "e95f0323-8ba4-44fb-9dd8-93adec1aef22")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R35")
 					(unit 1)
@@ -112121,7 +112121,7 @@
 			(uuid "4844444e-5247-47f6-bc8a-3573169edfd8")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R54")
 					(unit 1)
@@ -112208,7 +112208,7 @@
 			(uuid "8bf072fd-5764-463b-ba8b-296302a3302a")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R60")
 					(unit 1)
@@ -112273,7 +112273,7 @@
 			(uuid "e26ac431-028d-459c-bf06-684e57989e97")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR040")
 					(unit 1)
@@ -112339,7 +112339,7 @@
 			(uuid "7c808721-2d62-4c14-b504-68e150f66bd8")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR067")
 					(unit 1)
@@ -112500,7 +112500,7 @@
 			(uuid "e56bf04f-c592-4d74-919c-71491b738d36")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D34")
 					(unit 1)
@@ -112603,7 +112603,7 @@
 			(uuid "dc7d50a7-586c-4a4d-b2df-ccdfb7b1636c")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C19")
 					(unit 1)
@@ -112846,7 +112846,7 @@
 			(uuid "4c72e6d7-3bec-4053-be68-315b227bd422")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D20")
 					(unit 1)
@@ -113003,7 +113003,7 @@
 			(uuid "1f866494-9d53-42a9-9c09-869407c46e3f")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R41")
 					(unit 1)
@@ -113069,7 +113069,7 @@
 			(uuid "6535df56-2165-49d7-bc7c-2da78420a19a")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR047")
 					(unit 1)
@@ -113238,7 +113238,7 @@
 			(uuid "02938bb0-c071-408e-b7b6-4d23b160ebe4")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R51")
 					(unit 1)
@@ -113387,7 +113387,7 @@
 			(uuid "d6108f8e-7ab3-42f0-8104-36430a58b452")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_81")
 					(unit 1)
@@ -113453,7 +113453,7 @@
 			(uuid "25d41d3e-8c0b-499b-9380-0bb2c861882f")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR073")
 					(unit 1)
@@ -113604,7 +113604,7 @@
 			(uuid "be75314c-088f-4f5a-9d29-6c68698c3528")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR077")
 					(unit 1)
@@ -113708,7 +113708,7 @@
 			(uuid "4e6c7e5f-c075-4498-9990-82987deeb9db")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C53")
 					(unit 1)
@@ -113795,7 +113795,7 @@
 			(uuid "86f59ca5-ec35-40fa-bec2-1f5f7c1b0bd3")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R59")
 					(unit 1)
@@ -114092,7 +114092,7 @@
 			(uuid "a5967d18-f17f-4939-bab5-8c4addc4ab90")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_83")
 					(unit 1)
@@ -114513,7 +114513,7 @@
 			(uuid "b5a32e0b-3746-475a-ba4b-237fd5ded971")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C56")
 					(unit 1)
@@ -114754,7 +114754,7 @@
 			(uuid "57fcf628-2c67-418c-8da8-5ef21bede3a8")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U14")
 					(unit 1)
@@ -114924,7 +114924,7 @@
 			(uuid "77909fd8-0722-42ee-8341-1a3cc5d0a5f5")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "L2")
 					(unit 1)
@@ -115186,7 +115186,7 @@
 			(uuid "9afe073e-b161-4637-8f59-19defcfc560f")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D23")
 					(unit 1)
@@ -115344,7 +115344,7 @@
 			(uuid "f3565c89-0ae4-4bda-9819-a942be9e67d1")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D13")
 					(unit 1)
@@ -115411,7 +115411,7 @@
 			(uuid "f089dd10-6c68-46a7-b8b3-e69a3f07bbfc")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR03")
 					(unit 1)
@@ -115477,7 +115477,7 @@
 			(uuid "ebaaa6bf-da3c-46d1-b29e-bf3d8aad9004")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0106")
 					(unit 1)
@@ -115821,7 +115821,7 @@
 			(uuid "55e88a13-0516-431b-9793-6e9ae62357c0")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C48")
 					(unit 1)
@@ -115917,7 +115917,7 @@
 			(uuid "81b20b9d-bdac-4f56-97f2-4f996693a8c7")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C24")
 					(unit 1)
@@ -116079,7 +116079,7 @@
 			(uuid "da88f89c-0116-4b32-9bd6-9e59a4202023")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C29")
 					(unit 1)
@@ -116182,7 +116182,7 @@
 			(uuid "77b5e254-86c2-43d1-b408-d17318d02f9f")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R33")
 					(unit 1)
@@ -116646,7 +116646,7 @@
 			(uuid "e3f27db9-4e7c-4a0b-8616-e64d49cb65f3")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C54")
 					(unit 1)
@@ -116884,7 +116884,7 @@
 			(uuid "d3397e4e-c703-48d8-b312-4d9139f55083")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR015")
 					(unit 1)
@@ -116988,7 +116988,7 @@
 			(uuid "f91bafdc-853b-428b-93e7-232b969d0bb2")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C46")
 					(unit 1)
@@ -117091,7 +117091,7 @@
 			(uuid "e64f759a-3b48-42cc-a32c-80801fdc57c0")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R39")
 					(unit 1)
@@ -117314,7 +117314,7 @@
 			(uuid "22b7f8ac-e154-424d-9c6c-349e410078d0")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C28")
 					(unit 1)
@@ -117670,7 +117670,7 @@
 			(uuid "2b30b1a3-ec75-447f-8b07-7af90bdce855")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR031")
 					(unit 1)
@@ -117886,7 +117886,7 @@
 			(uuid "cf89c5a8-3581-4e9e-b15b-df01a8e8e35e")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR068")
 					(unit 1)
@@ -118044,7 +118044,7 @@
 			(uuid "ac66ddae-fc23-42c8-b02a-2f52db306e7a")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D19")
 					(unit 1)
@@ -118358,7 +118358,7 @@
 			(uuid "37bcd74c-673b-4770-9f1a-843b1cc897d1")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U19")
 					(unit 1)
@@ -118663,7 +118663,7 @@
 			(uuid "cb0050b6-7f1f-4d95-b301-11c258919e90")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_84")
 					(unit 1)
@@ -118887,7 +118887,7 @@
 			(uuid "7cc935bd-16bf-4e83-be2f-0b0bc85b05dd")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D8")
 					(unit 1)
@@ -119183,7 +119183,7 @@
 			(uuid "02b2e83b-c310-48dc-8890-45b932da73a6")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J22")
 					(unit 1)
@@ -119543,7 +119543,7 @@
 			(uuid "d1d05077-7627-4985-a9c4-e0d8e180eb6a")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J13")
 					(unit 1)
@@ -119835,7 +119835,7 @@
 			(uuid "2287d6d4-668e-4a84-9c13-783d9099c65c")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C9")
 					(unit 1)
@@ -119993,7 +119993,7 @@
 			(uuid "bdc26db2-a736-4a7b-8d96-aaffdb319010")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D9")
 					(unit 1)
@@ -120182,7 +120182,7 @@
 			(uuid "c7d9d8ff-a7e4-4082-9056-a4a1cf01fe97")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C18")
 					(unit 1)
@@ -120314,7 +120314,7 @@
 			(uuid "09194e22-d128-4840-a938-7280efce929e")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR079")
 					(unit 1)
@@ -120561,7 +120561,7 @@
 			(uuid "a41f8d97-f6b6-4e07-bc9a-30a0585fd642")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J8")
 					(unit 1)
@@ -120924,7 +120924,7 @@
 			(uuid "488e7c14-4f7e-4a0c-8aee-2f046fc00cdc")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R57")
 					(unit 1)
@@ -121027,7 +121027,7 @@
 			(uuid "ea1eb58b-58ee-4463-8b2e-992e8612abf5")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R52")
 					(unit 1)
@@ -121093,7 +121093,7 @@
 			(uuid "29962551-4641-49d6-ab48-967e23d2fba5")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR021")
 					(unit 1)
@@ -121552,7 +121552,7 @@
 			(uuid "59a65ca0-ccb8-4566-baa5-5b9645a80961")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "JP1")
 					(unit 1)
@@ -121749,7 +121749,7 @@
 			(uuid "36fb84df-c07f-4624-938f-43061528df48")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0109")
 					(unit 1)
@@ -121815,7 +121815,7 @@
 			(uuid "cd325d8e-c29e-4ee8-8aac-a0f6ce18dfa6")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR016")
 					(unit 1)
@@ -121978,7 +121978,7 @@
 			(uuid "cb5676a4-fc16-4582-b63f-ba2a15927417")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "SJ3")
 					(unit 1)
@@ -122045,7 +122045,7 @@
 			(uuid "6c42f17b-5744-4025-b0c9-f4a5cf558dd2")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR085")
 					(unit 1)
@@ -122334,7 +122334,7 @@
 			(uuid "78f1ea2d-1ea1-4493-a58c-4fc2049902ef")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D1")
 					(unit 1)
@@ -122482,7 +122482,7 @@
 			(uuid "d33a14c5-0003-4494-9ce9-ba088de4280a")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R16")
 					(unit 1)
@@ -122548,7 +122548,7 @@
 			(uuid "170a43fd-fb72-4aae-b430-8965c3acf1cc")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR035")
 					(unit 1)
@@ -122651,7 +122651,7 @@
 			(uuid "cbaba334-d558-4721-a911-447d92779697")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C41")
 					(unit 1)
@@ -122934,7 +122934,7 @@
 			(uuid "47b33543-ee82-4250-8e5e-22f3c70364b3")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR090")
 					(unit 1)
@@ -123000,7 +123000,7 @@
 			(uuid "9bfbf443-c5d2-4690-82cc-43f5b7fdedff")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0107")
 					(unit 1)
@@ -123152,7 +123152,7 @@
 			(uuid "f560184b-3440-4124-860f-02b3acb0fec5")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D30")
 					(unit 1)
@@ -123237,7 +123237,7 @@
 			(uuid "707adf88-9723-431a-a14c-054567382115")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C68")
 					(unit 1)
@@ -123322,7 +123322,7 @@
 			(uuid "37b99aed-de21-4d62-95d4-41d92ffb764d")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C70")
 					(unit 1)
@@ -123470,7 +123470,7 @@
 			(uuid "7e7a0498-829c-4d87-a50e-63cb4c6e1c13")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "F3")
 					(unit 1)
@@ -123548,7 +123548,7 @@
 			(uuid "2050658a-fce1-4ae8-815a-1489f33e3be4")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "SJ4")
 					(unit 1)
@@ -123850,7 +123850,7 @@
 			(uuid "6b43f675-bf5a-4ce5-b0e8-86ee2defb730")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR060")
 					(unit 1)
@@ -124265,7 +124265,7 @@
 			(uuid "654e1145-2d17-4879-88ef-8835562a9849")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C4")
 					(unit 1)
@@ -124350,7 +124350,7 @@
 			(uuid "308e5fbd-2a58-4f27-bdbe-6f2e578c8887")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R29")
 					(unit 1)
@@ -124520,7 +124520,7 @@
 			(uuid "3fc62dec-6a91-43b0-adc7-d5701942a708")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C36")
 					(unit 1)
@@ -124670,7 +124670,7 @@
 			(uuid "fc00e381-f946-4aa7-9ae8-00b36dc78444")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C1")
 					(unit 1)
@@ -124812,7 +124812,7 @@
 			(uuid "a6ffa9f2-8003-49f7-a00b-12cd0f5396b9")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0102")
 					(unit 1)
@@ -125126,7 +125126,7 @@
 			(uuid "c76c13df-ccc7-4d85-a3bc-76ad315ac382")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR087")
 					(unit 1)
@@ -125457,7 +125457,7 @@
 			(uuid "91b61ff3-bf58-4620-9e68-042c5d79b66d")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R32")
 					(unit 1)
@@ -125713,7 +125713,7 @@
 			(uuid "519dad7d-9bc5-44ae-b8d7-0c942b4788cf")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R58")
 					(unit 1)
@@ -125927,7 +125927,7 @@
 			(uuid "b563c603-23e8-47ec-8ded-cfbd0475aa4e")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R17")
 					(unit 1)
@@ -125993,7 +125993,7 @@
 			(uuid "17090716-9b04-4b3c-9dff-ef4a5aefc34a")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR095")
 					(unit 1)
@@ -126193,7 +126193,7 @@
 			(uuid "88653271-439c-4def-8ddf-515d394f276b")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J15")
 					(unit 1)
@@ -126278,7 +126278,7 @@
 			(uuid "ec68b9d8-0f48-417b-9567-5f6491eff85c")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C14")
 					(unit 1)
@@ -126429,7 +126429,7 @@
 			(uuid "c703d9eb-3afa-43f1-9863-c9d3a9026a70")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C3")
 					(unit 1)
@@ -126494,7 +126494,7 @@
 			(uuid "a0c1cc7d-034e-4dfe-9941-8e76058915b1")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR054")
 					(unit 1)
@@ -126560,7 +126560,7 @@
 			(uuid "f3d1bc16-201a-4fb4-b6d2-76631ba23d8f")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR075")
 					(unit 1)
@@ -126708,7 +126708,7 @@
 			(uuid "84aa5084-ac58-4873-a294-c1dc8e0b0e81")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J4")
 					(unit 1)
@@ -126795,7 +126795,7 @@
 			(uuid "0714e0f6-daf6-4e97-8a73-da4ae38c06fa")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C21")
 					(unit 1)
@@ -126861,7 +126861,7 @@
 			(uuid "91a19236-1043-4ee5-bcfa-eeb2ec6e528b")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR086")
 					(unit 1)
@@ -127031,7 +127031,7 @@
 			(uuid "0e28ef7e-e8f7-4893-a419-55eeabdfc974")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C47")
 					(unit 1)
@@ -127189,7 +127189,7 @@
 			(uuid "1c70ddd7-4d58-4a0b-be27-604dd0903809")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D5")
 					(unit 1)
@@ -127461,7 +127461,7 @@
 			(uuid "85cbed5f-6636-4a6f-ab47-22c3bd03d674")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_76")
 					(unit 1)
@@ -127687,7 +127687,7 @@
 			(uuid "1f7a8361-db51-4872-bd2c-d566d31ded84")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R7")
 					(unit 1)
@@ -127790,7 +127790,7 @@
 			(uuid "129e3095-a7df-48e2-a9ce-96f39f0bd3cd")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R46")
 					(unit 1)
@@ -127856,7 +127856,7 @@
 			(uuid "edb7ae12-71c9-4e4b-a607-e207dd80685b")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR018")
 					(unit 1)
@@ -128166,7 +128166,7 @@
 			(uuid "0e610685-52a8-40f7-a952-68e4ce7dd7a8")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_69")
 					(unit 1)
@@ -128400,7 +128400,7 @@
 			(uuid "cd2c987e-0f9e-4ce9-889e-3ee8444bacb6")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C49")
 					(unit 1)
@@ -128551,7 +128551,7 @@
 			(uuid "23bf7c7f-5cc1-49c5-84e4-69c2387ac75a")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR029")
 					(unit 1)
@@ -128682,7 +128682,7 @@
 			(uuid "ddb8beb8-1276-4d82-8e29-e153a0ee2eb0")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR053")
 					(unit 1)
@@ -129136,7 +129136,7 @@
 			(uuid "e9931b09-45e7-415d-834c-7d41196c92e4")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR055")
 					(unit 1)
@@ -129201,7 +129201,7 @@
 			(uuid "6115187f-1da1-443a-ad2b-73e341ae410e")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR056")
 					(unit 1)
@@ -129341,7 +129341,7 @@
 			(uuid "625f0f79-70f2-4b28-9998-6008bf13c6f5")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_71")
 					(unit 1)
@@ -129437,7 +129437,7 @@
 			(uuid "7be343a6-7c47-4e5f-ad19-d51e5be7c522")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C15")
 					(unit 1)
@@ -129835,7 +129835,7 @@
 			(uuid "a33a417c-4168-40ce-8a97-5548049fb3f2")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Module2")
 					(unit 1)
@@ -129989,7 +129989,7 @@
 			(uuid "fb1594eb-51db-4271-90c4-806121bef84e")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D27")
 					(unit 1)
@@ -130074,7 +130074,7 @@
 			(uuid "f1a40226-822b-4e2f-9c99-a396277b43b6")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "L3")
 					(unit 1)
@@ -130268,7 +130268,7 @@
 			(uuid "0b5b8920-91c6-4a42-988a-609b3986a55f")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U7")
 					(unit 1)
@@ -130419,7 +130419,7 @@
 			(uuid "7bcf86ae-24d7-4acd-a9b1-57f7af2b18f3")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR020")
 					(unit 1)
@@ -130917,7 +130917,7 @@
 			(uuid "ea4bd2ab-ae4c-4999-ab93-0d01730c2ccd")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J17")
 					(unit 1)
@@ -131049,7 +131049,7 @@
 			(uuid "3958ff54-488d-4a93-973e-e85aa724ca14")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR049")
 					(unit 1)
@@ -131115,7 +131115,7 @@
 			(uuid "95e8f732-5819-460e-b54a-3ae50b750823")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR022")
 					(unit 1)
@@ -131200,7 +131200,7 @@
 			(uuid "b74d71e4-1cc7-4c71-b3d1-bb4de7d7d234")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R27")
 					(unit 1)
@@ -131480,7 +131480,7 @@
 			(uuid "e2ec9998-bf02-400f-978d-beb25ce559af")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R9")
 					(unit 1)
@@ -131612,7 +131612,7 @@
 			(uuid "4981c239-9da0-47df-84f9-cf7627517194")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0113")
 					(unit 1)
@@ -131677,7 +131677,7 @@
 			(uuid "b44577a3-394d-4ef0-be04-e96670786583")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR045")
 					(unit 1)
@@ -131766,7 +131766,7 @@
 			(uuid "6f5cb468-bb1d-481d-8a3e-130cdafe2fb9")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Q2")
 					(unit 1)
@@ -132299,7 +132299,7 @@
 			(uuid "6f270d87-9bfe-4aca-b511-7aca9d56c970")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR025")
 					(unit 1)
@@ -132439,7 +132439,7 @@
 			(uuid "5d1be5e4-13ef-44a4-a835-357b5fef9618")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_41")
 					(unit 1)
@@ -132588,7 +132588,7 @@
 			(uuid "4b4b9344-b549-4c7a-aeda-2081f17057f6")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_80")
 					(unit 1)
@@ -132694,7 +132694,7 @@
 			(uuid "57cb3d1e-73ca-4aba-a2e1-1b24664583e9")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U1")
 					(unit 1)
@@ -132926,7 +132926,7 @@
 			(uuid "8b20b112-3bd9-4cde-b126-8db781833adb")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C64")
 					(unit 1)
@@ -133172,7 +133172,7 @@
 			(uuid "13073794-63f1-4cfa-ab84-ac76fbd52e24")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R47")
 					(unit 1)
@@ -133460,7 +133460,7 @@
 			(uuid "8bf61a97-85b7-4265-9989-37da05239df3")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U15")
 					(unit 1)
@@ -133617,7 +133617,7 @@
 			(uuid "cf740cf7-9b07-417c-a801-d6597b715524")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "BT1")
 					(unit 1)
@@ -133943,7 +133943,7 @@
 			(uuid "29ae563f-748a-4c8f-8af5-5d50ba90319b")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "X1")
 					(unit 1)
@@ -134009,7 +134009,7 @@
 			(uuid "164d3568-4ca7-4ffb-b75c-a8ae6a15fb4f")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR092")
 					(unit 1)
@@ -134242,7 +134242,7 @@
 			(uuid "e5a99c09-8250-4c27-a054-bb3128bbb206")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R20")
 					(unit 1)
@@ -134390,7 +134390,7 @@
 			(uuid "bab43b51-bbba-43f9-be69-0fe2504eafb2")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R3")
 					(unit 1)
@@ -134578,7 +134578,7 @@
 			(uuid "cbf9a6af-2a03-42e5-ab04-c6e2d9e47613")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R50")
 					(unit 1)
@@ -134735,7 +134735,7 @@
 			(uuid "0330894d-2a3d-4972-8c96-2f33cd6ed894")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D4")
 					(unit 1)
@@ -134876,7 +134876,7 @@
 			(uuid "71a26602-9dbb-425f-bbae-80193640d6ac")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J12")
 					(unit 1)
@@ -135193,7 +135193,7 @@
 			(uuid "a0bd0d0f-06f8-48cb-805e-4adf307e0124")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C58")
 					(unit 1)
@@ -135298,7 +135298,7 @@
 			(uuid "c5a06969-c133-4add-ad1d-5d69dd9be9f4")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C43")
 					(unit 1)
@@ -135438,7 +135438,7 @@
 			(uuid "d11b197c-b9cd-4506-b40c-95ddc6d069d9")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_40")
 					(unit 1)
@@ -135586,7 +135586,7 @@
 			(uuid "2d3ad86d-f101-48dd-b704-de7e62dc6ec0")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R23")
 					(unit 1)
@@ -135744,7 +135744,7 @@
 			(uuid "af6293aa-cac3-4e4c-a507-bcefa16816e0")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D14")
 					(unit 1)
@@ -135847,7 +135847,7 @@
 			(uuid "bd0dac21-1ec0-446c-bd53-f257fc0dbd69")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C40")
 					(unit 1)
@@ -136146,7 +136146,7 @@
 			(uuid "c3b5ee67-5884-4c3a-adb0-5365f1ad9675")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "F1")
 					(unit 1)
@@ -136211,7 +136211,7 @@
 			(uuid "262cdb7a-f060-47bb-a032-049cf3a92055")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR062")
 					(unit 1)
@@ -136369,7 +136369,7 @@
 			(uuid "0cf81f16-9e28-4211-9ff3-c58c103152c3")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D16")
 					(unit 1)
@@ -136517,7 +136517,7 @@
 			(uuid "a0342e6a-acd7-432a-95cb-4af26269a76c")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R4")
 					(unit 1)
@@ -136677,7 +136677,7 @@
 			(uuid "ee1e1e06-90ae-432a-8953-374169e410b3")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C10")
 					(unit 1)
@@ -137024,7 +137024,7 @@
 			(uuid "614815b2-b945-40a9-9f11-72432a6b0400")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C52")
 					(unit 1)
@@ -137302,7 +137302,7 @@
 			(uuid "ccfbfe4d-793c-474a-8c7f-421e23bf3456")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J6")
 					(unit 1)
@@ -137460,7 +137460,7 @@
 			(uuid "7d5e9a61-098a-4107-9b6e-612288c8a6e9")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D17")
 					(unit 1)
@@ -137617,7 +137617,7 @@
 			(uuid "a2cf8c75-09ef-4c46-9678-16f3a5a88088")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D3")
 					(unit 1)
@@ -137683,7 +137683,7 @@
 			(uuid "9fc6ee94-5563-42b1-9624-6306e2019c68")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR078")
 					(unit 1)
@@ -137831,7 +137831,7 @@
 			(uuid "458849f1-ddbf-44f5-b2de-fe0dc6ff5345")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R13")
 					(unit 1)
@@ -137897,7 +137897,7 @@
 			(uuid "dc381e6a-1860-4d63-b0d2-a1838a8db8b9")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR083")
 					(unit 1)
@@ -137962,7 +137962,7 @@
 			(uuid "714edf52-9458-4ccb-94b3-d10ae0c25a04")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR034")
 					(unit 1)
@@ -138027,7 +138027,7 @@
 			(uuid "80484125-745a-4bc3-a322-2e7e8f123914")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR043")
 					(unit 1)
@@ -138093,7 +138093,7 @@
 			(uuid "4b830c60-8567-4247-88d8-8af72073e7e8")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR024")
 					(unit 1)
@@ -138245,7 +138245,7 @@
 			(uuid "d3b52454-0c26-4e73-b0b4-588c0c113b94")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "JP13")
 					(unit 1)
@@ -138348,7 +138348,7 @@
 			(uuid "48388e2b-47c7-413d-b24d-8c5a3676e0de")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R49")
 					(unit 1)
@@ -138517,7 +138517,7 @@
 			(uuid "2fb536c6-7e4f-4eea-a26e-5fb52d770abe")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R37")
 					(unit 1)
@@ -138649,7 +138649,7 @@
 			(uuid "de5f23b6-16dc-4b7f-9b7f-ac0b427282c2")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0100")
 					(unit 1)
@@ -138789,7 +138789,7 @@
 			(uuid "f9b4f8ea-8192-4598-93fa-7d3d332a8117")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_77")
 					(unit 1)
@@ -138855,7 +138855,7 @@
 			(uuid "42f41f4e-8bc5-4e65-b84b-04a461eb0b03")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR032")
 					(unit 1)
@@ -139006,7 +139006,7 @@
 			(uuid "931c1f60-c3a0-41e9-a9a2-2738888903f9")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR096")
 					(unit 1)
@@ -139175,7 +139175,7 @@
 			(uuid "9e1cee54-8c01-4ed3-b0dc-25bf02060990")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0124")
 					(unit 1)
@@ -139401,7 +139401,7 @@
 			(uuid "2af55899-673e-4b24-b1d9-1227a02a9b6e")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C8")
 					(unit 1)
@@ -139466,7 +139466,7 @@
 			(uuid "a017ac10-45d1-4b8b-bda6-89e383598107")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR038")
 					(unit 1)
@@ -139711,7 +139711,7 @@
 			(uuid "9e023f6a-5e3e-4b2c-98ca-f61bf83375cd")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR072")
 					(unit 1)
@@ -139816,7 +139816,7 @@
 			(uuid "e3422c5f-4169-4d45-ae21-3191543c8ef0")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C44")
 					(unit 1)
@@ -140033,7 +140033,7 @@
 			(uuid "47e8525e-258a-481b-b9a4-aeaa2c72a925")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR02")
 					(unit 1)
@@ -140184,7 +140184,7 @@
 			(uuid "2c43ea46-a286-4def-a400-d99da11fbb64")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C2")
 					(unit 1)
@@ -140435,7 +140435,7 @@
 			(uuid "8140d415-020b-4fd4-bbd4-399614a62243")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C63")
 					(unit 1)
@@ -140708,7 +140708,7 @@
 			(uuid "c1325b43-a162-4851-86b3-4edf7ca6ce94")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U10")
 					(unit 1)
@@ -141085,7 +141085,7 @@
 			(uuid "ed117fc5-1511-49d5-884b-af312f30f919")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U18")
 					(unit 1)
@@ -141247,7 +141247,7 @@
 			(uuid "02b8f2ac-9d9f-44b9-894e-1619a80a5393")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J7")
 					(unit 1)
@@ -141313,7 +141313,7 @@
 			(uuid "55538f2b-4aa8-4f75-a990-e32375129c01")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0104")
 					(unit 1)
@@ -141471,7 +141471,7 @@
 			(uuid "46c2e38b-0a10-4310-b4b2-5970aa004193")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D10")
 					(unit 1)
@@ -141706,7 +141706,7 @@
 			(uuid "f9ffe802-5e79-4c74-8717-faea0019e6be")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0112")
 					(unit 1)
@@ -142447,7 +142447,7 @@
 			(uuid "9e7b3716-0e04-4a1f-89a4-39f9985364b6")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D15")
 					(unit 1)
@@ -142607,7 +142607,7 @@
 			(uuid "699d5054-a768-43b0-82fe-264791657b4d")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C7")
 					(unit 1)
@@ -142673,7 +142673,7 @@
 			(uuid "a9b92354-9fe7-4078-b068-7c134a4c69ee")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR069")
 					(unit 1)
@@ -142739,7 +142739,7 @@
 			(uuid "32e94306-a8d5-4f39-b8de-22ce92777839")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0105")
 					(unit 1)
@@ -143048,7 +143048,7 @@
 			(uuid "17545cec-eabf-4ca7-9999-631299b3d701")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R12")
 					(unit 1)
@@ -143151,7 +143151,7 @@
 			(uuid "3172399c-07c8-418d-88b8-a900bdb7307f")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R56")
 					(unit 1)
@@ -143217,7 +143217,7 @@
 			(uuid "9d68db81-6b0a-483d-bf53-4e878bcbe23d")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR076")
 					(unit 1)
@@ -143349,7 +143349,7 @@
 			(uuid "c9d1c427-ded1-438c-999c-fca284d55795")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR098")
 					(unit 1)
@@ -143621,7 +143621,7 @@
 			(uuid "fc868257-91b3-4526-8425-ae86892308b4")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_78")
 					(unit 1)
@@ -143864,7 +143864,7 @@
 			(uuid "9ced2537-017e-4ead-a856-6fbcc8c80c1e")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U13")
 					(unit 1)
@@ -143929,7 +143929,7 @@
 			(uuid "9983562a-4a55-4ce5-a246-b422a6b4e8fd")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR01")
 					(unit 1)
@@ -144034,7 +144034,7 @@
 			(uuid "a2244243-1cfb-48af-8bcf-122cc5c84a4e")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C38")
 					(unit 1)
@@ -144289,7 +144289,7 @@
 			(uuid "8afbe1a4-2be4-4011-96fa-d3e526868b12")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "L5")
 					(unit 1)
@@ -144355,7 +144355,7 @@
 			(uuid "3da2f1b4-c380-41fa-b21a-e58fb292b74c")
 		)
 		(instances
-			(project ""
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR010")
 					(unit 1)
@@ -144458,7 +144458,7 @@
 			(uuid "6cdd3e4f-6d7e-42a4-aa8a-dfd39301d611")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R38")
 					(unit 1)
@@ -144627,7 +144627,7 @@
 			(uuid "6b4d5364-cdb9-4b66-9413-483baa083736")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R44")
 					(unit 1)
@@ -144730,7 +144730,7 @@
 			(uuid "66a441d5-c173-4877-8cf9-82218cccc810")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C50")
 					(unit 1)
@@ -144834,7 +144834,7 @@
 			(uuid "fdd359ef-16bc-48c6-917e-adba40c0c45c")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C39")
 					(unit 1)
@@ -144900,7 +144900,7 @@
 			(uuid "8babe845-351d-455b-938d-f1feff853850")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR013")
 					(unit 1)
@@ -145599,7 +145599,7 @@
 			(uuid "c23dcaf8-df67-4c7e-bcde-078e53b7c2a7")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R6")
 					(unit 1)
@@ -145815,7 +145815,7 @@
 			(uuid "22f2cf4a-6a1a-4073-8144-87b1840ae256")
 		)
 		(instances
-			(project "keyboard-cyberdeck"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR061")
 					(unit 1)
@@ -146051,7 +146051,7 @@
 			(uuid "79df944c-5620-4e05-ac06-2ea4885886f2")
 		)
 		(instances
-			(project "keyboard-usb"
+			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR027")
 					(unit 1)
