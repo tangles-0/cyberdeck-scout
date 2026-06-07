@@ -1,3 +1,9 @@
+/* 
+
+just a lil temp thing to get the power button working on my broken prototype
+
+*/
+
 #include <avr/interrupt.h>
 #include <avr/power.h>
 #include <avr/sleep.h>
