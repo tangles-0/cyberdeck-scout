@@ -176697,7 +176697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LibraryGlobalFootprints:AFC01-S05FCA-00_1x05_P0.5mm_FFC_Bottom_Contact"
+		(property "Footprint" "LibraryGlobalFootprints:AFC07-S05ECA-00"
 			(at 52.07 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -176730,7 +176730,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5213747"
+		(property "LCSC" "C262578"
 			(at 52.07 242.57 0)
 			(hide yes)
 			(show_name no)
