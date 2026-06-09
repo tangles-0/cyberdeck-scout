@@ -1,0 +1,352 @@
+(footprint "40 pin RGB touch display driver placeholder footprint"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "HDMI + Touch USB-C 40-pin RGB Display Driver"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fc03126c-ce0f-42cc-9fef-97b9448ac9a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "40 pin RGB touch display driver placeholder footprint"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4800a3e1-6028-4df9-aaa9-258b08c13edc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c882d050-f940-4b20-9c27-aefd6832e7bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2db9521-5cec-48ba-a151-275f7f2cd8b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -23 14.7)
+		(end -23 22)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c218ff48-f9f7-4cc9-abec-09e8ac804de5")
+	)
+	(fp_line
+		(start -23 21.8)
+		(end -14.06 21.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "009dbf9e-e435-4313-aa8f-db327e45608f")
+	)
+	(fp_line
+		(start -17 -23)
+		(end 6.5 -23)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f465543e-b560-4300-b977-8e79c285c3d8")
+	)
+	(fp_line
+		(start -17 -20)
+		(end -17 -23)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0446a427-9e05-496a-ae75-638d1306a2e8")
+	)
+	(fp_line
+		(start -14.06 14.7)
+		(end -14.06 22)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "419ef90f-1235-4d99-8d4a-430e5db0d545")
+	)
+	(fp_line
+		(start -6.7 22)
+		(end -6.7 20.42)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "957c8346-bad1-4e47-950f-4b72fdc71278")
+	)
+	(fp_line
+		(start 4.5 21.8)
+		(end -6.7 21.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8eebd04c-c1de-4bbf-91b3-b67b33cfa5a4")
+	)
+	(fp_line
+		(start 4.5 22)
+		(end 4.5 20.42)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab931154-415d-49c1-98e0-741d9df8e59f")
+	)
+	(fp_line
+		(start 6.5 -23)
+		(end 6.5 -20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a21901b-03e7-4fff-ad9c-6a7d30e54377")
+	)
+	(fp_line
+		(start 19.5 -21)
+		(end 26.5 -21)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75ca50a3-cc1f-4ff5-a18a-4ebac76b28cc")
+	)
+	(fp_line
+		(start 19.5 -18)
+		(end 19.5 -21)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ab8e608-9299-4bc1-89df-ff2ef0d657d8")
+	)
+	(fp_line
+		(start 26.5 -21)
+		(end 26.5 -18)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d135ad7-3e79-43d9-91a6-5990cdf3997d")
+	)
+	(fp_rect
+		(start -29 -24)
+		(end 31 22)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ad306fc2-41b6-4fe4-a19c-c90c834bdac3")
+	)
+	(fp_circle
+		(center -27 -22)
+		(end -25.3 -22)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4581ae13-fe2f-471a-82e8-9b45814699c8")
+	)
+	(fp_circle
+		(center -27 20)
+		(end -25.3 20)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fbac7bf2-e049-4f0a-bbeb-f8bcb6a115d8")
+	)
+	(fp_circle
+		(center 29 -22)
+		(end 30.7 -22)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8bf816aa-df29-4dca-81d3-528597eb9b8b")
+	)
+	(fp_circle
+		(center 29 20)
+		(end 30.7 20)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "071854d2-c544-4b40-8722-b8f1164bc309")
+	)
+	(fp_circle
+		(center -27 -22)
+		(end -28.5 -22)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ec6e8747-3071-4294-b430-b967a3baaa6c")
+	)
+	(fp_circle
+		(center -27 20)
+		(end -28.5 20)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "6f134659-cc76-4c57-8ddd-bc21062a713a")
+	)
+	(fp_circle
+		(center 29 -22)
+		(end 27.5 -22)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ade0c686-40a6-42a8-84a8-c1e252d6656b")
+	)
+	(fp_circle
+		(center 29 20)
+		(end 27.5 20)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "81181c87-c1ec-446f-8e41-7cdba86dbf28")
+	)
+	(fp_text user "TOUCH"
+		(at 20.4 -18.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "15e592a3-3a47-4aa9-b7d9-d01f0ae21c46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "40-PIN RGB TTL"
+		(at -11.6 -20.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1d99c64a-e45b-4809-a4fe-3134da518654")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "HDMI TYPE-C"
+		(at -6.2 21.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c9d511c7-a384-43fa-953c-4544d9fd2d04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "USB-C"
+		(at -21.2 21.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cc1d6ff6-6786-40fb-851e-30dc4af83f2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "35cb0edc-bd65-4fab-946e-2128c413302a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "C:/Users/timea/My Drive/mPC/kicad/display-dummy/display-dummy/display-dummy.step"
+		(offset
+			(xyz -129 74 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

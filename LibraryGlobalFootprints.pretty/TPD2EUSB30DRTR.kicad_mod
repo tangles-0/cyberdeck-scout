@@ -1,0 +1,231 @@
+(footprint "TPD2EUSB30DRTR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.832 -1.3064 0)
+		(layer "F.SilkS")
+		(uuid "d6be9ff5-9702-4b93-b399-328eb9657238")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPD2EUSB30DRTR"
+		(at 5.6088 1.3064 0)
+		(layer "F.Fab")
+		(uuid "97b82eba-af45-4bc8-b51d-159298ffb757")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b2f294b-bcc2-43cc-93de-a93ab0f5e720")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "984ec8a0-6aa3-4127-858b-5fb3b0443a5c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.03 -0.5)
+		(end 0.4 -0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c39f119-da69-4688-88ca-0ada8491b2e2")
+	)
+	(fp_line
+		(start 0.03 0.5)
+		(end 0.4 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc4ef68e-d912-4f78-b860-6193635875d6")
+	)
+	(fp_line
+		(start 0.4 -0.42)
+		(end 0.4 -0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eceda50e-12c2-4153-adf4-38b595be1b8d")
+	)
+	(fp_line
+		(start 0.4 0.42)
+		(end 0.4 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f649c350-1e73-48f5-9cb2-472b00b3f5c6")
+	)
+	(fp_circle
+		(center -1.25 -0.55)
+		(end -1.15 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b328c568-4940-4519-9fd4-728da1a324cb")
+	)
+	(fp_line
+		(start -1 -0.75)
+		(end 1 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "290dc136-fd1f-44ce-8fda-a5af418f9cf4")
+	)
+	(fp_line
+		(start -1 0.75)
+		(end -1 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bcec72a7-61b3-4063-8738-d4f399e027be")
+	)
+	(fp_line
+		(start 1 -0.75)
+		(end 1 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9022eb0-5085-48c9-95f1-b1cd7682393a")
+	)
+	(fp_line
+		(start 1 0.75)
+		(end -1 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bc20952b-c2a5-46be-be69-aafe90129bde")
+	)
+	(fp_line
+		(start -0.4 -0.5)
+		(end 0.4 -0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f317046e-593a-48e8-a471-a023ba8102a6")
+	)
+	(fp_line
+		(start -0.4 0.5)
+		(end -0.4 -0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f0e1407-eb93-46ed-8101-b55a34c0b221")
+	)
+	(fp_line
+		(start 0.4 -0.5)
+		(end 0.4 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e03380bd-0178-4c5e-9ddc-ac2de07b50fe")
+	)
+	(fp_line
+		(start 0.4 0.5)
+		(end -0.4 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99df5945-6ba8-4288-b85b-6d8e948450fd")
+	)
+	(fp_circle
+		(center -1.25 -0.55)
+		(end -1.15 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f633ed7e-8cdf-42fc-9aff-eb81b1bc1d7a")
+	)
+	(pad "1" smd roundrect
+		(at -0.52 -0.35)
+		(size 0.46 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "4c3c634d-8a0c-42cd-9677-f201f1c0281e")
+	)
+	(pad "2" smd roundrect
+		(at -0.52 0.35)
+		(size 0.46 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "3c231f24-5ef2-488e-9e88-61f3c2acc77b")
+	)
+	(pad "3" smd roundrect
+		(at 0.52 0)
+		(size 0.46 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "b699a125-3cb6-4009-8ab7-6c2659468cb6")
+	)
+	(embedded_fonts no)
+	(model "G:/My Drive/mPC/kicad/models/TPD2EUSB30DRTR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

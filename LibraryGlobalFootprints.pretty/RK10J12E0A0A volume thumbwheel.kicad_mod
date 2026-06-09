@@ -1,0 +1,297 @@
+(footprint "RK10J12E0A0A volume thumbwheel"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RK10J12E0A0A-1 volume variable resistor thumbwheel rotary potentiometer")
+	(tags "Variable Resistor Potentiometer")
+	(property "Reference" "VR**"
+		(at 4 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "b0f7e458-47d1-4fe2-a237-aa1c5397bf43")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RK10J12E0A0A volume thumbwheel"
+		(at 4 -6.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8cdd1891-271f-43b3-bfba-d38ac576ac3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://au.mouser.com/datasheet/2/15/RKJ1-1370680.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9c83313-bdbe-4e7f-97e4-26805ad6b2b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Potentiometers Dual Unit 10mm,15A insertion (2mm)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3dbaa62-82bf-4049-a8ee-9dba6a05198d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2 -3.8)
+		(end -2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7008f54e-fc1f-47d4-b431-3bf785ea439d")
+	)
+	(fp_line
+		(start 9.35 0)
+		(end 9.35 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dff5bb76-9e90-4525-9e8c-457269467a2e")
+	)
+	(fp_line
+		(start 9.45 -3)
+		(end 11.15 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "41759759-3307-4a7c-b1e3-06a021a5d795")
+	)
+	(fp_line
+		(start 11.15 -5.3)
+		(end 10.65 -5.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4017f2c2-92a0-46d1-8f5f-1ada6ff96daf")
+	)
+	(fp_line
+		(start 11.15 -3)
+		(end 11.15 -5.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "41095a6f-4557-4198-a68b-210805296355")
+	)
+	(fp_arc
+		(start -3 -7.5)
+		(mid 4 -14.5)
+		(end 11 -7.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ad14a81-615c-426e-aaa5-3812db060d76")
+	)
+	(fp_arc
+		(start 11 -7.5)
+		(mid 4 -0.5)
+		(end -3 -7.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b344b36a-1fa9-4f96-a098-8534f5c4e14d")
+	)
+	(fp_line
+		(start -3.4 -14.5)
+		(end 11.4 -14.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13e258b9-fdfd-40ce-9614-84114b5ab5f8")
+	)
+	(fp_line
+		(start -3.4 1.25)
+		(end -3.4 -14.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e9d4055-e0dc-4c53-8523-08b72e7042ec")
+	)
+	(fp_line
+		(start 11.4 -14.5)
+		(end 11.4 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8af4a74a-9c4a-497c-ad5b-4743bec05118")
+	)
+	(fp_line
+		(start 11.4 1.25)
+		(end -3.4 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "28e0ab28-5a9f-4fca-81ac-902566bf60e8")
+	)
+	(fp_line
+		(start -3 -7.5)
+		(end -3 -7.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86ed5570-75c1-47d6-b5d1-ebdbe96381dc")
+	)
+	(fp_line
+		(start -2 -3.8)
+		(end -2 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03d37bf0-02e9-4ef7-b487-926d30fe8f80")
+	)
+	(fp_line
+		(start -2 0)
+		(end 9.35 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a701dc3-525c-45fb-a94b-811fc72eec69")
+	)
+	(fp_line
+		(start 9.35 0)
+		(end 9.35 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d78193b-ee8f-4f84-aa9e-5ce4cf46b253")
+	)
+	(fp_line
+		(start 11 -7.5)
+		(end 11 -7.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "190aa4a6-c75b-4549-8b5c-622773ee0ae4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4 -6.8 0)
+		(layer "F.Fab")
+		(uuid "862818fd-d96a-4fc9-9115-377554f650e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b211d65-fcf6-4cdc-b4d1-bf20e5b5b09a")
+	)
+	(pad "2" thru_hole circle
+		(at 2 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "062ca4ef-9b53-42a0-9d1a-249790b5cc69")
+	)
+	(pad "3" thru_hole circle
+		(at 4 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f3602793-10ea-45a2-85d5-ff4b327d86a7")
+	)
+	(pad "4" thru_hole circle
+		(at 6 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "088a92bc-935a-4523-8655-bce09e220edc")
+	)
+	(pad "5" thru_hole circle
+		(at 8 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e8d81f8e-cea9-4b9f-ab93-2c9ae6a28deb")
+	)
+	(pad "GND" thru_hole circle
+		(at -1 -10)
+		(size 2.419 2.419)
+		(drill 1.6125)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d01e7f82-d613-451b-abee-2c5fa6e30386")
+	)
+	(pad "GND" thru_hole circle
+		(at 9 -10)
+		(size 2.419 2.419)
+		(drill 1.6125)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c6c9c50c-e6f1-4b4b-828f-54a5217f009f")
+	)
+	(embedded_fonts no)
+	(model "G:/My Drive/mPC/kicad/models/thumbwheel/thumbwheel14mm.stp"
+		(offset
+			(xyz 4 9 -1.5)
+		)
+		(scale
+			(xyz 1.3 1.3 1.3)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

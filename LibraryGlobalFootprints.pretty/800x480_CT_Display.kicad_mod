@@ -1,0 +1,115 @@
+(footprint "800x480_CT_Display"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "placeholder for 106x67mm 800x480 display")
+	(property "Reference" "REF**"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c563c19f-c468-4ee1-a101-cda1c15f19fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "800x480_CT_Display"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4e43204c-6b0d-4167-bb0e-a4d67d3a8f1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a405747e-bcc3-4f9e-b74d-ece09af13990")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ef2c72a-d558-433c-97c6-524c837962fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -15.15 37.35)
+		(end -34.65 80)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eb7f4c90-6fc3-457a-92c4-232b79934e9f")
+	)
+	(fp_rect
+		(start -15.15 76.9)
+		(end -34.65 80)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fd343095-a362-41cd-b238-e03cae18fe12")
+	)
+	(fp_rect
+		(start 23.95 33.5)
+		(end -15.15 55.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e0736664-bab2-4497-be5f-6b559581c2cc")
+	)
+	(fp_rect
+		(start 53 -33.5)
+		(end -53 33.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "80aba19c-4914-4987-a4c1-210c17d95a99")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a4506120-ee5a-4c5f-88ce-657133ece806")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
