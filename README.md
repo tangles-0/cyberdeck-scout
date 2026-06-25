@@ -5,16 +5,21 @@
 Repository contents:
 
 - PCB design files
-  - `/pcb-deck` current working PCB design file
-  - `/pcb-deck-r1` prototype 1 production
-  - `/pcb-deck-r1-fixed` same as prototype 1 with issues addressed
+  - `/PCB/cyberdeck` current working PCB design file
+  - `/PCB/cyberdeck-r1|r2 etc` snapshot of files sent for production
 - USB PD sink EEPROM flash
-  - `/charger-firmware-ti` EEPROM images for the TPS25751
+  - `/Firmware/TPS25751` EEPROM images for the TPS25751 PD front-end
 - Gamepad / mouse firmware
-  - `/gamepad` RP2040 mbed sketch for the gamepad. reports HID Mouse and HID Gamepad to the host
+  - `/Firmware/gamepad-touch` RP2040 mbed sketch for the gamepad. reports HID Mouse, HID Gamepad, HID Touch Interface, and HID Battery to the host
 - Keyboard firmware
-  - `/qmk/` drop this into your `qmk_firmware` folder and run `qmk flash -kb rii/518bt -km default` to flash the keyboard
-- Bring-up / test / QA jig PCB files (TBA) and firmware
-  - `/esp32-bringup-jig-and-monitor` 
+  - `/Firmware/qmk/` drop this into your `qmk_firmware` folder and run `qmk flash -kb rii/518bt -km default` to flash the keyboard
+- Bring-up / test / QA jig (PCB files TBA) and firmware
+  - `/Firmware/esp32-bringup` 
 - 3D casing design files
-  - `/3D-casing-designs`
+  - `/Casing CAD`
+- Datasheets
+  - `/Datasheets` for the major components used
+- Display Overlays
+  - `/Display Overlays` overlays for the DSI display used in testing
+- Software
+  - `/Software` will be used if any custom software is written
