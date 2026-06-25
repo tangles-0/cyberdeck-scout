@@ -1,0 +1,4123 @@
+
+/home/tangles/.cache/arduino/sketches/DB76EFB9AB4999AFBD086A0D43C9450A/tiny404.ino.elf:     file format elf32-avr
+
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+__vectors():
+../../../../../crt1/gcrt1.S:63
+   0:	1a c0       	rjmp	.+52     	; 0x36 <__ctors_end>
+../../../../../crt1/gcrt1.S:67
+   2:	4a c0       	rjmp	.+148    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:68
+   4:	49 c0       	rjmp	.+146    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:69
+   6:	48 c0       	rjmp	.+144    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:70
+   8:	47 c0       	rjmp	.+142    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:71
+   a:	46 c0       	rjmp	.+140    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:72
+   c:	45 c0       	rjmp	.+138    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:73
+   e:	44 c0       	rjmp	.+136    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:74
+  10:	43 c0       	rjmp	.+134    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:75
+  12:	70 c3       	rjmp	.+1760   	; 0x6f4 <__vector_9>
+../../../../../crt1/gcrt1.S:76
+  14:	41 c0       	rjmp	.+130    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:77
+  16:	40 c0       	rjmp	.+128    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:78
+  18:	3f c0       	rjmp	.+126    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:79
+  1a:	3e c0       	rjmp	.+124    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:80
+  1c:	3d c0       	rjmp	.+122    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:81
+  1e:	3c c0       	rjmp	.+120    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:82
+  20:	3b c0       	rjmp	.+118    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:83
+  22:	3a c0       	rjmp	.+116    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:84
+  24:	39 c0       	rjmp	.+114    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:85
+  26:	95 c3       	rjmp	.+1834   	; 0x752 <__vector_19>
+../../../../../crt1/gcrt1.S:86
+  28:	37 c0       	rjmp	.+110    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:87
+  2a:	36 c0       	rjmp	.+108    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:88
+  2c:	35 c0       	rjmp	.+106    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:89
+  2e:	34 c0       	rjmp	.+104    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:90
+  30:	33 c0       	rjmp	.+102    	; 0x98 <__bad_interrupt>
+../../../../../crt1/gcrt1.S:91
+  32:	32 c0       	rjmp	.+100    	; 0x98 <__bad_interrupt>
+
+00000034 <__ctors_start>:
+__trampolines_start():
+  34:	6f 07       	cpc	r22, r31
+
+00000036 <__ctors_end>:
+__dtors_end():
+../../../../../crt1/gcrt1.S:230
+  36:	11 24       	eor	r1, r1
+../../../../../crt1/gcrt1.S:231
+  38:	1f be       	out	0x3f, r1	; 63
+../../../../../crt1/gcrt1.S:232
+  3a:	cf ef       	ldi	r28, 0xFF	; 255
+../../../../../crt1/gcrt1.S:234
+  3c:	cd bf       	out	0x3d, r28	; 61
+../../../../../crt1/gcrt1.S:236
+  3e:	df e3       	ldi	r29, 0x3F	; 63
+../../../../../crt1/gcrt1.S:237
+  40:	de bf       	out	0x3e, r29	; 62
+
+00000042 <_initThreeStuff()>:
+_Z15_initThreeStuffv():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:104
+
+  /* Minimum: Reset if we wound up here through malfunction - this relies on user clearing the  *
+   * register on startup, which is rarely done in Arduino land.                                 */
+  void __attribute__((weak)) init_reset_flags() ;
+  void __attribute__((weak)) init_reset_flags() {
+    uint8_t flags = RSTCTRL.RSTFR;
+  42:	80 91 40 00 	lds	r24, 0x0040	; 0x800040 <digital_pin_to_bit_mask+0x7f70f6>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:105
+    RSTCTRL.RSTFR = flags;
+  46:	80 93 40 00 	sts	0x0040, r24	; 0x800040 <digital_pin_to_bit_mask+0x7f70f6>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:106
+    if (flags == 0) {
+  4a:	81 11       	cpse	r24, r1
+  4c:	05 c0       	rjmp	.+10     	; 0x58 <_initThreeStuff()+0x16>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:107
+      _PROTECTED_WRITE(RSTCTRL.SWRR, 1);
+  4e:	98 ed       	ldi	r25, 0xD8	; 216
+  50:	21 e0       	ldi	r18, 0x01	; 1
+  52:	94 bf       	out	0x34, r25	; 52
+  54:	20 93 41 00 	sts	0x0041, r18	; 0x800041 <digital_pin_to_bit_mask+0x7f70f7>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:109
+    }
+    GPIOR0 = flags;
+  58:	8c bb       	out	0x1c, r24	; 28
+
+0000005a <__do_copy_data>:
+__do_copy_data():
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2409
+  5a:	1f e3       	ldi	r17, 0x3F	; 63
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2410
+  5c:	a0 e0       	ldi	r26, 0x00	; 0
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2411
+  5e:	bf e3       	ldi	r27, 0x3F	; 63
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2412
+  60:	e6 e5       	ldi	r30, 0x56	; 86
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2413
+  62:	ff e0       	ldi	r31, 0x0F	; 15
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2414
+  64:	02 c0       	rjmp	.+4      	; 0x6a <__do_copy_data+0x10>
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2417
+  66:	05 90       	lpm	r0, Z+
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2422
+  68:	0d 92       	st	X+, r0
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2424
+  6a:	a4 30       	cpi	r26, 0x04	; 4
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2425
+  6c:	b1 07       	cpc	r27, r17
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2426
+  6e:	d9 f7       	brne	.-10     	; 0x66 <__do_copy_data+0xc>
+
+00000070 <__do_clear_bss>:
+__do_clear_bss():
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+  70:	2f e3       	ldi	r18, 0x3F	; 63
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2442
+  72:	a4 e0       	ldi	r26, 0x04	; 4
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2443
+  74:	bf e3       	ldi	r27, 0x3F	; 63
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2444
+  76:	01 c0       	rjmp	.+2      	; 0x7a <.do_clear_bss_start>
+
+00000078 <.do_clear_bss_loop>:
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+  78:	1d 92       	st	X+, r1
+
+0000007a <.do_clear_bss_start>:
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+  7a:	a0 37       	cpi	r26, 0x70	; 112
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2449
+  7c:	b2 07       	cpc	r27, r18
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2450
+  7e:	e1 f7       	brne	.-8      	; 0x78 <.do_clear_bss_loop>
+
+00000080 <__do_global_ctors>:
+__do_global_ctors():
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2466
+  80:	10 e0       	ldi	r17, 0x00	; 0
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2467
+  82:	cb e1       	ldi	r28, 0x1B	; 27
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2468
+  84:	d0 e0       	ldi	r29, 0x00	; 0
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2472
+  86:	03 c0       	rjmp	.+6      	; 0x8e <__do_global_ctors+0xe>
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2474
+  88:	21 97       	sbiw	r28, 0x01	; 1
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2480
+  8a:	fe 01       	movw	r30, r28
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2481
+  8c:	41 d7       	rcall	.+3714   	; 0xf10 <__tablejump2__>
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2483
+  8e:	ca 31       	cpi	r28, 0x1A	; 26
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2484
+  90:	d1 07       	cpc	r29, r17
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2489
+  92:	d1 f7       	brne	.-12     	; 0x88 <__do_global_ctors+0x8>
+../../../../../crt1/gcrt1.S:314
+  94:	04 d4       	rcall	.+2056   	; 0x89e <main>
+../../../../../crt1/gcrt1.S:315
+  96:	42 c7       	rjmp	.+3716   	; 0xf1c <_exit>
+
+00000098 <__bad_interrupt>:
+__vector_22():
+../../../../../crt1/gcrt1.S:209
+  98:	b3 cf       	rjmp	.-154    	; 0x0 <__vectors>
+
+0000009a <TwoWire::end() [clone .constprop.17]>:
+_ZN7TwoWire3endEv.constprop.17():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:482
+ *@param      void
+ *
+ *@return     void
+ */
+void TwoWire::endMaster(void) {
+  if (_bools._hostEnabled) {
+  9a:	80 91 46 3f 	lds	r24, 0x3F46	; 0x803f46 <Wire+0xb>
+  9e:	81 ff       	sbrs	r24, 1
+  a0:	0f c0       	rjmp	.+30     	; 0xc0 <TwoWire::end() [clone .constprop.17]+0x26>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:483
+    _module->MCTRLA = 0x00;
+  a2:	e0 91 43 3f 	lds	r30, 0x3F43	; 0x803f43 <Wire+0x8>
+  a6:	f0 91 44 3f 	lds	r31, 0x3F44	; 0x803f44 <Wire+0x9>
+  aa:	13 82       	std	Z+3, r1	; 0x03
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:484
+    _module->MBAUD  = 0x00;
+  ac:	e0 91 43 3f 	lds	r30, 0x3F43	; 0x803f43 <Wire+0x8>
+  b0:	f0 91 44 3f 	lds	r31, 0x3F44	; 0x803f44 <Wire+0x9>
+  b4:	16 82       	std	Z+6, r1	; 0x06
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:485
+    _bools._hostEnabled  = 0x00;
+  b6:	80 91 46 3f 	lds	r24, 0x3F46	; 0x803f46 <Wire+0xb>
+  ba:	8d 7f       	andi	r24, 0xFD	; 253
+  bc:	80 93 46 3f 	sts	0x3F46, r24	; 0x803f46 <Wire+0xb>
+endSlave():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:499
+ *@param      void
+ *
+ *@return     void
+ */
+void TwoWire::endSlave(void) {
+  if (_bools._clientEnabled) {
+  c0:	80 91 46 3f 	lds	r24, 0x3F46	; 0x803f46 <Wire+0xb>
+  c4:	82 ff       	sbrs	r24, 2
+  c6:	10 c0       	rjmp	.+32     	; 0xe8 <TwoWire::end() [clone .constprop.17]+0x4e>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:500
+    _module->SADDR       = 0x00;
+  c8:	e0 91 43 3f 	lds	r30, 0x3F43	; 0x803f43 <Wire+0x8>
+  cc:	f0 91 44 3f 	lds	r31, 0x3F44	; 0x803f44 <Wire+0x9>
+  d0:	14 86       	std	Z+12, r1	; 0x0c
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:501
+    _module->SCTRLA      = 0x00;
+  d2:	11 86       	std	Z+9, r1	; 0x09
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:502
+    _module->SADDRMASK   = 0x00;
+  d4:	e0 91 43 3f 	lds	r30, 0x3F43	; 0x803f43 <Wire+0x8>
+  d8:	f0 91 44 3f 	lds	r31, 0x3F44	; 0x803f44 <Wire+0x9>
+  dc:	16 86       	std	Z+14, r1	; 0x0e
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:503
+    _bools._clientEnabled     = 0x00;
+  de:	80 91 46 3f 	lds	r24, 0x3F46	; 0x803f46 <Wire+0xb>
+  e2:	8b 7f       	andi	r24, 0xFB	; 251
+  e4:	80 93 46 3f 	sts	0x3F46, r24	; 0x803f46 <Wire+0xb>
+_ZN7TwoWire3endEv.constprop.17():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:471
+ *@return     void
+ */
+void TwoWire::end(void) {
+  endMaster();
+  endSlave();
+}
+  e8:	08 95       	ret
+
+000000ea <TwoWire::endTransmission(bool) [clone .constprop.14]>:
+_ZN7TwoWire15endTransmissionEb.constprop.14():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:809
+ *           17 for the pull ups likely missing
+ *           18 for a bus arbitration/bus fault
+ *           20 for likely a slave holding the clock low
+ *          255 (-1) for TWI not initialized (begin not called) or bus somehow in "unknown" state.
+ */
+uint8_t TwoWire::endTransmission(bool sendStop) {
+  ea:	cf 93       	push	r28
+  ec:	c8 2f       	mov	r28, r24
+masterTransmit():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:832
+ *
+ *@return     uint8_t
+ *@retval     errors (see endTransmission)
+ */
+uint8_t TwoWire::masterTransmit(auto *length, uint8_t *buffer, uint8_t addr, uint8_t sendStop) {
+  TWI_t* module = _module;
+  ee:	e0 91 43 3f 	lds	r30, 0x3F43	; 0x803f43 <Wire+0x8>
+  f2:	f0 91 44 3f 	lds	r31, 0x3F44	; 0x803f44 <Wire+0x9>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:844
+  auto dataToWrite = *length;
+  #if defined (TWI_TIMEOUT_ENABLE)
+    uint16_t timeout = (F_CPU/1000);
+  #endif
+
+  if ((module->MCTRLA & TWI_ENABLE_bm) == 0x00) {  // If the module is disabled, abort
+  f6:	83 81       	ldd	r24, Z+3	; 0x03
+  f8:	80 fd       	sbrc	r24, 0
+  fa:	03 c0       	rjmp	.+6      	; 0x102 <__DATA_REGION_LENGTH__+0x2>
+_ZN7TwoWire15endTransmissionEb.constprop.14():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:845
+    return TWI_ERR_UNINIT;
+  fc:	80 e1       	ldi	r24, 0x10	; 16
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:812
+ *          255 (-1) for TWI not initialized (begin not called) or bus somehow in "unknown" state.
+ */
+uint8_t TwoWire::endTransmission(bool sendStop) {
+  // transmit (blocking)
+  return masterTransmit(&_bytesToReadWrite, _hostBuffer, _clientAddress, sendStop);
+}
+  fe:	cf 91       	pop	r28
+ 100:	08 95       	ret
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:811
+ *           20 for likely a slave holding the clock low
+ *          255 (-1) for TWI not initialized (begin not called) or bus somehow in "unknown" state.
+ */
+uint8_t TwoWire::endTransmission(bool sendStop) {
+  // transmit (blocking)
+  return masterTransmit(&_bytesToReadWrite, _hostBuffer, _clientAddress, sendStop);
+ 102:	70 91 4c 3f 	lds	r23, 0x3F4C	; 0x803f4c <Wire+0x11>
+masterTransmit():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:839
+
+  TWI_INIT_ERROR;
+  uint8_t currentSM;
+  uint8_t currentStatus;
+  uint8_t stat = 0;
+  auto dataToWrite = *length;
+ 106:	90 91 4d 3f 	lds	r25, 0x3F4D	; 0x803f4d <Wire+0x12>
+_ZN7TwoWire15endTransmissionEb.constprop.14():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:841
+  #if defined (TWI_TIMEOUT_ENABLE)
+    uint16_t timeout = (F_CPU/1000);
+ 10a:	20 e2       	ldi	r18, 0x20	; 32
+ 10c:	3e e4       	ldi	r19, 0x4E	; 78
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:838
+  __asm__ __volatile__("\n\t" : "+z"(module));
+
+  TWI_INIT_ERROR;
+  uint8_t currentSM;
+  uint8_t currentStatus;
+  uint8_t stat = 0;
+ 10e:	40 e0       	ldi	r20, 0x00	; 0
+masterTransmit():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:839
+  auto dataToWrite = *length;
+ 110:	a0 e5       	ldi	r26, 0x50	; 80
+ 112:	bf e3       	ldi	r27, 0x3F	; 63
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:875
+      return TWI_ERR_BUS_ARB;                 // leave TX loop, don't update bytes to read and don't try to send stop
+    }
+
+    if (currentSM != TWI_BUSSTATE_BUSY_gc) {  // Undefined was excluded, so make sure it's IDLE or OWNER
+      if (stat == 0x00) {                     // At the start, we send the ADDR
+        module->MADDR = ADD_WRITE_BIT(addr);      // clear bit 0
+ 114:	7e 7f       	andi	r23, 0xFE	; 254
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:849
+  if ((module->MCTRLA & TWI_ENABLE_bm) == 0x00) {  // If the module is disabled, abort
+    return TWI_ERR_UNINIT;
+  }
+
+  while (true) {
+    currentStatus = module->MSTATUS;
+ 116:	55 81       	ldd	r21, Z+5	; 0x05
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:850
+    currentSM = currentStatus & TWI_BUSSTATE_gm;  // get the current mode of the state machine
+ 118:	65 2f       	mov	r22, r21
+ 11a:	63 70       	andi	r22, 0x03	; 3
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:852
+
+    if (currentSM == TWI_BUSSTATE_UNKNOWN_gc) { // If the bus was not initialized
+ 11c:	79 f3       	breq	.-34     	; 0xfc <TwoWire::endTransmission(bool) [clone .constprop.14]+0x12>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:857
+      return TWI_ERR_UNINIT;                    // abort
+    }
+
+    #if defined(TWI_TIMEOUT_ENABLE)
+      if (--timeout == 0) {
+ 11e:	21 50       	subi	r18, 0x01	; 1
+ 120:	31 09       	sbc	r19, r1
+ 122:	99 f4       	brne	.+38     	; 0x14a <__DATA_REGION_LENGTH__+0x4a>
+_ZN7TwoWire15endTransmissionEb.constprop.14():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:859
+        if        (currentSM == TWI_BUSSTATE_OWNER_gc) {
+          TWI_SET_ERROR(TWI_ERR_TIMEOUT);
+ 124:	85 e0       	ldi	r24, 0x05	; 5
+masterTransmit():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:858
+      return TWI_ERR_UNINIT;                    // abort
+    }
+
+    #if defined(TWI_TIMEOUT_ENABLE)
+      if (--timeout == 0) {
+        if        (currentSM == TWI_BUSSTATE_OWNER_gc) {
+ 126:	62 30       	cpi	r22, 0x02	; 2
+ 128:	21 f0       	breq	.+8      	; 0x132 <__DATA_REGION_LENGTH__+0x32>
+_ZN7TwoWire15endTransmissionEb.constprop.14():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:863
+          TWI_SET_ERROR(TWI_ERR_TIMEOUT);
+        } else if (currentSM == TWI_BUSSTATE_IDLE_gc) {
+          TWI_SET_ERROR(TWI_ERR_PULLUP);
+        } else {
+          TWI_SET_ERROR(TWI_ERR_UNDEFINED);
+ 12a:	84 e0       	ldi	r24, 0x04	; 4
+masterTransmit():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:860
+
+    #if defined(TWI_TIMEOUT_ENABLE)
+      if (--timeout == 0) {
+        if        (currentSM == TWI_BUSSTATE_OWNER_gc) {
+          TWI_SET_ERROR(TWI_ERR_TIMEOUT);
+        } else if (currentSM == TWI_BUSSTATE_IDLE_gc) {
+ 12c:	61 30       	cpi	r22, 0x01	; 1
+ 12e:	09 f4       	brne	.+2      	; 0x132 <__DATA_REGION_LENGTH__+0x32>
+_ZN7TwoWire15endTransmissionEb.constprop.14():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:861
+          TWI_SET_ERROR(TWI_ERR_PULLUP);
+ 130:	81 e1       	ldi	r24, 0x11	; 17
+masterTransmit():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:908
+        }
+      } /* dataWritten == 0 */
+    } /* currentSM != TWI_BUSSTATE_BUSY_gc */
+  } /* while */
+
+  *length -= dataToWrite;
+ 132:	20 91 4d 3f 	lds	r18, 0x3F4D	; 0x803f4d <Wire+0x12>
+ 136:	29 1b       	sub	r18, r25
+ 138:	20 93 4d 3f 	sts	0x3F4D, r18	; 0x803f4d <Wire+0x12>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:909
+  if ((sendStop != 0) || (TWI_ERR_SUCCESS != TWI_GET_ERROR)) {
+ 13c:	c1 11       	cpse	r28, r1
+ 13e:	02 c0       	rjmp	.+4      	; 0x144 <__DATA_REGION_LENGTH__+0x44>
+ 140:	88 23       	and	r24, r24
+ 142:	e9 f2       	breq	.-70     	; 0xfe <TwoWire::endTransmission(bool) [clone .constprop.14]+0x14>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:910
+    module->MCTRLB = TWI_MCMD_STOP_gc;                        // Send STOP
+ 144:	93 e0       	ldi	r25, 0x03	; 3
+ 146:	94 83       	std	Z+4, r25	; 0x04
+ 148:	da cf       	rjmp	.-76     	; 0xfe <TwoWire::endTransmission(bool) [clone .constprop.14]+0x14>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:869
+        }
+        break;
+      }
+    #endif
+
+    if (currentStatus & TWI_ARBLOST_bm) {     // Check for Bus error
+ 14a:	53 fd       	sbrc	r21, 3
+ 14c:	1e c0       	rjmp	.+60     	; 0x18a <__DATA_REGION_LENGTH__+0x8a>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:873
+      return TWI_ERR_BUS_ARB;                 // leave TX loop, don't update bytes to read and don't try to send stop
+    }
+
+    if (currentSM != TWI_BUSSTATE_BUSY_gc) {  // Undefined was excluded, so make sure it's IDLE or OWNER
+ 14e:	63 30       	cpi	r22, 0x03	; 3
+ 150:	11 f3       	breq	.-60     	; 0x116 <__DATA_REGION_LENGTH__+0x16>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:874
+      if (stat == 0x00) {                     // At the start, we send the ADDR
+ 152:	41 11       	cpse	r20, r1
+ 154:	05 c0       	rjmp	.+10     	; 0x160 <__DATA_REGION_LENGTH__+0x60>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:875
+        module->MADDR = ADD_WRITE_BIT(addr);      // clear bit 0
+ 156:	77 83       	std	Z+7, r23	; 0x07
+_ZN7TwoWire15endTransmissionEb.constprop.14():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:878
+        stat |= 0x01;                             // skip this if we're done
+        #if defined (TWI_TIMEOUT_ENABLE)
+          timeout = (F_CPU/1000);                 // reset timeout
+ 158:	20 e2       	ldi	r18, 0x20	; 32
+ 15a:	3e e4       	ldi	r19, 0x4E	; 78
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:876
+    }
+
+    if (currentSM != TWI_BUSSTATE_BUSY_gc) {  // Undefined was excluded, so make sure it's IDLE or OWNER
+      if (stat == 0x00) {                     // At the start, we send the ADDR
+        module->MADDR = ADD_WRITE_BIT(addr);      // clear bit 0
+        stat |= 0x01;                             // skip this if we're done
+ 15c:	41 e0       	ldi	r20, 0x01	; 1
+ 15e:	db cf       	rjmp	.-74     	; 0x116 <__DATA_REGION_LENGTH__+0x16>
+masterTransmit():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:881
+        #if defined (TWI_TIMEOUT_ENABLE)
+          timeout = (F_CPU/1000);                 // reset timeout
+        #endif
+      } else {
+        if (currentStatus & TWI_WIF_bm) {     // ADDR was sent, check for completed write
+ 160:	56 ff       	sbrs	r21, 6
+ 162:	d9 cf       	rjmp	.-78     	; 0x116 <__DATA_REGION_LENGTH__+0x16>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:882
+          if (currentStatus & TWI_RXACK_bm) {   // got a NACK, see how much was written
+ 164:	54 ff       	sbrs	r21, 4
+ 166:	08 c0       	rjmp	.+16     	; 0x178 <__DATA_REGION_LENGTH__+0x78>
+_ZN7TwoWire15endTransmissionEb.constprop.14():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:887
+            if (stat & 0x02) {                  // bit 1 set, data was already sent
+              if (dataToWrite != 0)               // the client may send an ACK at the end. If we
+                TWI_SET_ERROR(TWI_ERR_ACK_DAT);   // transferred everything, we can ignore the NACK
+            } else {                              // otherwise, no data sent, ADDR NACK
+              TWI_SET_ERROR(TWI_ERR_ACK_ADR);
+ 168:	82 e0       	ldi	r24, 0x02	; 2
+masterTransmit():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:883
+          timeout = (F_CPU/1000);                 // reset timeout
+        #endif
+      } else {
+        if (currentStatus & TWI_WIF_bm) {     // ADDR was sent, check for completed write
+          if (currentStatus & TWI_RXACK_bm) {   // got a NACK, see how much was written
+            if (stat & 0x02) {                  // bit 1 set, data was already sent
+ 16a:	41 ff       	sbrs	r20, 1
+ 16c:	e2 cf       	rjmp	.-60     	; 0x132 <__DATA_REGION_LENGTH__+0x32>
+_ZN7TwoWire15endTransmissionEb.constprop.14():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:885
+              if (dataToWrite != 0)               // the client may send an ACK at the end. If we
+                TWI_SET_ERROR(TWI_ERR_ACK_DAT);   // transferred everything, we can ignore the NACK
+ 16e:	83 e0       	ldi	r24, 0x03	; 3
+masterTransmit():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:884
+        #endif
+      } else {
+        if (currentStatus & TWI_WIF_bm) {     // ADDR was sent, check for completed write
+          if (currentStatus & TWI_RXACK_bm) {   // got a NACK, see how much was written
+            if (stat & 0x02) {                  // bit 1 set, data was already sent
+              if (dataToWrite != 0)               // the client may send an ACK at the end. If we
+ 170:	91 11       	cpse	r25, r1
+ 172:	df cf       	rjmp	.-66     	; 0x132 <__DATA_REGION_LENGTH__+0x32>
+_ZN7TwoWire15endTransmissionEb.constprop.14():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:835
+ */
+uint8_t TwoWire::masterTransmit(auto *length, uint8_t *buffer, uint8_t addr, uint8_t sendStop) {
+  TWI_t* module = _module;
+  __asm__ __volatile__("\n\t" : "+z"(module));
+
+  TWI_INIT_ERROR;
+ 174:	80 e0       	ldi	r24, 0x00	; 0
+ 176:	dd cf       	rjmp	.-70     	; 0x132 <__DATA_REGION_LENGTH__+0x32>
+masterTransmit():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:891
+            } else {                              // otherwise, no data sent, ADDR NACK
+              TWI_SET_ERROR(TWI_ERR_ACK_ADR);
+            }
+            break;
+          } else {                              // No NACK on write
+            if (dataToWrite != 0) {             // check if there is data to be written
+ 178:	99 23       	and	r25, r25
+ 17a:	e1 f3       	breq	.-8      	; 0x174 <__DATA_REGION_LENGTH__+0x74>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:892
+              module->MDATA = *buffer;          // Writing to the register to send data
+ 17c:	8d 91       	ld	r24, X+
+ 17e:	80 87       	std	Z+8, r24	; 0x08
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:894
+              buffer++;
+              dataToWrite--;
+ 180:	91 50       	subi	r25, 0x01	; 1
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:895
+              stat |= 0x02;                     // remember that we've sent data
+ 182:	42 60       	ori	r20, 0x02	; 2
+_ZN7TwoWire15endTransmissionEb.constprop.14():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:897
+              #if defined (TWI_TIMEOUT_ENABLE)
+                timeout = (F_CPU/1000);                   // reset timeout
+ 184:	20 e2       	ldi	r18, 0x20	; 32
+ 186:	3e e4       	ldi	r19, 0x4E	; 78
+ 188:	c6 cf       	rjmp	.-116    	; 0x116 <__DATA_REGION_LENGTH__+0x16>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:870
+        break;
+      }
+    #endif
+
+    if (currentStatus & TWI_ARBLOST_bm) {     // Check for Bus error
+      return TWI_ERR_BUS_ARB;                 // leave TX loop, don't update bytes to read and don't try to send stop
+ 18a:	82 e1       	ldi	r24, 0x12	; 18
+ 18c:	b8 cf       	rjmp	.-144    	; 0xfe <TwoWire::endTransmission(bool) [clone .constprop.14]+0x14>
+
+0000018e <TwoWire::setClock(unsigned long) [clone .constprop.10]>:
+_ZN7TwoWire8setClockEm.constprop.10():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:390
+  } else {
+    if (clock < 1000) {
+      return 1;
+    }
+  }
+  if (_bools._hostEnabled == 1) {              // Do something only if the host is enabled.
+ 18e:	80 91 46 3f 	lds	r24, 0x3F46	; 0x803f46 <Wire+0xb>
+ 192:	81 ff       	sbrs	r24, 1
+ 194:	16 c0       	rjmp	.+44     	; 0x1c2 <TwoWire::setClock(unsigned long) [clone .constprop.10]+0x34>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:379
+ *@return     uint8_t
+ *@retval       0 if no error occurred
+ *@retval       1 if a problem occurred
+ */
+uint8_t TwoWire::setClock(uint32_t clock) {
+  TWI_t* module = _module;
+ 196:	e0 91 43 3f 	lds	r30, 0x3F43	; 0x803f43 <Wire+0x8>
+ 19a:	f0 91 44 3f 	lds	r31, 0x3F44	; 0x803f44 <Wire+0x9>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:392
+      return 1;
+    }
+  }
+  if (_bools._hostEnabled == 1) {              // Do something only if the host is enabled.
+    uint8_t newBaud = MasterCalcBaud(clock);        // get the new Baud value
+    uint8_t oldBaud = module->MBAUD;                // load the old Baud value
+ 19e:	86 81       	ldd	r24, Z+6	; 0x06
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:393
+    if (newBaud != oldBaud) {                       // compare both, in case the code is issuing this before every transmission.
+ 1a0:	89 35       	cpi	r24, 0x59	; 89
+ 1a2:	11 f4       	brne	.+4      	; 0x1a8 <TwoWire::setClock(unsigned long) [clone .constprop.10]+0x1a>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:407
+      module->MCTRLA    = restore;                  // restore the old register, thus enabling it again
+      if (restore & TWI_ENABLE_bm) {                // If the TWI was enabled,
+        module->MSTATUS   = TWI_BUSSTATE_IDLE_gc;   // Force the state machine into IDLE according to the data sheet
+      }
+    }
+    return 0;
+ 1a4:	80 e0       	ldi	r24, 0x00	; 0
+ 1a6:	08 95       	ret
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:394
+  }
+  if (_bools._hostEnabled == 1) {              // Do something only if the host is enabled.
+    uint8_t newBaud = MasterCalcBaud(clock);        // get the new Baud value
+    uint8_t oldBaud = module->MBAUD;                // load the old Baud value
+    if (newBaud != oldBaud) {                       // compare both, in case the code is issuing this before every transmission.
+      uint8_t restore = module->MCTRLA;             // Save the old Master state
+ 1a8:	93 81       	ldd	r25, Z+3	; 0x03
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:395
+      module->MCTRLA    = 0;                        // Disable Master
+ 1aa:	13 82       	std	Z+3, r1	; 0x03
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:396
+      module->MBAUD     = newBaud;                  // update Baud register
+ 1ac:	89 e5       	ldi	r24, 0x59	; 89
+ 1ae:	86 83       	std	Z+6, r24	; 0x06
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:400
+      if (clock > 400000) {
+        module->CTRLA  |=  TWI_FMPEN_bm;            // Enable FastMode+
+      } else {
+        module->CTRLA  &= ~TWI_FMPEN_bm;            // Disable FastMode+
+ 1b0:	80 81       	ld	r24, Z
+ 1b2:	8d 7f       	andi	r24, 0xFD	; 253
+ 1b4:	80 83       	st	Z, r24
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:402
+      }
+      module->MCTRLA    = restore;                  // restore the old register, thus enabling it again
+ 1b6:	93 83       	std	Z+3, r25	; 0x03
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:403
+      if (restore & TWI_ENABLE_bm) {                // If the TWI was enabled,
+ 1b8:	90 ff       	sbrs	r25, 0
+ 1ba:	f4 cf       	rjmp	.-24     	; 0x1a4 <TwoWire::setClock(unsigned long) [clone .constprop.10]+0x16>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:404
+        module->MSTATUS   = TWI_BUSSTATE_IDLE_gc;   // Force the state machine into IDLE according to the data sheet
+ 1bc:	81 e0       	ldi	r24, 0x01	; 1
+ 1be:	85 83       	std	Z+5, r24	; 0x05
+ 1c0:	f1 cf       	rjmp	.-30     	; 0x1a4 <TwoWire::setClock(unsigned long) [clone .constprop.10]+0x16>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:409
+      }
+    }
+    return 0;
+  }
+  return 1;
+ 1c2:	81 e0       	ldi	r24, 0x01	; 1
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:410
+}
+ 1c4:	08 95       	ret
+
+000001c6 <millis>:
+millis():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:167
+  unsigned long millis() {
+    // return timer_overflow_count; // for debugging timekeeping issues where these variables are out of scope from the sketch
+    unsigned long m;
+    // disable interrupts while we read timer_millis or we might get an
+    // inconsistent value (e.g. in the middle of a write to timer_millis)
+    uint8_t oldSREG = SREG;
+ 1c6:	2f b7       	in	r18, 0x3f	; 63
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:168
+    cli();
+ 1c8:	f8 94       	cli
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:182
+        if (!(rtccount & 0x8000)) m += 64000;
+      }
+      SREG = oldSREG;
+      m += rtccount - (rtccount >> 5) + (rtccount >> 7);
+    #else
+      m = timingStruct.timer_millis;
+ 1ca:	60 91 2c 3f 	lds	r22, 0x3F2C	; 0x803f2c <timingStruct+0x4>
+ 1ce:	70 91 2d 3f 	lds	r23, 0x3F2D	; 0x803f2d <timingStruct+0x5>
+ 1d2:	80 91 2e 3f 	lds	r24, 0x3F2E	; 0x803f2e <timingStruct+0x6>
+ 1d6:	90 91 2f 3f 	lds	r25, 0x3F2F	; 0x803f2f <timingStruct+0x7>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:183
+      SREG = oldSREG;
+ 1da:	2f bf       	out	0x3f, r18	; 63
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:186
+    #endif
+    return m;
+  }
+ 1dc:	08 95       	ret
+
+000001de <delay.part.0>:
+delay.part.0():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:243
+        start += 1000;
+      }
+    }
+  }
+#else
+  void delay(uint32_t ms) {
+ 1de:	8f 92       	push	r8
+ 1e0:	9f 92       	push	r9
+ 1e2:	af 92       	push	r10
+ 1e4:	bf 92       	push	r11
+ 1e6:	cf 92       	push	r12
+ 1e8:	df 92       	push	r13
+ 1ea:	ef 92       	push	r14
+ 1ec:	ff 92       	push	r15
+ 1ee:	6b 01       	movw	r12, r22
+ 1f0:	7c 01       	movw	r14, r24
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:251
+    } else if (ms < 16) {
+      while(ms--) {
+        _delay_ms(1);
+      }
+    } else {
+      uint32_t start = millis();
+ 1f2:	e9 df       	rcall	.-46     	; 0x1c6 <millis>
+ 1f4:	4b 01       	movw	r8, r22
+ 1f6:	5c 01       	movw	r10, r24
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:252
+      while (millis() - start < ms);
+ 1f8:	e6 df       	rcall	.-52     	; 0x1c6 <millis>
+ 1fa:	68 19       	sub	r22, r8
+ 1fc:	79 09       	sbc	r23, r9
+ 1fe:	8a 09       	sbc	r24, r10
+ 200:	9b 09       	sbc	r25, r11
+ 202:	6c 15       	cp	r22, r12
+ 204:	7d 05       	cpc	r23, r13
+ 206:	8e 05       	cpc	r24, r14
+ 208:	9f 05       	cpc	r25, r15
+ 20a:	b0 f3       	brcs	.-20     	; 0x1f8 <delay.part.0+0x1a>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:254
+    }
+  }
+ 20c:	ff 90       	pop	r15
+ 20e:	ef 90       	pop	r14
+ 210:	df 90       	pop	r13
+ 212:	cf 90       	pop	r12
+ 214:	bf 90       	pop	r11
+ 216:	af 90       	pop	r10
+ 218:	9f 90       	pop	r9
+ 21a:	8f 90       	pop	r8
+ 21c:	08 95       	ret
+
+0000021e <TWI0_ClearPins>:
+TWI0_ClearPins():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/twi_pins.c:140
+    #endif
+  #elif defined(MEGATINYCORE)  /* tinyAVR 0/1-series */
+    #if (MEGATINYCORE_SERIES < 2) // Hey, this erratum isn't listed for the 2-series, so we don't have to do this!
+      // 6 bytes of flash saved for 2-series parts, aww yeah!
+      #if defined(PORTMUX_TWI0_bm)
+        if ((PORTMUX.CTRLB & PORTMUX_TWI0_bm)) {
+ 21e:	80 91 01 02 	lds	r24, 0x0201	; 0x800201 <digital_pin_to_bit_mask+0x7f72b7>
+ 222:	84 ff       	sbrs	r24, 4
+ 224:	04 c0       	rjmp	.+8      	; 0x22e <TWI0_ClearPins+0x10>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/twi_pins.c:143
+          // make sure we don't get errata'ed - make sure their bits in the
+          // PORTx.OUT registers are 0.
+          PORTA.OUTCLR = 0x06;  // if swapped it's on PA1, PA2
+ 226:	86 e0       	ldi	r24, 0x06	; 6
+ 228:	80 93 06 04 	sts	0x0406, r24	; 0x800406 <digital_pin_to_bit_mask+0x7f74bc>
+ 22c:	08 95       	ret
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/twi_pins.c:145
+        } else {
+          PORTB.OUTCLR = 0x03;  // else PB0, PB1
+ 22e:	83 e0       	ldi	r24, 0x03	; 3
+ 230:	80 93 26 04 	sts	0x0426, r24	; 0x800426 <digital_pin_to_bit_mask+0x7f74dc>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/twi_pins.c:156
+      #endif
+    #endif
+  #else
+    #error "This version of Wire only supports the modern AVR (tinyAVR 0/1/2-series, megaAVR 0-series, AVR Dx-series and AVR-Ex-series parts."
+  #endif
+}
+ 234:	08 95       	ret
+
+00000236 <TwoWire::flush()>:
+_ZN7TwoWire5flushEv():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1115
+ *
+ *@return     void
+ */
+void TwoWire::flush(void) {
+  /* Turn off and on TWI module */
+  TWI_t* module = _module;
+ 236:	dc 01       	movw	r26, r24
+ 238:	18 96       	adiw	r26, 0x08	; 8
+ 23a:	ed 91       	ld	r30, X+
+ 23c:	fc 91       	ld	r31, X
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1127
+    module->SCTRLA  = 0x00;
+    module->MCTRLA  = temp_MCTRLA;
+    module->MSTATUS = 0x01;  // force TWI state machine into idle state
+    module->SCTRLA  = temp_SCTRLA;
+  #else
+    module->MCTRLB |= TWI_FLUSH_bm;
+ 23e:	84 81       	ldd	r24, Z+4	; 0x04
+ 240:	88 60       	ori	r24, 0x08	; 8
+ 242:	84 83       	std	Z+4, r24	; 0x04
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1129
+  #endif
+}
+ 244:	08 95       	ret
+
+00000246 <TwoWire::peek()>:
+_ZN7TwoWire4peekEv():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1095
+    } else
+  #endif
+  {
+    rxHead   = &(_bytesToReadWrite);
+    rxTail   = &(_bytesReadWritten);
+    rxBuffer =   _hostBuffer;
+ 246:	9c 01       	movw	r18, r24
+ 248:	2b 5e       	subi	r18, 0xEB	; 235
+ 24a:	3f 4f       	sbci	r19, 0xFF	; 255
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1098
+  }
+
+  if ((*rxTail) < (*rxHead)) {   // if there are bytes to read
+ 24c:	dc 01       	movw	r26, r24
+ 24e:	53 96       	adiw	r26, 0x13	; 19
+ 250:	ec 91       	ld	r30, X
+ 252:	53 97       	sbiw	r26, 0x13	; 19
+ 254:	52 96       	adiw	r26, 0x12	; 18
+ 256:	8c 91       	ld	r24, X
+ 258:	e8 17       	cp	r30, r24
+ 25a:	30 f4       	brcc	.+12     	; 0x268 <TwoWire::peek()+0x22>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1099
+    return rxBuffer[(*rxTail)];
+ 25c:	e2 0f       	add	r30, r18
+ 25e:	f3 2f       	mov	r31, r19
+ 260:	f1 1d       	adc	r31, r1
+ 262:	80 81       	ld	r24, Z
+ 264:	90 e0       	ldi	r25, 0x00	; 0
+ 266:	08 95       	ret
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1101
+  } else {      // No bytes to read
+    return -1;
+ 268:	8f ef       	ldi	r24, 0xFF	; 255
+ 26a:	9f ef       	ldi	r25, 0xFF	; 255
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1103
+  }
+}
+ 26c:	08 95       	ret
+
+0000026e <TwoWire::read()>:
+_ZN7TwoWire4readEv():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1015
+ *@param      void
+ *
+ *@return     int
+ *@retval     byte in the buffer or -1 if buffer is empty
+ */
+int TwoWire::read(void) {
+ 26e:	fc 01       	movw	r30, r24
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1028
+    } else
+  #endif
+  {
+    rxHead   = &(_bytesToReadWrite);
+    rxTail   = &(_bytesReadWritten);
+    rxBuffer =   _hostBuffer;
+ 270:	dc 01       	movw	r26, r24
+ 272:	55 96       	adiw	r26, 0x15	; 21
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1032
+  }
+
+
+  if ((*rxTail) < (*rxHead)) {   // if there are bytes to read
+ 274:	93 89       	ldd	r25, Z+19	; 0x13
+ 276:	82 89       	ldd	r24, Z+18	; 0x12
+ 278:	98 17       	cp	r25, r24
+ 27a:	40 f4       	brcc	.+16     	; 0x28c <TwoWire::read()+0x1e>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1033
+    uint8_t c = rxBuffer[(*rxTail)];
+ 27c:	a9 0f       	add	r26, r25
+ 27e:	b1 1d       	adc	r27, r1
+ 280:	2c 91       	ld	r18, X
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1034
+    (*rxTail)++;
+ 282:	9f 5f       	subi	r25, 0xFF	; 255
+ 284:	93 8b       	std	Z+19, r25	; 0x13
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1035
+    return c;
+ 286:	82 2f       	mov	r24, r18
+ 288:	90 e0       	ldi	r25, 0x00	; 0
+ 28a:	08 95       	ret
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1037
+  } else {                      // No bytes to read. At this point, rxTail moved up to
+    return -1;                  // rxHead. To reset both to 0, a MasterRead or AddrWrite has to be called
+ 28c:	8f ef       	ldi	r24, 0xFF	; 255
+ 28e:	9f ef       	ldi	r25, 0xFF	; 255
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1039
+  }
+}
+ 290:	08 95       	ret
+
+00000292 <TwoWire::available()>:
+_ZN7TwoWire9availableEv():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:990
+ *@param      void
+ *
+ *@return     int
+ *@retval     amount of bytes available to read from the host buffer
+ */
+int TwoWire::available(void) {
+ 292:	fc 01       	movw	r30, r24
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:997
+    if (_bools._toggleStreamFn == 0x01) {
+      return (_bytesToReadWriteS - _bytesReadWrittenS);
+    }
+  #endif
+
+  return (_bytesToReadWrite - _bytesReadWritten);
+ 294:	82 89       	ldd	r24, Z+18	; 0x12
+ 296:	93 89       	ldd	r25, Z+19	; 0x13
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:998
+}
+ 298:	89 1b       	sub	r24, r25
+ 29a:	99 0b       	sbc	r25, r25
+ 29c:	08 95       	ret
+
+0000029e <TwoWire::write(unsigned char)>:
+_ZN7TwoWire5writeEh():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:928
+ *
+ *
+ *@return     uint8_t
+ *@retval     1 if successful, 0 if the buffer is full
+ */
+size_t TwoWire::write(uint8_t data) {
+ 29e:	fc 01       	movw	r30, r24
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:944
+    txBuffer =   _hostBuffer;
+  }
+
+  /* Put byte in txBuffer */
+
+  if ((*txHead) < TWI_BUFFER_LENGTH) {    // while buffer not full, write to it
+ 2a0:	a2 89       	ldd	r26, Z+18	; 0x12
+ 2a2:	a0 32       	cpi	r26, 0x20	; 32
+ 2a4:	58 f4       	brcc	.+22     	; 0x2bc <TwoWire::write(unsigned char)+0x1e>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:945
+    txBuffer[(*txHead)] = data;             // Load data into the buffer
+ 2a6:	a8 0f       	add	r26, r24
+ 2a8:	b9 2f       	mov	r27, r25
+ 2aa:	b1 1d       	adc	r27, r1
+ 2ac:	55 96       	adiw	r26, 0x15	; 21
+ 2ae:	6c 93       	st	X, r22
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:946
+    (*txHead)++;                            // advancing the head
+ 2b0:	82 89       	ldd	r24, Z+18	; 0x12
+ 2b2:	8f 5f       	subi	r24, 0xFF	; 255
+ 2b4:	82 8b       	std	Z+18, r24	; 0x12
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:947
+    return 1;
+ 2b6:	81 e0       	ldi	r24, 0x01	; 1
+ 2b8:	90 e0       	ldi	r25, 0x00	; 0
+ 2ba:	08 95       	ret
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:949
+  } else {
+    return 0;
+ 2bc:	90 e0       	ldi	r25, 0x00	; 0
+ 2be:	80 e0       	ldi	r24, 0x00	; 0
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:951
+  }
+}
+ 2c0:	08 95       	ret
+
+000002c2 <TwoWire::write(unsigned char const*, unsigned int)>:
+_ZN7TwoWire5writeEPKhj():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:966
+ *
+ *
+ *@return     uint8_t
+ *@retval     amount of bytes copied
+ */
+size_t TwoWire::write(const uint8_t *data, size_t quantity) {
+ 2c2:	bf 92       	push	r11
+ 2c4:	cf 92       	push	r12
+ 2c6:	df 92       	push	r13
+ 2c8:	ef 92       	push	r14
+ 2ca:	ff 92       	push	r15
+ 2cc:	0f 93       	push	r16
+ 2ce:	1f 93       	push	r17
+ 2d0:	cf 93       	push	r28
+ 2d2:	df 93       	push	r29
+ 2d4:	7c 01       	movw	r14, r24
+ 2d6:	6a 01       	movw	r12, r20
+ 2d8:	b6 2e       	mov	r11, r22
+ 2da:	eb 01       	movw	r28, r22
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:968
+  twi_buf_index_t i = 0;
+  for (; i < quantity; i++) {
+ 2dc:	0c 2f       	mov	r16, r28
+ 2de:	0b 19       	sub	r16, r11
+ 2e0:	10 e0       	ldi	r17, 0x00	; 0
+ 2e2:	0c 15       	cp	r16, r12
+ 2e4:	1d 05       	cpc	r17, r13
+ 2e6:	28 f4       	brcc	.+10     	; 0x2f2 <TwoWire::write(unsigned char const*, unsigned int)+0x30>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:969
+    if (TwoWire::write(*(data++)) == 0)
+ 2e8:	69 91       	ld	r22, Y+
+ 2ea:	c7 01       	movw	r24, r14
+ 2ec:	d8 df       	rcall	.-80     	; 0x29e <TwoWire::write(unsigned char)>
+ 2ee:	89 2b       	or	r24, r25
+ 2f0:	a9 f7       	brne	.-22     	; 0x2dc <TwoWire::write(unsigned char const*, unsigned int)+0x1a>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:974
+      break;   // break if buffer full
+  }
+
+  return i;
+}
+ 2f2:	c8 01       	movw	r24, r16
+ 2f4:	df 91       	pop	r29
+ 2f6:	cf 91       	pop	r28
+ 2f8:	1f 91       	pop	r17
+ 2fa:	0f 91       	pop	r16
+ 2fc:	ff 90       	pop	r15
+ 2fe:	ef 90       	pop	r14
+ 300:	df 90       	pop	r13
+ 302:	cf 90       	pop	r12
+ 304:	bf 90       	pop	r11
+ 306:	08 95       	ret
+
+00000308 <Print::availableForWrite()>:
+_ZN5Print17availableForWriteEv():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/api/Print.h:65
+      return write((const uint8_t *)buffer, size);
+    }
+
+    // default to zero, meaning "a single write may block"
+    // should be overridden by subclasses with buffering
+    virtual int availableForWrite() { return 0; }
+ 308:	90 e0       	ldi	r25, 0x00	; 0
+ 30a:	80 e0       	ldi	r24, 0x00	; 0
+ 30c:	08 95       	ret
+
+0000030e <handleEspPing(int)>:
+_ZL13handleEspPingi():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:456
+      lastBalanceCommandMs = now;
+    }
+  }
+}
+
+static void handleEspPing(int len) {
+ 30e:	0f 93       	push	r16
+ 310:	1f 93       	push	r17
+ 312:	cf 93       	push	r28
+ 314:	df 93       	push	r29
+ 316:	8c 01       	movw	r16, r24
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:457
+  uint8_t first = 0;
+ 318:	d0 e0       	ldi	r29, 0x00	; 0
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:459
+  uint8_t second = 0;
+  if (len >= 1 && Wire.available()) {
+ 31a:	18 16       	cp	r1, r24
+ 31c:	19 06       	cpc	r1, r25
+ 31e:	14 f5       	brge	.+68     	; 0x364 <handleEspPing(int)+0x56>
+ 320:	90 91 4d 3f 	lds	r25, 0x3F4D	; 0x803f4d <Wire+0x12>
+ 324:	80 91 4e 3f 	lds	r24, 0x3F4E	; 0x803f4e <Wire+0x13>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:457
+    }
+  }
+}
+
+static void handleEspPing(int len) {
+  uint8_t first = 0;
+ 328:	d0 e0       	ldi	r29, 0x00	; 0
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:459
+  uint8_t second = 0;
+  if (len >= 1 && Wire.available()) {
+ 32a:	98 17       	cp	r25, r24
+ 32c:	21 f0       	breq	.+8      	; 0x336 <handleEspPing(int)+0x28>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:460
+    first = (uint8_t)Wire.read();
+ 32e:	8b e3       	ldi	r24, 0x3B	; 59
+ 330:	9f e3       	ldi	r25, 0x3F	; 63
+ 332:	9d df       	rcall	.-198    	; 0x26e <TwoWire::read()>
+ 334:	d8 2f       	mov	r29, r24
+ 336:	80 91 4d 3f 	lds	r24, 0x3F4D	; 0x803f4d <Wire+0x12>
+ 33a:	90 91 4e 3f 	lds	r25, 0x3F4E	; 0x803f4e <Wire+0x13>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:462
+  }
+  if (len >= 2 && Wire.available()) {
+ 33e:	01 30       	cpi	r16, 0x01	; 1
+ 340:	11 05       	cpc	r17, r1
+ 342:	81 f0       	breq	.+32     	; 0x364 <handleEspPing(int)+0x56>
+ 344:	98 17       	cp	r25, r24
+ 346:	b9 f0       	breq	.+46     	; 0x376 <handleEspPing(int)+0x68>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:463
+    second = (uint8_t)Wire.read();
+ 348:	8b e3       	ldi	r24, 0x3B	; 59
+ 34a:	9f e3       	ldi	r25, 0x3F	; 63
+ 34c:	90 df       	rcall	.-224    	; 0x26e <TwoWire::read()>
+ 34e:	c8 2f       	mov	r28, r24
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:465
+  }
+  while (Wire.available()) {
+ 350:	90 91 4d 3f 	lds	r25, 0x3F4D	; 0x803f4d <Wire+0x12>
+ 354:	80 91 4e 3f 	lds	r24, 0x3F4E	; 0x803f4e <Wire+0x13>
+ 358:	98 17       	cp	r25, r24
+ 35a:	31 f0       	breq	.+12     	; 0x368 <handleEspPing(int)+0x5a>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:466
+    Wire.read();
+ 35c:	8b e3       	ldi	r24, 0x3B	; 59
+ 35e:	9f e3       	ldi	r25, 0x3F	; 63
+ 360:	86 df       	rcall	.-244    	; 0x26e <TwoWire::read()>
+ 362:	f6 cf       	rjmp	.-20     	; 0x350 <handleEspPing(int)+0x42>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:458
+  }
+}
+
+static void handleEspPing(int len) {
+  uint8_t first = 0;
+  uint8_t second = 0;
+ 364:	c0 e0       	ldi	r28, 0x00	; 0
+ 366:	f4 cf       	rjmp	.-24     	; 0x350 <handleEspPing(int)+0x42>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:468
+    second = (uint8_t)Wire.read();
+  }
+  while (Wire.available()) {
+    Wire.read();
+  }
+  if (first == BQ_ROLE_MAGIC && second == BQ_ROLE_CMD_TINY_PING) {
+ 368:	d5 3c       	cpi	r29, 0xC5	; 197
+ 36a:	29 f4       	brne	.+10     	; 0x376 <handleEspPing(int)+0x68>
+ 36c:	ca 35       	cpi	r28, 0x5A	; 90
+ 36e:	19 f4       	brne	.+6      	; 0x376 <handleEspPing(int)+0x68>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:469
+    espPingPending = true;
+ 370:	81 e0       	ldi	r24, 0x01	; 1
+ 372:	80 93 1b 3f 	sts	0x3F1B, r24	; 0x803f1b <espPingPending>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:471
+  }
+}
+ 376:	df 91       	pop	r29
+ 378:	cf 91       	pop	r28
+ 37a:	1f 91       	pop	r17
+ 37c:	0f 91       	pop	r16
+ 37e:	08 95       	ret
+
+00000380 <digitalWrite.constprop.25>:
+digitalWrite.constprop.25():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:256
+  /* Set output to value
+  This runs regardless of whether the pin is an output,
+  allowing the pin to be staged with
+  changed to an output. Code in the wild relies on this behavior. */
+  if (val == LOW) { /* If LOW */
+    port->OUTCLR = bit_mask;
+ 380:	90 e2       	ldi	r25, 0x20	; 32
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:255
+  PORT_t *port = digitalPinToPortStruct(pin);
+  /* Set output to value
+  This runs regardless of whether the pin is an output,
+  allowing the pin to be staged with
+  changed to an output. Code in the wild relies on this behavior. */
+  if (val == LOW) { /* If LOW */
+ 382:	81 11       	cpse	r24, r1
+ 384:	16 c0       	rjmp	.+44     	; 0x3b2 <digitalWrite.constprop.25+0x32>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:256
+    port->OUTCLR = bit_mask;
+ 386:	90 93 06 04 	sts	0x0406, r25	; 0x800406 <digital_pin_to_bit_mask+0x7f74bc>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:280
+  } else {
+    port->OUTSET = bit_mask;
+  }
+
+  /* Input direction */
+  if (!(port->DIR & bit_mask)) {
+ 38a:	90 91 00 04 	lds	r25, 0x0400	; 0x800400 <digital_pin_to_bit_mask+0x7f74b6>
+ 38e:	95 fd       	sbrc	r25, 5
+ 390:	0a c0       	rjmp	.+20     	; 0x3a6 <digitalWrite.constprop.25+0x26>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:287
+    uint8_t bit_pos = digitalPinToBitPosition(pin);
+    /* Calculate where pin control register is */
+    volatile uint8_t *pin_ctrl_reg = getPINnCTRLregister(port, bit_pos);
+
+    /* Save system status and disable interrupts */
+    uint8_t status = SREG;
+ 392:	9f b7       	in	r25, 0x3f	; 63
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:288
+    cli();
+ 394:	f8 94       	cli
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:290
+
+    if (val == LOW) {
+ 396:	81 11       	cpse	r24, r1
+ 398:	0f c0       	rjmp	.+30     	; 0x3b8 <digitalWrite.constprop.25+0x38>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:292
+      /* Disable pullup */
+      *pin_ctrl_reg &= ~PORT_PULLUPEN_bm;
+ 39a:	80 91 15 04 	lds	r24, 0x0415	; 0x800415 <digital_pin_to_bit_mask+0x7f74cb>
+ 39e:	87 7f       	andi	r24, 0xF7	; 247
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:295
+    } else {
+      /* Enable pull-up */
+      *pin_ctrl_reg |= PORT_PULLUPEN_bm;
+ 3a0:	80 93 15 04 	sts	0x0415, r24	; 0x800415 <digital_pin_to_bit_mask+0x7f74cb>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:299
+    }
+
+    /* Restore system status */
+    SREG = status;
+ 3a4:	9f bf       	out	0x3f, r25	; 63
+turnOffPWM():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:142
+          } else {
+            // Otherwise, it's WO3-5. These will always be on 0b00hhh000,. Here since we ARE working with a high half timer, we need to just leftshift it once.
+            bit_mask <<= 1;
+          }
+        #endif // End if 8 vs normal parts
+        TCA0.SPLIT.CTRLB &= ~bit_mask;
+ 3a6:	80 91 01 0a 	lds	r24, 0x0A01	; 0x800a01 <digital_pin_to_bit_mask+0x7f7ab7>
+ 3aa:	8f 7b       	andi	r24, 0xBF	; 191
+ 3ac:	80 93 01 0a 	sts	0x0A01, r24	; 0x800a01 <digital_pin_to_bit_mask+0x7f7ab7>
+digitalWrite.constprop.25():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:312
+   * analogWritten() 255, then digitallyWritten() to HIGH, which
+   * would turn it off for the time between turnOffPWM() and
+   * PORT->OUTCLR)
+   * Since there's no penalty, why make a glitch we don't have to? */
+  turnOffPWM(pin);
+}
+ 3b0:	08 95       	ret
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:276
+    // val will now be 0 (LOW) if the toggling made it LOW
+    // or bit_mask if not. And further down, we only need to
+    // know if it's
+  /* If HIGH OR  > TOGGLE  */
+  } else {
+    port->OUTSET = bit_mask;
+ 3b2:	90 93 05 04 	sts	0x0405, r25	; 0x800405 <digital_pin_to_bit_mask+0x7f74bb>
+ 3b6:	e9 cf       	rjmp	.-46     	; 0x38a <digitalWrite.constprop.25+0xa>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:295
+    if (val == LOW) {
+      /* Disable pullup */
+      *pin_ctrl_reg &= ~PORT_PULLUPEN_bm;
+    } else {
+      /* Enable pull-up */
+      *pin_ctrl_reg |= PORT_PULLUPEN_bm;
+ 3b8:	80 91 15 04 	lds	r24, 0x0415	; 0x800415 <digital_pin_to_bit_mask+0x7f74cb>
+ 3bc:	88 60       	ori	r24, 0x08	; 8
+ 3be:	f0 cf       	rjmp	.-32     	; 0x3a0 <digitalWrite.constprop.25+0x20>
+
+000003c0 <pinMode>:
+pinMode():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/Arduino.h:888
+#if !defined(NUM_TOTAL_PINS)
+  #define NUM_TOTAL_PINS                (NUM_DIGITAL_PINS) /* Used the same way as NUM_DIGITAL_PINS. so it doesn't mean what it's named  - I didn't make the convention*/
+#endif
+
+inline __attribute__((always_inline)) void check_valid_digital_pin(pin_size_t pin) {
+  if (__builtin_constant_p(pin)) {
+ 3c0:	90 e0       	ldi	r25, 0x00	; 0
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:44
+}
+
+void pinMode(uint8_t pin, uint8_t mode) {
+  check_valid_digital_pin(pin);         /* generate compile error if a constant that is not a valid pin is used as the pin */
+  check_valid_pin_mode(mode);           /* generate compile error if a constant that is not a valid pin mode is used as the mode */
+  uint8_t bit_mask = digitalPinToBitMask(pin);
+ 3c2:	fc 01       	movw	r30, r24
+ 3c4:	e6 5b       	subi	r30, 0xB6	; 182
+ 3c6:	f0 47       	sbci	r31, 0x70	; 112
+ 3c8:	20 81       	ld	r18, Z
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:45
+  if ((bit_mask == NOT_A_PIN) || (mode > INPUT_PULLUP)) {
+ 3ca:	2f 3f       	cpi	r18, 0xFF	; 255
+ 3cc:	b9 f0       	breq	.+46     	; 0x3fc <pinMode+0x3c>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:48
+    return;                             /* ignore invalid pins passed at runtime */
+  }
+  volatile uint8_t * port_base = (volatile uint8_t *) (uint16_t) ((&PORTA) + digitalPinToPort(pin));
+ 3ce:	fc 01       	movw	r30, r24
+ 3d0:	e2 5c       	subi	r30, 0xC2	; 194
+ 3d2:	f0 47       	sbci	r31, 0x70	; 112
+ 3d4:	e0 81       	ld	r30, Z
+ 3d6:	30 e2       	ldi	r19, 0x20	; 32
+ 3d8:	e3 9f       	mul	r30, r19
+ 3da:	f0 01       	movw	r30, r0
+ 3dc:	11 24       	eor	r1, r1
+ 3de:	fc 5f       	subi	r31, 0xFC	; 252
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:49
+  if (mode & 0x01) {
+ 3e0:	60 ff       	sbrs	r22, 0
+ 3e2:	0d c0       	rjmp	.+26     	; 0x3fe <pinMode+0x3e>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:51
+    // OUTPUT mode, so write DIRSET with the mask.
+    *(port_base + 1) = bit_mask;
+ 3e4:	21 83       	std	Z+1, r18	; 0x01
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:77
+  // then load with displacement 2 clocks. IFF the compiler puts this pointer into Y or Z, it is faster and smaller
+  // by 2 bytes and one clock. And let's hope it is, because the code above would suck too if it was in X.
+  // Handwritten assembly that exploited the knowledge that there will never be a carry would save 1 word and 1 clock.
+  // and could probably save at least several times that in initializing the port_base pointer. But if you're using
+  // pinMode you probably don't care.
+  port_base += (uint8_t) digitalPinToBitPosition(pin);
+ 3e6:	8e 5c       	subi	r24, 0xCE	; 206
+ 3e8:	90 47       	sbci	r25, 0x70	; 112
+ 3ea:	dc 01       	movw	r26, r24
+ 3ec:	8c 91       	ld	r24, X
+ 3ee:	e8 0f       	add	r30, r24
+ 3f0:	f1 1d       	adc	r31, r1
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:78
+  bit_mask = *(port_base + 0x10);
+ 3f2:	80 89       	ldd	r24, Z+16	; 0x10
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:79
+  if (mode & 2) {
+ 3f4:	61 ff       	sbrs	r22, 1
+ 3f6:	05 c0       	rjmp	.+10     	; 0x402 <__LOCK_REGION_LENGTH__+0x2>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:80
+    bit_mask |= 0x08;
+ 3f8:	88 60       	ori	r24, 0x08	; 8
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:84
+  } else {
+    bit_mask &= 0xF7;
+  }
+  *(port_base + 0x10) = bit_mask;
+ 3fa:	80 8b       	std	Z+16, r24	; 0x10
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:85
+}
+ 3fc:	08 95       	ret
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:53
+  volatile uint8_t * port_base = (volatile uint8_t *) (uint16_t) ((&PORTA) + digitalPinToPort(pin));
+  if (mode & 0x01) {
+    // OUTPUT mode, so write DIRSET with the mask.
+    *(port_base + 1) = bit_mask;
+  } else { // otherwise it's input so we write DIRCLR
+    *(port_base + 2) = bit_mask;
+ 3fe:	22 83       	std	Z+2, r18	; 0x02
+ 400:	f2 cf       	rjmp	.-28     	; 0x3e6 <pinMode+0x26>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:82
+  port_base += (uint8_t) digitalPinToBitPosition(pin);
+  bit_mask = *(port_base + 0x10);
+  if (mode & 2) {
+    bit_mask |= 0x08;
+  } else {
+    bit_mask &= 0xF7;
+ 402:	87 7f       	andi	r24, 0xF7	; 247
+ 404:	fa cf       	rjmp	.-12     	; 0x3fa <pinMode+0x3a>
+
+00000406 <i2cRead16(unsigned char)>:
+_ZL9i2cRead16h():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:154
+  const uint8_t status = Wire.endTransmission();
+  delay(2);
+  return status == 0;
+}
+
+static uint16_t i2cRead16(uint8_t reg) {
+ 406:	cf 93       	push	r28
+beginTransmission():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:773
+void TwoWire::beginTransmission(uint8_t address) {
+  if (__builtin_constant_p(address) > 0x7F) {     // Compile-time check if address is actually 7 bit long
+    badArg("Supplied address seems to be 8 bit. Only 7-bit-addresses are supported");
+    return;
+  }
+  if (_bools._hostEnabled) {
+ 408:	90 91 46 3f 	lds	r25, 0x3F46	; 0x803f46 <Wire+0xb>
+ 40c:	91 ff       	sbrs	r25, 1
+ 40e:	07 c0       	rjmp	.+14     	; 0x41e <i2cRead16(unsigned char)+0x18>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:775
+    // set address of targeted client
+    _clientAddress = address << 1;
+ 410:	90 e1       	ldi	r25, 0x10	; 16
+ 412:	90 93 4c 3f 	sts	0x3F4C, r25	; 0x803f4c <Wire+0x11>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:776
+    _bytesToReadWrite = 0;  // fill buffer from 0
+ 416:	10 92 4d 3f 	sts	0x3F4D, r1	; 0x803f4d <Wire+0x12>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:777
+    _bytesReadWritten = 0;
+ 41a:	10 92 4e 3f 	sts	0x3F4E, r1	; 0x803f4e <Wire+0x13>
+_ZL9i2cRead16h():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:156
+  Wire.beginTransmission(BQ_ADDR);
+  Wire.write(reg);
+ 41e:	68 2f       	mov	r22, r24
+ 420:	8b e3       	ldi	r24, 0x3B	; 59
+ 422:	9f e3       	ldi	r25, 0x3F	; 63
+ 424:	3c df       	rcall	.-392    	; 0x29e <TwoWire::write(unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:157
+  if (Wire.endTransmission(false) != 0) {
+ 426:	80 e0       	ldi	r24, 0x00	; 0
+ 428:	60 de       	rcall	.-832    	; 0xea <TwoWire::endTransmission(bool) [clone .constprop.14]>
+ 42a:	88 23       	and	r24, r24
+ 42c:	21 f0       	breq	.+8      	; 0x436 <i2cRead16(unsigned char)+0x30>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:158
+    return 0;
+ 42e:	90 e0       	ldi	r25, 0x00	; 0
+ 430:	80 e0       	ldi	r24, 0x00	; 0
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:168
+  }
+
+  const uint8_t lsb = Wire.read();
+  const uint8_t msb = Wire.read();
+  return (uint16_t)(msb << 8) | lsb;
+}
+ 432:	cf 91       	pop	r28
+ 434:	08 95       	ret
+requestFrom():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:745
+  }
+  if (quantity >= TWI_BUFFER_LENGTH) {
+    quantity = TWI_BUFFER_LENGTH;
+  }
+
+  _clientAddress = address << 1;
+ 436:	90 e1       	ldi	r25, 0x10	; 16
+ 438:	90 93 4c 3f 	sts	0x3F4C, r25	; 0x803f4c <Wire+0x11>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:746
+  _bytesToReadWrite = quantity;  // for available/read/peek
+ 43c:	92 e0       	ldi	r25, 0x02	; 2
+ 43e:	90 93 4d 3f 	sts	0x3F4D, r25	; 0x803f4d <Wire+0x12>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:747
+  _bytesReadWritten = 0;
+ 442:	10 92 4e 3f 	sts	0x3F4E, r1	; 0x803f4e <Wire+0x13>
+masterReceive():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:637
+ *@retval     error code, see masterTrasnmit
+ */
+
+
+uint8_t TwoWire::masterReceive(auto *length, uint8_t *buffer, uint8_t addr, uint8_t sendStop) {
+  TWI_t *module = _module;
+ 446:	e0 91 43 3f 	lds	r30, 0x3F43	; 0x803f43 <Wire+0x8>
+ 44a:	f0 91 44 3f 	lds	r31, 0x3F44	; 0x803f44 <Wire+0x9>
+_ZL9i2cRead16h():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:647
+
+  uint8_t currentSM;
+  uint8_t currentStatus;
+  uint8_t state = 0;
+  #if defined (TWI_TIMEOUT_ENABLE)
+    uint16_t timeout = (F_CPU/1000);
+ 44e:	20 e2       	ldi	r18, 0x20	; 32
+ 450:	3e e4       	ldi	r19, 0x4E	; 78
+masterReceive():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:638
+ */
+
+
+uint8_t TwoWire::masterReceive(auto *length, uint8_t *buffer, uint8_t addr, uint8_t sendStop) {
+  TWI_t *module = _module;
+  __asm__ __volatile__("\n\t" : "+z"(module));
+ 452:	a0 e5       	ldi	r26, 0x50	; 80
+ 454:	bf e3       	ldi	r27, 0x3F	; 63
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:695
+          buffer++;
+          #if defined (TWI_TIMEOUT_ENABLE)
+            timeout = (F_CPU/1000);                // reset timeout
+          #endif
+          if (--dataToRead != 0) {
+            module->MCTRLB = TWI_MCMD_RECVTRANS_gc;  // send an ACK so the Slave so it can send the next byte
+ 456:	62 e0       	ldi	r22, 0x02	; 2
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:678
+      return TWI_ERR_BUS_ARB;               // leave RX loop
+    }
+
+    if (currentSM != TWI_BUSSTATE_BUSY_gc) {
+      if (state == 0x00) {
+        module->MADDR = ADD_READ_BIT(addr);     // Send Address with read bit
+ 458:	71 e1       	ldi	r23, 0x11	; 17
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:651
+  #if defined (TWI_TIMEOUT_ENABLE)
+    uint16_t timeout = (F_CPU/1000);
+  #endif
+
+  while (true) {
+    currentStatus = module->MSTATUS;
+ 45a:	45 81       	ldd	r20, Z+5	; 0x05
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:652
+    currentSM = currentStatus & TWI_BUSSTATE_gm;  // get the current mode of the state machine
+ 45c:	54 2f       	mov	r21, r20
+ 45e:	53 70       	andi	r21, 0x03	; 3
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:654
+
+    if (currentSM == TWI_BUSSTATE_UNKNOWN_gc) {
+ 460:	91 f0       	breq	.+36     	; 0x486 <i2cRead16(unsigned char)+0x80>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:660
+      TWIR_SET_ERROR(TWI_ERR_UNINIT);
+      break;
+    }
+
+    #if defined(TWI_TIMEOUT_ENABLE)
+      if (--timeout == 0) {
+ 462:	21 50       	subi	r18, 0x01	; 1
+ 464:	31 09       	sbc	r19, r1
+ 466:	79 f0       	breq	.+30     	; 0x486 <i2cRead16(unsigned char)+0x80>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:672
+        }
+        break;
+      }
+    #endif
+
+    if (currentStatus & TWI_ARBLOST_bm) {   // Check for Bus error
+ 468:	43 fd       	sbrc	r20, 3
+ 46a:	12 c0       	rjmp	.+36     	; 0x490 <i2cRead16(unsigned char)+0x8a>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:676
+      return TWI_ERR_BUS_ARB;               // leave RX loop
+    }
+
+    if (currentSM != TWI_BUSSTATE_BUSY_gc) {
+ 46c:	53 30       	cpi	r21, 0x03	; 3
+ 46e:	a9 f3       	breq	.-22     	; 0x45a <i2cRead16(unsigned char)+0x54>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:677
+      if (state == 0x00) {
+ 470:	81 11       	cpse	r24, r1
+ 472:	05 c0       	rjmp	.+10     	; 0x47e <i2cRead16(unsigned char)+0x78>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:678
+        module->MADDR = ADD_READ_BIT(addr);     // Send Address with read bit
+ 474:	77 83       	std	Z+7, r23	; 0x07
+_ZL9i2cRead16h():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:681
+        state |= 0x01;
+        #if defined (TWI_TIMEOUT_ENABLE)
+          timeout = (F_CPU/1000);               // reset timeout
+ 476:	20 e2       	ldi	r18, 0x20	; 32
+ 478:	3e e4       	ldi	r19, 0x4E	; 78
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:679
+    }
+
+    if (currentSM != TWI_BUSSTATE_BUSY_gc) {
+      if (state == 0x00) {
+        module->MADDR = ADD_READ_BIT(addr);     // Send Address with read bit
+        state |= 0x01;
+ 47a:	81 e0       	ldi	r24, 0x01	; 1
+ 47c:	ee cf       	rjmp	.-36     	; 0x45a <i2cRead16(unsigned char)+0x54>
+masterReceive():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:684
+        #if defined (TWI_TIMEOUT_ENABLE)
+          timeout = (F_CPU/1000);               // reset timeout
+        #endif
+      } else {
+        if (currentStatus & TWI_WIF_bm) {
+ 47e:	46 ff       	sbrs	r20, 6
+ 480:	17 c0       	rjmp	.+46     	; 0x4b0 <i2cRead16(unsigned char)+0xaa>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:686
+          TWIR_SET_ERROR(TWI_ERR_ACK_ADR);        // set error flag
+          module->MCTRLB = TWI_MCMD_STOP_gc;      // free the bus
+ 482:	83 e0       	ldi	r24, 0x03	; 3
+ 484:	84 83       	std	Z+4, r24	; 0x04
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:708
+          }
+        }
+      }
+    }
+  }
+  *length -= dataToRead;
+ 486:	80 91 4d 3f 	lds	r24, 0x3F4D	; 0x803f4d <Wire+0x12>
+ 48a:	89 1b       	sub	r24, r25
+ 48c:	80 93 4d 3f 	sts	0x3F4D, r24	; 0x803f4d <Wire+0x12>
+_ZL9i2cRead16h():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:161
+  Wire.write(reg);
+  if (Wire.endTransmission(false) != 0) {
+    return 0;
+  }
+
+  if (Wire.requestFrom((int)BQ_ADDR, 2) != 2) {
+ 490:	80 91 4d 3f 	lds	r24, 0x3F4D	; 0x803f4d <Wire+0x12>
+ 494:	82 30       	cpi	r24, 0x02	; 2
+ 496:	59 f6       	brne	.-106    	; 0x42e <i2cRead16(unsigned char)+0x28>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:165
+    return 0;
+  }
+
+  const uint8_t lsb = Wire.read();
+ 498:	8b e3       	ldi	r24, 0x3B	; 59
+ 49a:	9f e3       	ldi	r25, 0x3F	; 63
+ 49c:	e8 de       	rcall	.-560    	; 0x26e <TwoWire::read()>
+ 49e:	c8 2f       	mov	r28, r24
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:166
+  const uint8_t msb = Wire.read();
+ 4a0:	8b e3       	ldi	r24, 0x3B	; 59
+ 4a2:	9f e3       	ldi	r25, 0x3F	; 63
+ 4a4:	e4 de       	rcall	.-568    	; 0x26e <TwoWire::read()>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:167
+  return (uint16_t)(msb << 8) | lsb;
+ 4a6:	20 e0       	ldi	r18, 0x00	; 0
+ 4a8:	38 2f       	mov	r19, r24
+ 4aa:	c9 01       	movw	r24, r18
+ 4ac:	8c 2b       	or	r24, r28
+ 4ae:	c1 cf       	rjmp	.-126    	; 0x432 <i2cRead16(unsigned char)+0x2c>
+masterReceive():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:688
+      } else {
+        if (currentStatus & TWI_WIF_bm) {
+          TWIR_SET_ERROR(TWI_ERR_ACK_ADR);        // set error flag
+          module->MCTRLB = TWI_MCMD_STOP_gc;      // free the bus
+          break;
+        } else if (currentStatus & TWI_RIF_bm) {
+ 4b0:	47 ff       	sbrs	r20, 7
+ 4b2:	d3 cf       	rjmp	.-90     	; 0x45a <i2cRead16(unsigned char)+0x54>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:689
+          *buffer = module->MDATA;
+ 4b4:	20 85       	ldd	r18, Z+8	; 0x08
+ 4b6:	2d 93       	st	X+, r18
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:694
+          buffer++;
+          #if defined (TWI_TIMEOUT_ENABLE)
+            timeout = (F_CPU/1000);                // reset timeout
+          #endif
+          if (--dataToRead != 0) {
+ 4b8:	91 30       	cpi	r25, 0x01	; 1
+ 4ba:	29 f0       	breq	.+10     	; 0x4c6 <i2cRead16(unsigned char)+0xc0>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:695
+            module->MCTRLB = TWI_MCMD_RECVTRANS_gc;  // send an ACK so the Slave so it can send the next byte
+ 4bc:	64 83       	std	Z+4, r22	; 0x04
+_ZL9i2cRead16h():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:692
+          break;
+        } else if (currentStatus & TWI_RIF_bm) {
+          *buffer = module->MDATA;
+          buffer++;
+          #if defined (TWI_TIMEOUT_ENABLE)
+            timeout = (F_CPU/1000);                // reset timeout
+ 4be:	20 e2       	ldi	r18, 0x20	; 32
+ 4c0:	3e e4       	ldi	r19, 0x4E	; 78
+masterReceive():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:695
+          #endif
+          if (--dataToRead != 0) {
+            module->MCTRLB = TWI_MCMD_RECVTRANS_gc;  // send an ACK so the Slave so it can send the next byte
+ 4c2:	91 e0       	ldi	r25, 0x01	; 1
+ 4c4:	ca cf       	rjmp	.-108    	; 0x45a <i2cRead16(unsigned char)+0x54>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:698
+          } else {
+            if (sendStop != 0) {
+              module->MCTRLB = TWI_ACKACT_bm | TWI_MCMD_STOP_gc;   // send STOP + NACK
+ 4c6:	87 e0       	ldi	r24, 0x07	; 7
+ 4c8:	84 83       	std	Z+4, r24	; 0x04
+_ZL9i2cRead16h():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:694
+          *buffer = module->MDATA;
+          buffer++;
+          #if defined (TWI_TIMEOUT_ENABLE)
+            timeout = (F_CPU/1000);                // reset timeout
+          #endif
+          if (--dataToRead != 0) {
+ 4ca:	90 e0       	ldi	r25, 0x00	; 0
+ 4cc:	dc cf       	rjmp	.-72     	; 0x486 <i2cRead16(unsigned char)+0x80>
+
+000004ce <i2cWrite(unsigned char, unsigned char const*, unsigned char)>:
+_ZL8i2cWritehPKhh():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:145
+    sum += data[i];
+  }
+  return (uint8_t)(0xFF & ~sum);
+}
+
+static bool i2cWrite(uint8_t reg, const uint8_t *data, uint8_t len) {
+ 4ce:	0f 93       	push	r16
+ 4d0:	1f 93       	push	r17
+ 4d2:	cf 93       	push	r28
+ 4d4:	8b 01       	movw	r16, r22
+ 4d6:	c4 2f       	mov	r28, r20
+beginTransmission():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:773
+void TwoWire::beginTransmission(uint8_t address) {
+  if (__builtin_constant_p(address) > 0x7F) {     // Compile-time check if address is actually 7 bit long
+    badArg("Supplied address seems to be 8 bit. Only 7-bit-addresses are supported");
+    return;
+  }
+  if (_bools._hostEnabled) {
+ 4d8:	90 91 46 3f 	lds	r25, 0x3F46	; 0x803f46 <Wire+0xb>
+ 4dc:	91 ff       	sbrs	r25, 1
+ 4de:	07 c0       	rjmp	.+14     	; 0x4ee <i2cWrite(unsigned char, unsigned char const*, unsigned char)+0x20>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:775
+    // set address of targeted client
+    _clientAddress = address << 1;
+ 4e0:	90 e1       	ldi	r25, 0x10	; 16
+ 4e2:	90 93 4c 3f 	sts	0x3F4C, r25	; 0x803f4c <Wire+0x11>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:776
+    _bytesToReadWrite = 0;  // fill buffer from 0
+ 4e6:	10 92 4d 3f 	sts	0x3F4D, r1	; 0x803f4d <Wire+0x12>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:777
+    _bytesReadWritten = 0;
+ 4ea:	10 92 4e 3f 	sts	0x3F4E, r1	; 0x803f4e <Wire+0x13>
+_ZL8i2cWritehPKhh():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:147
+  Wire.beginTransmission(BQ_ADDR);
+  Wire.write(reg);
+ 4ee:	68 2f       	mov	r22, r24
+ 4f0:	8b e3       	ldi	r24, 0x3B	; 59
+ 4f2:	9f e3       	ldi	r25, 0x3F	; 63
+ 4f4:	d4 de       	rcall	.-600    	; 0x29e <TwoWire::write(unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:148
+  Wire.write(data, len);
+ 4f6:	4c 2f       	mov	r20, r28
+ 4f8:	50 e0       	ldi	r21, 0x00	; 0
+ 4fa:	b8 01       	movw	r22, r16
+ 4fc:	8b e3       	ldi	r24, 0x3B	; 59
+ 4fe:	9f e3       	ldi	r25, 0x3F	; 63
+ 500:	e0 de       	rcall	.-576    	; 0x2c2 <TwoWire::write(unsigned char const*, unsigned int)>
+endTransmission():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.h:253
+      beginTransmission((uint8_t)address);
+    }
+
+    uint8_t endTransmission(bool);
+    uint8_t endTransmission(void) {
+      return endTransmission(true);
+ 502:	81 e0       	ldi	r24, 0x01	; 1
+ 504:	f2 dd       	rcall	.-1052   	; 0xea <TwoWire::endTransmission(bool) [clone .constprop.14]>
+ 506:	98 2f       	mov	r25, r24
+_delay_ms():
+/home/tangles/.arduino15/packages/DxCore/tools/avr-gcc/7.3.0-atmel3.6.1-azduino8a/avr/include/util/delay.h:187
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 508:	ef e0       	ldi	r30, 0x0F	; 15
+ 50a:	f7 e2       	ldi	r31, 0x27	; 39
+ 50c:	31 97       	sbiw	r30, 0x01	; 1
+ 50e:	f1 f7       	brne	.-4      	; 0x50c <i2cWrite(unsigned char, unsigned char const*, unsigned char)+0x3e>
+ 510:	00 c0       	rjmp	.+0      	; 0x512 <i2cWrite(unsigned char, unsigned char const*, unsigned char)+0x44>
+ 512:	00 00       	nop
+_ZL8i2cWritehPKhh():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:151
+  const uint8_t status = Wire.endTransmission();
+  delay(2);
+  return status == 0;
+ 514:	81 e0       	ldi	r24, 0x01	; 1
+ 516:	91 11       	cpse	r25, r1
+ 518:	80 e0       	ldi	r24, 0x00	; 0
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:152
+}
+ 51a:	cf 91       	pop	r28
+ 51c:	1f 91       	pop	r17
+ 51e:	0f 91       	pop	r16
+ 520:	08 95       	ret
+
+00000522 <writeConfig16(unsigned int, unsigned int)>:
+_ZL13writeConfig16jj():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:199
+  uint8_t meta[2] = { cks, 0x05 };
+  i2cWrite(REG_SUBCMD, payload, sizeof(payload));
+  i2cWrite(REG_SUBCMD_DATA, meta, sizeof(meta));
+}
+
+static void writeConfig16(uint16_t addr, uint16_t value) {
+ 522:	cf 93       	push	r28
+ 524:	df 93       	push	r29
+ 526:	cd b7       	in	r28, 0x3d	; 61
+ 528:	de b7       	in	r29, 0x3e	; 62
+ 52a:	26 97       	sbiw	r28, 0x06	; 6
+ 52c:	cd bf       	out	0x3d, r28	; 61
+ 52e:	de bf       	out	0x3e, r29	; 62
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:205
+  uint8_t payload[4] = {
+    (uint8_t)(addr & 0xFF),
+    (uint8_t)(addr >> 8),
+    (uint8_t)(value & 0xFF),
+    (uint8_t)(value >> 8)
+  };
+ 530:	89 83       	std	Y+1, r24	; 0x01
+ 532:	90 e9       	ldi	r25, 0x90	; 144
+ 534:	9a 83       	std	Y+2, r25	; 0x02
+ 536:	6b 83       	std	Y+3, r22	; 0x03
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:204
+static void writeConfig16(uint16_t addr, uint16_t value) {
+  uint8_t payload[4] = {
+    (uint8_t)(addr & 0xFF),
+    (uint8_t)(addr >> 8),
+    (uint8_t)(value & 0xFF),
+    (uint8_t)(value >> 8)
+ 538:	27 2f       	mov	r18, r23
+ 53a:	30 e0       	ldi	r19, 0x00	; 0
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:205
+  };
+ 53c:	7c 83       	std	Y+4, r23	; 0x04
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:207
+  uint8_t cks = checksum(payload, sizeof(payload));
+  uint8_t meta[2] = { cks, 0x06 };
+ 53e:	96 e0       	ldi	r25, 0x06	; 6
+ 540:	9e 83       	std	Y+6, r25	; 0x06
+checksum():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:140
+#endif
+
+static uint8_t checksum(const uint8_t *data, uint8_t len) {
+  uint16_t sum = 0;
+  for (uint8_t i = 0; i < len; i++) {
+    sum += data[i];
+ 542:	62 0f       	add	r22, r18
+ 544:	73 2f       	mov	r23, r19
+ 546:	71 1d       	adc	r23, r1
+ 548:	60 57       	subi	r22, 0x70	; 112
+ 54a:	7f 4f       	sbci	r23, 0xFF	; 255
+ 54c:	86 0f       	add	r24, r22
+ 54e:	97 2f       	mov	r25, r23
+ 550:	91 1d       	adc	r25, r1
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:142
+  }
+  return (uint8_t)(0xFF & ~sum);
+ 552:	80 95       	com	r24
+_ZL13writeConfig16jj():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:207
+    (uint8_t)(addr >> 8),
+    (uint8_t)(value & 0xFF),
+    (uint8_t)(value >> 8)
+  };
+  uint8_t cks = checksum(payload, sizeof(payload));
+  uint8_t meta[2] = { cks, 0x06 };
+ 554:	8d 83       	std	Y+5, r24	; 0x05
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:208
+  i2cWrite(REG_SUBCMD, payload, sizeof(payload));
+ 556:	44 e0       	ldi	r20, 0x04	; 4
+ 558:	be 01       	movw	r22, r28
+ 55a:	6f 5f       	subi	r22, 0xFF	; 255
+ 55c:	7f 4f       	sbci	r23, 0xFF	; 255
+ 55e:	8e e3       	ldi	r24, 0x3E	; 62
+ 560:	b6 df       	rcall	.-148    	; 0x4ce <i2cWrite(unsigned char, unsigned char const*, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:209
+  i2cWrite(REG_SUBCMD_DATA, meta, sizeof(meta));
+ 562:	42 e0       	ldi	r20, 0x02	; 2
+ 564:	be 01       	movw	r22, r28
+ 566:	6b 5f       	subi	r22, 0xFB	; 251
+ 568:	7f 4f       	sbci	r23, 0xFF	; 255
+ 56a:	80 e6       	ldi	r24, 0x60	; 96
+ 56c:	b0 df       	rcall	.-160    	; 0x4ce <i2cWrite(unsigned char, unsigned char const*, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:210
+}
+ 56e:	26 96       	adiw	r28, 0x06	; 6
+ 570:	cd bf       	out	0x3d, r28	; 61
+ 572:	de bf       	out	0x3e, r29	; 62
+ 574:	df 91       	pop	r29
+ 576:	cf 91       	pop	r28
+ 578:	08 95       	ret
+
+0000057a <writeConfig8(unsigned int, unsigned char)>:
+_ZL12writeConfig8jh():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:175
+static void sendSubcommand(uint16_t cmd) {
+  uint8_t buf[2] = { (uint8_t)(cmd & 0xFF), (uint8_t)(cmd >> 8) };
+  i2cWrite(REG_SUBCMD, buf, sizeof(buf));
+}
+
+static void writeConfig8(uint16_t addr, uint8_t value) {
+ 57a:	cf 93       	push	r28
+ 57c:	df 93       	push	r29
+ 57e:	cd b7       	in	r28, 0x3d	; 61
+ 580:	de b7       	in	r29, 0x3e	; 62
+ 582:	25 97       	sbiw	r28, 0x05	; 5
+ 584:	cd bf       	out	0x3d, r28	; 61
+ 586:	de bf       	out	0x3e, r29	; 62
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:180
+  uint8_t payload[3] = {
+    (uint8_t)(addr & 0xFF),
+    (uint8_t)(addr >> 8),
+    value
+  };
+ 588:	89 83       	std	Y+1, r24	; 0x01
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:178
+}
+
+static void writeConfig8(uint16_t addr, uint8_t value) {
+  uint8_t payload[3] = {
+    (uint8_t)(addr & 0xFF),
+    (uint8_t)(addr >> 8),
+ 58a:	29 2f       	mov	r18, r25
+ 58c:	30 e0       	ldi	r19, 0x00	; 0
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:180
+    value
+  };
+ 58e:	9a 83       	std	Y+2, r25	; 0x02
+ 590:	6b 83       	std	Y+3, r22	; 0x03
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:182
+  uint8_t cks = checksum(payload, sizeof(payload));
+  uint8_t meta[2] = { cks, 0x05 };
+ 592:	95 e0       	ldi	r25, 0x05	; 5
+ 594:	9d 83       	std	Y+5, r25	; 0x05
+checksum():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:140
+#endif
+
+static uint8_t checksum(const uint8_t *data, uint8_t len) {
+  uint16_t sum = 0;
+  for (uint8_t i = 0; i < len; i++) {
+    sum += data[i];
+ 596:	82 0f       	add	r24, r18
+ 598:	93 2f       	mov	r25, r19
+ 59a:	91 1d       	adc	r25, r1
+ 59c:	68 0f       	add	r22, r24
+ 59e:	79 2f       	mov	r23, r25
+ 5a0:	71 1d       	adc	r23, r1
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:142
+  }
+  return (uint8_t)(0xFF & ~sum);
+ 5a2:	60 95       	com	r22
+_ZL12writeConfig8jh():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:182
+    (uint8_t)(addr & 0xFF),
+    (uint8_t)(addr >> 8),
+    value
+  };
+  uint8_t cks = checksum(payload, sizeof(payload));
+  uint8_t meta[2] = { cks, 0x05 };
+ 5a4:	6c 83       	std	Y+4, r22	; 0x04
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:183
+  i2cWrite(REG_SUBCMD, payload, sizeof(payload));
+ 5a6:	43 e0       	ldi	r20, 0x03	; 3
+ 5a8:	be 01       	movw	r22, r28
+ 5aa:	6f 5f       	subi	r22, 0xFF	; 255
+ 5ac:	7f 4f       	sbci	r23, 0xFF	; 255
+ 5ae:	8e e3       	ldi	r24, 0x3E	; 62
+ 5b0:	8e df       	rcall	.-228    	; 0x4ce <i2cWrite(unsigned char, unsigned char const*, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:184
+  i2cWrite(REG_SUBCMD_DATA, meta, sizeof(meta));
+ 5b2:	42 e0       	ldi	r20, 0x02	; 2
+ 5b4:	be 01       	movw	r22, r28
+ 5b6:	6c 5f       	subi	r22, 0xFC	; 252
+ 5b8:	7f 4f       	sbci	r23, 0xFF	; 255
+ 5ba:	80 e6       	ldi	r24, 0x60	; 96
+ 5bc:	88 df       	rcall	.-240    	; 0x4ce <i2cWrite(unsigned char, unsigned char const*, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:185
+}
+ 5be:	25 96       	adiw	r28, 0x05	; 5
+ 5c0:	cd bf       	out	0x3d, r28	; 61
+ 5c2:	de bf       	out	0x3e, r29	; 62
+ 5c4:	df 91       	pop	r29
+ 5c6:	cf 91       	pop	r28
+ 5c8:	08 95       	ret
+
+000005ca <sendSubcommand(unsigned int)>:
+_ZL14sendSubcommandj():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:170
+  const uint8_t lsb = Wire.read();
+  const uint8_t msb = Wire.read();
+  return (uint16_t)(msb << 8) | lsb;
+}
+
+static void sendSubcommand(uint16_t cmd) {
+ 5ca:	cf 93       	push	r28
+ 5cc:	df 93       	push	r29
+ 5ce:	00 d0       	rcall	.+0      	; 0x5d0 <sendSubcommand(unsigned int)+0x6>
+ 5d0:	cd b7       	in	r28, 0x3d	; 61
+ 5d2:	de b7       	in	r29, 0x3e	; 62
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:171
+  uint8_t buf[2] = { (uint8_t)(cmd & 0xFF), (uint8_t)(cmd >> 8) };
+ 5d4:	89 83       	std	Y+1, r24	; 0x01
+ 5d6:	1a 82       	std	Y+2, r1	; 0x02
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:172
+  i2cWrite(REG_SUBCMD, buf, sizeof(buf));
+ 5d8:	42 e0       	ldi	r20, 0x02	; 2
+ 5da:	be 01       	movw	r22, r28
+ 5dc:	6f 5f       	subi	r22, 0xFF	; 255
+ 5de:	7f 4f       	sbci	r23, 0xFF	; 255
+ 5e0:	8e e3       	ldi	r24, 0x3E	; 62
+ 5e2:	75 df       	rcall	.-278    	; 0x4ce <i2cWrite(unsigned char, unsigned char const*, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:173
+}
+ 5e4:	0f 90       	pop	r0
+ 5e6:	0f 90       	pop	r0
+ 5e8:	df 91       	pop	r29
+ 5ea:	cf 91       	pop	r28
+ 5ec:	08 95       	ret
+
+000005ee <configureBq76905()>:
+_ZL16configureBq76905v():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:336
+  sendSubcommand(SHUTDOWN);
+}
+
+static void configureBq76905() {
+  
+  sendSubcommand(SET_CFGUPDATE);
+ 5ee:	80 e9       	ldi	r24, 0x90	; 144
+ 5f0:	90 e0       	ldi	r25, 0x00	; 0
+ 5f2:	eb df       	rcall	.-42     	; 0x5ca <sendSubcommand(unsigned int)>
+_delay_ms():
+/home/tangles/.arduino15/packages/DxCore/tools/avr-gcc/7.3.0-atmel3.6.1-azduino8a/avr/include/util/delay.h:187
+ 5f4:	8f e4       	ldi	r24, 0x4F	; 79
+ 5f6:	93 ec       	ldi	r25, 0xC3	; 195
+ 5f8:	01 97       	sbiw	r24, 0x01	; 1
+ 5fa:	f1 f7       	brne	.-4      	; 0x5f8 <configureBq76905()+0xa>
+ 5fc:	00 c0       	rjmp	.+0      	; 0x5fe <configureBq76905()+0x10>
+ 5fe:	00 00       	nop
+_ZL16configureBq76905v():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:340
+  delay(10);
+
+  // 2S Li-ion defaults (VcellMode uses 0x00 for 2-series)
+  writeConfig8(VcellMode, 0x02);
+ 600:	62 e0       	ldi	r22, 0x02	; 2
+ 602:	8b e1       	ldi	r24, 0x1B	; 27
+ 604:	90 e9       	ldi	r25, 0x90	; 144
+ 606:	b9 df       	rcall	.-142    	; 0x57a <writeConfig8(unsigned int, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:344
+
+  // Enable autonomous FET control and allow CHG FET in SLEEP mode.
+  // Bit map (Table 12-8): SLEEPCHG=bit4, SFET=bit3, FET_EN=bit2.
+  writeConfig8(FETOptions, 0x1C);
+ 608:	6c e1       	ldi	r22, 0x1C	; 28
+ 60a:	8e e1       	ldi	r24, 0x1E	; 30
+ 60c:	90 e9       	ldi	r25, 0x90	; 144
+ 60e:	b5 df       	rcall	.-150    	; 0x57a <writeConfig8(unsigned int, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:350
+  //writeConfig8(FETOptions, 0x04);
+
+  // Enable only CUV/COV safety protections.
+  // SafetyStatusA bit mapping uses COV=bit7, CUV=bit6 -> mask 0xC0.
+  // Use 8-bit writes here because EnabledProtectionsA/B are 1-byte fields.
+  writeConfig8(EnabledProtectionsA, 0xC0);
+ 610:	60 ec       	ldi	r22, 0xC0	; 192
+ 612:	84 e2       	ldi	r24, 0x24	; 36
+ 614:	90 e9       	ldi	r25, 0x90	; 144
+ 616:	b1 df       	rcall	.-158    	; 0x57a <writeConfig8(unsigned int, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:351
+  writeConfig8(EnabledProtectionsB, 0x00);
+ 618:	60 e0       	ldi	r22, 0x00	; 0
+ 61a:	85 e2       	ldi	r24, 0x25	; 37
+ 61c:	90 e9       	ldi	r25, 0x90	; 144
+ 61e:	ad df       	rcall	.-166    	; 0x57a <writeConfig8(unsigned int, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:355
+  // Cell balancing settings:
+  // - CB_NO_CMD=0 (allow CB_ACTIVE_CELLS host command), CBDLY=1ms (0x02 default)
+  // - very permissive balance temperature window during bring-up
+  writeConfig8(BalancingConfiguration, 0x02);
+ 620:	62 e0       	ldi	r22, 0x02	; 2
+ 622:	80 e2       	ldi	r24, 0x20	; 32
+ 624:	90 e9       	ldi	r25, 0x90	; 144
+ 626:	a9 df       	rcall	.-174    	; 0x57a <writeConfig8(unsigned int, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:356
+  writeConfig8(BalancingMinTempThreshold, 0xFF);
+ 628:	6f ef       	ldi	r22, 0xFF	; 255
+ 62a:	81 e2       	ldi	r24, 0x21	; 33
+ 62c:	90 e9       	ldi	r25, 0x90	; 144
+ 62e:	a5 df       	rcall	.-182    	; 0x57a <writeConfig8(unsigned int, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:357
+  writeConfig8(BalancingMaxTempThreshold, 0x00);
+ 630:	60 e0       	ldi	r22, 0x00	; 0
+ 632:	82 e2       	ldi	r24, 0x22	; 34
+ 634:	90 e9       	ldi	r25, 0x90	; 144
+ 636:	a1 df       	rcall	.-190    	; 0x57a <writeConfig8(unsigned int, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:358
+  writeConfig8(BalancingMaxInternalTemp, 110);
+ 638:	6e e6       	ldi	r22, 0x6E	; 110
+ 63a:	83 e2       	ldi	r24, 0x23	; 35
+ 63c:	90 e9       	ldi	r25, 0x90	; 144
+ 63e:	9d df       	rcall	.-198    	; 0x57a <writeConfig8(unsigned int, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:361
+  // Debug-friendly: enable all alarm sources so AlarmStatus can latch SSA/SSB
+  // and other events for host visibility.
+  writeConfig16(DefaultAlarmMask, 0xFFFF);
+ 640:	6f ef       	ldi	r22, 0xFF	; 255
+ 642:	7f ef       	ldi	r23, 0xFF	; 255
+ 644:	8c e1       	ldi	r24, 0x1C	; 28
+ 646:	90 e9       	ldi	r25, 0x90	; 144
+ 648:	6c df       	rcall	.-296    	; 0x522 <writeConfig16(unsigned int, unsigned int)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:365
+
+  // Typical 2S Li-ion per-cell thresholds.
+  // Thresholds are mV (I2). Delay/hysteresis are compact encoded fields (U1/H1).
+  writeConfig16(CellUndervoltageProtectionThreshold, 3000);  // 3.0V
+ 64a:	68 eb       	ldi	r22, 0xB8	; 184
+ 64c:	7b e0       	ldi	r23, 0x0B	; 11
+ 64e:	8e e2       	ldi	r24, 0x2E	; 46
+ 650:	90 e9       	ldi	r25, 0x90	; 144
+ 652:	67 df       	rcall	.-306    	; 0x522 <writeConfig16(unsigned int, unsigned int)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:366
+  writeConfig8(CellUndervoltageProtectionDelay, 10);         // 10 ADSCAN intervals
+ 654:	6a e0       	ldi	r22, 0x0A	; 10
+ 656:	80 e3       	ldi	r24, 0x30	; 48
+ 658:	90 e9       	ldi	r25, 0x90	; 144
+ 65a:	8f df       	rcall	.-226    	; 0x57a <writeConfig8(unsigned int, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:367
+  writeConfig8(CellUndervoltageProtectionRecoveryHysteresis, 2); // +100mV, autonomous recovery enabled
+ 65c:	62 e0       	ldi	r22, 0x02	; 2
+ 65e:	81 e3       	ldi	r24, 0x31	; 49
+ 660:	90 e9       	ldi	r25, 0x90	; 144
+ 662:	8b df       	rcall	.-234    	; 0x57a <writeConfig8(unsigned int, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:369
+
+  writeConfig16(CellOvervoltageProtectionThreshold, 4200);   // 4.20V
+ 664:	68 e6       	ldi	r22, 0x68	; 104
+ 666:	70 e1       	ldi	r23, 0x10	; 16
+ 668:	82 e3       	ldi	r24, 0x32	; 50
+ 66a:	90 e9       	ldi	r25, 0x90	; 144
+ 66c:	5a df       	rcall	.-332    	; 0x522 <writeConfig16(unsigned int, unsigned int)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:370
+  writeConfig8(CellOvervoltageProtectionDelay, 10);          // 10 ADSCAN intervals
+ 66e:	6a e0       	ldi	r22, 0x0A	; 10
+ 670:	84 e3       	ldi	r24, 0x34	; 52
+ 672:	90 e9       	ldi	r25, 0x90	; 144
+ 674:	82 df       	rcall	.-252    	; 0x57a <writeConfig8(unsigned int, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:371
+  writeConfig8(CellOvervoltageProtectionRecoveryHysteresis, 2); // -100mV, autonomous recovery enabled
+ 676:	62 e0       	ldi	r22, 0x02	; 2
+ 678:	85 e3       	ldi	r24, 0x35	; 53
+ 67a:	90 e9       	ldi	r25, 0x90	; 144
+ 67c:	7e df       	rcall	.-260    	; 0x57a <writeConfig8(unsigned int, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:373
+
+  sendSubcommand(EXIT_CFGUPDATE);
+ 67e:	82 e9       	ldi	r24, 0x92	; 146
+ 680:	90 e0       	ldi	r25, 0x00	; 0
+ 682:	a3 df       	rcall	.-186    	; 0x5ca <sendSubcommand(unsigned int)>
+delay():
+ 684:	64 e6       	ldi	r22, 0x64	; 100
+ 686:	70 e0       	ldi	r23, 0x00	; 0
+ 688:	80 e0       	ldi	r24, 0x00	; 0
+ 68a:	90 e0       	ldi	r25, 0x00	; 0
+ 68c:	a8 cd       	rjmp	.-1200   	; 0x1de <delay.part.0>
+
+0000068e <restartMasterI2c(bool) [clone .constprop.7]>:
+_ZL16restartMasterI2cb.constprop.7():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:396
+};
+
+static TinyBusRole tinyBusRole = TINY_ROLE_BQ_MASTER;
+
+static void restartMasterI2c(bool reconfigureBq) {
+  Wire.end();
+ 68e:	05 dd       	rcall	.-1526   	; 0x9a <TwoWire::end() [clone .constprop.17]>
+delay():
+ 690:	69 e1       	ldi	r22, 0x19	; 25
+ 692:	70 e0       	ldi	r23, 0x00	; 0
+ 694:	80 e0       	ldi	r24, 0x00	; 0
+ 696:	90 e0       	ldi	r25, 0x00	; 0
+ 698:	a2 dd       	rcall	.-1212   	; 0x1de <delay.part.0>
+begin():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:290
+  #if defined(TWI_MANDS)                            // Check if the user wants to use Master AND Slave
+    if (_bools._hostEnabled == 1) {          // Slave is allowed to be enabled, don't re-enable the host though
+      return;
+    }
+  #else                                             // Master OR Slave
+    if ((_bools._hostEnabled | _bools._clientEnabled) == 1) {  //If either are enabled
+ 69a:	80 91 46 3f 	lds	r24, 0x3F46	; 0x803f46 <Wire+0xb>
+ 69e:	81 fd       	sbrc	r24, 1
+ 6a0:	10 c0       	rjmp	.+32     	; 0x6c2 <restartMasterI2c(bool) [clone .constprop.7]+0x34>
+ 6a2:	82 fd       	sbrc	r24, 2
+ 6a4:	0e c0       	rjmp	.+28     	; 0x6c2 <restartMasterI2c(bool) [clone .constprop.7]+0x34>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:303
+      TWI0_ClearPins();
+    } else if (&TWI1 == _module) {
+      TWI1_ClearPins();
+    }
+  #else                                             // Only one TWI is used
+    TWI0_ClearPins();                               // Only one option is possible
+ 6a6:	bb dd       	rcall	.-1162   	; 0x21e <TWI0_ClearPins>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:306
+  #endif
+
+  _bools._hostEnabled    = 1;
+ 6a8:	80 91 46 3f 	lds	r24, 0x3F46	; 0x803f46 <Wire+0xb>
+ 6ac:	82 60       	ori	r24, 0x02	; 2
+ 6ae:	80 93 46 3f 	sts	0x3F46, r24	; 0x803f46 <Wire+0xb>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:307
+  TWI_t* module = _module;
+ 6b2:	e0 91 43 3f 	lds	r30, 0x3F43	; 0x803f43 <Wire+0x8>
+ 6b6:	f0 91 44 3f 	lds	r31, 0x3F44	; 0x803f44 <Wire+0x9>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:308
+  module->MCTRLA        = TWI_ENABLE_bm;  // Master Interrupt flags stay disabled
+ 6ba:	81 e0       	ldi	r24, 0x01	; 1
+ 6bc:	83 83       	std	Z+3, r24	; 0x03
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:309
+  module->MSTATUS       = TWI_BUSSTATE_IDLE_gc;
+ 6be:	85 83       	std	Z+5, r24	; 0x05
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:311
+
+  setClock(DEFAULT_FREQUENCY);
+ 6c0:	66 dd       	rcall	.-1332   	; 0x18e <TwoWire::setClock(unsigned long) [clone .constprop.10]>
+_ZL16restartMasterI2cb.constprop.7():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:399
+  delay(25);
+  Wire.begin();
+  Wire.setClock(100000);
+ 6c2:	65 dd       	rcall	.-1334   	; 0x18e <TwoWire::setClock(unsigned long) [clone .constprop.10]>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:400
+  bqReadFailures = 0;
+ 6c4:	10 92 3a 3f 	sts	0x3F3A, r1	; 0x803f3a <bqReadFailures>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:401
+  lastBalanceCommandMs = 0;
+ 6c8:	10 92 36 3f 	sts	0x3F36, r1	; 0x803f36 <lastBalanceCommandMs>
+ 6cc:	10 92 37 3f 	sts	0x3F37, r1	; 0x803f37 <lastBalanceCommandMs+0x1>
+ 6d0:	10 92 38 3f 	sts	0x3F38, r1	; 0x803f38 <lastBalanceCommandMs+0x2>
+ 6d4:	10 92 39 3f 	sts	0x3F39, r1	; 0x803f39 <lastBalanceCommandMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:402
+  lastEspProbeMs = millis() - ESP_PROBE_PERIOD_MS;
+ 6d8:	76 dd       	rcall	.-1300   	; 0x1c6 <millis>
+ 6da:	68 5b       	subi	r22, 0xB8	; 184
+ 6dc:	7b 40       	sbci	r23, 0x0B	; 11
+ 6de:	81 09       	sbc	r24, r1
+ 6e0:	91 09       	sbc	r25, r1
+ 6e2:	60 93 32 3f 	sts	0x3F32, r22	; 0x803f32 <lastEspProbeMs>
+ 6e6:	70 93 33 3f 	sts	0x3F33, r23	; 0x803f33 <lastEspProbeMs+0x1>
+ 6ea:	80 93 34 3f 	sts	0x3F34, r24	; 0x803f34 <lastEspProbeMs+0x2>
+ 6ee:	90 93 35 3f 	sts	0x3F35, r25	; 0x803f35 <lastEspProbeMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:404
+  if (reconfigureBq) {
+    configureBq76905();
+ 6f2:	7d cf       	rjmp	.-262    	; 0x5ee <configureBq76905()>
+
+000006f4 <__vector_9>:
+__vector_9():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_micros_ISR.h:839
+  #else
+    ISR(MILLIS_TIMER_VECTOR, ISR_NAKED) {
+      // Common Interrupt header for TCB, TCA and TCD;
+      // Clears the Timer Interrupt flag and pushes the CPU Registers
+      // 7 words / 7 clocks
+      __asm__ __volatile__(
+ 6f4:	8f 93       	push	r24
+ 6f6:	82 e0       	ldi	r24, 0x02	; 2
+ 6f8:	80 93 0b 0a 	sts	0x0A0B, r24	; 0x800a0b <digital_pin_to_bit_mask+0x7f7ac1>
+ 6fc:	8f b7       	in	r24, 0x3f	; 63
+ 6fe:	8f 93       	push	r24
+ 700:	ef 93       	push	r30
+ 702:	ff 93       	push	r31
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_micros_ISR.h:950
+        [MIINC]  "M" ((0x0000 - MILLIS_INC) & 0xFF),
+        [MINCD]  "M" ((0xFFFF - MILLIS_INC) & 0xFF)
+      );
+  */
+
+      __asm__ __volatile__(
+ 704:	e8 e2       	ldi	r30, 0x28	; 40
+ 706:	ff e3       	ldi	r31, 0x3F	; 63
+ 708:	9f 93       	push	r25
+ 70a:	68 94       	set
+ 70c:	8f ef       	ldi	r24, 0xFF	; 255
+ 70e:	0d c0       	rjmp	.+26     	; 0x72a <sub4>
+
+00000710 <ovf_end>:
+ 710:	e8 94       	clt
+ 712:	84 81       	ldd	r24, Z+4	; 0x04
+ 714:	95 81       	ldd	r25, Z+5	; 0x05
+ 716:	80 5d       	subi	r24, 0xD0	; 208
+ 718:	9c 4f       	sbci	r25, 0xFC	; 252
+ 71a:	84 83       	std	Z+4, r24	; 0x04
+ 71c:	95 83       	std	Z+5, r25	; 0x05
+ 71e:	88 5e       	subi	r24, 0xE8	; 232
+ 720:	93 40       	sbci	r25, 0x03	; 3
+ 722:	80 f0       	brcs	.+32     	; 0x744 <sub_end>
+ 724:	84 83       	std	Z+4, r24	; 0x04
+ 726:	95 83       	std	Z+5, r25	; 0x05
+ 728:	8f ef       	ldi	r24, 0xFF	; 255
+
+0000072a <sub4>:
+ 72a:	90 81       	ld	r25, Z
+ 72c:	98 1b       	sub	r25, r24
+ 72e:	91 93       	st	Z+, r25
+ 730:	90 81       	ld	r25, Z
+ 732:	9f 4f       	sbci	r25, 0xFF	; 255
+ 734:	91 93       	st	Z+, r25
+ 736:	90 81       	ld	r25, Z
+ 738:	9f 4f       	sbci	r25, 0xFF	; 255
+ 73a:	91 93       	st	Z+, r25
+ 73c:	90 81       	ld	r25, Z
+ 73e:	9f 4f       	sbci	r25, 0xFF	; 255
+ 740:	91 93       	st	Z+, r25
+ 742:	36 f3       	brts	.-52     	; 0x710 <ovf_end>
+
+00000744 <sub_end>:
+ 744:	9f 91       	pop	r25
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_micros_ISR.h:1012
+        [MINCD]  "M" ((0xFFFF - MILLIS_INC) & 0xFF)
+      );
+    #endif /* (defined(MILLIS_USE_TIMERB0) || defined(MILLIS_USE_TIMERB1) || defined(MILLIS_USE_TIMERB2) || defined(MILLIS_USE_TIMERB3) || defined(MILLIS_USE_TIMERB4)) */
+    // Common ISR Epilogue for TCA, TCB and TCD, popping register in reverse Order
+    // 6 words, 14 clocks
+    __asm__ __volatile__(
+ 746:	ff 91       	pop	r31
+ 748:	ef 91       	pop	r30
+ 74a:	8f 91       	pop	r24
+ 74c:	8f bf       	out	0x3f, r24	; 63
+ 74e:	8f 91       	pop	r24
+ 750:	18 95       	reti
+
+00000752 <__vector_19>:
+__vector_19():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1421
+
+
+/**
+ *@brief      TWI0 Slave Interrupt vector
+ */
+ISR(TWI0_TWIS_vect) {
+ 752:	1f 92       	push	r1
+ 754:	0f 92       	push	r0
+ 756:	0f b6       	in	r0, 0x3f	; 63
+ 758:	0f 92       	push	r0
+ 75a:	11 24       	eor	r1, r1
+ 75c:	1f 93       	push	r17
+ 75e:	2f 93       	push	r18
+ 760:	3f 93       	push	r19
+ 762:	4f 93       	push	r20
+ 764:	5f 93       	push	r21
+ 766:	6f 93       	push	r22
+ 768:	7f 93       	push	r23
+ 76a:	8f 93       	push	r24
+ 76c:	9f 93       	push	r25
+ 76e:	af 93       	push	r26
+ 770:	bf 93       	push	r27
+ 772:	cf 93       	push	r28
+ 774:	df 93       	push	r29
+ 776:	ef 93       	push	r30
+ 778:	ff 93       	push	r31
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1422
+  TwoWire::HandleSlaveIRQ(twi0_wire);
+ 77a:	c0 91 05 3f 	lds	r28, 0x3F05	; 0x803f05 <twi0_wire>
+ 77e:	d0 91 06 3f 	lds	r29, 0x3F06	; 0x803f06 <twi0_wire+0x1>
+HandleSlaveIRQ():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1291
+
+
+
+
+void TwoWire::HandleSlaveIRQ(TwoWire *wire_s) {
+  if (wire_s == NULL) {
+ 782:	20 97       	sbiw	r28, 0x00	; 0
+ 784:	b9 f1       	breq	.+110    	; 0x7f4 <__vector_19+0xa2>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1314
+  #if defined(TWI_MANDS)
+    wire_s->_bools._toggleStreamFn = 0x01;
+  #endif
+
+  uint8_t action = 0;
+  uint8_t clientStatus = wire_s->_module->SSTATUS;
+ 786:	a8 85       	ldd	r26, Y+8	; 0x08
+ 788:	b9 85       	ldd	r27, Y+9	; 0x09
+ 78a:	1b 96       	adiw	r26, 0x0b	; 11
+ 78c:	1c 91       	ld	r17, X
+ 78e:	1b 97       	sbiw	r26, 0x0b	; 11
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1317
+
+
+  if (clientStatus & TWI_APIF_bm) {   // Address/Stop Bit set
+ 790:	16 ff       	sbrs	r17, 6
+ 792:	53 c0       	rjmp	.+166    	; 0x83a <__vector_19+0xe8>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1318
+    if (wire_s->_bools._hostDataSent != 0) { // At this point, we have either a START, REPSTART or a STOP
+ 794:	8b 85       	ldd	r24, Y+11	; 0x0b
+ 796:	83 ff       	sbrs	r24, 3
+ 798:	09 c0       	rjmp	.+18     	; 0x7ac <__vector_19+0x5a>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1319
+      wire_s->_bools._hostDataSent = 0x00;
+ 79a:	87 7f       	andi	r24, 0xF7	; 247
+ 79c:	8b 87       	std	Y+11, r24	; 0x0b
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1320
+      if (wire_s->user_onReceive != NULL) {   // only if the last APIF was a Master Write,
+ 79e:	ef 85       	ldd	r30, Y+15	; 0x0f
+ 7a0:	f8 89       	ldd	r31, Y+16	; 0x10
+ 7a2:	30 97       	sbiw	r30, 0x00	; 0
+ 7a4:	19 f0       	breq	.+6      	; 0x7ac <__vector_19+0x5a>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1321
+        wire_s->user_onReceive((*head));      // we notify the sketch about new Data
+ 7a6:	8a 89       	ldd	r24, Y+18	; 0x12
+ 7a8:	90 e0       	ldi	r25, 0x00	; 0
+ 7aa:	09 95       	icall
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1325
+      }
+    }
+
+    if (clientStatus & TWI_AP_bm) {     // Address bit set
+ 7ac:	10 ff       	sbrs	r17, 0
+ 7ae:	3b c0       	rjmp	.+118    	; 0x826 <__vector_19+0xd4>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1326
+      if ((*head) == 0) {                 // only if there was no data (START)
+ 7b0:	8a 89       	ldd	r24, Y+18	; 0x12
+ 7b2:	81 11       	cpse	r24, r1
+ 7b4:	0b c0       	rjmp	.+22     	; 0x7cc <__vector_19+0x7a>
+pauseDeepSleep():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1465
+    sleepStackLoc |= bit_mask;      // Remember which module is busy
+    sleepStack = sleepStackLoc;
+  #else
+    (void) module_lower_Addr;
+
+    if (sleepStack == 0x00) {
+ 7b6:	80 91 04 3f 	lds	r24, 0x3F04	; 0x803f04 <__data_end>
+ 7ba:	81 11       	cpse	r24, r1
+ 7bc:	07 c0       	rjmp	.+14     	; 0x7cc <__vector_19+0x7a>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1466
+      uint8_t slp = SLPCTRL.CTRLA;    // save current sleep State
+ 7be:	80 91 50 00 	lds	r24, 0x0050	; 0x800050 <digital_pin_to_bit_mask+0x7f7106>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1467
+      sleepStack = slp;               // using local variable for less store/load
+ 7c2:	80 93 04 3f 	sts	0x3F04, r24	; 0x803f04 <__data_end>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1468
+      SLPCTRL.CTRLA = slp & 0x01;     // only leave the SEN bit, if it was set
+ 7c6:	81 70       	andi	r24, 0x01	; 1
+ 7c8:	80 93 50 00 	sts	0x0050, r24	; 0x800050 <digital_pin_to_bit_mask+0x7f7106>
+HandleSlaveIRQ():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1329
+
+    if (clientStatus & TWI_AP_bm) {     // Address bit set
+      if ((*head) == 0) {                 // only if there was no data (START)
+        pauseDeepSleep((uint8_t)((uint16_t)wire_s->_module));  // Only START can wake from deep sleep, change to IDLE
+      }
+      (*head) = 0;
+ 7cc:	1a 8a       	std	Y+18, r1	; 0x12
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1330
+      (*tail) = 0;
+ 7ce:	1b 8a       	std	Y+19, r1	; 0x13
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1331
+      (*address) = wire_s->_module->SDATA;  // read address from data register
+ 7d0:	e8 85       	ldd	r30, Y+8	; 0x08
+ 7d2:	f9 85       	ldd	r31, Y+9	; 0x09
+ 7d4:	85 85       	ldd	r24, Z+13	; 0x0d
+ 7d6:	89 8b       	std	Y+17, r24	; 0x11
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1332
+      if (clientStatus & TWI_DIR_bm) {      // Master is reading
+ 7d8:	11 ff       	sbrs	r17, 1
+ 7da:	20 c0       	rjmp	.+64     	; 0x81c <__vector_19+0xca>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1333
+        if (wire_s->user_onRequest != NULL) {
+ 7dc:	ed 85       	ldd	r30, Y+13	; 0x0d
+ 7de:	fe 85       	ldd	r31, Y+14	; 0x0e
+ 7e0:	30 97       	sbiw	r30, 0x00	; 0
+ 7e2:	09 f0       	breq	.+2      	; 0x7e6 <__vector_19+0x94>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1334
+          wire_s->user_onRequest();
+ 7e4:	09 95       	icall
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1336
+        }
+        if ((*head) == 0) {                     // If no data to transmit, send NACK
+ 7e6:	8a 89       	ldd	r24, Y+18	; 0x12
+ 7e8:	81 11       	cpse	r24, r1
+ 7ea:	1b c0       	rjmp	.+54     	; 0x822 <__vector_19+0xd0>
+__vector_19():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1337
+          action = TWI_ACKACT_bm | TWI_SCMD_COMPTRANS_gc;  // NACK + "Wait for any Start (S/Sr) condition"
+ 7ec:	86 e0       	ldi	r24, 0x06	; 6
+HandleSlaveIRQ():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1382
+          action = TWI_SCMD_RESPONSE_gc;            // "Execute Acknowledge Action succeeded by reception of next byte"
+        }
+      }
+    }
+  }
+  wire_s->_module->SCTRLB = action;  // using local variable (register) reduces the amount of loading _module
+ 7ee:	e8 85       	ldd	r30, Y+8	; 0x08
+ 7f0:	f9 85       	ldd	r31, Y+9	; 0x09
+ 7f2:	82 87       	std	Z+10, r24	; 0x0a
+__vector_19():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1423
+/**
+ *@brief      TWI0 Slave Interrupt vector
+ */
+ISR(TWI0_TWIS_vect) {
+  TwoWire::HandleSlaveIRQ(twi0_wire);
+}
+ 7f4:	ff 91       	pop	r31
+ 7f6:	ef 91       	pop	r30
+ 7f8:	df 91       	pop	r29
+ 7fa:	cf 91       	pop	r28
+ 7fc:	bf 91       	pop	r27
+ 7fe:	af 91       	pop	r26
+ 800:	9f 91       	pop	r25
+ 802:	8f 91       	pop	r24
+ 804:	7f 91       	pop	r23
+ 806:	6f 91       	pop	r22
+ 808:	5f 91       	pop	r21
+ 80a:	4f 91       	pop	r20
+ 80c:	3f 91       	pop	r19
+ 80e:	2f 91       	pop	r18
+ 810:	1f 91       	pop	r17
+ 812:	0f 90       	pop	r0
+ 814:	0f be       	out	0x3f, r0	; 63
+ 816:	0f 90       	pop	r0
+ 818:	1f 90       	pop	r1
+ 81a:	18 95       	reti
+HandleSlaveIRQ():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1342
+          action = TWI_ACKACT_bm | TWI_SCMD_COMPTRANS_gc;  // NACK + "Wait for any Start (S/Sr) condition"
+        } else {
+          action = TWI_SCMD_RESPONSE_gc;        // "Execute Acknowledge Action succeeded by reception of next byte"
+        }
+      } else {                          // Master is writing
+        wire_s->_bools._hostDataSent = 0x01;
+ 81c:	8b 85       	ldd	r24, Y+11	; 0x0b
+ 81e:	88 60       	ori	r24, 0x08	; 8
+ 820:	8b 87       	std	Y+11, r24	; 0x0b
+__vector_19():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1343
+        action = TWI_SCMD_RESPONSE_gc;  // "Execute Acknowledge Action succeeded by slave data interrupt"
+ 822:	83 e0       	ldi	r24, 0x03	; 3
+ 824:	e4 cf       	rjmp	.-56     	; 0x7ee <__vector_19+0x9c>
+restoreSleep():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1490
+      }
+    }
+    sleepStack = sleepStackLoc;
+  #else
+    (void) module_lower_Addr;
+    SLPCTRL.CTRLA = sleepStack;
+ 826:	80 91 04 3f 	lds	r24, 0x3F04	; 0x803f04 <__data_end>
+ 82a:	80 93 50 00 	sts	0x0050, r24	; 0x800050 <digital_pin_to_bit_mask+0x7f7106>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1491
+    sleepStack = 0;
+ 82e:	10 92 04 3f 	sts	0x3F04, r1	; 0x803f04 <__data_end>
+HandleSlaveIRQ():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1347
+        wire_s->_bools._hostDataSent = 0x01;
+        action = TWI_SCMD_RESPONSE_gc;  // "Execute Acknowledge Action succeeded by slave data interrupt"
+      }
+    } else {                          // Stop bit set
+      restoreSleep((uint8_t)((uint16_t)wire_s->_module));
+      (*head) = 0;
+ 832:	1a 8a       	std	Y+18, r1	; 0x12
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1348
+      (*tail) = 0;
+ 834:	1b 8a       	std	Y+19, r1	; 0x13
+__vector_19():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1366
+          wire_s->_module->SDATA = buffer[(*tail)];  // Writing to the register to send data
+          (*tail)++;                              // Increment counter for sent bytes
+          action = TWI_SCMD_RESPONSE_gc;          // "Execute Acknowledge Action succeeded by reception of next byte"
+        } else {                                  // No more data available
+          (*head) = 0;                            // Avoid triggering REPSTART handler
+          action = TWI_SCMD_COMPTRANS_gc;         // "Wait for any Start (S/Sr) condition"
+ 836:	82 e0       	ldi	r24, 0x02	; 2
+ 838:	da cf       	rjmp	.-76     	; 0x7ee <__vector_19+0x9c>
+HandleSlaveIRQ():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1351
+      restoreSleep((uint8_t)((uint16_t)wire_s->_module));
+      (*head) = 0;
+      (*tail) = 0;
+      action = TWI_SCMD_COMPTRANS_gc;  // "Wait for any Start (S/Sr) condition"
+    }
+  } else if (clientStatus & TWI_DIF_bm) { // Data bit set
+ 83a:	17 ff       	sbrs	r17, 7
+ 83c:	2e c0       	rjmp	.+92     	; 0x89a <__vector_19+0x148>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1306
+    buffer  =   wire_s->_clientBuffer;
+  #else
+    address = &(wire_s->_clientAddress);
+    head    = &(wire_s->_bytesToReadWrite);
+    tail    = &(wire_s->_bytesReadWritten);
+    buffer  =   wire_s->_hostBuffer;
+ 83e:	9e 01       	movw	r18, r28
+ 840:	2b 5e       	subi	r18, 0xEB	; 235
+ 842:	3f 4f       	sbci	r19, 0xFF	; 255
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1352
+      (*head) = 0;
+      (*tail) = 0;
+      action = TWI_SCMD_COMPTRANS_gc;  // "Wait for any Start (S/Sr) condition"
+    }
+  } else if (clientStatus & TWI_DIF_bm) { // Data bit set
+    if (clientStatus & TWI_DIR_bm) {        // Master is reading
+ 844:	11 ff       	sbrs	r17, 1
+ 846:	1a c0       	rjmp	.+52     	; 0x87c <__vector_19+0x12a>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1353
+      if (clientStatus & wire_s->client_irq_mask) {   // If a collision was detected, or RXACK bit is set (when it matters)
+ 848:	8a 85       	ldd	r24, Y+10	; 0x0a
+ 84a:	18 23       	and	r17, r24
+ 84c:	21 f0       	breq	.+8      	; 0x856 <__vector_19+0x104>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1354
+        wire_s->client_irq_mask = TWI_COLL_bm;  // stop checking for NACK
+ 84e:	88 e0       	ldi	r24, 0x08	; 8
+ 850:	8a 87       	std	Y+10, r24	; 0x0a
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1365
+        if ((*tail) < (*head)) {                // Data is available
+          wire_s->_module->SDATA = buffer[(*tail)];  // Writing to the register to send data
+          (*tail)++;                              // Increment counter for sent bytes
+          action = TWI_SCMD_RESPONSE_gc;          // "Execute Acknowledge Action succeeded by reception of next byte"
+        } else {                                  // No more data available
+          (*head) = 0;                            // Avoid triggering REPSTART handler
+ 852:	1a 8a       	std	Y+18, r1	; 0x12
+ 854:	f0 cf       	rjmp	.-32     	; 0x836 <__vector_19+0xe4>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1358
+      if (clientStatus & wire_s->client_irq_mask) {   // If a collision was detected, or RXACK bit is set (when it matters)
+        wire_s->client_irq_mask = TWI_COLL_bm;  // stop checking for NACK
+        (*head) = 0;                            // Abort further data writes
+        action = TWI_SCMD_COMPTRANS_gc;         // "Wait for any Start (S/Sr) condition"
+      } else {                                // RXACK bit not set, no COLL
+        wire_s->_bytesTransmittedS++;           // increment bytes transmitted counter (for register model)
+ 856:	8c 89       	ldd	r24, Y+20	; 0x14
+ 858:	8f 5f       	subi	r24, 0xFF	; 255
+ 85a:	8c 8b       	std	Y+20, r24	; 0x14
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1359
+        wire_s->client_irq_mask = TWI_COLL_bm | TWI_RXACK_bm;  // start checking for NACK
+ 85c:	88 e1       	ldi	r24, 0x18	; 24
+ 85e:	8a 87       	std	Y+10, r24	; 0x0a
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1360
+        if ((*tail) < (*head)) {                // Data is available
+ 860:	eb 89       	ldd	r30, Y+19	; 0x13
+ 862:	8a 89       	ldd	r24, Y+18	; 0x12
+ 864:	e8 17       	cp	r30, r24
+ 866:	a8 f7       	brcc	.-22     	; 0x852 <__vector_19+0x100>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1361
+          wire_s->_module->SDATA = buffer[(*tail)];  // Writing to the register to send data
+ 868:	e2 0f       	add	r30, r18
+ 86a:	f3 2f       	mov	r31, r19
+ 86c:	f1 1d       	adc	r31, r1
+ 86e:	80 81       	ld	r24, Z
+ 870:	1d 96       	adiw	r26, 0x0d	; 13
+ 872:	8c 93       	st	X, r24
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1362
+          (*tail)++;                              // Increment counter for sent bytes
+ 874:	8b 89       	ldd	r24, Y+19	; 0x13
+ 876:	8f 5f       	subi	r24, 0xFF	; 255
+ 878:	8b 8b       	std	Y+19, r24	; 0x13
+ 87a:	d3 cf       	rjmp	.-90     	; 0x822 <__vector_19+0xd0>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1370
+          (*head) = 0;                            // Avoid triggering REPSTART handler
+          action = TWI_SCMD_COMPTRANS_gc;         // "Wait for any Start (S/Sr) condition"
+        }
+      }
+    } else {                                  // Master is writing
+      uint8_t payload = wire_s->_module->SDATA;     // reading SDATA will clear the DATA IRQ flag
+ 87c:	1d 96       	adiw	r26, 0x0d	; 13
+ 87e:	8c 91       	ld	r24, X
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1371
+      if ((*head) < TWI_BUFFER_LENGTH) {            // make sure that we don't have a buffer overflow in case Master ignores NACK
+ 880:	ea 89       	ldd	r30, Y+18	; 0x12
+ 882:	e0 32       	cpi	r30, 0x20	; 32
+ 884:	50 f4       	brcc	.+20     	; 0x89a <__vector_19+0x148>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1372
+        buffer[(*head)] = payload;                  // save data
+ 886:	e2 0f       	add	r30, r18
+ 888:	f3 2f       	mov	r31, r19
+ 88a:	f1 1d       	adc	r31, r1
+ 88c:	80 83       	st	Z, r24
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1373
+        (*head)++;                                  // Advance Head
+ 88e:	8a 89       	ldd	r24, Y+18	; 0x12
+ 890:	8f 5f       	subi	r24, 0xFF	; 255
+ 892:	8a 8b       	std	Y+18, r24	; 0x12
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1374
+        if ((*head) == TWI_BUFFER_LENGTH) {         // if buffer is not yet full
+ 894:	80 32       	cpi	r24, 0x20	; 32
+ 896:	29 f6       	brne	.-118    	; 0x822 <__vector_19+0xd0>
+ 898:	a9 cf       	rjmp	.-174    	; 0x7ec <__vector_19+0x9a>
+__vector_19():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1313
+
+  #if defined(TWI_MANDS)
+    wire_s->_bools._toggleStreamFn = 0x01;
+  #endif
+
+  uint8_t action = 0;
+ 89a:	80 e0       	ldi	r24, 0x00	; 0
+ 89c:	a8 cf       	rjmp	.-176    	; 0x7ee <__vector_19+0x9c>
+
+0000089e <main>:
+main():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:460
+  #if (CLOCK_SOURCE == 0)
+    #if (defined(CLOCK_TUNE_INTERNAL))
+      tune_internal(); // Will be inlined as only called once. Just too long and ugly to put two implementations in middle of this.
+    #else
+      #if defined(_MCLK_CTRLB) && defined(F_CPU) && defined(_MAIN_CLOCK_PRESCALER)
+        _PROTECTED_WRITE(CLKCTRL_MCLKCTRLB,_MCLK_CTRLB);
+ 89e:	88 ed       	ldi	r24, 0xD8	; 216
+ 8a0:	90 e0       	ldi	r25, 0x00	; 0
+ 8a2:	84 bf       	out	0x34, r24	; 52
+ 8a4:	90 93 61 00 	sts	0x0061, r25	; 0x800061 <digital_pin_to_bit_mask+0x7f7117>
+init_ADC0():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:552
+
+
+/********************************* ADC ****************************************/
+void __attribute__((weak)) init_ADC0() {
+  ADC_t* pADC;
+  _fastPtr_d(pADC, &ADC0);
+ 8a8:	e0 e0       	ldi	r30, 0x00	; 0
+ 8aa:	f6 e0       	ldi	r31, 0x06	; 6
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:573
+   **************************************************************************/
+    //                              30 MHz / 32 = 937 kHz,  32 MHz / 32 =  1 MHz.
+    #if   F_CPU   > 24000000     // 24 MHz / 16 = 1.5 MHz,  25 MHz / 32 =  780 kHz
+      pADC->CTRLC  = ADC_PRESC_DIV32_gc | ADC_REFSEL_VDDREF_gc | ADC_SAMPCAP_bm;
+    #elif F_CPU  >= 12000000    // 16 MHz / 16 = 1.0 MHz,  20 MHz / 16 = 1.25 MHz
+      pADC->CTRLC  = ADC_PRESC_DIV16_gc | ADC_REFSEL_VDDREF_gc | ADC_SAMPCAP_bm;
+ 8ac:	83 e5       	ldi	r24, 0x53	; 83
+ 8ae:	82 83       	std	Z+2, r24	; 0x02
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:584
+      pADC->CTRLC  =  ADC_PRESC_DIV2_gc | ADC_REFSEL_VDDREF_gc | ADC_SAMPCAP_bm;
+    #endif
+    #if   (F_CPU == 6000000 || F_CPU == 12000000 || F_CPU == 24000000 || F_CPU ==25000000)
+      pADC->SAMPCTRL = (7); // 9 ADC clocks, 12 us
+    #elif (F_CPU == 5000000 || F_CPU == 10000000 || F_CPU == 20000000)
+      pADC->SAMPCTRL = (13);   // 15 ADC clock,s 12 us
+ 8b0:	8d e0       	ldi	r24, 0x0D	; 13
+ 8b2:	85 83       	std	Z+5, r24	; 0x05
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:588
+    #else
+      pADC->SAMPCTRL = (10); // 12 ADC clocks, 12 us
+    #endif
+    pADC->CTRLD    = ADC_INITDLY_DLY16_gc;
+ 8b4:	80 e2       	ldi	r24, 0x20	; 32
+ 8b6:	83 83       	std	Z+3, r24	; 0x03
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:589
+    pADC->CTRLA    = ADC_ENABLE_bm;
+ 8b8:	c1 e0       	ldi	r28, 0x01	; 1
+ 8ba:	c0 83       	st	Z, r28
+init_TCA0():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:680
+
+void __attribute__((weak)) init_TCA0() {
+  /*  TYPE A TIMER   */
+  #if !defined(TCA_BUFFERED_3PIN)
+    #if defined(PORTMUX_CTRLC)
+      PORTMUX.CTRLC = TCA_PORTMUX;
+ 8bc:	10 92 02 02 	sts	0x0202, r1	; 0x800202 <digital_pin_to_bit_mask+0x7f72b8>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:684
+    #else
+      PORTMUX.TCAROUTEA = TCA_PORTMUX;
+    #endif
+    TCA0.SPLIT.CTRLD   = TCA_SPLIT_SPLITM_bm;
+ 8c0:	c0 93 03 0a 	sts	0x0A03, r28	; 0x800a03 <digital_pin_to_bit_mask+0x7f7ab9>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:685
+    TCA0.SPLIT.LPER    = PWM_TIMER_PERIOD;
+ 8c4:	8e ef       	ldi	r24, 0xFE	; 254
+ 8c6:	80 93 26 0a 	sts	0x0A26, r24	; 0x800a26 <digital_pin_to_bit_mask+0x7f7adc>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:686
+    TCA0.SPLIT.HPER    = PWM_TIMER_PERIOD;
+ 8ca:	80 93 27 0a 	sts	0x0A27, r24	; 0x800a27 <digital_pin_to_bit_mask+0x7f7add>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:687
+    TCA0.SPLIT.CTRLA   = (_TIMERA_PRESCALER | TCA_SPLIT_ENABLE_bm);
+ 8ce:	8b e0       	ldi	r24, 0x0B	; 11
+ 8d0:	80 93 00 0a 	sts	0x0A00, r24	; 0x800a00 <digital_pin_to_bit_mask+0x7f7ab6>
+init_millis():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:339
+  #if defined(MILLIS_USE_TIMERNONE)
+    badCall("init_millis() is only valid with millis time keeping enabled.");
+  #else
+    #if defined(MILLIS_USE_TIMERA0)
+      #if !defined(TCA_BUFFERED_3PIN)
+        TCA0.SPLIT.INTCTRL = TCA_SPLIT_HUNF_bm;
+ 8d4:	82 e0       	ldi	r24, 0x02	; 2
+ 8d6:	80 93 0a 0a 	sts	0x0A0A, r24	; 0x800a0a <digital_pin_to_bit_mask+0x7f7ac0>
+main():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:53
+ * just waiting for the DU-series now                                                           */
+int main() {
+  onBeforeInit(); // Emnpty callback called before init but after the .init stuff. First normal code executed
+  init(); // Interrupts are turned on just prior to init() returning.
+  initVariant();
+  if (!onAfterInit()) sei();  // enable interrupts.
+ 8da:	78 94       	sei
+setup():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:541
+    enterTinyMasterMode(true);
+  }
+}
+
+void setup() {
+  pinMode(PWR_BUTTON_PIN, INPUT_PULLUP);
+ 8dc:	62 e0       	ldi	r22, 0x02	; 2
+ 8de:	85 e0       	ldi	r24, 0x05	; 5
+ 8e0:	6f dd       	rcall	.-1314   	; 0x3c0 <pinMode>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:542
+  pinMode(SHIP_BUTTON_PIN, INPUT);
+ 8e2:	60 e0       	ldi	r22, 0x00	; 0
+ 8e4:	8a e0       	ldi	r24, 0x0A	; 10
+ 8e6:	6c dd       	rcall	.-1320   	; 0x3c0 <pinMode>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:543
+  pinMode(PWR_CONTROL_PIN, OUTPUT);
+ 8e8:	61 e0       	ldi	r22, 0x01	; 1
+ 8ea:	84 e0       	ldi	r24, 0x04	; 4
+ 8ec:	69 dd       	rcall	.-1326   	; 0x3c0 <pinMode>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:545
+  #ifdef ENABLE_LED
+  pinMode(LED_PIN, OUTPUT);
+ 8ee:	61 e0       	ldi	r22, 0x01	; 1
+ 8f0:	81 e0       	ldi	r24, 0x01	; 1
+ 8f2:	66 dd       	rcall	.-1332   	; 0x3c0 <pinMode>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:546
+  digitalWrite(LED_PIN, HIGH);
+ 8f4:	81 e0       	ldi	r24, 0x01	; 1
+ 8f6:	44 dd       	rcall	.-1400   	; 0x380 <digitalWrite.constprop.25>
+begin():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:290
+  #if defined(TWI_MANDS)                            // Check if the user wants to use Master AND Slave
+    if (_bools._hostEnabled == 1) {          // Slave is allowed to be enabled, don't re-enable the host though
+      return;
+    }
+  #else                                             // Master OR Slave
+    if ((_bools._hostEnabled | _bools._clientEnabled) == 1) {  //If either are enabled
+ 8f8:	80 91 46 3f 	lds	r24, 0x3F46	; 0x803f46 <Wire+0xb>
+ 8fc:	81 fd       	sbrc	r24, 1
+ 8fe:	0f c0       	rjmp	.+30     	; 0x91e <main+0x80>
+ 900:	82 fd       	sbrc	r24, 2
+ 902:	0d c0       	rjmp	.+26     	; 0x91e <main+0x80>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:303
+      TWI0_ClearPins();
+    } else if (&TWI1 == _module) {
+      TWI1_ClearPins();
+    }
+  #else                                             // Only one TWI is used
+    TWI0_ClearPins();                               // Only one option is possible
+ 904:	8c dc       	rcall	.-1768   	; 0x21e <TWI0_ClearPins>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:306
+  #endif
+
+  _bools._hostEnabled    = 1;
+ 906:	80 91 46 3f 	lds	r24, 0x3F46	; 0x803f46 <Wire+0xb>
+ 90a:	82 60       	ori	r24, 0x02	; 2
+ 90c:	80 93 46 3f 	sts	0x3F46, r24	; 0x803f46 <Wire+0xb>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:307
+  TWI_t* module = _module;
+ 910:	e0 91 43 3f 	lds	r30, 0x3F43	; 0x803f43 <Wire+0x8>
+ 914:	f0 91 44 3f 	lds	r31, 0x3F44	; 0x803f44 <Wire+0x9>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:308
+  module->MCTRLA        = TWI_ENABLE_bm;  // Master Interrupt flags stay disabled
+ 918:	c3 83       	std	Z+3, r28	; 0x03
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:309
+  module->MSTATUS       = TWI_BUSSTATE_IDLE_gc;
+ 91a:	c5 83       	std	Z+5, r28	; 0x05
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:311
+
+  setClock(DEFAULT_FREQUENCY);
+ 91c:	38 dc       	rcall	.-1936   	; 0x18e <TwoWire::setClock(unsigned long) [clone .constprop.10]>
+setup():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:550
+  #endif
+
+  Wire.begin();
+  Wire.setClock(100000);
+ 91e:	37 dc       	rcall	.-1938   	; 0x18e <TwoWire::setClock(unsigned long) [clone .constprop.10]>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:551
+  tinyBusRole = TINY_ROLE_BQ_MASTER;
+ 920:	10 92 27 3f 	sts	0x3F27, r1	; 0x803f27 <tinyBusRole>
+delay():
+ 924:	62 e3       	ldi	r22, 0x32	; 50
+ 926:	70 e0       	ldi	r23, 0x00	; 0
+ 928:	80 e0       	ldi	r24, 0x00	; 0
+ 92a:	90 e0       	ldi	r25, 0x00	; 0
+ 92c:	58 dc       	rcall	.-1872   	; 0x1de <delay.part.0>
+setup():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:553
+  delay(50);
+  configureBq76905();
+ 92e:	5f de       	rcall	.-834    	; 0x5ee <configureBq76905()>
+idleLedTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:289
+    idleLedDirection = 1;
+  } else {
+    idleLedBrightness = (uint8_t)nextBrightness;
+  }
+
+  analogWrite(LED_PIN, 255 - idleLedBrightness);
+ 930:	ee 24       	eor	r14, r14
+ 932:	ea 94       	dec	r14
+ 934:	f1 2c       	mov	r15, r1
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:283
+  const int16_t nextBrightness = (int16_t)idleLedBrightness + idleLedDirection;
+  if (nextBrightness >= 100) {
+    idleLedBrightness = 100;
+    idleLedDirection = -1;
+  } else if (nextBrightness <= 4) {
+    idleLedBrightness = 4;
+ 936:	94 e0       	ldi	r25, 0x04	; 4
+ 938:	29 2e       	mov	r2, r25
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:280
+
+  lastIdleLedChangeMs = now;
+
+  const int16_t nextBrightness = (int16_t)idleLedBrightness + idleLedDirection;
+  if (nextBrightness >= 100) {
+    idleLedBrightness = 100;
+ 93a:	24 e6       	ldi	r18, 0x64	; 100
+ 93c:	32 2e       	mov	r3, r18
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:281
+    idleLedDirection = -1;
+ 93e:	77 24       	eor	r7, r7
+ 940:	7a 94       	dec	r7
+onReceive():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1400
+ *@param      void (*function)(int) - a void returning function that accepts an int as parameter
+ *
+ *@return     void
+ */
+void TwoWire::onReceive(void (*function)(int)) {
+  user_onReceive = function;
+ 942:	37 e8       	ldi	r19, 0x87	; 135
+ 944:	c3 2e       	mov	r12, r19
+ 946:	31 e0       	ldi	r19, 0x01	; 1
+ 948:	d3 2e       	mov	r13, r19
+begin():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:359
+  #else
+    TWI0_ClearPins();
+  #endif
+
+  _bools._clientEnabled = 1;
+  client_irq_mask = TWI_COLL_bm;
+ 94a:	48 e0       	ldi	r20, 0x08	; 8
+ 94c:	64 2e       	mov	r6, r20
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:361
+  TWI_t* module = _module;
+  module->SADDR        = (address << 1) | receive_broadcast;
+ 94e:	56 e8       	ldi	r21, 0x86	; 134
+ 950:	55 2e       	mov	r5, r21
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:363
+  module->SADDRMASK    = second_address;
+  module->SCTRLA       = TWI_DIEN_bm | TWI_APIEN_bm | TWI_PIEN_bm  | TWI_ENABLE_bm;
+ 952:	61 ee       	ldi	r22, 0xE1	; 225
+ 954:	46 2e       	mov	r4, r22
+loop():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:595
+    lastButtonState = false;
+  }
+}
+
+void loop() {
+  if (tinyBusRole == TINY_ROLE_PING_TARGET) {
+ 956:	c0 91 27 3f 	lds	r28, 0x3F27	; 0x803f27 <tinyBusRole>
+ 95a:	c1 30       	cpi	r28, 0x01	; 1
+ 95c:	31 f5       	brne	.+76     	; 0x9aa <main+0x10c>
+slaveWatchdogTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:525
+    enterTinySlaveMode();
+  }
+}
+
+static void slaveWatchdogTask() {
+  const uint32_t now = millis();
+ 95e:	33 dc       	rcall	.-1946   	; 0x1c6 <millis>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:526
+  if (espPingPending) {
+ 960:	20 91 1b 3f 	lds	r18, 0x3F1B	; 0x803f1b <espPingPending>
+ 964:	22 23       	and	r18, r18
+ 966:	61 f0       	breq	.+24     	; 0x980 <main+0xe2>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:527
+    espPingPending = false;
+ 968:	10 92 1b 3f 	sts	0x3F1B, r1	; 0x803f1b <espPingPending>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:528
+    lastEspPingMs = now;
+ 96c:	60 93 13 3f 	sts	0x3F13, r22	; 0x803f13 <lastEspPingMs>
+ 970:	70 93 14 3f 	sts	0x3F14, r23	; 0x803f14 <lastEspPingMs+0x1>
+ 974:	80 93 15 3f 	sts	0x3F15, r24	; 0x803f15 <lastEspPingMs+0x2>
+ 978:	90 93 16 3f 	sts	0x3F16, r25	; 0x803f16 <lastEspPingMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:529
+    espPingSeen = true;
+ 97c:	c0 93 12 3f 	sts	0x3F12, r28	; 0x803f12 <espPingSeen>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:532
+  }
+
+  const uint32_t timeoutMs = espPingSeen ? ESP_PING_TIMEOUT_MS : ESP_FIRST_PING_GRACE_MS;
+ 980:	20 91 12 3f 	lds	r18, 0x3F12	; 0x803f12 <espPingSeen>
+ 984:	21 11       	cpse	r18, r1
+ 986:	46 c2       	rjmp	.+1164   	; 0xe14 <main+0x576>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:533
+  const uint32_t sinceMs = espPingSeen ? (uint32_t)(now - lastEspPingMs)
+ 988:	00 91 17 3f 	lds	r16, 0x3F17	; 0x803f17 <slaveModeStartedMs>
+ 98c:	10 91 18 3f 	lds	r17, 0x3F18	; 0x803f18 <slaveModeStartedMs+0x1>
+ 990:	20 91 19 3f 	lds	r18, 0x3F19	; 0x803f19 <slaveModeStartedMs+0x2>
+ 994:	30 91 1a 3f 	lds	r19, 0x3F1A	; 0x803f1a <slaveModeStartedMs+0x3>
+ 998:	60 1b       	sub	r22, r16
+ 99a:	71 0b       	sbc	r23, r17
+ 99c:	82 0b       	sbc	r24, r18
+ 99e:	93 0b       	sbc	r25, r19
+main():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:532
+    espPingPending = false;
+    lastEspPingMs = now;
+    espPingSeen = true;
+  }
+
+  const uint32_t timeoutMs = espPingSeen ? ESP_PING_TIMEOUT_MS : ESP_FIRST_PING_GRACE_MS;
+ 9a0:	00 e4       	ldi	r16, 0x40	; 64
+ 9a2:	1f e1       	ldi	r17, 0x1F	; 31
+ 9a4:	20 e0       	ldi	r18, 0x00	; 0
+ 9a6:	30 e0       	ldi	r19, 0x00	; 0
+ 9a8:	45 c2       	rjmp	.+1162   	; 0xe34 <main+0x596>
+digitalRead():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:363
+
+  /* Get port and check valid port */
+  PORT_t *port = digitalPinToPortStruct(pin);
+
+  /* Read pin value from PORTx.IN register */
+  if (port->IN & bit_mask) {
+ 9aa:	90 91 28 04 	lds	r25, 0x0428	; 0x800428 <digital_pin_to_bit_mask+0x7f74de>
+ 9ae:	80 91 26 3f 	lds	r24, 0x3F26	; 0x803f26 <lastButtonState>
+ 9b2:	92 fd       	sbrc	r25, 2
+ 9b4:	20 c1       	rjmp	.+576    	; 0xbf6 <main+0x358>
+readButton():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:576
+bool lastButtonState = false;
+unsigned long lastBtnPressTime = 0;
+
+void readButton() {
+  if (digitalRead(PWR_BUTTON_PIN) == LOW) {
+    if (!lastButtonState) {
+ 9b6:	81 11       	cpse	r24, r1
+ 9b8:	0c c0       	rjmp	.+24     	; 0x9d2 <main+0x134>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:577
+      lastBtnPressTime = millis();
+ 9ba:	05 dc       	rcall	.-2038   	; 0x1c6 <millis>
+ 9bc:	60 93 22 3f 	sts	0x3F22, r22	; 0x803f22 <lastBtnPressTime>
+ 9c0:	70 93 23 3f 	sts	0x3F23, r23	; 0x803f23 <lastBtnPressTime+0x1>
+ 9c4:	80 93 24 3f 	sts	0x3F24, r24	; 0x803f24 <lastBtnPressTime+0x2>
+ 9c8:	90 93 25 3f 	sts	0x3F25, r25	; 0x803f25 <lastBtnPressTime+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:578
+      lastButtonState = true;
+ 9cc:	81 e0       	ldi	r24, 0x01	; 1
+ 9ce:	80 93 26 3f 	sts	0x3F26, r24	; 0x803f26 <lastButtonState>
+espHandoffTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:513
+  Wire.write(BQ_ROLE_CMD_ESP_MASTER);
+  return Wire.endTransmission() == 0;
+}
+
+static void espHandoffTask() {
+  const uint32_t now = millis();
+ 9d2:	f9 db       	rcall	.-2062   	; 0x1c6 <millis>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:514
+  if ((uint32_t)(now - lastEspProbeMs) < ESP_PROBE_PERIOD_MS) {
+ 9d4:	00 91 32 3f 	lds	r16, 0x3F32	; 0x803f32 <lastEspProbeMs>
+ 9d8:	10 91 33 3f 	lds	r17, 0x3F33	; 0x803f33 <lastEspProbeMs+0x1>
+ 9dc:	20 91 34 3f 	lds	r18, 0x3F34	; 0x803f34 <lastEspProbeMs+0x2>
+ 9e0:	30 91 35 3f 	lds	r19, 0x3F35	; 0x803f35 <lastEspProbeMs+0x3>
+ 9e4:	4b 01       	movw	r8, r22
+ 9e6:	5c 01       	movw	r10, r24
+ 9e8:	80 1a       	sub	r8, r16
+ 9ea:	91 0a       	sbc	r9, r17
+ 9ec:	a2 0a       	sbc	r10, r18
+ 9ee:	b3 0a       	sbc	r11, r19
+ 9f0:	95 01       	movw	r18, r10
+ 9f2:	84 01       	movw	r16, r8
+ 9f4:	08 3b       	cpi	r16, 0xB8	; 184
+ 9f6:	1b 40       	sbci	r17, 0x0B	; 11
+ 9f8:	21 05       	cpc	r18, r1
+ 9fa:	31 05       	cpc	r19, r1
+ 9fc:	08 f4       	brcc	.+2      	; 0xa00 <main+0x162>
+ 9fe:	68 c0       	rjmp	.+208    	; 0xad0 <main+0x232>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:517
+    return;
+  }
+  lastEspProbeMs = now;
+ a00:	60 93 32 3f 	sts	0x3F32, r22	; 0x803f32 <lastEspProbeMs>
+ a04:	70 93 33 3f 	sts	0x3F33, r23	; 0x803f33 <lastEspProbeMs+0x1>
+ a08:	80 93 34 3f 	sts	0x3F34, r24	; 0x803f34 <lastEspProbeMs+0x2>
+ a0c:	90 93 35 3f 	sts	0x3F35, r25	; 0x803f35 <lastEspProbeMs+0x3>
+beginTransmission():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:773
+void TwoWire::beginTransmission(uint8_t address) {
+  if (__builtin_constant_p(address) > 0x7F) {     // Compile-time check if address is actually 7 bit long
+    badArg("Supplied address seems to be 8 bit. Only 7-bit-addresses are supported");
+    return;
+  }
+  if (_bools._hostEnabled) {
+ a10:	80 91 46 3f 	lds	r24, 0x3F46	; 0x803f46 <Wire+0xb>
+ a14:	81 ff       	sbrs	r24, 1
+ a16:	07 c0       	rjmp	.+14     	; 0xa26 <main+0x188>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:775
+    // set address of targeted client
+    _clientAddress = address << 1;
+ a18:	84 e8       	ldi	r24, 0x84	; 132
+ a1a:	80 93 4c 3f 	sts	0x3F4C, r24	; 0x803f4c <Wire+0x11>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:776
+    _bytesToReadWrite = 0;  // fill buffer from 0
+ a1e:	10 92 4d 3f 	sts	0x3F4D, r1	; 0x803f4d <Wire+0x12>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:777
+    _bytesReadWritten = 0;
+ a22:	10 92 4e 3f 	sts	0x3F4E, r1	; 0x803f4e <Wire+0x13>
+requestEspBecomeMaster():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:507
+#endif
+}
+
+static bool requestEspBecomeMaster() {
+  Wire.beginTransmission(ESP_BQ_DISCOVERY_ADDR);
+  Wire.write(BQ_ROLE_MAGIC);
+ a26:	65 ec       	ldi	r22, 0xC5	; 197
+ a28:	8b e3       	ldi	r24, 0x3B	; 59
+ a2a:	9f e3       	ldi	r25, 0x3F	; 63
+ a2c:	38 dc       	rcall	.-1936   	; 0x29e <TwoWire::write(unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:508
+  Wire.write(BQ_ROLE_CMD_ESP_MASTER);
+ a2e:	61 ea       	ldi	r22, 0xA1	; 161
+ a30:	8b e3       	ldi	r24, 0x3B	; 59
+ a32:	9f e3       	ldi	r25, 0x3F	; 63
+ a34:	34 dc       	rcall	.-1944   	; 0x29e <TwoWire::write(unsigned char)>
+endTransmission():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.h:253
+ a36:	81 e0       	ldi	r24, 0x01	; 1
+ a38:	58 db       	rcall	.-2384   	; 0xea <TwoWire::endTransmission(bool) [clone .constprop.14]>
+espHandoffTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:519
+  if ((uint32_t)(now - lastEspProbeMs) < ESP_PROBE_PERIOD_MS) {
+    return;
+  }
+  lastEspProbeMs = now;
+
+  if (requestEspBecomeMaster()) {
+ a3a:	81 11       	cpse	r24, r1
+ a3c:	49 c0       	rjmp	.+146    	; 0xad0 <main+0x232>
+enterTinySlaveMode():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:474
+    espPingPending = true;
+  }
+}
+
+static void enterTinySlaveMode() {
+  Wire.end();
+ a3e:	2d db       	rcall	.-2470   	; 0x9a <TwoWire::end() [clone .constprop.17]>
+_delay_ms():
+/home/tangles/.arduino15/packages/DxCore/tools/avr-gcc/7.3.0-atmel3.6.1-azduino8a/avr/include/util/delay.h:187
+ a40:	8f e4       	ldi	r24, 0x4F	; 79
+ a42:	93 ec       	ldi	r25, 0xC3	; 195
+ a44:	01 97       	sbiw	r24, 0x01	; 1
+ a46:	f1 f7       	brne	.-4      	; 0xa44 <main+0x1a6>
+ a48:	00 c0       	rjmp	.+0      	; 0xa4a <main+0x1ac>
+ a4a:	00 00       	nop
+onReceive():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1400
+ *@param      void (*function)(int) - a void returning function that accepts an int as parameter
+ *
+ *@return     void
+ */
+void TwoWire::onReceive(void (*function)(int)) {
+  user_onReceive = function;
+ a4c:	c0 92 4a 3f 	sts	0x3F4A, r12	; 0x803f4a <Wire+0xf>
+ a50:	d0 92 4b 3f 	sts	0x3F4B, r13	; 0x803f4b <Wire+0x10>
+begin():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:343
+  #if defined(TWI_MANDS)                    // Check if the user wants to use Master AND Slave
+    if (_bools._clientEnabled  == 1) {      // Master is allowed to be enabled, don't re-enable the client though
+      return;
+    }
+  #else                                         // Master or Slave
+    if ((_bools._hostEnabled | _bools._clientEnabled) == 1) {  //If either are enabled
+ a54:	80 91 46 3f 	lds	r24, 0x3F46	; 0x803f46 <Wire+0xb>
+ a58:	81 fd       	sbrc	r24, 1
+ a5a:	11 c0       	rjmp	.+34     	; 0xa7e <main+0x1e0>
+ a5c:	82 fd       	sbrc	r24, 2
+ a5e:	0f c0       	rjmp	.+30     	; 0xa7e <main+0x1e0>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:355
+      TWI0_ClearPins();
+    } else if (&TWI1 == _module) {
+      TWI1_ClearPins();
+    }
+  #else
+    TWI0_ClearPins();
+ a60:	de db       	rcall	.-2116   	; 0x21e <TWI0_ClearPins>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:358
+  #endif
+
+  _bools._clientEnabled = 1;
+ a62:	80 91 46 3f 	lds	r24, 0x3F46	; 0x803f46 <Wire+0xb>
+ a66:	84 60       	ori	r24, 0x04	; 4
+ a68:	80 93 46 3f 	sts	0x3F46, r24	; 0x803f46 <Wire+0xb>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:359
+  client_irq_mask = TWI_COLL_bm;
+ a6c:	60 92 45 3f 	sts	0x3F45, r6	; 0x803f45 <Wire+0xa>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:360
+  TWI_t* module = _module;
+ a70:	e0 91 43 3f 	lds	r30, 0x3F43	; 0x803f43 <Wire+0x8>
+ a74:	f0 91 44 3f 	lds	r31, 0x3F44	; 0x803f44 <Wire+0x9>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:361
+  module->SADDR        = (address << 1) | receive_broadcast;
+ a78:	54 86       	std	Z+12, r5	; 0x0c
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:362
+  module->SADDRMASK    = second_address;
+ a7a:	16 86       	std	Z+14, r1	; 0x0e
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:363
+  module->SCTRLA       = TWI_DIEN_bm | TWI_APIEN_bm | TWI_PIEN_bm  | TWI_ENABLE_bm;
+ a7c:	41 86       	std	Z+9, r4	; 0x09
+enterTinySlaveMode():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:478
+  delay(10);
+  Wire.onReceive(handleEspPing);
+  Wire.begin(TINY_BQ_COORDINATOR_ADDR);
+  tinyBusRole = TINY_ROLE_PING_TARGET;
+ a7e:	81 e0       	ldi	r24, 0x01	; 1
+ a80:	80 93 27 3f 	sts	0x3F27, r24	; 0x803f27 <tinyBusRole>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:479
+  espPingPending = false;
+ a84:	10 92 1b 3f 	sts	0x3F1B, r1	; 0x803f1b <espPingPending>
+delay():
+ a88:	64 ef       	ldi	r22, 0xF4	; 244
+ a8a:	71 e0       	ldi	r23, 0x01	; 1
+ a8c:	80 e0       	ldi	r24, 0x00	; 0
+ a8e:	90 e0       	ldi	r25, 0x00	; 0
+ a90:	a6 db       	rcall	.-2228   	; 0x1de <delay.part.0>
+enterTinySlaveMode():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:481
+  delay(ESP_HANDOFF_SETTLE_MS);
+  slaveModeStartedMs = millis();
+ a92:	99 db       	rcall	.-2254   	; 0x1c6 <millis>
+ a94:	60 93 17 3f 	sts	0x3F17, r22	; 0x803f17 <slaveModeStartedMs>
+ a98:	70 93 18 3f 	sts	0x3F18, r23	; 0x803f18 <slaveModeStartedMs+0x1>
+ a9c:	80 93 19 3f 	sts	0x3F19, r24	; 0x803f19 <slaveModeStartedMs+0x2>
+ aa0:	90 93 1a 3f 	sts	0x3F1A, r25	; 0x803f1a <slaveModeStartedMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:482
+  lastEspPingMs = slaveModeStartedMs;
+ aa4:	60 93 13 3f 	sts	0x3F13, r22	; 0x803f13 <lastEspPingMs>
+ aa8:	70 93 14 3f 	sts	0x3F14, r23	; 0x803f14 <lastEspPingMs+0x1>
+ aac:	80 93 15 3f 	sts	0x3F15, r24	; 0x803f15 <lastEspPingMs+0x2>
+ ab0:	90 93 16 3f 	sts	0x3F16, r25	; 0x803f16 <lastEspPingMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:483
+  espPingSeen = false;
+ ab4:	10 92 12 3f 	sts	0x3F12, r1	; 0x803f12 <espPingSeen>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:485
+#ifdef ENABLE_LED
+  slaveLedOn = false;
+ ab8:	10 92 11 3f 	sts	0x3F11, r1	; 0x803f11 <slaveLedOn>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:486
+  lastIdleLedChangeMs = 0;
+ abc:	10 92 1d 3f 	sts	0x3F1D, r1	; 0x803f1d <lastIdleLedChangeMs>
+ ac0:	10 92 1e 3f 	sts	0x3F1E, r1	; 0x803f1e <lastIdleLedChangeMs+0x1>
+ ac4:	10 92 1f 3f 	sts	0x3F1F, r1	; 0x803f1f <lastIdleLedChangeMs+0x2>
+ ac8:	10 92 20 3f 	sts	0x3F20, r1	; 0x803f20 <lastIdleLedChangeMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:487
+  digitalWrite(LED_PIN, HIGH);
+ acc:	81 e0       	ldi	r24, 0x01	; 1
+ ace:	58 dc       	rcall	.-1872   	; 0x380 <digitalWrite.constprop.25>
+hostBalanceTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:410
+  }
+}
+
+/** Periodically read cell voltages and issue START_BALANCE when rules are met. */
+static void hostBalanceTask() {
+  const uint32_t now = millis();
+ ad0:	7a db       	rcall	.-2316   	; 0x1c6 <millis>
+ ad2:	4b 01       	movw	r8, r22
+ ad4:	5c 01       	movw	r10, r24
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:411
+  if ((uint32_t)(now - lastBalancePollMs) < BALANCE_POLL_PERIOD_MS) {
+ ad6:	80 91 0d 3f 	lds	r24, 0x3F0D	; 0x803f0d <lastBalancePollMs>
+ ada:	90 91 0e 3f 	lds	r25, 0x3F0E	; 0x803f0e <lastBalancePollMs+0x1>
+ ade:	a0 91 0f 3f 	lds	r26, 0x3F0F	; 0x803f0f <lastBalancePollMs+0x2>
+ ae2:	b0 91 10 3f 	lds	r27, 0x3F10	; 0x803f10 <lastBalancePollMs+0x3>
+ ae6:	a5 01       	movw	r20, r10
+ ae8:	94 01       	movw	r18, r8
+ aea:	28 1b       	sub	r18, r24
+ aec:	39 0b       	sbc	r19, r25
+ aee:	4a 0b       	sbc	r20, r26
+ af0:	5b 0b       	sbc	r21, r27
+ af2:	da 01       	movw	r26, r20
+ af4:	c9 01       	movw	r24, r18
+ af6:	84 36       	cpi	r24, 0x64	; 100
+ af8:	91 05       	cpc	r25, r1
+ afa:	a1 05       	cpc	r26, r1
+ afc:	b1 05       	cpc	r27, r1
+ afe:	f0 f1       	brcs	.+124    	; 0xb7c <main+0x2de>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:414
+    return;
+  }
+  lastBalancePollMs = now;
+ b00:	80 92 0d 3f 	sts	0x3F0D, r8	; 0x803f0d <lastBalancePollMs>
+ b04:	90 92 0e 3f 	sts	0x3F0E, r9	; 0x803f0e <lastBalancePollMs+0x1>
+ b08:	a0 92 0f 3f 	sts	0x3F0F, r10	; 0x803f0f <lastBalancePollMs+0x2>
+ b0c:	b0 92 10 3f 	sts	0x3F10, r11	; 0x803f10 <lastBalancePollMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:416
+
+  const uint16_t cell1Mv = i2cRead16(REG_CELL1_VOLTAGE);
+ b10:	84 e1       	ldi	r24, 0x14	; 20
+ b12:	79 dc       	rcall	.-1806   	; 0x406 <i2cRead16(unsigned char)>
+ b14:	8c 01       	movw	r16, r24
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:417
+  const uint16_t cell2Mv = i2cRead16(REG_CELL2_VOLTAGE);
+ b16:	86 e1       	ldi	r24, 0x16	; 22
+ b18:	76 dc       	rcall	.-1812   	; 0x406 <i2cRead16(unsigned char)>
+ b1a:	ec 01       	movw	r28, r24
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:418
+  if (cell1Mv == 0 && cell2Mv == 0) {
+ b1c:	01 15       	cp	r16, r1
+ b1e:	11 05       	cpc	r17, r1
+ b20:	09 f0       	breq	.+2      	; 0xb24 <main+0x286>
+ b22:	c4 c0       	rjmp	.+392    	; 0xcac <main+0x40e>
+ b24:	89 2b       	or	r24, r25
+ b26:	09 f0       	breq	.+2      	; 0xb2a <main+0x28c>
+ b28:	c1 c0       	rjmp	.+386    	; 0xcac <main+0x40e>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:419
+    if (bqReadFailures < 0xFF) {
+ b2a:	80 91 3a 3f 	lds	r24, 0x3F3A	; 0x803f3a <bqReadFailures>
+ b2e:	8f 3f       	cpi	r24, 0xFF	; 255
+ b30:	19 f0       	breq	.+6      	; 0xb38 <main+0x29a>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:420
+      bqReadFailures++;
+ b32:	8f 5f       	subi	r24, 0xFF	; 255
+ b34:	80 93 3a 3f 	sts	0x3F3A, r24	; 0x803f3a <bqReadFailures>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:422
+    }
+    if (bqReadFailures >= BQ_RECOVERY_READ_FAILURES &&
+ b38:	80 91 3a 3f 	lds	r24, 0x3F3A	; 0x803f3a <bqReadFailures>
+ b3c:	85 30       	cpi	r24, 0x05	; 5
+ b3e:	f0 f0       	brcs	.+60     	; 0xb7c <main+0x2de>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:423
+        (uint32_t)(now - lastBqRecoveryMs) >= BQ_RECOVERY_PERIOD_MS) {
+ b40:	80 91 09 3f 	lds	r24, 0x3F09	; 0x803f09 <lastBqRecoveryMs>
+ b44:	90 91 0a 3f 	lds	r25, 0x3F0A	; 0x803f0a <lastBqRecoveryMs+0x1>
+ b48:	a0 91 0b 3f 	lds	r26, 0x3F0B	; 0x803f0b <lastBqRecoveryMs+0x2>
+ b4c:	b0 91 0c 3f 	lds	r27, 0x3F0C	; 0x803f0c <lastBqRecoveryMs+0x3>
+ b50:	a5 01       	movw	r20, r10
+ b52:	94 01       	movw	r18, r8
+ b54:	28 1b       	sub	r18, r24
+ b56:	39 0b       	sbc	r19, r25
+ b58:	4a 0b       	sbc	r20, r26
+ b5a:	5b 0b       	sbc	r21, r27
+ b5c:	da 01       	movw	r26, r20
+ b5e:	c9 01       	movw	r24, r18
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:422
+  const uint16_t cell2Mv = i2cRead16(REG_CELL2_VOLTAGE);
+  if (cell1Mv == 0 && cell2Mv == 0) {
+    if (bqReadFailures < 0xFF) {
+      bqReadFailures++;
+    }
+    if (bqReadFailures >= BQ_RECOVERY_READ_FAILURES &&
+ b60:	88 3e       	cpi	r24, 0xE8	; 232
+ b62:	93 40       	sbci	r25, 0x03	; 3
+ b64:	a1 05       	cpc	r26, r1
+ b66:	b1 05       	cpc	r27, r1
+ b68:	48 f0       	brcs	.+18     	; 0xb7c <main+0x2de>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:424
+        (uint32_t)(now - lastBqRecoveryMs) >= BQ_RECOVERY_PERIOD_MS) {
+      lastBqRecoveryMs = now;
+ b6a:	80 92 09 3f 	sts	0x3F09, r8	; 0x803f09 <lastBqRecoveryMs>
+ b6e:	90 92 0a 3f 	sts	0x3F0A, r9	; 0x803f0a <lastBqRecoveryMs+0x1>
+ b72:	a0 92 0b 3f 	sts	0x3F0B, r10	; 0x803f0b <lastBqRecoveryMs+0x2>
+ b76:	b0 92 0c 3f 	sts	0x3F0C, r11	; 0x803f0c <lastBqRecoveryMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:425
+      restartMasterI2c(true);
+ b7a:	89 dd       	rcall	.-1262   	; 0x68e <restartMasterI2c(bool) [clone .constprop.7]>
+idleLedTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:237
+  lastIdleLedChangeMs = millis();
+  digitalWrite(LED_PIN, HIGH);
+}
+
+static void idleLedTask() {
+  const uint32_t now = millis();
+ b7c:	24 db       	rcall	.-2488   	; 0x1c6 <millis>
+ b7e:	4b 01       	movw	r8, r22
+ b80:	5c 01       	movw	r10, r24
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:248
+  //     lastIdleLedChangeMs = now;
+  //   }
+  //   return;
+  // }
+
+  if (analogLedFlashOn) {
+ b82:	80 91 07 3f 	lds	r24, 0x3F07	; 0x803f07 <analogLedFlashOn>
+ b86:	88 23       	and	r24, r24
+ b88:	61 f0       	breq	.+24     	; 0xba2 <main+0x304>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:249
+    digitalWrite(LED_PIN, HIGH);
+ b8a:	81 e0       	ldi	r24, 0x01	; 1
+ b8c:	f9 db       	rcall	.-2062   	; 0x380 <digitalWrite.constprop.25>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:250
+    analogLedFlashOn = false;
+ b8e:	10 92 07 3f 	sts	0x3F07, r1	; 0x803f07 <analogLedFlashOn>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:251
+    lastIdleLedChangeMs = now;
+ b92:	80 92 1d 3f 	sts	0x3F1D, r8	; 0x803f1d <lastIdleLedChangeMs>
+ b96:	90 92 1e 3f 	sts	0x3F1E, r9	; 0x803f1e <lastIdleLedChangeMs+0x1>
+ b9a:	a0 92 1f 3f 	sts	0x3F1F, r10	; 0x803f1f <lastIdleLedChangeMs+0x2>
+ b9e:	b0 92 20 3f 	sts	0x3F20, r11	; 0x803f20 <lastIdleLedChangeMs+0x3>
+ ba2:	80 91 1d 3f 	lds	r24, 0x3F1D	; 0x803f1d <lastIdleLedChangeMs>
+ ba6:	90 91 1e 3f 	lds	r25, 0x3F1E	; 0x803f1e <lastIdleLedChangeMs+0x1>
+ baa:	a0 91 1f 3f 	lds	r26, 0x3F1F	; 0x803f1f <lastIdleLedChangeMs+0x2>
+ bae:	b0 91 20 3f 	lds	r27, 0x3F20	; 0x803f20 <lastIdleLedChangeMs+0x3>
+ bb2:	b5 01       	movw	r22, r10
+ bb4:	a4 01       	movw	r20, r8
+ bb6:	48 1b       	sub	r20, r24
+ bb8:	59 0b       	sbc	r21, r25
+ bba:	6a 0b       	sbc	r22, r26
+ bbc:	7b 0b       	sbc	r23, r27
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:254
+  }
+
+  if (!idleLedShouldBreathe()) {
+ bbe:	80 91 02 3f 	lds	r24, 0x3F02	; 0x803f02 <idleLedBreathing>
+ bc2:	81 11       	cpse	r24, r1
+ bc4:	d5 c0       	rjmp	.+426    	; 0xd70 <main+0x4d2>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:255
+    if (idleLedBlipOn) {
+ bc6:	80 91 21 3f 	lds	r24, 0x3F21	; 0x803f21 <idleLedBlipOn>
+ bca:	88 23       	and	r24, r24
+ bcc:	09 f4       	brne	.+2      	; 0xbd0 <main+0x332>
+ bce:	c4 c0       	rjmp	.+392    	; 0xd58 <main+0x4ba>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:256
+      if ((uint32_t)(now - lastIdleLedChangeMs) >= 50) {
+ bd0:	42 33       	cpi	r20, 0x32	; 50
+ bd2:	51 05       	cpc	r21, r1
+ bd4:	61 05       	cpc	r22, r1
+ bd6:	71 05       	cpc	r23, r1
+ bd8:	08 f4       	brcc	.+2      	; 0xbdc <main+0x33e>
+ bda:	bd ce       	rjmp	.-646    	; 0x956 <main+0xb8>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:257
+        digitalWrite(LED_PIN, HIGH);
+ bdc:	81 e0       	ldi	r24, 0x01	; 1
+ bde:	d0 db       	rcall	.-2144   	; 0x380 <digitalWrite.constprop.25>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:258
+        idleLedBlipOn = false;
+ be0:	10 92 21 3f 	sts	0x3F21, r1	; 0x803f21 <idleLedBlipOn>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:264
+        lastIdleLedChangeMs = now;
+      }
+    } else if ((uint32_t)(now - lastIdleLedChangeMs) >= 1000) {
+      digitalWrite(LED_PIN, LOW);
+      idleLedBlipOn = true;
+      lastIdleLedChangeMs = now;
+ be4:	80 92 1d 3f 	sts	0x3F1D, r8	; 0x803f1d <lastIdleLedChangeMs>
+ be8:	90 92 1e 3f 	sts	0x3F1E, r9	; 0x803f1e <lastIdleLedChangeMs+0x1>
+ bec:	a0 92 1f 3f 	sts	0x3F1F, r10	; 0x803f1f <lastIdleLedChangeMs+0x2>
+ bf0:	b0 92 20 3f 	sts	0x3F20, r11	; 0x803f20 <lastIdleLedChangeMs+0x3>
+ bf4:	b0 ce       	rjmp	.-672    	; 0x956 <main+0xb8>
+readButton():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:581
+    if (!lastButtonState) {
+      lastBtnPressTime = millis();
+      lastButtonState = true;
+    }
+  } else {
+    if (lastButtonState) {
+ bf6:	88 23       	and	r24, r24
+ bf8:	09 f4       	brne	.+2      	; 0xbfc <main+0x35e>
+ bfa:	4b c0       	rjmp	.+150    	; 0xc92 <main+0x3f4>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:582
+      unsigned long duration = millis() - lastBtnPressTime;
+ bfc:	e4 da       	rcall	.-2616   	; 0x1c6 <millis>
+ bfe:	00 91 22 3f 	lds	r16, 0x3F22	; 0x803f22 <lastBtnPressTime>
+ c02:	10 91 23 3f 	lds	r17, 0x3F23	; 0x803f23 <lastBtnPressTime+0x1>
+ c06:	20 91 24 3f 	lds	r18, 0x3F24	; 0x803f24 <lastBtnPressTime+0x2>
+ c0a:	30 91 25 3f 	lds	r19, 0x3F25	; 0x803f25 <lastBtnPressTime+0x3>
+ c0e:	dc 01       	movw	r26, r24
+ c10:	cb 01       	movw	r24, r22
+ c12:	80 1b       	sub	r24, r16
+ c14:	91 0b       	sbc	r25, r17
+ c16:	a2 0b       	sbc	r26, r18
+ c18:	b3 0b       	sbc	r27, r19
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:584
+
+      if (duration > TIME_LONG) {
+ c1a:	81 3d       	cpi	r24, 0xD1	; 209
+ c1c:	57 e0       	ldi	r21, 0x07	; 7
+ c1e:	95 07       	cpc	r25, r21
+ c20:	a1 05       	cpc	r26, r1
+ c22:	b1 05       	cpc	r27, r1
+ c24:	a8 f0       	brcs	.+42     	; 0xc50 <main+0x3b2>
+enterShipMode():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:330
+  //lastDeepSleepToggleTime = millis();
+  
+}
+
+static void enterShipMode() {
+  sendSubcommand(SHUTDOWN);
+ c26:	80 e1       	ldi	r24, 0x10	; 16
+ c28:	90 e0       	ldi	r25, 0x00	; 0
+ c2a:	cf dc       	rcall	.-1634   	; 0x5ca <sendSubcommand(unsigned int)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:331
+  sendSubcommand(SHUTDOWN);
+ c2c:	80 e1       	ldi	r24, 0x10	; 16
+ c2e:	90 e0       	ldi	r25, 0x00	; 0
+ c30:	cc dc       	rcall	.-1640   	; 0x5ca <sendSubcommand(unsigned int)>
+flash():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:130
+static const uint32_t ESP_PING_TIMEOUT_MS = 1000;
+static const uint32_t ESP_FIRST_PING_GRACE_MS = 8000;
+
+#ifdef ENABLE_LED
+static void flash() {
+  digitalWrite(LED_PIN, LOW);
+ c32:	80 e0       	ldi	r24, 0x00	; 0
+ c34:	a5 db       	rcall	.-2230   	; 0x380 <digitalWrite.constprop.25>
+delay():
+ c36:	68 ec       	ldi	r22, 0xC8	; 200
+ c38:	70 e0       	ldi	r23, 0x00	; 0
+ c3a:	80 e0       	ldi	r24, 0x00	; 0
+ c3c:	90 e0       	ldi	r25, 0x00	; 0
+ c3e:	cf da       	rcall	.-2658   	; 0x1de <delay.part.0>
+flash():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:132
+  delay(TIME_SHORT);
+  digitalWrite(LED_PIN, HIGH);
+ c40:	81 e0       	ldi	r24, 0x01	; 1
+ c42:	9e db       	rcall	.-2244   	; 0x380 <digitalWrite.constprop.25>
+delay():
+ c44:	68 ec       	ldi	r22, 0xC8	; 200
+ c46:	70 e0       	ldi	r23, 0x00	; 0
+ c48:	80 e0       	ldi	r24, 0x00	; 0
+ c4a:	90 e0       	ldi	r25, 0x00	; 0
+ c4c:	c8 da       	rcall	.-2672   	; 0x1de <delay.part.0>
+ c4e:	f1 cf       	rjmp	.-30     	; 0xc32 <main+0x394>
+readButton():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:586
+    if (lastButtonState) {
+      unsigned long duration = millis() - lastBtnPressTime;
+
+      if (duration > TIME_LONG) {
+        buttonLongPress();
+      } else if (duration > TIME_SHORT) {
+ c50:	89 3c       	cpi	r24, 0xC9	; 201
+ c52:	91 05       	cpc	r25, r1
+ c54:	a1 05       	cpc	r26, r1
+ c56:	b1 05       	cpc	r27, r1
+ c58:	e0 f0       	brcs	.+56     	; 0xc92 <main+0x3f4>
+toggleDeepSleep():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:317
+  //   delay(1000);
+  //   configureBq76905();
+  //   return;
+  // }
+
+  if (inDeepSleep) {
+ c5a:	80 91 1c 3f 	lds	r24, 0x3F1C	; 0x803f1c <inDeepSleep>
+ c5e:	88 23       	and	r24, r24
+ c60:	d9 f0       	breq	.+54     	; 0xc98 <main+0x3fa>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:318
+    sendSubcommand(EXIT_DEEPSLEEP);
+ c62:	8e e0       	ldi	r24, 0x0E	; 14
+ c64:	90 e0       	ldi	r25, 0x00	; 0
+ c66:	b1 dc       	rcall	.-1694   	; 0x5ca <sendSubcommand(unsigned int)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:319
+    inDeepSleep = false;
+ c68:	10 92 1c 3f 	sts	0x3F1C, r1	; 0x803f1c <inDeepSleep>
+toggleIdleLedMode():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:230
+static bool idleLedShouldBreathe() {
+  return idleLedBreathing;
+}
+
+static void toggleIdleLedMode() {
+  idleLedBreathing = !idleLedBreathing;
+ c6c:	80 91 02 3f 	lds	r24, 0x3F02	; 0x803f02 <idleLedBreathing>
+ c70:	91 e0       	ldi	r25, 0x01	; 1
+ c72:	89 27       	eor	r24, r25
+ c74:	80 93 02 3f 	sts	0x3F02, r24	; 0x803f02 <idleLedBreathing>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:231
+  idleLedBlipOn = false;
+ c78:	10 92 21 3f 	sts	0x3F21, r1	; 0x803f21 <idleLedBlipOn>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:232
+  lastIdleLedChangeMs = millis();
+ c7c:	a4 da       	rcall	.-2744   	; 0x1c6 <millis>
+ c7e:	60 93 1d 3f 	sts	0x3F1D, r22	; 0x803f1d <lastIdleLedChangeMs>
+ c82:	70 93 1e 3f 	sts	0x3F1E, r23	; 0x803f1e <lastIdleLedChangeMs+0x1>
+ c86:	80 93 1f 3f 	sts	0x3F1F, r24	; 0x803f1f <lastIdleLedChangeMs+0x2>
+ c8a:	90 93 20 3f 	sts	0x3F20, r25	; 0x803f20 <lastIdleLedChangeMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:233
+  digitalWrite(LED_PIN, HIGH);
+ c8e:	81 e0       	ldi	r24, 0x01	; 1
+ c90:	77 db       	rcall	.-2322   	; 0x380 <digitalWrite.constprop.25>
+readButton():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:590
+        buttonLongPress();
+      } else if (duration > TIME_SHORT) {
+        buttonShortPress();
+      }
+    }
+    lastButtonState = false;
+ c92:	10 92 26 3f 	sts	0x3F26, r1	; 0x803f26 <lastButtonState>
+ c96:	9d ce       	rjmp	.-710    	; 0x9d2 <main+0x134>
+toggleDeepSleep():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:321
+
+  if (inDeepSleep) {
+    sendSubcommand(EXIT_DEEPSLEEP);
+    inDeepSleep = false;
+  } else {
+    sendSubcommand(DEEPSLEEP);
+ c98:	8f e0       	ldi	r24, 0x0F	; 15
+ c9a:	90 e0       	ldi	r25, 0x00	; 0
+ c9c:	96 dc       	rcall	.-1748   	; 0x5ca <sendSubcommand(unsigned int)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:322
+    sendSubcommand(DEEPSLEEP);
+ c9e:	8f e0       	ldi	r24, 0x0F	; 15
+ ca0:	90 e0       	ldi	r25, 0x00	; 0
+ ca2:	93 dc       	rcall	.-1754   	; 0x5ca <sendSubcommand(unsigned int)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:323
+    inDeepSleep = true;
+ ca4:	81 e0       	ldi	r24, 0x01	; 1
+ ca6:	80 93 1c 3f 	sts	0x3F1C, r24	; 0x803f1c <inDeepSleep>
+ caa:	e0 cf       	rjmp	.-64     	; 0xc6c <main+0x3ce>
+hostBalanceTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:429
+      lastBqRecoveryMs = now;
+      restartMasterI2c(true);
+    }
+    return;
+  }
+  bqReadFailures = 0;
+ cac:	10 92 3a 3f 	sts	0x3F3A, r1	; 0x803f3a <bqReadFailures>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:431
+
+  const uint16_t alarmRawStatus = i2cRead16(REG_ALARM_RAW_STATUS);
+ cb0:	84 e6       	ldi	r24, 0x64	; 100
+ cb2:	a9 db       	rcall	.-2222   	; 0x406 <i2cRead16(unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:432
+  bqCellBalancingActive = (alarmRawStatus & ALARM_RAW_CB) != 0;
+ cb4:	91 70       	andi	r25, 0x01	; 1
+ cb6:	90 93 08 3f 	sts	0x3F08, r25	; 0x803f08 <bqCellBalancingActive>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:435
+
+  const bool anyCellAboveMin =
+      (cell1Mv >= BALANCE_MIN_ANY_CELL_MV) || (cell2Mv >= BALANCE_MIN_ANY_CELL_MV);
+ cba:	0c 31       	cpi	r16, 0x1C	; 28
+ cbc:	4c e0       	ldi	r20, 0x0C	; 12
+ cbe:	14 07       	cpc	r17, r20
+ cc0:	38 f4       	brcc	.+14     	; 0xcd0 <main+0x432>
+main():
+ cc2:	20 e0       	ldi	r18, 0x00	; 0
+hostBalanceTask():
+ cc4:	cc 31       	cpi	r28, 0x1C	; 28
+ cc6:	5c e0       	ldi	r21, 0x0C	; 12
+ cc8:	d5 07       	cpc	r29, r21
+ cca:	18 f0       	brcs	.+6      	; 0xcd2 <main+0x434>
+main():
+ ccc:	21 e0       	ldi	r18, 0x01	; 1
+ cce:	07 c0       	rjmp	.+14     	; 0xcde <main+0x440>
+ cd0:	21 e0       	ldi	r18, 0x01	; 1
+hostBalanceTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:437
+  const uint16_t cellDiffMv =
+      (cell1Mv >= cell2Mv) ? (uint16_t)(cell1Mv - cell2Mv) : (uint16_t)(cell2Mv - cell1Mv);
+ cd2:	c8 01       	movw	r24, r16
+ cd4:	8c 1b       	sub	r24, r28
+ cd6:	9d 0b       	sbc	r25, r29
+ cd8:	0c 17       	cp	r16, r28
+ cda:	1d 07       	cpc	r17, r29
+ cdc:	18 f4       	brcc	.+6      	; 0xce4 <main+0x446>
+ cde:	ce 01       	movw	r24, r28
+ ce0:	80 1b       	sub	r24, r16
+ ce2:	91 0b       	sbc	r25, r17
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:440
+  const bool imbalanceEnough = cellDiffMv >= BALANCE_MIN_DELTA_MV;
+
+  if (!inDeepSleep && anyCellAboveMin && imbalanceEnough) {
+ ce4:	30 91 1c 3f 	lds	r19, 0x3F1C	; 0x803f1c <inDeepSleep>
+ ce8:	31 11       	cpse	r19, r1
+ cea:	48 cf       	rjmp	.-368    	; 0xb7c <main+0x2de>
+ cec:	22 23       	and	r18, r18
+ cee:	09 f4       	brne	.+2      	; 0xcf2 <main+0x454>
+ cf0:	45 cf       	rjmp	.-374    	; 0xb7c <main+0x2de>
+ cf2:	44 97       	sbiw	r24, 0x14	; 20
+ cf4:	08 f4       	brcc	.+2      	; 0xcf8 <main+0x45a>
+ cf6:	42 cf       	rjmp	.-380    	; 0xb7c <main+0x2de>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:442
+    uint8_t balanceMask = 0x00;
+    if (cell1Mv > cell2Mv) {
+ cf8:	c0 17       	cp	r28, r16
+ cfa:	d1 07       	cpc	r29, r17
+ cfc:	58 f1       	brcs	.+86     	; 0xd54 <main+0x4b6>
+main():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:445
+      balanceMask = 0x02; // bit1 = first active cell (VC1-VC0)
+    } else if (cell2Mv > cell1Mv) {
+      balanceMask = 0x04; // bit2 = second active cell
+ cfe:	64 e0       	ldi	r22, 0x04	; 4
+hostBalanceTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:444
+
+  if (!inDeepSleep && anyCellAboveMin && imbalanceEnough) {
+    uint8_t balanceMask = 0x00;
+    if (cell1Mv > cell2Mv) {
+      balanceMask = 0x02; // bit1 = first active cell (VC1-VC0)
+    } else if (cell2Mv > cell1Mv) {
+ d00:	0c 17       	cp	r16, r28
+ d02:	1d 07       	cpc	r17, r29
+ d04:	08 f0       	brcs	.+2      	; 0xd08 <main+0x46a>
+ d06:	3a cf       	rjmp	.-396    	; 0xb7c <main+0x2de>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:449
+      balanceMask = 0x04; // bit2 = second active cell
+    }
+
+    if (balanceMask != 0 &&
+        (lastBalanceCommandMs == 0 || (uint32_t)(now - lastBalanceCommandMs) >= BALANCE_RETRIGGER_MS)) {
+ d08:	80 91 36 3f 	lds	r24, 0x3F36	; 0x803f36 <lastBalanceCommandMs>
+ d0c:	90 91 37 3f 	lds	r25, 0x3F37	; 0x803f37 <lastBalanceCommandMs+0x1>
+ d10:	a0 91 38 3f 	lds	r26, 0x3F38	; 0x803f38 <lastBalanceCommandMs+0x2>
+ d14:	b0 91 39 3f 	lds	r27, 0x3F39	; 0x803f39 <lastBalanceCommandMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:448
+      balanceMask = 0x02; // bit1 = first active cell (VC1-VC0)
+    } else if (cell2Mv > cell1Mv) {
+      balanceMask = 0x04; // bit2 = second active cell
+    }
+
+    if (balanceMask != 0 &&
+ d18:	00 97       	sbiw	r24, 0x00	; 0
+ d1a:	a1 05       	cpc	r26, r1
+ d1c:	b1 05       	cpc	r27, r1
+ d1e:	71 f0       	breq	.+28     	; 0xd3c <main+0x49e>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:449
+        (lastBalanceCommandMs == 0 || (uint32_t)(now - lastBalanceCommandMs) >= BALANCE_RETRIGGER_MS)) {
+ d20:	a5 01       	movw	r20, r10
+ d22:	94 01       	movw	r18, r8
+ d24:	28 1b       	sub	r18, r24
+ d26:	39 0b       	sbc	r19, r25
+ d28:	4a 0b       	sbc	r20, r26
+ d2a:	5b 0b       	sbc	r21, r27
+ d2c:	da 01       	movw	r26, r20
+ d2e:	c9 01       	movw	r24, r18
+ d30:	80 35       	cpi	r24, 0x50	; 80
+ d32:	96 44       	sbci	r25, 0x46	; 70
+ d34:	a1 05       	cpc	r26, r1
+ d36:	b1 05       	cpc	r27, r1
+ d38:	08 f4       	brcc	.+2      	; 0xd3c <main+0x49e>
+ d3a:	20 cf       	rjmp	.-448    	; 0xb7c <main+0x2de>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:450
+      writeSubcommand8(START_BALANCE, balanceMask);
+ d3c:	83 e8       	ldi	r24, 0x83	; 131
+ d3e:	90 e0       	ldi	r25, 0x00	; 0
+ d40:	1c dc       	rcall	.-1992   	; 0x57a <writeConfig8(unsigned int, unsigned char)>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:451
+      lastBalanceCommandMs = now;
+ d42:	80 92 36 3f 	sts	0x3F36, r8	; 0x803f36 <lastBalanceCommandMs>
+ d46:	90 92 37 3f 	sts	0x3F37, r9	; 0x803f37 <lastBalanceCommandMs+0x1>
+ d4a:	a0 92 38 3f 	sts	0x3F38, r10	; 0x803f38 <lastBalanceCommandMs+0x2>
+ d4e:	b0 92 39 3f 	sts	0x3F39, r11	; 0x803f39 <lastBalanceCommandMs+0x3>
+ d52:	14 cf       	rjmp	.-472    	; 0xb7c <main+0x2de>
+main():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:443
+  const bool imbalanceEnough = cellDiffMv >= BALANCE_MIN_DELTA_MV;
+
+  if (!inDeepSleep && anyCellAboveMin && imbalanceEnough) {
+    uint8_t balanceMask = 0x00;
+    if (cell1Mv > cell2Mv) {
+      balanceMask = 0x02; // bit1 = first active cell (VC1-VC0)
+ d54:	62 e0       	ldi	r22, 0x02	; 2
+ d56:	d8 cf       	rjmp	.-80     	; 0xd08 <main+0x46a>
+idleLedTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:261
+      if ((uint32_t)(now - lastIdleLedChangeMs) >= 50) {
+        digitalWrite(LED_PIN, HIGH);
+        idleLedBlipOn = false;
+        lastIdleLedChangeMs = now;
+      }
+    } else if ((uint32_t)(now - lastIdleLedChangeMs) >= 1000) {
+ d58:	48 3e       	cpi	r20, 0xE8	; 232
+ d5a:	53 40       	sbci	r21, 0x03	; 3
+ d5c:	61 05       	cpc	r22, r1
+ d5e:	71 05       	cpc	r23, r1
+ d60:	08 f4       	brcc	.+2      	; 0xd64 <main+0x4c6>
+ d62:	f9 cd       	rjmp	.-1038   	; 0x956 <main+0xb8>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:262
+      digitalWrite(LED_PIN, LOW);
+ d64:	80 e0       	ldi	r24, 0x00	; 0
+ d66:	0c db       	rcall	.-2536   	; 0x380 <digitalWrite.constprop.25>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:263
+      idleLedBlipOn = true;
+ d68:	81 e0       	ldi	r24, 0x01	; 1
+ d6a:	80 93 21 3f 	sts	0x3F21, r24	; 0x803f21 <idleLedBlipOn>
+ d6e:	3a cf       	rjmp	.-396    	; 0xbe4 <main+0x346>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:269
+      lastIdleLedChangeMs = now;
+    }
+    return;
+  }
+
+  idleLedBlipOn = false;
+ d70:	10 92 21 3f 	sts	0x3F21, r1	; 0x803f21 <idleLedBlipOn>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:271
+
+  const uint8_t breathStepMs = bqCellBalancingActive ? 5 : 15;
+ d74:	80 91 08 3f 	lds	r24, 0x3F08	; 0x803f08 <bqCellBalancingActive>
+ d78:	88 23       	and	r24, r24
+ d7a:	89 f1       	breq	.+98     	; 0xdde <main+0x540>
+main():
+ d7c:	85 e0       	ldi	r24, 0x05	; 5
+idleLedTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:272
+  if ((uint32_t)(now - lastIdleLedChangeMs) < breathStepMs) {
+ d7e:	90 e0       	ldi	r25, 0x00	; 0
+ d80:	b0 e0       	ldi	r27, 0x00	; 0
+ d82:	a0 e0       	ldi	r26, 0x00	; 0
+ d84:	48 17       	cp	r20, r24
+ d86:	59 07       	cpc	r21, r25
+ d88:	6a 07       	cpc	r22, r26
+ d8a:	7b 07       	cpc	r23, r27
+ d8c:	08 f4       	brcc	.+2      	; 0xd90 <main+0x4f2>
+ d8e:	e3 cd       	rjmp	.-1082   	; 0x956 <main+0xb8>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:276
+    return;
+  }
+
+  lastIdleLedChangeMs = now;
+ d90:	80 92 1d 3f 	sts	0x3F1D, r8	; 0x803f1d <lastIdleLedChangeMs>
+ d94:	90 92 1e 3f 	sts	0x3F1E, r9	; 0x803f1e <lastIdleLedChangeMs+0x1>
+ d98:	a0 92 1f 3f 	sts	0x3F1F, r10	; 0x803f1f <lastIdleLedChangeMs+0x2>
+ d9c:	b0 92 20 3f 	sts	0x3F20, r11	; 0x803f20 <lastIdleLedChangeMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:278
+
+  const int16_t nextBrightness = (int16_t)idleLedBrightness + idleLedDirection;
+ da0:	80 91 01 3f 	lds	r24, 0x3F01	; 0x803f01 <idleLedBrightness>
+ da4:	20 91 00 3f 	lds	r18, 0x3F00	; 0x803f00 <__DATA_REGION_ORIGIN__>
+ da8:	02 2e       	mov	r0, r18
+ daa:	00 0c       	add	r0, r0
+ dac:	33 0b       	sbc	r19, r19
+ dae:	82 0f       	add	r24, r18
+ db0:	93 2f       	mov	r25, r19
+ db2:	91 1d       	adc	r25, r1
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:279
+  if (nextBrightness >= 100) {
+ db4:	84 36       	cpi	r24, 0x64	; 100
+ db6:	91 05       	cpc	r25, r1
+ db8:	a4 f0       	brlt	.+40     	; 0xde2 <main+0x544>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:280
+    idleLedBrightness = 100;
+ dba:	30 92 01 3f 	sts	0x3F01, r3	; 0x803f01 <idleLedBrightness>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:281
+    idleLedDirection = -1;
+ dbe:	70 92 00 3f 	sts	0x3F00, r7	; 0x803f00 <__DATA_REGION_ORIGIN__>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:289
+    idleLedDirection = 1;
+  } else {
+    idleLedBrightness = (uint8_t)nextBrightness;
+  }
+
+  analogWrite(LED_PIN, 255 - idleLedBrightness);
+ dc2:	80 91 01 3f 	lds	r24, 0x3F01	; 0x803f01 <idleLedBrightness>
+ dc6:	47 01       	movw	r8, r14
+ dc8:	88 1a       	sub	r8, r24
+ dca:	91 08       	sbc	r9, r1
+ dcc:	c4 01       	movw	r24, r8
+analogWrite():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_analog.c:1143
+/**********************************************************************
+* PART 1: TIMERA
+**********************************************************************/
+    #if defined(TCA0)
+      case TIMERA0: {
+        if (val <= 0) { /* if zero or negative drive digital low */
+ dce:	00 97       	sbiw	r24, 0x00	; 0
+ dd0:	a1 f4       	brne	.+40     	; 0xdfa <main+0x55c>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_analog.c:1144
+          digitalWrite(pin, LOW);
+ dd2:	80 e0       	ldi	r24, 0x00	; 0
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_analog.c:1146
+        } else if (val >= 255) { /* if max or greater drive digital high */
+          digitalWrite(pin, HIGH);
+ dd4:	d5 da       	rcall	.-2646   	; 0x380 <digitalWrite.constprop.25>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_analog.c:1354
+      break;
+    }
+    // Now that everything is said and done, we've set the pin high or low as if it's not a PWM pin, or told the timer to give it PWM if it is - this is a better timwe to finally turn on the output drivers.
+    // True, it is at most 1-2 PWM timer ticks under typical settings, it's probably at least 1 tick, maybe several at 1 MHz (haven't timed analogWrite lately)
+  } // end of switch/case
+  pinMode(pin, OUTPUT);
+ dd6:	61 e0       	ldi	r22, 0x01	; 1
+ dd8:	81 e0       	ldi	r24, 0x01	; 1
+ dda:	f2 da       	rcall	.-2588   	; 0x3c0 <pinMode>
+ ddc:	bc cd       	rjmp	.-1160   	; 0x956 <main+0xb8>
+main():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:271
+    return;
+  }
+
+  idleLedBlipOn = false;
+
+  const uint8_t breathStepMs = bqCellBalancingActive ? 5 : 15;
+ dde:	8f e0       	ldi	r24, 0x0F	; 15
+ de0:	ce cf       	rjmp	.-100    	; 0xd7e <main+0x4e0>
+idleLedTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:282
+
+  const int16_t nextBrightness = (int16_t)idleLedBrightness + idleLedDirection;
+  if (nextBrightness >= 100) {
+    idleLedBrightness = 100;
+    idleLedDirection = -1;
+  } else if (nextBrightness <= 4) {
+ de2:	85 30       	cpi	r24, 0x05	; 5
+ de4:	91 05       	cpc	r25, r1
+ de6:	34 f4       	brge	.+12     	; 0xdf4 <main+0x556>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:283
+    idleLedBrightness = 4;
+ de8:	20 92 01 3f 	sts	0x3F01, r2	; 0x803f01 <idleLedBrightness>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:284
+    idleLedDirection = 1;
+ dec:	81 e0       	ldi	r24, 0x01	; 1
+ dee:	80 93 00 3f 	sts	0x3F00, r24	; 0x803f00 <__DATA_REGION_ORIGIN__>
+ df2:	e7 cf       	rjmp	.-50     	; 0xdc2 <main+0x524>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:286
+  } else {
+    idleLedBrightness = (uint8_t)nextBrightness;
+ df4:	80 93 01 3f 	sts	0x3F01, r24	; 0x803f01 <idleLedBrightness>
+ df8:	e4 cf       	rjmp	.-56     	; 0xdc2 <main+0x524>
+analogWrite():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_analog.c:1145
+**********************************************************************/
+    #if defined(TCA0)
+      case TIMERA0: {
+        if (val <= 0) { /* if zero or negative drive digital low */
+          digitalWrite(pin, LOW);
+        } else if (val >= 255) { /* if max or greater drive digital high */
+ dfa:	8f 3f       	cpi	r24, 0xFF	; 255
+ dfc:	91 05       	cpc	r25, r1
+ dfe:	11 f4       	brne	.+4      	; 0xe04 <main+0x566>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_analog.c:1146
+          digitalWrite(pin, HIGH);
+ e00:	81 e0       	ldi	r24, 0x01	; 1
+ e02:	e8 cf       	rjmp	.-48     	; 0xdd4 <main+0x536>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_analog.c:1189
+              offset += 4;
+            } else if (bit_mask & 0x22) {
+              offset += 2;
+            }
+            timer_cmp_out = ((volatile uint8_t *)(&TCA0.SPLIT.LCMP0)) + (offset); //finally at the very end we get the actual pointer (since volatile variables should be treated like nuclear waste due to performance impact)
+            (*timer_cmp_out) = (val); // write to it - and we're done with it.
+ e04:	80 92 2d 0a 	sts	0x0A2D, r8	; 0x800a2d <digital_pin_to_bit_mask+0x7f7ae3>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_analog.c:1190
+            TCA0.SPLIT.CTRLB |= bit_mask;
+ e08:	80 91 01 0a 	lds	r24, 0x0A01	; 0x800a01 <digital_pin_to_bit_mask+0x7f7ab7>
+ e0c:	80 64       	ori	r24, 0x40	; 64
+ e0e:	80 93 01 0a 	sts	0x0A01, r24	; 0x800a01 <digital_pin_to_bit_mask+0x7f7ab7>
+ e12:	e1 cf       	rjmp	.-62     	; 0xdd6 <main+0x538>
+slaveWatchdogTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:533
+    lastEspPingMs = now;
+    espPingSeen = true;
+  }
+
+  const uint32_t timeoutMs = espPingSeen ? ESP_PING_TIMEOUT_MS : ESP_FIRST_PING_GRACE_MS;
+  const uint32_t sinceMs = espPingSeen ? (uint32_t)(now - lastEspPingMs)
+ e14:	00 91 13 3f 	lds	r16, 0x3F13	; 0x803f13 <lastEspPingMs>
+ e18:	10 91 14 3f 	lds	r17, 0x3F14	; 0x803f14 <lastEspPingMs+0x1>
+ e1c:	20 91 15 3f 	lds	r18, 0x3F15	; 0x803f15 <lastEspPingMs+0x2>
+ e20:	30 91 16 3f 	lds	r19, 0x3F16	; 0x803f16 <lastEspPingMs+0x3>
+ e24:	60 1b       	sub	r22, r16
+ e26:	71 0b       	sbc	r23, r17
+ e28:	82 0b       	sbc	r24, r18
+ e2a:	93 0b       	sbc	r25, r19
+main():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:532
+    espPingPending = false;
+    lastEspPingMs = now;
+    espPingSeen = true;
+  }
+
+  const uint32_t timeoutMs = espPingSeen ? ESP_PING_TIMEOUT_MS : ESP_FIRST_PING_GRACE_MS;
+ e2c:	08 ee       	ldi	r16, 0xE8	; 232
+ e2e:	13 e0       	ldi	r17, 0x03	; 3
+ e30:	20 e0       	ldi	r18, 0x00	; 0
+ e32:	30 e0       	ldi	r19, 0x00	; 0
+slaveWatchdogTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:535
+  const uint32_t sinceMs = espPingSeen ? (uint32_t)(now - lastEspPingMs)
+                                       : (uint32_t)(now - slaveModeStartedMs);
+  if (sinceMs > timeoutMs) {
+ e34:	06 17       	cp	r16, r22
+ e36:	17 07       	cpc	r17, r23
+ e38:	28 07       	cpc	r18, r24
+ e3a:	39 07       	cpc	r19, r25
+ e3c:	48 f5       	brcc	.+82     	; 0xe90 <main+0x5f2>
+enterTinyMasterMode():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:492
+  digitalWrite(LED_PIN, HIGH);
+#endif
+}
+
+static void enterTinyMasterMode(bool reconfigureBq) {
+  restartMasterI2c(reconfigureBq);
+ e3e:	27 dc       	rcall	.-1970   	; 0x68e <restartMasterI2c(bool) [clone .constprop.7]>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:493
+  tinyBusRole = TINY_ROLE_BQ_MASTER;
+ e40:	10 92 27 3f 	sts	0x3F27, r1	; 0x803f27 <tinyBusRole>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:494
+  espPingPending = false;
+ e44:	10 92 1b 3f 	sts	0x3F1B, r1	; 0x803f1b <espPingPending>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:495
+  espPingSeen = false;
+ e48:	10 92 12 3f 	sts	0x3F12, r1	; 0x803f12 <espPingSeen>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:496
+  slaveModeStartedMs = 0;
+ e4c:	10 92 17 3f 	sts	0x3F17, r1	; 0x803f17 <slaveModeStartedMs>
+ e50:	10 92 18 3f 	sts	0x3F18, r1	; 0x803f18 <slaveModeStartedMs+0x1>
+ e54:	10 92 19 3f 	sts	0x3F19, r1	; 0x803f19 <slaveModeStartedMs+0x2>
+ e58:	10 92 1a 3f 	sts	0x3F1A, r1	; 0x803f1a <slaveModeStartedMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:497
+  lastEspProbeMs = millis() - ESP_PROBE_PERIOD_MS;
+ e5c:	b4 d9       	rcall	.-3224   	; 0x1c6 <millis>
+ e5e:	68 5b       	subi	r22, 0xB8	; 184
+ e60:	7b 40       	sbci	r23, 0x0B	; 11
+ e62:	81 09       	sbc	r24, r1
+ e64:	91 09       	sbc	r25, r1
+ e66:	60 93 32 3f 	sts	0x3F32, r22	; 0x803f32 <lastEspProbeMs>
+ e6a:	70 93 33 3f 	sts	0x3F33, r23	; 0x803f33 <lastEspProbeMs+0x1>
+ e6e:	80 93 34 3f 	sts	0x3F34, r24	; 0x803f34 <lastEspProbeMs+0x2>
+ e72:	90 93 35 3f 	sts	0x3F35, r25	; 0x803f35 <lastEspProbeMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:499
+#ifdef ENABLE_LED
+  slaveLedOn = false;
+ e76:	10 92 11 3f 	sts	0x3F11, r1	; 0x803f11 <slaveLedOn>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:500
+  lastIdleLedChangeMs = millis();
+ e7a:	a5 d9       	rcall	.-3254   	; 0x1c6 <millis>
+ e7c:	60 93 1d 3f 	sts	0x3F1D, r22	; 0x803f1d <lastIdleLedChangeMs>
+ e80:	70 93 1e 3f 	sts	0x3F1E, r23	; 0x803f1e <lastIdleLedChangeMs+0x1>
+ e84:	80 93 1f 3f 	sts	0x3F1F, r24	; 0x803f1f <lastIdleLedChangeMs+0x2>
+ e88:	90 93 20 3f 	sts	0x3F20, r25	; 0x803f20 <lastIdleLedChangeMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:501
+  digitalWrite(LED_PIN, HIGH);
+ e8c:	81 e0       	ldi	r24, 0x01	; 1
+ e8e:	78 da       	rcall	.-2832   	; 0x380 <digitalWrite.constprop.25>
+slaveLedTask():
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:293
+
+  analogWrite(LED_PIN, 255 - idleLedBrightness);
+}
+
+static void slaveLedTask() {
+  const uint32_t now = millis();
+ e90:	9a d9       	rcall	.-3276   	; 0x1c6 <millis>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:294
+  if ((uint32_t)(now - lastIdleLedChangeMs) < 500) {
+ e92:	00 91 1d 3f 	lds	r16, 0x3F1D	; 0x803f1d <lastIdleLedChangeMs>
+ e96:	10 91 1e 3f 	lds	r17, 0x3F1E	; 0x803f1e <lastIdleLedChangeMs+0x1>
+ e9a:	20 91 1f 3f 	lds	r18, 0x3F1F	; 0x803f1f <lastIdleLedChangeMs+0x2>
+ e9e:	30 91 20 3f 	lds	r19, 0x3F20	; 0x803f20 <lastIdleLedChangeMs+0x3>
+ ea2:	4b 01       	movw	r8, r22
+ ea4:	5c 01       	movw	r10, r24
+ ea6:	80 1a       	sub	r8, r16
+ ea8:	91 0a       	sbc	r9, r17
+ eaa:	a2 0a       	sbc	r10, r18
+ eac:	b3 0a       	sbc	r11, r19
+ eae:	95 01       	movw	r18, r10
+ eb0:	84 01       	movw	r16, r8
+ eb2:	04 3f       	cpi	r16, 0xF4	; 244
+ eb4:	11 40       	sbci	r17, 0x01	; 1
+ eb6:	21 05       	cpc	r18, r1
+ eb8:	31 05       	cpc	r19, r1
+ eba:	08 f4       	brcc	.+2      	; 0xebe <main+0x620>
+ ebc:	4c cd       	rjmp	.-1384   	; 0x956 <main+0xb8>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:298
+    return;
+  }
+
+  lastIdleLedChangeMs = now;
+ ebe:	60 93 1d 3f 	sts	0x3F1D, r22	; 0x803f1d <lastIdleLedChangeMs>
+ ec2:	70 93 1e 3f 	sts	0x3F1E, r23	; 0x803f1e <lastIdleLedChangeMs+0x1>
+ ec6:	80 93 1f 3f 	sts	0x3F1F, r24	; 0x803f1f <lastIdleLedChangeMs+0x2>
+ eca:	90 93 20 3f 	sts	0x3F20, r25	; 0x803f20 <lastIdleLedChangeMs+0x3>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:299
+  slaveLedOn = !slaveLedOn;
+ ece:	80 91 11 3f 	lds	r24, 0x3F11	; 0x803f11 <slaveLedOn>
+ ed2:	91 e0       	ldi	r25, 0x01	; 1
+ ed4:	98 27       	eor	r25, r24
+ ed6:	90 93 11 3f 	sts	0x3F11, r25	; 0x803f11 <slaveLedOn>
+/media/nvme_raid0/mPC/cyberdeck-scout/tiny404/tiny404.ino:300
+  digitalWrite(LED_PIN, slaveLedOn ? LOW : HIGH);
+ eda:	52 da       	rcall	.-2908   	; 0x380 <digitalWrite.constprop.25>
+ edc:	3c cd       	rjmp	.-1416   	; 0x956 <main+0xb8>
+
+00000ede <_GLOBAL__sub_I_sleepStack>:
+_ZN5PrintC2Ev():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/api/Print.h:42
+  protected:
+    void setWriteError(int err = 1) {
+      write_error = err;
+    }
+  public:
+    Print() : write_error(0) {}
+ ede:	eb e3       	ldi	r30, 0x3B	; 59
+ ee0:	ff e3       	ldi	r31, 0x3F	; 63
+ ee2:	12 82       	std	Z+2, r1	; 0x02
+ ee4:	13 82       	std	Z+3, r1	; 0x03
+_ZN6StreamC2Ev():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/api/Stream.h:63
+    virtual int read() = 0;
+    virtual int peek() = 0;
+    virtual void flush() = 0;
+
+    Stream() {
+      _timeout = 1000;
+ ee6:	88 ee       	ldi	r24, 0xE8	; 232
+ ee8:	93 e0       	ldi	r25, 0x03	; 3
+ eea:	a0 e0       	ldi	r26, 0x00	; 0
+ eec:	b0 e0       	ldi	r27, 0x00	; 0
+ eee:	84 83       	std	Z+4, r24	; 0x04
+ ef0:	95 83       	std	Z+5, r25	; 0x05
+ ef2:	a6 83       	std	Z+6, r26	; 0x06
+ ef4:	b7 83       	std	Z+7, r27	; 0x07
+_GLOBAL__sub_I_sleepStack():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:61
+ *@param      TWI_t *module - the pointer to the TWI module that the Wire object is supposed to use
+ *
+ *@return     constructor can't return anything
+ */
+
+TwoWire::TwoWire(TWI_t *twi_module) {
+ ef6:	84 e2       	ldi	r24, 0x24	; 36
+ ef8:	9f e8       	ldi	r25, 0x8F	; 143
+ efa:	80 83       	st	Z, r24
+ efc:	91 83       	std	Z+1, r25	; 0x01
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:63
+  if (&TWI0 == twi_module) {
+    twi0_wire = this;
+ efe:	e0 93 05 3f 	sts	0x3F05, r30	; 0x803f05 <twi0_wire>
+ f02:	f0 93 06 3f 	sts	0x3F06, r31	; 0x803f06 <twi0_wire+0x1>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:73
+    }
+  #endif
+  else {    // ignore NULLs
+    return;
+  }
+  _module = twi_module;
+ f06:	80 e1       	ldi	r24, 0x10	; 16
+ f08:	98 e0       	ldi	r25, 0x08	; 8
+ f0a:	80 87       	std	Z+8, r24	; 0x08
+ f0c:	91 87       	std	Z+9, r25	; 0x09
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/libraries/Wire/src/Wire.cpp:1503
+ *  Wire object constructors with the default TWI modules.
+ *  If there is absolutely no way to swap the pins physically,
+ *  here is the best way to do so in software.
+ */
+#if defined(TWI0)
+  TwoWire Wire(&TWI0);
+ f0e:	08 95       	ret
+
+00000f10 <__tablejump2__>:
+__tablejump2__():
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2296
+ f10:	ee 0f       	add	r30, r30
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2297
+ f12:	ff 1f       	adc	r31, r31
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2328
+ f14:	05 90       	lpm	r0, Z+
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2329
+ f16:	f4 91       	lpm	r31, Z
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2330
+ f18:	e0 2d       	mov	r30, r0
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2331
+ f1a:	09 94       	ijmp
+
+00000f1c <_exit>:
+exit():
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+ f1c:	f8 94       	cli
+
+00000f1e <__stop_program>:
+__stop_program():
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+ f1e:	ff cf       	rjmp	.-2      	; 0xf1e <__stop_program>
