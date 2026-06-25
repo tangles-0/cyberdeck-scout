@@ -1,1 +1,0 @@
-Monitors the PD front-end and charger. Connect i2c to the tSDA, tSCL, and GND pads on the mainboard. Power the board on.

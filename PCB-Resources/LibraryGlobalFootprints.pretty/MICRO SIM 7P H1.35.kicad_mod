@@ -1,0 +1,218 @@
+(footprint "MICRO SIM 7P H1.35"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1.35mm Connector and Ejector MicroSIM Card Push-Push SMD SIM Card Connector")
+	(property "Reference" "REF**"
+		(at 6.2 -1.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9d86f569-e572-4f5f-bbc1-06b42e2bc875")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MICRO SIM 7P H1.35"
+		(at 6.4 18 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7e0acd17-95ad-42fe-9e5f-da4e20691a20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3127295b-b887-460b-bcbb-b8aa8d5c3a3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "853359f6-67e9-4f97-a756-eeaa45ed1055")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -1.2 1)
+		(end -1.2 16.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e3d86922-96bb-4fd8-bca7-2a39dbb45fc0")
+	)
+	(fp_line
+		(start -1.2 16.7)
+		(end 14.1 16.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f0691f8-11d6-45b6-aaef-e8eb3672f764")
+	)
+	(fp_line
+		(start 9.8 -0.2)
+		(end 9.8 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b4253f60-9903-442f-b510-15dab3ed4c0e")
+	)
+	(fp_line
+		(start 9.8 1)
+		(end -1.2 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8cb7d9c5-5f31-431f-b703-d14bbeef6da4")
+	)
+	(fp_line
+		(start 14.1 -0.2)
+		(end 9.8 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "126040db-f936-4410-9649-64e41150ad2d")
+	)
+	(fp_line
+		(start 14.1 13.1)
+		(end 14.1 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b5069c9a-a88d-4d33-bc19-e1cd1286f33f")
+	)
+	(fp_line
+		(start 14.1 16.7)
+		(end 14.1 13.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a3733c0e-c34b-46be-a3d4-bddcdc377a21")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.4 19.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a0cd600-4fde-49f9-8ee9-66aef7edfbb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.27 0)
+		(size 0.9 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f45c9973-9f5b-4df1-b719-49b8a4a312a5")
+	)
+	(pad "2" smd rect
+		(at 3.81 0)
+		(size 0.9 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d104d099-a53d-41dd-a549-ace9a5209b04")
+	)
+	(pad "3" smd rect
+		(at 6.35 0)
+		(size 0.9 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eae4405a-9a9b-415b-af9f-1e679f9bf8c4")
+	)
+	(pad "5" smd rect
+		(at 0 0)
+		(size 0.9 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a57f1422-4267-45db-af7a-a63a61831e03")
+	)
+	(pad "6" smd rect
+		(at 2.54 0)
+		(size 0.9 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b097e65a-da2d-4c80-ac8d-89296a7ebfbe")
+	)
+	(pad "7" smd rect
+		(at 5.08 0)
+		(size 0.9 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f927fdff-eaa5-4b23-8dca-ba9f8c8af331")
+	)
+	(pad "CD" smd rect
+		(at 7.67 0)
+		(size 0.9 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "999cdd18-db1b-495e-9118-4f72b62e5bf9")
+	)
+	(pad "GND" smd rect
+		(at -1.79 2.425)
+		(size 1.1 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "37e09769-5425-419e-9c75-1b76d48931e3")
+	)
+	(pad "GND" smd rect
+		(at -1.79 14.655)
+		(size 1.1 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6124220c-3395-4730-9166-50c7436b1f6b")
+	)
+	(pad "GND" smd rect
+		(at 14.61 2.425)
+		(size 1.1 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0c4c3b15-912e-4449-b3b2-ed0ef19fc73d")
+	)
+	(pad "GND" smd rect
+		(at 14.61 14.655)
+		(size 1.1 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a678f862-a05a-4681-8b32-0c08c204629c")
+	)
+	(embedded_fonts no)
+	(model "${TANGLES_MODEL_DIR}/SIM7100-6-1-15-00-A--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 6.5 -8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

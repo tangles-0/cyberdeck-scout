@@ -1,0 +1,395 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "RAK4630" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -35.56 20.32 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "RAK4630" (id 1) (at 12.7 -20.32 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "RAK4630:RAK4630" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "RAK" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Low-power long-range transceiver module\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "Package" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/RAK4630/RAK/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "RAK4630" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "Not in stock" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/RAK4630/RAK/view-part/?ref=eda" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "RAK4630_0_0"
+      (rectangle (start -35.56 -17.78) (end 35.56 17.78)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin power_in line (at -40.64 15.24 0) (length 5.08)
+        (name "VBUS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -40.64 12.7 0) (length 5.08)
+        (name "USB-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -40.64 10.16 0) (length 5.08)
+        (name "USB+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -40.64 7.62 0) (length 5.08)
+        (name "PO.13/I2C_SDA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -40.64 5.08 0) (length 5.08)
+        (name "PO.14/I2C_SCL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -40.64 2.54 0) (length 5.08)
+        (name "P0.15/UART2_RX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -40.64 0.0 0) (length 5.08)
+        (name "P0.16/UART2_TX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -40.64 -2.54 0) (length 5.08)
+        (name "P0.17/UART2_DE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -40.64 -5.08 0) (length 5.08)
+        (name "P0.19/UART1_RX_AT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -40.64 -7.62 0) (length 5.08)
+        (name "P0.20/UART1_TX_AT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -40.64 -10.16 0) (length 5.08)
+        (name "P0.21/UART1_DE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -40.64 -12.7 0) (length 5.08)
+        (name "P0.10/NFC2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -40.64 -15.24 0) (length 5.08)
+        (name "P0.09/NFC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -22.86 90.0) (length 5.08)
+        (name "GND1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 -22.86 90.0) (length 5.08)
+        (name "RF_BT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -5.08 -22.86 90.0) (length 5.08)
+        (name "GND2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -2.54 -22.86 90.0) (length 5.08)
+        (name "NRF_RESET"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 0.0 -22.86 90.0) (length 5.08)
+        (name "SWDCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 2.54 -22.86 90.0) (length 5.08)
+        (name "SWDIO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 5.08 -22.86 90.0) (length 5.08)
+        (name "VBAT_SX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 -22.86 90.0) (length 5.08)
+        (name "VBAT_IO_SX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 10.16 -22.86 90.0) (length 5.08)
+        (name "GND3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 40.64 -15.24 180.0) (length 5.08)
+        (name "P0.24/I2C_SDA_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 40.64 -12.7 180.0) (length 5.08)
+        (name "P0.25/I2C_SCL_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 40.64 -10.16 180.0) (length 5.08)
+        (name "P1.01/SW1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 40.64 -7.62 180.0) (length 5.08)
+        (name "P1.02/SW2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 40.64 -5.08 180.0) (length 5.08)
+        (name "P1.03/LED1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 40.64 -2.54 180.0) (length 5.08)
+        (name "P1.04/LED2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 40.64 0.0 180.0) (length 5.08)
+        (name "P0.03/QSPI_CLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 40.64 2.54 180.0) (length 5.08)
+        (name "P0.02/QSPI_DIO3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 40.64 5.08 180.0) (length 5.08)
+        (name "P0.28/QSPI_DIO2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 40.64 7.62 180.0) (length 5.08)
+        (name "P0.29/QSPI_DIO1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "32"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 40.64 10.16 180.0) (length 5.08)
+        (name "P0.30/QSPI_DIO0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 40.64 12.7 180.0) (length 5.08)
+        (name "P0.26/QSPI_CS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "34"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 40.64 15.24 180.0) (length 5.08)
+        (name "GND4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "35"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 22.86 270.0) (length 5.08)
+        (name "GND5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "36"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 10.16 22.86 270.0) (length 5.08)
+        (name "RF_LORA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "37"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 5.08 22.86 270.0) (length 5.08)
+        (name "GND6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "38"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 2.54 22.86 270.0) (length 5.08)
+        (name "P0.31/AIN7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "39"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 0.0 22.86 270.0) (length 5.08)
+        (name "P0.05/AIN3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "40"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -2.54 22.86 270.0) (length 5.08)
+        (name "P0.04/AIN2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "41"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -5.08 22.86 270.0) (length 5.08)
+        (name "GND7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "42"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -7.62 22.86 270.0) (length 5.08)
+        (name "VDD_NRF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "43"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 22.86 270.0) (length 5.08)
+        (name "VBAT_NRF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "44"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

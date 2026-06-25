@@ -1,9 +1,9 @@
-/pcb-*/*-backups
-/pcb-*/fp-*
-/pcb-*/production/
-/pcb-*/*.kicad_prl
-/pcb-*/*.lck
-/pcb-*/fabrication-toolkit-options.json
-/pcb-*/*.kicad*-bak
-/pcb-*/#auto_saved_files#
+/PCB/**/*-backups
+/PCB/**/fp-*
+/PCB/**/production/
+/PCB/**/*.kicad_prl
+/PCB/**/*.lck
+/PCB/**/fabrication-toolkit-options.json
+/PCB/**/*.kicad*-bak
+/PCB/**/#auto_saved_files#
 *.log
