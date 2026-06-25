@@ -1,0 +1,19 @@
+Current driver / OLED display i2c pinout
+
+1 SCL
+2 SDA
+3 INT
+4 GND
+5 VDD
+6 RST
+
+Large pitch display i2c pinout
+
+1 GND
+2 SDA
+3 SCL
+4 RST
+5 INT
+6 VDD3.3V
+
+blk grn blu yel wht red
