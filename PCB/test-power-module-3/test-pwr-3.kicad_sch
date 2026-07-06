@@ -590,258 +590,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Conn_01x04_Pin_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J4"
-				(at 0.635 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "JOYSTICK"
-				(at 0.635 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LibraryGlobalFootprints:1x04_P2.54 SMD pads only"
-				(at 1.524 -7.874 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 2.286 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Y_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "X_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Bus_M.2_Socket_B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -40234,6 +39982,12 @@
 		(uuid "1262d85f-cb36-4b40-aca5-1b890a95c7e5")
 	)
 	(junction
+		(at 35.56 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12ef4829-6916-420e-bb99-4b474656a38e")
+	)
+	(junction
 		(at 778.51 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -40888,12 +40642,6 @@
 		(uuid "4464b7af-f745-48b6-ac48-17b7d45f6a11")
 	)
 	(junction
-		(at 21.59 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "448b6c37-b88e-4d69-affa-ef08fbec4e52")
-	)
-	(junction
 		(at 228.6 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -40904,6 +40652,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46546f23-b784-477a-84b0-5bff13c50294")
+	)
+	(junction
+		(at 35.56 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "465feb91-ec13-4b9e-ab4e-3444f1408ba0")
 	)
 	(junction
 		(at 403.86 558.8)
@@ -41234,6 +40988,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e0894ae-446b-4510-9be4-45d9c8aa0ce1")
+	)
+	(junction
+		(at 35.56 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e5eb576-ab45-449d-aa76-4fd010be9308")
 	)
 	(junction
 		(at 765.81 612.14)
@@ -41704,6 +41464,12 @@
 		(uuid "839befeb-075e-44c2-85c8-e0862cf213e1")
 	)
 	(junction
+		(at 591.82 521.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "840c81c7-ff3b-4f3f-95b5-f065402f1fc7")
+	)
+	(junction
 		(at 191.77 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -41858,6 +41624,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f54b103-5bed-4960-bb2c-8ce5a59d0b6c")
+	)
+	(junction
+		(at 1009.65 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fa5957d-36e4-4fd1-8b49-aa439adc8879")
 	)
 	(junction
 		(at 154.94 43.18)
@@ -42206,6 +41978,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8653970-ea9e-4550-aea1-e40cdac0c6f0")
+	)
+	(junction
+		(at 1009.65 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8a78989-7cb0-48f1-879e-42b34f5c83e1")
 	)
 	(junction
 		(at 358.14 119.38)
@@ -42820,6 +42598,12 @@
 		(uuid "d41a534b-7928-487c-a0b7-0b17c5653fe9")
 	)
 	(junction
+		(at 591.82 591.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d451be5d-4b94-40c5-97bf-c93019f14ac8")
+	)
+	(junction
 		(at 952.5 695.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -42932,6 +42716,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbe56c34-0957-431f-a454-897674926037")
+	)
+	(junction
+		(at 35.56 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc0f77e4-1da8-417b-91af-01f2484d92ff")
 	)
 	(junction
 		(at 711.2 234.95)
@@ -43244,6 +43034,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0e32234-c822-44a6-87b4-18b20d58dcdc")
+	)
+	(junction
+		(at 35.56 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f17cf86e-0628-40b5-a587-353db4530f81")
 	)
 	(junction
 		(at 128.27 482.6)
@@ -43971,16 +43767,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 222.25) (xy 31.75 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "003f4d4d-28c0-4410-a641-8eb4cfca025c")
-	)
-	(wire
-		(pts
 			(xy 482.6 101.6) (xy 482.6 99.06)
 		)
 		(stroke
@@ -44188,16 +43974,6 @@
 			(type default)
 		)
 		(uuid "01e29c2b-7130-4d2b-b7da-fb752b25c6dc")
-	)
-	(wire
-		(pts
-			(xy 27.94 224.79) (xy 27.94 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01f5133a-53da-415d-82c9-6a015ec74ebf")
 	)
 	(wire
 		(pts
@@ -45455,6 +45231,16 @@
 	)
 	(wire
 		(pts
+			(xy 591.82 487.68) (xy 594.36 487.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b1e8fc-a1ae-4512-a616-21e3ad5de916")
+	)
+	(wire
+		(pts
 			(xy 293.37 82.55) (xy 293.37 57.15)
 		)
 		(stroke
@@ -45582,6 +45368,16 @@
 			(type default)
 		)
 		(uuid "12fc6470-4434-4dc0-a57e-278019c8b29f")
+	)
+	(wire
+		(pts
+			(xy 572.77 487.68) (xy 576.58 487.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134cec75-7e33-4d5f-bf4b-4a6dca61b4b3")
 	)
 	(wire
 		(pts
@@ -46256,6 +46052,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 222.25) (xy 34.29 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4434c2-0214-451b-a121-b724911c2bc1")
+	)
+	(wire
+		(pts
 			(xy 311.15 495.3) (xy 314.96 495.3)
 		)
 		(stroke
@@ -46273,16 +46079,6 @@
 			(type default)
 		)
 		(uuid "1c54c4a6-670d-4129-a981-e5f9875845b9")
-	)
-	(wire
-		(pts
-			(xy 21.59 229.87) (xy 21.59 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c5c9154-bfc9-4033-891f-b6203a10cd97")
 	)
 	(wire
 		(pts
@@ -46413,16 +46209,6 @@
 			(type default)
 		)
 		(uuid "1de9f1a4-32c0-4740-883a-fa7b8656697c")
-	)
-	(wire
-		(pts
-			(xy 27.94 224.79) (xy 21.59 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e2f5af0-5825-49e2-9630-84a13b6c8cad")
 	)
 	(wire
 		(pts
@@ -47691,6 +47477,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 224.79) (xy 35.56 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6828d7-cdb1-4328-b3c4-ebf55202e15a")
+	)
+	(wire
+		(pts
 			(xy 379.73 200.66) (xy 379.73 205.74)
 		)
 		(stroke
@@ -47962,6 +47758,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 232.41) (xy 34.29 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f4d657-c525-40ac-bfe1-56785600c207")
+	)
+	(wire
+		(pts
 			(xy 711.2 181.61) (xy 711.2 189.23)
 		)
 		(stroke
@@ -48219,6 +48025,16 @@
 			(type default)
 		)
 		(uuid "34009011-f5df-4bb4-b89c-0e1581e3dd39")
+	)
+	(wire
+		(pts
+			(xy 591.82 509.27) (xy 594.36 509.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34483736-bc0e-4394-a9ee-e6891e3e0390")
 	)
 	(wire
 		(pts
@@ -50065,7 +49881,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 245.11) (xy 46.99 245.11)
+			(xy 53.34 229.87) (xy 35.56 229.87)
 		)
 		(stroke
 			(width 0)
@@ -52894,6 +52710,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 229.87) (xy 53.34 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f07bad2-ba1b-4bf3-bcd8-04dfa462f311")
+	)
+	(wire
+		(pts
 			(xy 176.53 563.88) (xy 176.53 575.31)
 		)
 		(stroke
@@ -54119,16 +53945,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 222.25) (xy 45.72 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ef1f9a9-9711-43a9-bb69-05a29b91a5ff")
-	)
-	(wire
-		(pts
 			(xy 901.7 394.97) (xy 910.59 394.97)
 		)
 		(stroke
@@ -54316,6 +54132,16 @@
 			(type default)
 		)
 		(uuid "80b4848d-30c6-4c71-8290-76bdb162c40b")
+	)
+	(wire
+		(pts
+			(xy 572.77 509.27) (xy 576.58 509.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c64b1a-c251-41a8-9b74-a1b23884b7d2")
 	)
 	(wire
 		(pts
@@ -56551,16 +56377,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 224.79) (xy 21.59 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aa06761-c22b-4164-88f7-40d3f01f123a")
-	)
-	(wire
-		(pts
 			(xy 457.2 191.77) (xy 461.01 191.77)
 		)
 		(stroke
@@ -57374,6 +57190,16 @@
 	)
 	(wire
 		(pts
+			(xy 1008.38 52.07) (xy 1009.65 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f9ee48-8529-44f8-ab4a-ab30754a32f9")
+	)
+	(wire
+		(pts
 			(xy 74.93 55.88) (xy 71.12 55.88)
 		)
 		(stroke
@@ -57512,6 +57338,16 @@
 			(type default)
 		)
 		(uuid "a6cd2404-b4ce-46b9-b1a3-d0568644ac31")
+	)
+	(wire
+		(pts
+			(xy 38.1 232.41) (xy 35.56 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d143b3-2689-45c3-9342-28e78d822345")
 	)
 	(wire
 		(pts
@@ -58218,7 +58054,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 234.95) (xy 35.56 237.49)
+			(xy 45.72 219.71) (xy 45.72 222.25)
 		)
 		(stroke
 			(width 0)
@@ -58938,6 +58774,16 @@
 	)
 	(wire
 		(pts
+			(xy 1008.38 101.6) (xy 1009.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91dc4a3-6baa-4905-a860-ab9f482e9765")
+	)
+	(wire
+		(pts
 			(xy 140.97 158.75) (xy 140.97 133.35)
 		)
 		(stroke
@@ -58958,7 +58804,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 237.49) (xy 46.99 237.49)
+			(xy 45.72 222.25) (xy 35.56 222.25)
 		)
 		(stroke
 			(width 0)
@@ -59185,16 +59031,6 @@
 			(type default)
 		)
 		(uuid "bba4d746-565a-4cb3-ab0c-b9fcc764188e")
-	)
-	(wire
-		(pts
-			(xy 591.82 591.82) (xy 594.36 591.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbb669ea-9ce6-405f-abd2-f95ff997b802")
 	)
 	(wire
 		(pts
@@ -60352,6 +60188,16 @@
 	)
 	(wire
 		(pts
+			(xy 594.36 482.6) (xy 591.82 482.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8698b9-1478-4152-b1f4-f0b8a1fd67b8")
+	)
+	(wire
+		(pts
 			(xy 471.17 524.51) (xy 471.17 521.97)
 		)
 		(stroke
@@ -60844,6 +60690,16 @@
 	)
 	(wire
 		(pts
+			(xy 593.09 521.97) (xy 591.82 521.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1103691-ccd4-438f-9f95-59d7212da707")
+	)
+	(wire
+		(pts
 			(xy 553.72 248.92) (xy 553.72 256.54)
 		)
 		(stroke
@@ -61085,6 +60941,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 224.79) (xy 34.29 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4778084-de10-41f0-a074-60c537f3efed")
+	)
+	(wire
+		(pts
 			(xy 619.76 228.6) (xy 624.84 228.6)
 		)
 		(stroke
@@ -61193,6 +61059,16 @@
 			(type default)
 		)
 		(uuid "d5e179db-e1ad-44ed-ab26-ffc10dc95869")
+	)
+	(wire
+		(pts
+			(xy 594.36 591.82) (xy 591.82 591.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e48645-c5a1-4462-8488-b515a23c506b")
 	)
 	(wire
 		(pts
@@ -62339,16 +62215,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 217.17) (xy 45.72 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e26067c4-61e9-4cbf-9e14-da06385116c2")
-	)
-	(wire
-		(pts
 			(xy 52.07 341.63) (xy 48.26 341.63)
 		)
 		(stroke
@@ -62579,6 +62445,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 229.87) (xy 34.29 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5562ca7-df67-4cbe-9058-0e5068e75bbe")
+	)
+	(wire
+		(pts
 			(xy 707.39 217.17) (xy 715.01 217.17)
 		)
 		(stroke
@@ -62750,6 +62626,16 @@
 	)
 	(wire
 		(pts
+			(xy 594.36 504.19) (xy 591.82 504.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76fd7fb-7358-4b49-a9cc-2cc78a000260")
+	)
+	(wire
+		(pts
 			(xy 154.94 163.83) (xy 154.94 165.1)
 		)
 		(stroke
@@ -62838,6 +62724,16 @@
 			(type default)
 		)
 		(uuid "e8bc3208-b40f-4c81-a097-fc137cc0e08c")
+	)
+	(wire
+		(pts
+			(xy 38.1 227.33) (xy 35.56 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8dbea88-d57e-4f57-bb12-965295b76032")
 	)
 	(wire
 		(pts
@@ -63821,6 +63717,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 227.33) (xy 34.29 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f656f974-fadc-4cae-a334-e24834c8208b")
+	)
+	(wire
+		(pts
 			(xy 267.97 107.95) (xy 267.97 82.55)
 		)
 		(stroke
@@ -64703,6 +64609,16 @@
 		)
 		(uuid "02ca93dc-eab2-4ed7-979d-329ccd46414d")
 	)
+	(label "BQ_3V3"
+		(at 576.58 482.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03417074-3b29-4038-b02b-9c86e174eef7")
+	)
 	(label "PD_CC1"
 		(at 293.37 480.06 0)
 		(effects
@@ -65463,6 +65379,16 @@
 		)
 		(uuid "1ef05c28-e37d-419b-9d22-012048f33b25")
 	)
+	(label "PWR_TRIGGER_5V"
+		(at 1008.38 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f31fa44-9916-4613-8a57-14f09c7b8e4c")
+	)
 	(label "GP_BTN_L"
 		(at 36.83 294.64 0)
 		(effects
@@ -65993,15 +65919,15 @@
 		)
 		(uuid "30c16d9d-39ad-4c04-b13d-60c3dd038c66")
 	)
-	(label "JOYSTICK_Y"
-		(at 45.72 219.71 180)
+	(label "PWR_TRIGGER_3V3"
+		(at 594.36 509.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "31ffe565-b93c-4c73-98b9-06cb5b338130")
+		(uuid "3243da70-2dfe-4c8b-9263-6a0a52f0ab2f")
 	)
 	(label "GPIO_18"
 		(at 629.92 236.22 0)
@@ -66713,16 +66639,6 @@
 		)
 		(uuid "49fb6874-ada0-40a6-a381-5a8b437f26b4")
 	)
-	(label "SHIP_WAKE_3V3"
-		(at 594.36 492.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b4ae130-721b-4d78-bfd5-a97a8081acb1")
-	)
 	(label "GPIO_11"
 		(at 549.91 220.98 180)
 		(effects
@@ -66774,14 +66690,24 @@
 		(uuid "4dcba7dc-d60f-45a1-8048-fb5a45a952ae")
 	)
 	(label "JOYSTICK_BTN"
-		(at 46.99 242.57 180)
+		(at 38.1 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dd629d0-ed62-47b1-8eb8-8d626daf9273")
+	)
+	(label "BQ_3V3"
+		(at 576.58 504.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "4dd629d0-ed62-47b1-8eb8-8d626daf9273")
+		(uuid "4e06b271-c16e-4791-be02-46bea51dc3d8")
 	)
 	(label "5V_MAIN"
 		(at 1112.52 88.9 180)
@@ -67222,6 +67148,16 @@
 			(justify right bottom)
 		)
 		(uuid "5c52620a-d4a1-42da-b696-1c9a6f953852")
+	)
+	(label "3V3_IN"
+		(at 594.36 504.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cbe7817-d766-41dd-8519-071c097ef32b")
 	)
 	(label "SIM_CLK"
 		(at 36.83 623.57 180)
@@ -67664,12 +67600,12 @@
 		(uuid "697b6664-8ffd-45dd-b9c8-f0de3ca5a367")
 	)
 	(label "JOYSTICK_X"
-		(at 46.99 240.03 180)
+		(at 38.1 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "69a25124-ec26-4c4f-9f70-a6ce227bd915")
 	)
@@ -68263,16 +68199,6 @@
 		)
 		(uuid "7fc2e0b8-ff02-420e-8c18-39be936bf6a7")
 	)
-	(label "JOYSTICK_X"
-		(at 45.72 214.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "802aa6b9-36c8-47c9-aed0-0ae4d63a1db6")
-	)
 	(label "MIPI0_D3_P"
 		(at 669.29 368.3 180)
 		(effects
@@ -68824,7 +68750,7 @@
 		(uuid "91a6e020-f82d-4104-957c-dd6d3854d481")
 	)
 	(label "CM5_PWR_BTN"
-		(at 591.82 521.97 0)
+		(at 593.09 521.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -69492,6 +69418,16 @@
 			(justify left bottom)
 		)
 		(uuid "a5113989-db0d-4d55-b31b-aa094de3d166")
+	)
+	(label "PWR_TRIGGER"
+		(at 565.15 509.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a603e895-49f9-46fb-812b-a6dcc1b04779")
 	)
 	(label "C3_USBD_P"
 		(at 977.9 374.65 180)
@@ -70393,6 +70329,16 @@
 		)
 		(uuid "c59141c8-6312-4ca5-9240-6c8063012993")
 	)
+	(label "PWR_TRIGGER_3V3"
+		(at 1008.38 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5befbdc-f48c-4d5c-9507-cf8dba54dedd")
+	)
 	(label "USB31_RX1_P"
 		(at 895.35 434.34 0)
 		(effects
@@ -70893,16 +70839,6 @@
 		)
 		(uuid "d6ca4d04-1a1f-4a20-9d5d-f1df620a8193")
 	)
-	(label "CM5_PWR_BTN"
-		(at 594.36 490.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7d25376-cfbb-4f74-884b-df852b0c8b01")
-	)
 	(label "LED_PWR"
 		(at 100.33 195.5034 90)
 		(effects
@@ -71194,12 +71130,12 @@
 		(uuid "e0e6d599-8527-4327-b220-6d886c2cc1f1")
 	)
 	(label "JOYSTICK_Y"
-		(at 46.99 247.65 180)
+		(at 38.1 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e1fb8e79-e71e-4037-bf86-0b163158fc0e")
 	)
@@ -71292,6 +71228,16 @@
 			(justify right bottom)
 		)
 		(uuid "e4d17dd1-5e10-4818-9943-39f7830158f3")
+	)
+	(label "5V_IN"
+		(at 594.36 482.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4f9179b-055b-4e5c-b2a4-6f121db97a39")
 	)
 	(label "LED_PWR"
 		(at 281.94 205.74 0)
@@ -71422,6 +71368,16 @@
 			(justify left bottom)
 		)
 		(uuid "eadfe7ed-1974-4f0d-916f-3a066a35d563")
+	)
+	(label "PWR_TRIGGER_5V"
+		(at 594.36 487.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb87eb3b-d96c-4188-94de-1a653e680f66")
 	)
 	(label "col1"
 		(at 76.2 48.26 180)
@@ -71642,6 +71598,16 @@
 			(justify left bottom)
 		)
 		(uuid "f3ede452-a6f0-4b41-9976-32342c3c3a91")
+	)
+	(label "PWR_TRIGGER"
+		(at 565.15 487.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4a04fdf-07ee-4161-9fa5-b221e25e2151")
 	)
 	(label "ETH_D3_N"
 		(at 629.92 180.34 0)
@@ -103660,6 +103626,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator:PC817")
+		(at 584.2 485.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1835bc02-ba47-494d-8799-799647c98adc")
+		(property "Reference" "U43"
+			(at 581.406 479.298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AT3H7B-CuH-S"
+			(at 575.818 477.266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibraryGlobalFootprints:SSOP-4_AT3H7B-CuH-S"
+			(at 579.12 490.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
+			(at 584.2 485.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+			(at 584.2 485.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20612660"
+			(at 584.2 485.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d854e5f5-be8e-4349-8aeb-e2a7e30647bf")
+		)
+		(pin "2"
+			(uuid "3740a793-d0d7-4640-b8bd-067f8e0eff42")
+		)
+		(pin "4"
+			(uuid "c7a39ca0-1db6-486b-91fc-28ab0ba46f8d")
+		)
+		(pin "3"
+			(uuid "a73403a4-a2f9-4354-8641-24ffb06a240f")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "U43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 194.31 345.44 180)
 		(unit 1)
@@ -104826,6 +104891,130 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 568.96 487.68 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b3e7870-50be-43d0-be0f-80335a3a3f45")
+		(property "Reference" "R140"
+			(at 569.214 485.648 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "430R"
+			(at 569.214 487.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 568.96 489.458 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 568.96 487.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 568.96 487.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C36356"
+			(at 568.96 487.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSCS" ""
+			(at 568.96 487.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 568.96 487.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 568.96 487.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ed54b13-525b-40b4-957a-101b805277db")
+		)
+		(pin "2"
+			(uuid "720eb6f3-e4c9-4429-833c-5c3159a8bd2f")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "R140")
 					(unit 1)
 				)
 			)
@@ -120626,6 +120815,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 35.56 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "422822a9-ca3e-4f2d-ad7d-3bceebd761a5")
+		(property "Reference" "TP28"
+			(at 33.528 223.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 36.83 226.0599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 40.64 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "241f2b2e-c81c-45b1-bd20-83c001f04da3")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 1047.75 613.41 0)
 		(unit 1)
@@ -126228,7 +126496,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 594.36 492.76 180)
+		(at 591.82 591.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -126238,7 +126506,7 @@
 		(dnp no)
 		(uuid "4f969160-1c1d-492c-8342-4020cc7c2013")
 		(property "Reference" "TP18"
-			(at 592.582 492.76 0)
+			(at 597.662 593.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -126249,7 +126517,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 593.09 491.4901 0)
+			(at 590.55 590.5501 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -126261,7 +126529,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 589.28 492.76 0)
+			(at 586.74 591.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -126272,7 +126540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 589.28 492.76 0)
+			(at 586.74 591.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -126283,7 +126551,7 @@
 			)
 		)
 		(property "Description" "SHIP_WAKE_3V3"
-			(at 594.36 492.76 0)
+			(at 591.82 591.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -126294,7 +126562,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 594.36 492.76 0)
+			(at 591.82 591.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -126568,6 +126836,130 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 568.96 509.27 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51ce7ad6-0e15-4f31-ad66-2b56e3de7bea")
+		(property "Reference" "R141"
+			(at 569.214 507.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "430R"
+			(at 569.214 509.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 568.96 511.048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 568.96 509.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 568.96 509.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C36356"
+			(at 568.96 509.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSCS" ""
+			(at 568.96 509.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 568.96 509.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 568.96 509.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9c0db50-fede-4476-97ca-1bfe913d85e6")
+		)
+		(pin "2"
+			(uuid "79266867-08d2-402d-be31-247fd6b52eb8")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "R141")
 					(unit 1)
 				)
 			)
@@ -127972,84 +128364,6 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 31.75 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5574bc7b-a1a8-40ec-8e9f-015f73114597")
-		(property "Reference" "#PWR0135"
-			(at 31.75 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V_MAIN"
-			(at 31.75 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 31.75 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df421a23-429a-4db4-b69f-8ef1d1b5977a")
-		)
-		(instances
-			(project "cyberdeck-alpha"
-				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
-					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -147203,6 +147517,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 35.56 229.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "894512ce-95f5-45f7-9e11-305a70b9aecd")
+		(property "Reference" "TP31"
+			(at 33.528 228.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 36.83 231.1399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 40.64 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a2f3d13-cf86-4a46-8ef5-0eee14a41631")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 99.06 718.82 0)
 		(unit 1)
@@ -150317,7 +150710,7 @@
 		(dnp no)
 		(uuid "8f48874d-93f4-4322-8940-3aecede92c48")
 		(property "Reference" "TP24"
-			(at 1009.904 50.292 0)
+			(at 1012.444 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -151528,6 +151921,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 35.56 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92215945-a3c0-4d25-b243-d297d0860dea")
+		(property "Reference" "TP30"
+			(at 33.528 231.394 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 36.83 233.6799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 40.64 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f86985c-48e3-44a7-bc10-1ed1d1d06883")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 309.88 778.51 0)
 		(unit 1)
@@ -152010,7 +152482,7 @@
 		(dnp no)
 		(uuid "954f8b78-c2c4-4807-a806-ab082bd5517f")
 		(property "Reference" "TP25"
-			(at 1009.904 99.822 0)
+			(at 1012.444 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -155673,6 +156145,197 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0240")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 29.21 227.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0a20da0-1207-4880-8e3c-4bc8b95de999")
+		(property "Reference" "J7"
+			(at 30.48 218.694 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 35.56 216.1541 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryGlobalFootprints:AFC07-S05ECA-00"
+			(at 29.21 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C262552"
+			(at 29.21 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 29.21 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8c74e7e9-9a07-4af4-b926-35b30eb6c7f8")
+		)
+		(pin "3"
+			(uuid "69b9b84a-2f0d-4ac7-9ee7-56c47685949a")
+		)
+		(pin "1"
+			(uuid "1064b143-7d53-4d5b-ac3e-529d9fddd88f")
+		)
+		(pin "5"
+			(uuid "99b7308c-d66b-47f8-aa6f-bbeba79cb2f9")
+		)
+		(pin "4"
+			(uuid "f79648da-701a-44a6-8848-420a4f576615")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 35.56 222.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1af6b9b-d3e2-4aa9-ba15-0df0ad75e03a")
+		(property "Reference" "TP27"
+			(at 33.528 221.234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 36.83 223.5199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 40.64 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cafa47f9-fc92-41ac-8ed5-7b7b0dd7d985")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -160006,182 +160669,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_01x04_Pin_1")
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 50.8 219.71 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "adff7d7d-185d-4cb3-95ba-250be2015e24")
-		(property "Reference" "J4"
-			(at 44.958 210.566 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "JOYSTICK"
-			(at 42.164 208.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LibraryGlobalFootprints:1x04_P2.54 SMD pads only"
-			(at 49.276 211.836 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 48.514 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 50.8 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 50.8 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 50.8 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 50.8 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 50.8 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 50.8 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 50.8 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 50.8 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "74ac195e-8c41-45d9-b807-b5d14b46753a")
-		)
-		(pin "4"
-			(uuid "cf07f5ea-e95e-4b0c-82e9-5f7e0a023cea")
-		)
-		(pin "1"
-			(uuid "dea6df43-c212-46f1-ac7c-539f77f62bf7")
-		)
-		(pin "2"
-			(uuid "84aa5084-ac58-4873-a294-c1dc8e0b0e81")
-		)
-		(instances
-			(project "cyberdeck-alpha"
-				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 372.11 210.82 90)
 		(unit 1)
@@ -161047,7 +161534,8 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 35.56 234.95 0)
+		(at 45.72 219.71 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -161058,7 +161546,7 @@
 		(fields_autoplaced yes)
 		(uuid "b01f0e07-93aa-4d43-a954-4e2118db9a94")
 		(property "Reference" "#PWR0136"
-			(at 35.56 238.76 0)
+			(at 45.72 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -161069,7 +161557,7 @@
 			)
 		)
 		(property "Value" "+3.3V_MAIN"
-			(at 35.56 229.87 0)
+			(at 45.72 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -161079,7 +161567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 234.95 0)
+			(at 45.72 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -161090,7 +161578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 234.95 0)
+			(at 45.72 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -161101,7 +161589,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 35.56 234.95 0)
+			(at 45.72 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -167680,7 +168168,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 229.87 0)
+		(at 53.34 231.14 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -167691,7 +168180,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2b13a7c-8d58-47ec-8b92-eb5645c25d98")
 		(property "Reference" "#PWR064"
-			(at 21.59 236.22 0)
+			(at 53.34 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -167702,7 +168191,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 234.95 0)
+			(at 53.34 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -167712,7 +168201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 229.87 0)
+			(at 53.34 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -167723,7 +168212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 229.87 0)
+			(at 53.34 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -167734,7 +168223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 229.87 0)
+			(at 53.34 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -178667,6 +179156,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator:PC817")
+		(at 584.2 506.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df5cabdd-f763-4131-a193-40b829a33eb7")
+		(property "Reference" "U44"
+			(at 581.406 500.888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AT3H7B-CuH-S"
+			(at 575.818 498.856 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibraryGlobalFootprints:SSOP-4_AT3H7B-CuH-S"
+			(at 579.12 511.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
+			(at 584.2 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+			(at 584.2 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20612660"
+			(at 584.2 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cdbb991-b0eb-4507-9ddf-7c4953a86033")
+		)
+		(pin "2"
+			(uuid "be81064a-f5ce-4670-8efe-d4a970171c5a")
+		)
+		(pin "4"
+			(uuid "cad6cb28-0760-484c-a0be-79c32228df7a")
+		)
+		(pin "3"
+			(uuid "9747c0d3-cc7b-4425-b99c-0c1494fdf19f")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "U44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 535.94 765.81 0)
 		(unit 1)
@@ -181015,118 +181603,6 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 52.07 242.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e9c3fdea-44d5-424e-8020-74efa222493c")
-		(property "Reference" "J7"
-			(at 44.958 230.632 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 39.878 233.1719 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LibraryGlobalFootprints:AFC07-S05ECA-00"
-			(at 52.07 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 52.07 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C262552"
-			(at 52.07 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 52.07 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c932b375-88d0-4f45-b9ab-7ce4e14a3663")
-		)
-		(pin "3"
-			(uuid "cbbbe027-5bad-40f0-a9a8-f2da0802bbdb")
-		)
-		(pin "1"
-			(uuid "5743000f-e0d6-41ff-a1a6-71dac3961071")
-		)
-		(pin "5"
-			(uuid "0e5c1674-9d76-450a-b7c9-e88d89c9fabb")
-		)
-		(pin "4"
-			(uuid "02b8f2ac-9d9f-44b9-894e-1619a80a5393")
-		)
-		(instances
-			(project "cyberdeck-alpha"
-				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -183662,7 +184138,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 594.36 490.22 180)
+		(at 591.82 521.97 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -183672,7 +184148,7 @@
 		(dnp no)
 		(uuid "f28d1c86-0b02-4cab-a344-b76a2fed6186")
 		(property "Reference" "TP16"
-			(at 592.582 490.22 0)
+			(at 597.916 523.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -183683,7 +184159,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 593.09 488.9501 0)
+			(at 590.55 520.7001 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -183695,7 +184171,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 589.28 490.22 0)
+			(at 586.74 521.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -183706,7 +184182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 589.28 490.22 0)
+			(at 586.74 521.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -183717,7 +184193,7 @@
 			)
 		)
 		(property "Description" "SOFT_PWR_OUT"
-			(at 594.36 490.22 0)
+			(at 591.82 521.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -183728,7 +184204,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 594.36 490.22 0)
+			(at 591.82 521.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -186470,6 +186946,85 @@
 			(project "cyberdeck-alpha"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 35.56 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f94a850e-3a99-46b0-9142-86f153cb8adf")
+		(property "Reference" "TP29"
+			(at 33.528 226.314 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 36.83 228.5999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 40.64 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f509e59e-c2c5-4f4f-b0c6-3a6eefa82ed3")
+		)
+		(instances
+			(project "cyberdeck-alpha"
+				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
+					(reference "TP29")
 					(unit 1)
 				)
 			)

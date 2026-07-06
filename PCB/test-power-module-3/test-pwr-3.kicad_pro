@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.2,
-          "height": 1.8,
-          "width": 1.8
+          "drill": 0.0,
+          "height": 1.45,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.1,
+          "min_clearance": 0.16,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.1,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.2,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -76,68 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "connection_width|159350979|99724109|4cef1f8e-8d19-4c8b-96ae-1c358b839564|8ab6895c-eaa8-4785-8d80-a1e869197c03",
-          ""
-        ],
-        [
-          "connection_width|245628904|79710218|4c8afaeb-f585-4149-8e46-462753016c73|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "copper_edge_clearance|247292500|86508250|294993fa-d03b-4f25-84da-c3531178dfb6|3918927a-dfc7-40b6-ba86-5ecf9b5a4b14",
-          ""
-        ],
-        [
-          "copper_edge_clearance|247292500|86508250|294993fa-d03b-4f25-84da-c3531178dfb6|67c15219-7fbc-4b42-a803-9ed66c9ef06a",
-          ""
-        ],
-        [
-          "copper_edge_clearance|248042500|78168250|385004ea-c6cf-43ee-95c6-d7dccffecccc|2bf04418-a896-4efc-b40a-53d6914e5d5f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|248042500|78168250|385004ea-c6cf-43ee-95c6-d7dccffecccc|3c1901c3-0644-4196-9be1-fa2325259036",
-          ""
-        ],
-        [
-          "footprint_type_mismatch|160020000|99620000|4b80e579-6c54-4d8d-a2f1-ac7b87ff31e9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_type_mismatch|233142567|77051004|e49d92af-5f36-45bb-ba53-8f031427cb83|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_type_mismatch|249067500|82513250|4317bd95-02b0-4b9b-8dea-9be15162b845|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "hole_clearance|247067500|77868250|3c1901c3-0644-4196-9be1-fa2325259036|f6d1f212-1adc-4c9e-ae71-da73ab716280",
-          ""
-        ],
-        [
-          "hole_clearance|247067500|87158250|3918927a-dfc7-40b6-ba86-5ecf9b5a4b14|e8ccd867-ae70-43f1-9bbe-6034c59d6a93",
-          ""
-        ],
-        [
-          "items_not_allowed|249041428|86352378|6cc72aea-fff6-4c7a-8922-56eff092ad7e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|249067500|78613250|a1b976d9-0b4c-4a83-9d4f-ee5c22685801|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|237923750|112585000|8bc7252b-3942-4995-9c93-362e4c91291b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "npth_inside_courtyard|204862500|87052500|d86ff339-3a32-4b9f-bee2-64bc8d8abe4f|47a2e118-5776-4871-b440-47798a95cc53",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -314,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -568,7 +507,7 @@
     ]
   },
   "meta": {
-    "filename": "cyberdeck-r1.kicad_pro",
+    "filename": "test-pwr-3.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -593,11 +532,34 @@
         "wire_width": 6
       },
       {
-        "name": "HDMI_TX2",
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.2165,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.2,
+        "name": "100Ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "track_width": 0.1,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.281,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.2,
+        "name": "90Ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -607,12 +569,48 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "HDMI_TX2",
-        "pattern": "/HDMI_TX2+"
+        "netclass": "90Ohm",
+        "pattern": "/PCIE*_P"
       },
       {
-        "netclass": "HDMI_TX2",
-        "pattern": "/HDMI_TX2-"
+        "netclass": "90Ohm",
+        "pattern": "/PCIE*_N"
+      },
+      {
+        "netclass": "90Ohm",
+        "pattern": "/USB3*"
+      },
+      {
+        "netclass": "90Ohm",
+        "pattern": "/USB2*"
+      },
+      {
+        "netclass": "100Ohm",
+        "pattern": "/HDMI_TX*"
+      },
+      {
+        "netclass": "100Ohm",
+        "pattern": "/MIPI*_P"
+      },
+      {
+        "netclass": "100Ohm",
+        "pattern": "/MIPI*_N"
+      },
+      {
+        "netclass": "100Ohm",
+        "pattern": "/ETH*_*"
+      },
+      {
+        "netclass": "90Ohm",
+        "pattern": "/M2B_USB3*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/C3_USB3*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/*USBD*"
       }
     ]
   },
@@ -624,7 +622,7 @@
       "plot": "output/gerber/",
       "pos_files": "output/",
       "specctra_dsn": "",
-      "step": "../../casing/cyberdeck-alpha-pcb-outline.step",
+      "step": "../../casing/board-only.step",
       "svg": "",
       "vrml": ""
     },
@@ -713,9 +711,9 @@
         },
         {
           "group_by": false,
-          "label": "Description",
+          "label": "DESCRIPTION",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -749,7 +747,7 @@
         },
         {
           "group_by": false,
-          "label": "Package",
+          "label": "PACKAGE",
           "name": "Package",
           "show": false
         },
@@ -785,13 +783,13 @@
         },
         {
           "group_by": false,
-          "label": "Availability",
+          "label": "AVAILABILITY",
           "name": "Availability",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Price",
+          "label": "PRICE",
           "name": "Price",
           "show": false
         },
@@ -851,18 +849,6 @@
         },
         {
           "group_by": false,
-          "label": "PACKAGE",
-          "name": "PACKAGE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PRICE",
-          "name": "PRICE",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "EU_RoHS_Compliance",
           "name": "EU_RoHS_Compliance",
           "show": false
@@ -871,18 +857,6 @@
           "group_by": false,
           "label": "Comment",
           "name": "Comment",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "AVAILABILITY",
-          "name": "AVAILABILITY",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DESCRIPTION",
-          "name": "DESCRIPTION",
           "show": false
         },
         {
@@ -943,18 +917,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "cyberdeck-r1.kicad_sch",
-        "name": "cyberdeck-r1",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "test-pwr-3.kicad_sch",
+        "name": "test-pwr-3",
+        "uuid": "fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J7,U43-44,R98,R136-141,TP14-15,TP17,TP19-31,D36,D38-41,C55,C177-178",
     "variants": []
   },
   "sheets": [
     [
       "fc12c85f-bd01-4903-a536-b1ffc2e25d7d",
-      "Root"
+      "cyberdeck-alpha"
     ]
   ],
   "text_variables": {},

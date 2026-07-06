@@ -556,7 +556,7 @@
     ]
   },
   "meta": {
-    "filename": "cyberdeck-alpha.kicad_pro",
+    "filename": "cyberdeck-r1b.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -938,8 +938,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "cyberdeck-alpha.kicad_sch",
-        "name": "cyberdeck-alpha",
+        "filename": "cyberdeck-r1b.kicad_sch",
+        "name": "cyberdeck-r1b",
         "uuid": "fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
       }
     ],

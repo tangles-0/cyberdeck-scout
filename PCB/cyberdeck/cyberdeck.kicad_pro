@@ -512,7 +512,7 @@
     ]
   },
   "meta": {
-    "filename": "cyberdeck-alpha.kicad_pro",
+    "filename": "cyberdeck.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -922,18 +922,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "cyberdeck-alpha.kicad_sch",
-        "name": "cyberdeck-alpha",
+        "filename": "cyberdeck.kicad_sch",
+        "name": "cyberdeck",
         "uuid": "fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
       }
     ],
-    "used_designators": "R98,R136-139,TP14-15,TP17,TP19-26,D36,D38-41,C55,C177-178",
+    "used_designators": "D_71,#PWR167,#PWR262-263,#PWR293-297,#PWR303,J7,U43-44,R98,R136-143,TP14-15,TP17,TP19-31,D36,D38-41,C55,C169,C177-178",
     "variants": []
   },
   "sheets": [
     [
       "fc12c85f-bd01-4903-a536-b1ffc2e25d7d",
-      "cyberdeck-alpha"
+      "cyberdeck"
     ]
   ],
   "text_variables": {},
