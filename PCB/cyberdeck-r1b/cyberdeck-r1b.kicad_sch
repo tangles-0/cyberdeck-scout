@@ -33605,7 +33605,7 @@
 	)
 	(rectangle
 		(start 354.33 463.296)
-		(end 656.59 605.79)
+		(end 603.25 605.79)
 		(stroke
 			(width 0)
 			(type default)
@@ -33929,7 +33929,7 @@
 	)
 	(rectangle
 		(start 354.33 459.74)
-		(end 387.35 463.296)
+		(end 394.97 463.296)
 		(stroke
 			(width 0)
 			(type default)
@@ -34619,9 +34619,9 @@
 		)
 		(uuid "929bf10a-55bc-44b3-9934-8ef4fd7588eb")
 	)
-	(text "Lithium Batt Protection Circuit"
+	(text "Lithium Batt Protect/Balance Circuit"
 		(exclude_from_sim no)
-		(at 370.586 462.026 0)
+		(at 374.65 462.026 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35526,12 +35526,6 @@
 		(uuid "2e2b03bb-5817-457a-beff-76adddbc1fa5")
 	)
 	(junction
-		(at 619.76 271.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e634df9-8f76-4d94-907d-5a75a1e8db85")
-	)
-	(junction
 		(at 486.41 735.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -35752,6 +35746,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46546f23-b784-477a-84b0-5bff13c50294")
+	)
+	(junction
+		(at 619.76 271.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46e9f004-ff3e-477b-9f3c-f75a89740467")
 	)
 	(junction
 		(at 778.51 280.67)
@@ -40671,7 +40671,7 @@
 	)
 	(wire
 		(pts
-			(xy 619.76 271.78) (xy 635 271.78)
+			(xy 619.76 271.78) (xy 647.7 271.78)
 		)
 		(stroke
 			(width 0)
@@ -61972,7 +61972,7 @@
 			(uuid "f8945af1-c8e3-43e4-bc75-b351db0d3f86")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_6")
 					(unit 1)
@@ -62140,7 +62140,7 @@
 			(uuid "cac938a0-a8d5-42f8-b43e-fad0d3bd5276")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_6")
 					(unit 1)
@@ -62321,7 +62321,7 @@
 			(uuid "149b2752-3df5-4f31-b983-b7649ddc6f59")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_12")
 					(unit 1)
@@ -62489,7 +62489,7 @@
 			(uuid "8b35f81c-b5f5-4238-9001-5dc716b80d1a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_12")
 					(unit 1)
@@ -62670,7 +62670,7 @@
 			(uuid "c63a5937-b4da-4493-91f6-ad9490747fe4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_18")
 					(unit 1)
@@ -62838,7 +62838,7 @@
 			(uuid "5b034d65-9e4a-443a-aa47-35b42f405ab0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_18")
 					(unit 1)
@@ -63019,7 +63019,7 @@
 			(uuid "8cd945a5-30d7-40ec-a8fc-7b7c23a99189")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_23")
 					(unit 1)
@@ -63187,7 +63187,7 @@
 			(uuid "95943dc1-5678-460a-80fb-5a47b14e1566")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_23")
 					(unit 1)
@@ -63368,7 +63368,7 @@
 			(uuid "51b4189f-4154-40c9-9579-2ddd1e1bbe3c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_29")
 					(unit 1)
@@ -63536,7 +63536,7 @@
 			(uuid "913308f8-219a-4aee-b8d7-e83ca1772231")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_29")
 					(unit 1)
@@ -63717,7 +63717,7 @@
 			(uuid "55e807f2-223f-43fc-9335-5a62fd40b62b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_35")
 					(unit 1)
@@ -63885,7 +63885,7 @@
 			(uuid "69c66c5e-4457-441d-a68c-285b85bf53ed")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_35")
 					(unit 1)
@@ -64066,7 +64066,7 @@
 			(uuid "78117858-cd1a-4300-ba0a-44a7edf88189")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_42")
 					(unit 1)
@@ -64234,7 +64234,7 @@
 			(uuid "8bdaeb96-e765-4513-a532-54110631c167")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_42")
 					(unit 1)
@@ -64415,7 +64415,7 @@
 			(uuid "c4dfef63-862a-46c8-95e6-6a3c30351fc5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_47")
 					(unit 1)
@@ -64583,7 +64583,7 @@
 			(uuid "8736a1fe-64cf-4dba-bb1b-cc3037bb7ffb")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_47")
 					(unit 1)
@@ -64764,7 +64764,7 @@
 			(uuid "f5bdf75e-50f3-49c3-b07c-3ab2273538c2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_53")
 					(unit 1)
@@ -64932,7 +64932,7 @@
 			(uuid "1797cdb5-6317-4640-a459-533a6f612d2b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_53")
 					(unit 1)
@@ -65113,7 +65113,7 @@
 			(uuid "9c5d3d6b-6621-4249-ba3e-802e01cf6a11")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_63")
 					(unit 1)
@@ -65281,7 +65281,7 @@
 			(uuid "1ecdd48a-9bf5-485e-bd7a-adb156e3a31c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_63")
 					(unit 1)
@@ -65463,7 +65463,7 @@
 			(uuid "e5a42762-430b-49bb-a602-25cedeb1f3e9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_1")
 					(unit 1)
@@ -65631,7 +65631,7 @@
 			(uuid "89be829e-e77d-4e25-9d64-d06c63a3fa41")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_1")
 					(unit 1)
@@ -65812,7 +65812,7 @@
 			(uuid "b111720b-3bc2-47c7-a3e0-8bc5e73524a9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_7")
 					(unit 1)
@@ -65980,7 +65980,7 @@
 			(uuid "d6a39474-0482-4790-8a5b-94236521d8a5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_7")
 					(unit 1)
@@ -66161,7 +66161,7 @@
 			(uuid "6c6afefb-5183-465a-924e-6fb90054e28f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_13")
 					(unit 1)
@@ -66329,7 +66329,7 @@
 			(uuid "7314e1b3-5f00-4fbd-a7d6-f97ba412ac0d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_13")
 					(unit 1)
@@ -66510,7 +66510,7 @@
 			(uuid "05dc8bdc-70a2-4f04-b127-8b391e5c486f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_19")
 					(unit 1)
@@ -66678,7 +66678,7 @@
 			(uuid "2529cb7d-cc6d-4c2a-a36a-45fb3e7dde52")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_19")
 					(unit 1)
@@ -66859,7 +66859,7 @@
 			(uuid "b07df320-db5d-4262-b71b-0c9018d93c20")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_24")
 					(unit 1)
@@ -67027,7 +67027,7 @@
 			(uuid "94931c4c-dd78-4d6f-9769-4e484064603e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_24")
 					(unit 1)
@@ -67208,7 +67208,7 @@
 			(uuid "f51a323c-630b-49ce-bbce-f32db391fd8f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_30")
 					(unit 1)
@@ -67376,7 +67376,7 @@
 			(uuid "7e38a77a-abf8-4fcf-b839-37dc4588b499")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_30")
 					(unit 1)
@@ -67557,7 +67557,7 @@
 			(uuid "7a6a403d-42cf-46f6-8d6a-54eebec39a39")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_36")
 					(unit 1)
@@ -67725,7 +67725,7 @@
 			(uuid "f19d04dd-d6fb-4aca-90b0-031f3c468ae6")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_36")
 					(unit 1)
@@ -67906,7 +67906,7 @@
 			(uuid "64d8d881-fa50-4de9-b9ee-6ff4fa0145df")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_43")
 					(unit 1)
@@ -68074,7 +68074,7 @@
 			(uuid "4be63dd8-7f6f-4686-b51d-8a3fca8ae865")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_43")
 					(unit 1)
@@ -68255,7 +68255,7 @@
 			(uuid "f6adc650-68df-45ee-a2ca-43b783b64c1a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_48")
 					(unit 1)
@@ -68423,7 +68423,7 @@
 			(uuid "7f83644d-5cfe-4f91-acc1-934be0130bca")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_48")
 					(unit 1)
@@ -68604,7 +68604,7 @@
 			(uuid "f718b43f-5cfd-415a-8d62-bfcc5b26ead7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_54")
 					(unit 1)
@@ -68772,7 +68772,7 @@
 			(uuid "73199a51-a260-4e74-8130-96741c71401f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_54")
 					(unit 1)
@@ -68953,7 +68953,7 @@
 			(uuid "f40bbf4f-b774-4185-8896-315e0016194d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_59")
 					(unit 1)
@@ -69121,7 +69121,7 @@
 			(uuid "a50760fd-3829-4a60-9a98-76061af39e2b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_59")
 					(unit 1)
@@ -69302,7 +69302,7 @@
 			(uuid "6d85742a-e880-4097-93dd-f62a04af87b1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_64")
 					(unit 1)
@@ -69470,7 +69470,7 @@
 			(uuid "aa3f389d-9142-4914-9c7a-e8fd9611a0a3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_64")
 					(unit 1)
@@ -69651,7 +69651,7 @@
 			(uuid "fa017622-7054-41f4-8050-7f0a5cf1266c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_2")
 					(unit 1)
@@ -69819,7 +69819,7 @@
 			(uuid "7c1836dc-784c-4225-92ed-2e146948533e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_2")
 					(unit 1)
@@ -70000,7 +70000,7 @@
 			(uuid "8d8ff66f-2f21-43c2-a512-3cbc5f326a99")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_8")
 					(unit 1)
@@ -70168,7 +70168,7 @@
 			(uuid "dfe18b31-83e7-4fad-8986-844c829f8125")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_8")
 					(unit 1)
@@ -70349,7 +70349,7 @@
 			(uuid "3ee804ae-5b3c-4d7d-a12c-45764311f043")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_14")
 					(unit 1)
@@ -70517,7 +70517,7 @@
 			(uuid "e541ac5d-90d4-4f3b-9230-8f92bb373b97")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_14")
 					(unit 1)
@@ -70698,7 +70698,7 @@
 			(uuid "226366b8-aed0-4688-9489-0a0537be987a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_20")
 					(unit 1)
@@ -70866,7 +70866,7 @@
 			(uuid "5d820083-dfd9-4e24-a4fa-270761856a48")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_20")
 					(unit 1)
@@ -71047,7 +71047,7 @@
 			(uuid "d8499c2b-5da1-4f26-a611-4f05922e34e2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_25")
 					(unit 1)
@@ -71215,7 +71215,7 @@
 			(uuid "fd024dcc-c7a6-4a15-aa4e-0d2f5cab355b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_25")
 					(unit 1)
@@ -71396,7 +71396,7 @@
 			(uuid "61186979-ac8d-4d9e-8453-e06afdc53058")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_31")
 					(unit 1)
@@ -71564,7 +71564,7 @@
 			(uuid "4cdd0a05-99ab-4361-9c58-91349b91b25a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_31")
 					(unit 1)
@@ -71745,7 +71745,7 @@
 			(uuid "cfbcb746-fb74-4b19-b44c-f627a70aa38c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_37")
 					(unit 1)
@@ -71913,7 +71913,7 @@
 			(uuid "596d3d3d-f9ae-41df-8ed8-1bc9b591dec1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_37")
 					(unit 1)
@@ -72094,7 +72094,7 @@
 			(uuid "5e03b2ad-eec9-499b-8613-254a1c772777")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_44")
 					(unit 1)
@@ -72262,7 +72262,7 @@
 			(uuid "fcbd1a04-8f4a-4a51-86a1-31cd0cedef90")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_44")
 					(unit 1)
@@ -72443,7 +72443,7 @@
 			(uuid "e1c4bdd6-d9ce-4a98-a70e-f35afce9bd8d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_49")
 					(unit 1)
@@ -72611,7 +72611,7 @@
 			(uuid "967e6ca9-4893-4638-998a-2f3715ee679f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_49")
 					(unit 1)
@@ -72792,7 +72792,7 @@
 			(uuid "76720eb2-9a4b-46c9-b48a-7611249fb831")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_55")
 					(unit 1)
@@ -72960,7 +72960,7 @@
 			(uuid "60b619dc-aa39-4913-92e4-6da500d020da")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_55")
 					(unit 1)
@@ -73141,7 +73141,7 @@
 			(uuid "5f55b7d9-30db-4270-9b93-3a3a789a6e06")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_60")
 					(unit 1)
@@ -73309,7 +73309,7 @@
 			(uuid "e3a34772-3411-448c-891b-87ca143fe65e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_60")
 					(unit 1)
@@ -73490,7 +73490,7 @@
 			(uuid "21f121bb-6e17-405c-8916-5d9415cce72f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_65")
 					(unit 1)
@@ -73658,7 +73658,7 @@
 			(uuid "b501c872-9a0e-4bb1-8e83-f05cf5e2927b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_65")
 					(unit 1)
@@ -73839,7 +73839,7 @@
 			(uuid "b03b8b4e-3b5b-437b-ba84-5dbae1e5ad55")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_3")
 					(unit 1)
@@ -74007,7 +74007,7 @@
 			(uuid "d95435c0-7e4c-49a4-b794-ea635e6208f7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_3")
 					(unit 1)
@@ -74188,7 +74188,7 @@
 			(uuid "1a557f51-9f9a-4e17-bc2a-5d027472cb5c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_9")
 					(unit 1)
@@ -74356,7 +74356,7 @@
 			(uuid "bf76a22a-82ea-4975-8a43-08d381fbe508")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_9")
 					(unit 1)
@@ -74537,7 +74537,7 @@
 			(uuid "3185c79c-0aa3-4aac-9448-7716814fb637")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_15")
 					(unit 1)
@@ -74705,7 +74705,7 @@
 			(uuid "f841d73e-d0b9-42e7-9e1f-08ea8efd6ff0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_15")
 					(unit 1)
@@ -74886,7 +74886,7 @@
 			(uuid "2152c39d-96be-4824-88a8-b48cefa8a356")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_21")
 					(unit 1)
@@ -75054,7 +75054,7 @@
 			(uuid "0417019a-e28e-4aa2-ad0a-c1be8cd5269d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_21")
 					(unit 1)
@@ -75235,7 +75235,7 @@
 			(uuid "4ac318dc-9186-445a-9803-bd9ddcce70dd")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_26")
 					(unit 1)
@@ -75403,7 +75403,7 @@
 			(uuid "998f1b27-fada-46b6-b45d-418e5cb8b3c8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_26")
 					(unit 1)
@@ -75584,7 +75584,7 @@
 			(uuid "e558f47f-ee93-461c-a23a-527d1007162b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_32")
 					(unit 1)
@@ -75752,7 +75752,7 @@
 			(uuid "9c044cf4-85bf-4126-a1b6-0bbfe16bba46")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_32")
 					(unit 1)
@@ -75933,7 +75933,7 @@
 			(uuid "a7892811-769b-4010-801e-04d6185ab97a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_38")
 					(unit 1)
@@ -76101,7 +76101,7 @@
 			(uuid "2305e2af-bea4-429c-9823-fc5e7fff259e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_38")
 					(unit 1)
@@ -76282,7 +76282,7 @@
 			(uuid "eb41661e-526d-4100-b8f3-69dd50bafd1f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_45")
 					(unit 1)
@@ -76450,7 +76450,7 @@
 			(uuid "058e7a2b-d151-41d5-9070-18b219edf22d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_45")
 					(unit 1)
@@ -76631,7 +76631,7 @@
 			(uuid "67b438af-8d94-4f8f-9594-422e50cd11bd")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_50")
 					(unit 1)
@@ -76799,7 +76799,7 @@
 			(uuid "6715b960-63a8-4baf-a2f8-6e9af65b77b0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_50")
 					(unit 1)
@@ -76980,7 +76980,7 @@
 			(uuid "e729cc83-4308-4d6f-b9e1-2936e01a3da5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_56")
 					(unit 1)
@@ -77148,7 +77148,7 @@
 			(uuid "ffab1310-dd94-4d2c-9581-bcaa3e074e12")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_56")
 					(unit 1)
@@ -77329,7 +77329,7 @@
 			(uuid "989d8211-0127-42f0-bac8-30ceb8f9a359")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_61")
 					(unit 1)
@@ -77497,7 +77497,7 @@
 			(uuid "ebfcd94e-ec21-44b9-861c-998d63a4401f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_61")
 					(unit 1)
@@ -77678,7 +77678,7 @@
 			(uuid "29b1a0d0-e9f4-4c10-8bfe-e05037d1417b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_66")
 					(unit 1)
@@ -77846,7 +77846,7 @@
 			(uuid "29ae4252-eff2-4919-8da0-f7e4745ebfae")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_66")
 					(unit 1)
@@ -78027,7 +78027,7 @@
 			(uuid "7a240296-60ce-4fde-8de7-d7e631ff3747")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_4")
 					(unit 1)
@@ -78195,7 +78195,7 @@
 			(uuid "150fd4da-e67d-4ea3-ad3d-13658b6e7ba8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_4")
 					(unit 1)
@@ -78376,7 +78376,7 @@
 			(uuid "ac557460-aa6f-43e3-acdd-2abd12514b0c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_10")
 					(unit 1)
@@ -78544,7 +78544,7 @@
 			(uuid "cf92df21-713a-4d8e-8536-a2b10b4e286d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_10")
 					(unit 1)
@@ -78725,7 +78725,7 @@
 			(uuid "1eb85c69-b340-46df-bebd-881b2caad182")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_16")
 					(unit 1)
@@ -78893,7 +78893,7 @@
 			(uuid "00507667-30f7-4b78-bc8f-16bcaa63fb14")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_16")
 					(unit 1)
@@ -79074,7 +79074,7 @@
 			(uuid "d9069e59-39bc-47fe-a753-41be39282897")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_22")
 					(unit 1)
@@ -79242,7 +79242,7 @@
 			(uuid "e9550f7d-2d52-42e6-84b1-1990b56f7e6c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_22")
 					(unit 1)
@@ -79423,7 +79423,7 @@
 			(uuid "417b6a87-1966-4a79-aabe-a7ea6e38a264")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_27")
 					(unit 1)
@@ -79591,7 +79591,7 @@
 			(uuid "0b01b7d7-902f-4d9a-8235-8b8a8f26bd6e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_27")
 					(unit 1)
@@ -79772,7 +79772,7 @@
 			(uuid "b61882e4-7cb8-4c39-b3ac-31e4420873c7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_33")
 					(unit 1)
@@ -79940,7 +79940,7 @@
 			(uuid "3801a707-596f-4c14-a728-32581d59e84a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_33")
 					(unit 1)
@@ -80121,7 +80121,7 @@
 			(uuid "02425e40-7708-4b5e-a1e9-934cbbf794b0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_39")
 					(unit 1)
@@ -80289,7 +80289,7 @@
 			(uuid "4724f4a0-8718-4877-af02-dffc159ab071")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_39")
 					(unit 1)
@@ -80470,7 +80470,7 @@
 			(uuid "6229f559-83ab-4edc-be0a-f2e3852c3fbc")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_46")
 					(unit 1)
@@ -80638,7 +80638,7 @@
 			(uuid "19fb57c6-fadc-47e0-a1e4-08619eb0c1eb")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_46")
 					(unit 1)
@@ -80819,7 +80819,7 @@
 			(uuid "0fbeeaf8-fcef-4ebe-a196-177c01a445c3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_51")
 					(unit 1)
@@ -80987,7 +80987,7 @@
 			(uuid "1543668a-81e6-4798-9656-a00215366666")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_51")
 					(unit 1)
@@ -81168,7 +81168,7 @@
 			(uuid "ec10c783-5a23-47ed-b650-97e9caa0575e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_57")
 					(unit 1)
@@ -81336,7 +81336,7 @@
 			(uuid "710d21c3-e687-4801-a445-e54b47d56f71")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_57")
 					(unit 1)
@@ -81517,7 +81517,7 @@
 			(uuid "ce27e796-63dd-4e35-828d-35f4112239e7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_67")
 					(unit 1)
@@ -81685,7 +81685,7 @@
 			(uuid "be52a746-9581-4602-9ae2-85dfc647cabf")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_67")
 					(unit 1)
@@ -81866,7 +81866,7 @@
 			(uuid "08d2cca2-f4ea-4e06-a476-3743fb5e5ead")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_11")
 					(unit 1)
@@ -82034,7 +82034,7 @@
 			(uuid "f116a6ba-1d52-490e-b0b0-1c0556a7886c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_11")
 					(unit 1)
@@ -82215,7 +82215,7 @@
 			(uuid "218f4c3f-e1a4-4993-ab24-7922eac53161")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_5")
 					(unit 1)
@@ -82383,7 +82383,7 @@
 			(uuid "e2e2ad58-c3cf-4e8f-86f7-e0cf3c366035")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_5")
 					(unit 1)
@@ -82564,7 +82564,7 @@
 			(uuid "da850755-00af-4c21-b436-e05c0426561e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_17")
 					(unit 1)
@@ -82732,7 +82732,7 @@
 			(uuid "92bdc450-5297-44cc-9c68-255d8aaca7fd")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_17")
 					(unit 1)
@@ -82913,7 +82913,7 @@
 			(uuid "c73cb17f-7256-40f9-8173-c7118a453d11")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_28")
 					(unit 1)
@@ -83081,7 +83081,7 @@
 			(uuid "80b42318-e051-4cae-85e2-9411e442371c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_28")
 					(unit 1)
@@ -83262,7 +83262,7 @@
 			(uuid "1a1abd2f-b9b8-4955-a9da-ec1df324fa7a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_34")
 					(unit 1)
@@ -83430,7 +83430,7 @@
 			(uuid "5fccb124-c1c5-4605-9de7-8afce9698fcf")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_34")
 					(unit 1)
@@ -83611,7 +83611,7 @@
 			(uuid "059582d9-1e30-4d20-b8db-ea54a4ab67f6")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_52")
 					(unit 1)
@@ -83779,7 +83779,7 @@
 			(uuid "824014f7-5c01-4124-855b-b81f9c2a9d50")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_52")
 					(unit 1)
@@ -83960,7 +83960,7 @@
 			(uuid "e959d77f-db2b-4674-bcdf-32d8e8ce9334")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_58")
 					(unit 1)
@@ -84128,7 +84128,7 @@
 			(uuid "ecc9748e-ec48-4fa5-bf33-05030fd42a19")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_58")
 					(unit 1)
@@ -84309,7 +84309,7 @@
 			(uuid "3f57b330-e400-429e-923d-66c9c1ec5d19")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_62")
 					(unit 1)
@@ -84477,7 +84477,7 @@
 			(uuid "2867a4f3-6f60-4fff-975a-b964fb36d37d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_62")
 					(unit 1)
@@ -84658,7 +84658,7 @@
 			(uuid "15e1ba51-7d6b-479f-bf05-73b499d98266")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_68")
 					(unit 1)
@@ -84826,7 +84826,7 @@
 			(uuid "820058ab-3fdc-4d3c-b2c1-b53c7b1360e1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_68")
 					(unit 1)
@@ -84927,7 +84927,7 @@
 			(uuid "889ed14c-350b-43ca-8f39-ca28cc3b2ec8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C13")
 					(unit 1)
@@ -85050,7 +85050,7 @@
 			(uuid "270c2876-7e3e-4b4b-a992-e7b5f2a1a3a5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R55")
 					(unit 1)
@@ -85141,7 +85141,7 @@
 			(uuid "102ae0de-d0c3-4228-96b1-4dff0ef9e71f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "NT3")
 					(unit 1)
@@ -85219,7 +85219,7 @@
 			(uuid "4ee86963-84a0-474e-bc2c-2ae7ea37652a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0194")
 					(unit 1)
@@ -85297,7 +85297,7 @@
 			(uuid "c4e8cbd3-7fba-4e36-9269-3119eecad8cf")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0111")
 					(unit 1)
@@ -85475,7 +85475,7 @@
 			(uuid "fc692380-c174-4927-aa5c-c5a9c73e2048")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R18")
 					(unit 1)
@@ -85599,7 +85599,7 @@
 			(uuid "3641150a-928c-4d12-acf8-8c6390a80caf")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R102")
 					(unit 1)
@@ -85676,7 +85676,7 @@
 			(uuid "1f2d69f3-bda7-4c20-9563-ebc9c9159b8e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR081")
 					(unit 1)
@@ -85754,7 +85754,7 @@
 			(uuid "299aa157-70ab-4277-8d44-7f8d00693e92")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR059")
 					(unit 1)
@@ -85832,7 +85832,7 @@
 			(uuid "d1bb166e-7f79-48ed-bd3a-551af01df063")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0108")
 					(unit 1)
@@ -85910,7 +85910,7 @@
 			(uuid "08d93cc7-7812-44e9-898e-8ca114ae2db8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0209")
 					(unit 1)
@@ -86080,7 +86080,7 @@
 			(uuid "4d69a81a-368d-4201-a34d-791619d3cfd9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J2")
 					(unit 1)
@@ -86204,7 +86204,7 @@
 			(uuid "00bc78d6-98d1-4d83-99bc-5f9d170b78bc")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "RV1")
 					(unit 1)
@@ -86282,7 +86282,7 @@
 			(uuid "2b098c5c-61ac-47aa-8c6d-c066fb3e1115")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0206")
 					(unit 1)
@@ -86383,7 +86383,7 @@
 			(uuid "aea7493d-3846-40ac-8ef0-9d415b44b90c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C121")
 					(unit 1)
@@ -86461,7 +86461,7 @@
 			(uuid "2f84757a-b195-464a-bbcf-0fe3504edfb6")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0140")
 					(unit 1)
@@ -86539,7 +86539,7 @@
 			(uuid "f1c7ea53-5048-41c5-acbe-8ccb0a857253")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR063")
 					(unit 1)
@@ -86617,7 +86617,7 @@
 			(uuid "43836cef-bc98-4a2a-99c6-2745e9d10962")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0190")
 					(unit 1)
@@ -86718,7 +86718,7 @@
 			(uuid "755f7e44-a767-4ae1-a726-8d91bcbf8c09")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C114")
 					(unit 1)
@@ -86796,7 +86796,7 @@
 			(uuid "ff01b3c7-781f-4b21-9e82-814dd20016fe")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR071")
 					(unit 1)
@@ -86999,7 +86999,7 @@
 			(uuid "2b950580-e5f6-4c06-a26f-bcee0c6483c9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R42")
 					(unit 1)
@@ -87189,7 +87189,7 @@
 			(uuid "718b3fcb-7276-49d9-b328-203174c716f1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D6")
 					(unit 1)
@@ -87290,7 +87290,7 @@
 			(uuid "3021f699-9188-49e1-8675-ac03e875775d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R25")
 					(unit 1)
@@ -87471,7 +87471,7 @@
 			(uuid "94b4df22-5ee0-417f-a3f2-4ab87993ce85")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_40")
 					(unit 1)
@@ -87656,7 +87656,7 @@
 			(uuid "90be79eb-4ba3-4ee1-9e6e-5b0621093751")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Q1")
 					(unit 1)
@@ -87734,7 +87734,7 @@
 			(uuid "375e5d8e-cb4a-4f38-b531-753f9b259d00")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR088")
 					(unit 1)
@@ -87857,7 +87857,7 @@
 			(uuid "215c638d-234b-44a5-a2e1-f509ad876c3e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R61")
 					(unit 1)
@@ -88035,7 +88035,7 @@
 			(uuid "e8a6359d-2836-4f35-9ad3-1784b006cc29")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R60")
 					(unit 1)
@@ -88138,7 +88138,7 @@
 			(uuid "128302a8-f6a5-4c3c-93d1-773ad7edc804")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C34")
 					(unit 1)
@@ -88230,7 +88230,7 @@
 			(uuid "d809cbe7-a0b1-4b9f-886c-496670eb53c1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "SJ11")
 					(unit 1)
@@ -88353,7 +88353,7 @@
 			(uuid "fffb7cd3-4cde-405b-8352-fa9f597a8a01")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R53")
 					(unit 1)
@@ -88454,7 +88454,7 @@
 			(uuid "9e4ba0fb-7df0-480a-8c08-40ea470f56c4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C108")
 					(unit 1)
@@ -88791,7 +88791,7 @@
 			(uuid "ea2adb42-d191-47d0-b81d-ac80e44a31c2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J21")
 					(unit 1)
@@ -88914,7 +88914,7 @@
 			(uuid "31b63f6e-fdc9-4195-b63e-2dbd2439b875")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R81")
 					(unit 1)
@@ -89015,7 +89015,7 @@
 			(uuid "2fc2b4d5-0a7b-42ba-b15b-063f9cc37881")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C109")
 					(unit 1)
@@ -89092,7 +89092,7 @@
 			(uuid "f4c7d81a-c24f-4f2d-8215-1935eaf37fa5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR042")
 					(unit 1)
@@ -89193,7 +89193,7 @@
 			(uuid "6dccb184-96b7-4d07-b916-fce759551fc4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "H2")
 					(unit 1)
@@ -89271,7 +89271,7 @@
 			(uuid "a77505bd-209a-400d-9beb-a5ae76b51635")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0180")
 					(unit 1)
@@ -89363,7 +89363,7 @@
 			(uuid "876b6aa8-9e77-4e89-94bb-e101ec864f66")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "SJ7")
 					(unit 1)
@@ -89486,7 +89486,7 @@
 			(uuid "5ac7ca24-f0e7-404c-974f-239baca2447e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R66")
 					(unit 1)
@@ -89600,7 +89600,7 @@
 			(uuid "f13c0f39-416f-462a-8dd8-b95be17e991e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C22")
 					(unit 1)
@@ -89701,7 +89701,7 @@
 			(uuid "97bb54a3-32f5-4d15-b6d3-a2253c26b7ac")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "L4")
 					(unit 1)
@@ -89908,7 +89908,7 @@
 			(uuid "38eaec83-7b4a-4215-b0c7-6d91670caa3d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U6")
 					(unit 1)
@@ -89986,7 +89986,7 @@
 			(uuid "5b2f99be-b9df-4428-bf2c-9d8af12decb7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0127")
 					(unit 1)
@@ -90164,7 +90164,7 @@
 			(uuid "8926109c-9707-40ca-bfaa-b48744e5c6c8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R10")
 					(unit 1)
@@ -90494,7 +90494,7 @@
 			(uuid "e3948930-e9f6-428c-911e-c95722027e96")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U2")
 					(unit 1)
@@ -90694,7 +90694,7 @@
 			(uuid "9742d5d4-053c-43de-b826-882f209e472f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C60")
 					(unit 1)
@@ -90772,7 +90772,7 @@
 			(uuid "af484d26-2ea7-4308-a8d3-20ce5454063e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0150")
 					(unit 1)
@@ -90895,7 +90895,7 @@
 			(uuid "97c86e40-e4d1-4ac9-a10c-aa885c4ffa65")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R105")
 					(unit 1)
@@ -91007,7 +91007,7 @@
 			(uuid "547d6171-c001-4633-aa2a-59e6aa6b2acb")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R62")
 					(unit 1)
@@ -91130,7 +91130,7 @@
 			(uuid "62e76981-5efd-49d7-b2f1-4731564ac17c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R43")
 					(unit 1)
@@ -91208,7 +91208,7 @@
 			(uuid "af132da5-b54f-4dc1-a6cb-a58126d7397b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR017")
 					(unit 1)
@@ -91408,7 +91408,7 @@
 			(uuid "1cfaaa7d-7d5f-4c38-b716-87b795cd8895")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R40")
 					(unit 1)
@@ -91601,7 +91601,7 @@
 			(uuid "1393b91d-91ca-4fda-a6d0-3e3c1efd0d08")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U3")
 					(unit 1)
@@ -91873,7 +91873,7 @@
 			(uuid "3d0078bd-2c87-4eca-a10a-e554dfbfc2ce")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U21")
 					(unit 1)
@@ -91974,7 +91974,7 @@
 			(uuid "01115706-fde9-4d73-82cc-258584aec0d6")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R89")
 					(unit 1)
@@ -92075,7 +92075,7 @@
 			(uuid "7b75262a-0334-4d70-a540-6c7a92cf94d1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C66")
 					(unit 1)
@@ -92176,7 +92176,7 @@
 			(uuid "61dca35a-4231-4245-9f75-4f4647d59346")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R74")
 					(unit 1)
@@ -92365,7 +92365,7 @@
 			(uuid "05d1c965-341c-460a-a251-16587ff7014c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D35")
 					(unit 1)
@@ -92467,7 +92467,7 @@
 			(uuid "16bdfbf5-4bbc-4a26-a717-6bde99c43e07")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D32")
 					(unit 1)
@@ -92557,7 +92557,7 @@
 			(uuid "b6076e0e-8b27-426f-ba3a-5cc9eca612b3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP15")
 					(unit 1)
@@ -92635,7 +92635,7 @@
 			(uuid "eba16def-d4aa-4681-b70f-047259958256")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR06")
 					(unit 1)
@@ -92813,7 +92813,7 @@
 			(uuid "2afafc32-a4ae-4d15-b94e-73371b217825")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R2")
 					(unit 1)
@@ -92891,7 +92891,7 @@
 			(uuid "5f669ec3-2d45-4078-8e2c-9a43031cd04c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0216")
 					(unit 1)
@@ -92968,7 +92968,7 @@
 			(uuid "10f16a85-f6f1-4649-85c1-3d9b8640fbf6")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR09")
 					(unit 1)
@@ -93146,7 +93146,7 @@
 			(uuid "a45400a4-4040-496a-a00b-d0845763d8c7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R19")
 					(unit 1)
@@ -93314,7 +93314,7 @@
 			(uuid "2a49b589-9489-4d08-a16a-33a58dae1579")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_70")
 					(unit 1)
@@ -93514,7 +93514,7 @@
 			(uuid "a3b624d8-f048-452b-b32d-7673010731a5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C57")
 					(unit 1)
@@ -93638,7 +93638,7 @@
 			(uuid "74758538-191b-4f32-a193-f36495aca54f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C37")
 					(unit 1)
@@ -93739,7 +93739,7 @@
 			(uuid "5e4bdc71-287f-47f7-aaea-29dfd89d633f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C129")
 					(unit 1)
@@ -93816,7 +93816,7 @@
 			(uuid "37f8f72a-5efb-4e7b-a522-6de95ad04c01")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR044")
 					(unit 1)
@@ -93917,7 +93917,7 @@
 			(uuid "7597a034-ad36-469e-b0df-d6f21d7f692b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R28")
 					(unit 1)
@@ -94046,7 +94046,7 @@
 			(uuid "2e92e36a-16b1-45e2-a1e5-3c314877f9e4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "X3")
 					(unit 1)
@@ -94224,7 +94224,7 @@
 			(uuid "1d5a7ca5-ada5-4c8b-9bd5-2d8b64691576")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "F4")
 					(unit 1)
@@ -94302,7 +94302,7 @@
 			(uuid "8933c71e-5a4c-4b6d-a559-a1d40ac27308")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0164")
 					(unit 1)
@@ -94480,7 +94480,7 @@
 			(uuid "176657cb-241c-4be7-9532-d8455a0c77e4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R58")
 					(unit 1)
@@ -94603,7 +94603,7 @@
 			(uuid "559228ec-ef64-4c0a-b3fe-be48bba9276d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C26")
 					(unit 1)
@@ -94803,7 +94803,7 @@
 			(uuid "8f9dcd76-5379-48c3-b5e2-2bb3e05f5861")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C77")
 					(unit 1)
@@ -94907,7 +94907,7 @@
 			(uuid "11030116-574d-4138-afed-475ecf5265d2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D29")
 					(unit 1)
@@ -95077,7 +95077,7 @@
 			(uuid "3c63c369-f4c5-4d5d-a446-e062e7255c23")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J3")
 					(unit 1)
@@ -95155,7 +95155,7 @@
 			(uuid "53555dc1-618a-47c9-b8d3-b7d3433e7238")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0144")
 					(unit 1)
@@ -95233,7 +95233,7 @@
 			(uuid "49c49725-9003-4003-b706-c43c6372dbfa")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR097")
 					(unit 1)
@@ -95650,7 +95650,7 @@
 			(uuid "6050eaaa-f9b1-45a9-a9d7-0e29e4b1ef5a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Module3")
 					(unit 1)
@@ -95728,7 +95728,7 @@
 			(uuid "46b73597-69b4-41de-84a8-a2d389d676ae")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0200")
 					(unit 1)
@@ -95842,7 +95842,7 @@
 			(uuid "0403361e-61de-449b-a831-e31617a95404")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C27")
 					(unit 1)
@@ -95920,7 +95920,7 @@
 			(uuid "b7ee25c1-e403-400a-896e-42e6da8374be")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0163")
 					(unit 1)
@@ -96043,7 +96043,7 @@
 			(uuid "48a790fd-c058-44cc-bea9-234dd6402284")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R48")
 					(unit 1)
@@ -96153,7 +96153,7 @@
 			(uuid "0d91d9fe-927e-419b-8874-b501312caf29")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U12")
 					(unit 1)
@@ -96481,7 +96481,7 @@
 			(uuid "b5e21990-c3fc-4712-9c78-62b2660bbcf1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U4")
 					(unit 1)
@@ -96582,7 +96582,7 @@
 			(uuid "7d9ce612-dc25-4cbf-afd7-bff05cdd4de9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R109")
 					(unit 1)
@@ -96760,7 +96760,7 @@
 			(uuid "4b47bdf9-ceab-49f9-a4de-2a6e6151bfcf")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R1")
 					(unit 1)
@@ -96861,7 +96861,7 @@
 			(uuid "d3b47051-a90a-464a-85b3-85cd65a6262b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R76")
 					(unit 1)
@@ -97051,7 +97051,7 @@
 			(uuid "e6f60dd7-030f-445f-836c-70cdda92b330")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D7")
 					(unit 1)
@@ -97141,7 +97141,7 @@
 			(uuid "e93b1244-5c5c-4581-a3fe-f4e1374d2a63")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP9")
 					(unit 1)
@@ -97259,7 +97259,7 @@
 			(uuid "9bc87332-dea9-4bfa-bc6c-86c4848b9ec0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "LS2")
 					(unit 1)
@@ -97360,7 +97360,7 @@
 			(uuid "463cbbac-9d45-4dc1-b46f-f327178967d8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C105")
 					(unit 1)
@@ -97482,7 +97482,7 @@
 			(uuid "593c33fe-44e7-41a5-a91c-ee8c486fa2d1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Q6")
 					(unit 1)
@@ -97596,7 +97596,7 @@
 			(uuid "c41eb621-750f-44ec-a502-74224e260183")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C23")
 					(unit 1)
@@ -97697,7 +97697,7 @@
 			(uuid "6c17276d-8d6f-4564-bc12-4e69225e230b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C119")
 					(unit 1)
@@ -97775,7 +97775,7 @@
 			(uuid "2561b895-dc8a-4b0b-89c6-6899975463e3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR023")
 					(unit 1)
@@ -97894,7 +97894,7 @@
 			(uuid "cd11cff5-0760-46f9-90da-cd629749eb65")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J9")
 					(unit 1)
@@ -98017,7 +98017,7 @@
 			(uuid "d05dd94c-f0d4-4f9b-8509-ba160fbd99b5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R107")
 					(unit 1)
@@ -98109,7 +98109,7 @@
 			(uuid "8443a941-c177-4e43-b0f3-c1c5c1ebf019")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "SJ6")
 					(unit 1)
@@ -98301,7 +98301,7 @@
 			(uuid "3351beb7-2a6e-451c-9edf-1811df92dab2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C5")
 					(unit 1)
@@ -98501,7 +98501,7 @@
 			(uuid "54f67a18-df48-4325-9317-0712b92b5d8f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C59")
 					(unit 1)
@@ -98691,7 +98691,7 @@
 			(uuid "d521b4a7-0630-4ab6-8bfc-bc071d5578ed")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D21")
 					(unit 1)
@@ -98792,7 +98792,7 @@
 			(uuid "82bd0642-2d4a-4657-adbd-71c9ae5a9440")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C102")
 					(unit 1)
@@ -98904,7 +98904,7 @@
 			(uuid "2b8ffa7d-fb8e-4d5c-96fa-ad4aa18ff900")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R63")
 					(unit 1)
@@ -98994,7 +98994,7 @@
 			(uuid "dcbd5a96-f19e-4f41-b1e0-843b50eaf34f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP1")
 					(unit 1)
@@ -99117,7 +99117,7 @@
 			(uuid "bad26aca-7cef-4e91-88de-428303ed976e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C82")
 					(unit 1)
@@ -99306,7 +99306,7 @@
 			(uuid "41584f04-80c1-4d0a-b993-4eb327796cd1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D2")
 					(unit 1)
@@ -99384,7 +99384,7 @@
 			(uuid "c372e31d-caa8-44f5-8023-79e71e8f8dc8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0135")
 					(unit 1)
@@ -99462,7 +99462,7 @@
 			(uuid "fa219606-c46e-42e4-8f8f-316db223db69")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR093")
 					(unit 1)
@@ -99640,7 +99640,7 @@
 			(uuid "f2728d6e-3cc0-46ee-9915-1a242626c256")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R24")
 					(unit 1)
@@ -99732,7 +99732,7 @@
 			(uuid "4c0eac2a-9b48-44d0-b443-60e947e62458")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "SJ12")
 					(unit 1)
@@ -99842,7 +99842,7 @@
 			(uuid "61e2fc32-5a94-41e7-9257-bf0f150878ce")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U22")
 					(unit 1)
@@ -99943,7 +99943,7 @@
 			(uuid "5efa0616-9a09-48bc-b97e-3c86e4629be7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C89")
 					(unit 1)
@@ -100021,7 +100021,7 @@
 			(uuid "59a7e7e3-fbbd-4563-b9a2-636e861dac36")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR080")
 					(unit 1)
@@ -100099,7 +100099,7 @@
 			(uuid "4542a7e5-d854-4c30-9ca1-5d4bb1a8ee6e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0220")
 					(unit 1)
@@ -100190,7 +100190,7 @@
 			(uuid "70e9a80a-50cf-4663-80e5-8408b38be4e3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "NT1")
 					(unit 1)
@@ -100268,7 +100268,7 @@
 			(uuid "57752084-e216-4619-b939-f3064f53f8f4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0154")
 					(unit 1)
@@ -100468,7 +100468,7 @@
 			(uuid "f78e3c5b-4357-4b6b-b15f-105b11970c8b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C62")
 					(unit 1)
@@ -100582,7 +100582,7 @@
 			(uuid "db1cab76-fa25-4915-9064-339526f1faf2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C25")
 					(unit 1)
@@ -100660,7 +100660,7 @@
 			(uuid "31981e5d-ca38-4523-89db-bb95fe25be1d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0218")
 					(unit 1)
@@ -100738,7 +100738,7 @@
 			(uuid "5fa7f7fe-cc80-438f-bed4-b69004954ea4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0203")
 					(unit 1)
@@ -100815,7 +100815,7 @@
 			(uuid "64f530a4-1e0e-404c-b34e-b980c19a3473")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR033")
 					(unit 1)
@@ -100996,7 +100996,7 @@
 			(uuid "e80a02fe-dd0f-4538-beb9-cf87f4e5d717")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_41")
 					(unit 1)
@@ -101074,7 +101074,7 @@
 			(uuid "34ff13ba-3ad1-4ee2-81d3-4a2ba8fa304d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0195")
 					(unit 1)
@@ -101241,7 +101241,7 @@
 			(uuid "0aeb2fdb-a2b8-48f1-a855-f3ebe86ac6d6")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U8")
 					(unit 1)
@@ -101319,7 +101319,7 @@
 			(uuid "b52a272e-703e-4e9a-9964-0b9b7e11707f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0148")
 					(unit 1)
@@ -101397,7 +101397,7 @@
 			(uuid "93fa3ff4-2836-4947-9bb7-f5e8a8bb32ae")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR065")
 					(unit 1)
@@ -101597,7 +101597,7 @@
 			(uuid "0c57ca35-f866-42db-a1bf-c6ee388430e7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C33")
 					(unit 1)
@@ -101720,7 +101720,7 @@
 			(uuid "85c16452-5b65-40bc-a939-12d317f1757d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R36")
 					(unit 1)
@@ -102024,7 +102024,7 @@
 			(uuid "048c8335-516d-4940-8fd1-2726c1d87492")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U16")
 					(unit 1)
@@ -102205,7 +102205,7 @@
 			(uuid "b1d75244-87c1-4d52-9d99-c02bcb38a979")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_69")
 					(unit 1)
@@ -102282,7 +102282,7 @@
 			(uuid "184645c3-9f4c-4747-805f-2ead2bcc7acf")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR041")
 					(unit 1)
@@ -102360,7 +102360,7 @@
 			(uuid "9a7bf793-673d-4353-9c05-c653eb9a4ee4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR07")
 					(unit 1)
@@ -102438,7 +102438,7 @@
 			(uuid "d42610a1-173e-4ed0-8448-980a5809c416")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR058")
 					(unit 1)
@@ -102516,7 +102516,7 @@
 			(uuid "704c66ad-01ed-42f3-aaed-e72069eebf46")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR074")
 					(unit 1)
@@ -102615,7 +102615,7 @@
 			(uuid "08a9c858-bbb8-4a7e-b050-3a3650ef842f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U34")
 					(unit 1)
@@ -102693,7 +102693,7 @@
 			(uuid "117fe2a0-7255-47e7-ad5a-ca1f81ddbb47")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0171")
 					(unit 1)
@@ -102770,7 +102770,7 @@
 			(uuid "5ad0fde4-a304-45be-9c90-c72b8792259f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR036")
 					(unit 1)
@@ -102871,7 +102871,7 @@
 			(uuid "b61753c5-614d-4fdb-ba6f-9e84ffd44900")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C97")
 					(unit 1)
@@ -102949,7 +102949,7 @@
 			(uuid "dc80601b-ee28-4615-9402-bf15d8026d8c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR082")
 					(unit 1)
@@ -103070,7 +103070,7 @@
 			(uuid "fd0f8b60-e914-4ddf-9ce0-ad8fc4e68fdd")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Q7")
 					(unit 1)
@@ -103195,7 +103195,7 @@
 			(uuid "4bb3a63a-a6d8-4382-ba59-c7f2fa4e2a0c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C45")
 					(unit 1)
@@ -103362,7 +103362,7 @@
 			(uuid "7e603dd8-ab17-414b-bd62-ad8f33f597f4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J11")
 					(unit 1)
@@ -103463,7 +103463,7 @@
 			(uuid "c7c00b16-ff0c-45ee-bb6c-d028de0be485")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "L1")
 					(unit 1)
@@ -103586,7 +103586,7 @@
 			(uuid "8125e64d-7e77-4255-a9fa-7b173a509916")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R79")
 					(unit 1)
@@ -103855,7 +103855,7 @@
 			(uuid "1be35612-2009-4beb-a84e-d12a2309f226")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U5")
 					(unit 1)
@@ -104033,7 +104033,7 @@
 			(uuid "45f3a8eb-bf29-40ea-a02e-e3dbed088e79")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R11")
 					(unit 1)
@@ -104233,7 +104233,7 @@
 			(uuid "b3ff961c-0a55-41d6-ba9a-c92dad408870")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C93")
 					(unit 1)
@@ -104355,7 +104355,7 @@
 			(uuid "ca491e79-41b1-4f91-b2b1-c1becf436a3b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Q3")
 					(unit 1)
@@ -104433,7 +104433,7 @@
 			(uuid "4a2d5cef-5a94-4071-a4af-f3cc2b63ea6d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0151")
 					(unit 1)
@@ -104536,7 +104536,7 @@
 			(uuid "505c802b-cea5-4bfd-9a26-5436179aff9f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C35")
 					(unit 1)
@@ -104714,7 +104714,7 @@
 			(uuid "d0092923-8173-48ec-89b3-6c192f816fbb")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R14")
 					(unit 1)
@@ -104815,7 +104815,7 @@
 			(uuid "cca92ed8-27f1-461c-8c6a-98b757cb6aeb")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C111")
 					(unit 1)
@@ -104893,7 +104893,7 @@
 			(uuid "39ee53ff-959f-4ded-bbd8-3e0271f7122e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR012")
 					(unit 1)
@@ -105003,7 +105003,7 @@
 			(uuid "803de7f5-3402-4160-81c6-645bbe193e9c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "X2")
 					(unit 1)
@@ -105126,7 +105126,7 @@
 			(uuid "757b2327-6f99-4d76-8ca8-de69ddcc71da")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R34")
 					(unit 1)
@@ -105227,7 +105227,7 @@
 			(uuid "80542d56-2c12-4434-a669-d292e327563b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R86")
 					(unit 1)
@@ -105305,7 +105305,7 @@
 			(uuid "5c922bfc-8127-4884-b87d-5b10c8d5adf8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0224")
 					(unit 1)
@@ -105383,7 +105383,7 @@
 			(uuid "5886fd8a-854d-406c-b784-dcd89651b04c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR030")
 					(unit 1)
@@ -105482,7 +105482,7 @@
 			(uuid "713c89c8-49e5-47bd-a70f-af7cced729c7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U32")
 					(unit 1)
@@ -105560,7 +105560,7 @@
 			(uuid "f7962d19-fd1e-498d-817d-441bb49c6751")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0158")
 					(unit 1)
@@ -105727,7 +105727,7 @@
 			(uuid "d5f26ee7-a493-4c7b-b063-fe07bd2c1261")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J20")
 					(unit 1)
@@ -105905,7 +105905,7 @@
 			(uuid "5e0d8cd0-24dd-47bb-93f4-e36e2b5067e7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R21")
 					(unit 1)
@@ -106203,7 +106203,7 @@
 			(uuid "f8a0fc1c-aa7c-4199-bfd3-5b73d8534ee8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U9")
 					(unit 1)
@@ -106304,7 +106304,7 @@
 			(uuid "0b9517ef-beb4-4c73-b217-a06c26c1bd97")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C103")
 					(unit 1)
@@ -106382,7 +106382,7 @@
 			(uuid "fffa4206-3918-444c-8417-0644dc3d3e57")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0183")
 					(unit 1)
@@ -106483,7 +106483,7 @@
 			(uuid "128246f8-e069-4768-aaf6-404780815931")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R92")
 					(unit 1)
@@ -106673,7 +106673,7 @@
 			(uuid "75602a79-e890-4c10-b9a1-57abb7304f52")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D11")
 					(unit 1)
@@ -106751,7 +106751,7 @@
 			(uuid "7332bd96-b084-4445-9c06-a9cf69da2c33")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0197")
 					(unit 1)
@@ -106829,7 +106829,7 @@
 			(uuid "ae50ec5a-3cbb-4f1a-9828-a44d0b1fa0fc")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0170")
 					(unit 1)
@@ -107021,7 +107021,7 @@
 			(uuid "cb340d85-9648-4b1c-9892-cfc6b3997963")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C11")
 					(unit 1)
@@ -107334,7 +107334,7 @@
 			(uuid "1501dcca-5d57-49c6-b356-c94495b4bbcf")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U11")
 					(unit 1)
@@ -107412,7 +107412,7 @@
 			(uuid "28e97dac-6b42-4842-9357-95bfe7da78a7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0137")
 					(unit 1)
@@ -107490,7 +107490,7 @@
 			(uuid "b9813c70-26f6-459d-94b4-486c7c966ef2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0141")
 					(unit 1)
@@ -107679,7 +107679,7 @@
 			(uuid "12b87b3f-96f8-43e5-83f2-0bccabb14cea")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C76")
 					(unit 1)
@@ -107803,7 +107803,7 @@
 			(uuid "bb625c61-ea19-4eb6-8715-3f75e8b1dae9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R101")
 					(unit 1)
@@ -107913,7 +107913,7 @@
 			(uuid "c3cefca8-2fd1-4635-a8e6-d1b2c3f29fba")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J19")
 					(unit 1)
@@ -107991,7 +107991,7 @@
 			(uuid "ff726059-0d9b-4a97-8fb1-cd7a2aa90438")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0225")
 					(unit 1)
@@ -108084,7 +108084,7 @@
 			(uuid "efa2ac96-32c3-4d56-b890-ba72c9d78681")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "SJ17")
 					(unit 1)
@@ -108162,7 +108162,7 @@
 			(uuid "6b4683c9-954e-4fd8-862e-e60ea6339825")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR014")
 					(unit 1)
@@ -108263,7 +108263,7 @@
 			(uuid "79e1e6c1-0dd7-4410-bb90-be9a46beebc7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R26")
 					(unit 1)
@@ -108340,7 +108340,7 @@
 			(uuid "634fc5a8-cf2c-4f36-9d63-538843b10fcb")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR039")
 					(unit 1)
@@ -108441,7 +108441,7 @@
 			(uuid "3dd04f12-2f1b-471e-84fb-3043053053dd")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "H3")
 					(unit 1)
@@ -108555,7 +108555,7 @@
 			(uuid "d57eb4d7-5bdf-42b5-b88d-21110eb9ad74")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C30")
 					(unit 1)
@@ -108733,7 +108733,7 @@
 			(uuid "0376ed79-d3a7-48c7-bdff-c2e811208dc8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R8")
 					(unit 1)
@@ -108811,7 +108811,7 @@
 			(uuid "05bd9c3b-45d4-43df-8dca-bcda415504e9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0179")
 					(unit 1)
@@ -109001,7 +109001,7 @@
 			(uuid "4feca2c9-40d7-4a2c-8e06-e9b778cadb25")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D18")
 					(unit 1)
@@ -109079,7 +109079,7 @@
 			(uuid "4d840f44-f235-4279-8be5-5e320bbd8b70")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0156")
 					(unit 1)
@@ -109286,7 +109286,7 @@
 			(uuid "cbaa2b94-c6cf-468b-a77c-2c00fab5057d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U25")
 					(unit 1)
@@ -109364,7 +109364,7 @@
 			(uuid "78d13b02-2d00-4e9d-8efc-9b2d60807808")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0157")
 					(unit 1)
@@ -109564,7 +109564,7 @@
 			(uuid "81bd5f97-51bf-4ee9-bbd9-aabeb569f30a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C94")
 					(unit 1)
@@ -109642,7 +109642,7 @@
 			(uuid "b452b49b-490a-42ee-aad7-0c2ca0ea83c9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0176")
 					(unit 1)
@@ -109765,7 +109765,7 @@
 			(uuid "b5c665db-ac74-4946-99f0-7f73946bb345")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R84")
 					(unit 1)
@@ -109943,7 +109943,7 @@
 			(uuid "33f907be-5f0d-4860-b15e-716216110954")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R96")
 					(unit 1)
@@ -110021,7 +110021,7 @@
 			(uuid "e7901663-d15a-42b1-b88b-0783bc624767")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0215")
 					(unit 1)
@@ -110211,7 +110211,7 @@
 			(uuid "98c73ca4-0936-44b5-b2bf-691d318b46b2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D22")
 					(unit 1)
@@ -110330,7 +110330,7 @@
 			(uuid "3fb6b3f0-b7fd-4c64-9c48-438c938d8f84")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "LS1")
 					(unit 1)
@@ -110444,7 +110444,7 @@
 			(uuid "b82efd7a-a416-469d-ac26-661050830ac3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C12")
 					(unit 1)
@@ -110567,7 +110567,7 @@
 			(uuid "55481ff7-ee38-4b04-b3c0-79daf7a1477a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R97")
 					(unit 1)
@@ -110645,7 +110645,7 @@
 			(uuid "53bfce17-d15e-4d0c-be0e-dfffea01f45c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0189")
 					(unit 1)
@@ -110768,7 +110768,7 @@
 			(uuid "1a31f6b5-2225-476d-ab8c-765682aea9be")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R82")
 					(unit 1)
@@ -110869,7 +110869,7 @@
 			(uuid "3985d7ae-be93-482c-a71f-1bef48c982dc")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C130")
 					(unit 1)
@@ -110947,7 +110947,7 @@
 			(uuid "3a4e97ab-583e-4b47-8a21-2593c40f9c42")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0155")
 					(unit 1)
@@ -111048,7 +111048,7 @@
 			(uuid "387f0889-1341-48a5-8b0b-ad2408db1ea8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R85")
 					(unit 1)
@@ -111233,7 +111233,7 @@
 			(uuid "051f115d-65ca-4ebe-a0c1-8d1f54422067")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Q5")
 					(unit 1)
@@ -111320,7 +111320,7 @@
 			)
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "H1")
 					(unit 1)
@@ -111499,7 +111499,7 @@
 			(uuid "1a9f4c97-0d52-4719-bcb4-cbe3938819f8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_82")
 					(unit 1)
@@ -111699,7 +111699,7 @@
 			(uuid "61a4b083-8e9d-4339-9ead-08ab7dcb27a5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C61")
 					(unit 1)
@@ -111777,7 +111777,7 @@
 			(uuid "ef0c4f72-7e31-43f7-8492-5801044fee25")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0116")
 					(unit 1)
@@ -111855,7 +111855,7 @@
 			(uuid "12ee9186-c955-4a1d-b4f3-993089b1aab1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0120")
 					(unit 1)
@@ -111933,7 +111933,7 @@
 			(uuid "67c35106-66c8-4283-a7fa-029416e29255")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR019")
 					(unit 1)
@@ -112011,7 +112011,7 @@
 			(uuid "2911b978-c150-4313-b594-e3e04c24b395")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0166")
 					(unit 1)
@@ -112455,7 +112455,7 @@
 			(uuid "60cc6d39-4b99-440c-82d3-48d58d27daff")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J16")
 					(unit 1)
@@ -112565,7 +112565,7 @@
 			(uuid "66aa1cdb-ed77-4d96-ac77-25294846c5e7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J1")
 					(unit 1)
@@ -112743,7 +112743,7 @@
 			(uuid "bc51aee8-37de-4621-b422-1f074395fdce")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R15")
 					(unit 1)
@@ -112866,7 +112866,7 @@
 			(uuid "77709804-c643-4cf7-b7a0-d36111146e18")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R108")
 					(unit 1)
@@ -112944,7 +112944,7 @@
 			(uuid "44531f1b-f6f6-4017-8e95-778d8c514bda")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0129")
 					(unit 1)
@@ -113021,7 +113021,7 @@
 			(uuid "6f3b3a10-156e-4622-a336-5eb9df8068cc")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR037")
 					(unit 1)
@@ -113144,7 +113144,7 @@
 			(uuid "5d6a6b40-6c2c-442f-861b-6d200935ce3c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R70")
 					(unit 1)
@@ -113245,7 +113245,7 @@
 			(uuid "d2b04c42-6cd1-44c0-9d3c-9dce9d3a731f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R30")
 					(unit 1)
@@ -113323,7 +113323,7 @@
 			(uuid "24d22052-34c7-40ed-a402-53f04a73e018")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0182")
 					(unit 1)
@@ -113401,7 +113401,7 @@
 			(uuid "6a4c4f94-2a38-42b6-b682-aadc0d648d14")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR089")
 					(unit 1)
@@ -113500,7 +113500,7 @@
 			(uuid "6f0a41d6-0d2d-47c6-ba53-2a02c1874375")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U33")
 					(unit 1)
@@ -113578,7 +113578,7 @@
 			(uuid "c2f47d33-977c-498b-a7e1-dadde135ff1a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR05")
 					(unit 1)
@@ -113656,7 +113656,7 @@
 			(uuid "0b59c7d9-1d5b-4764-ae75-31685c455b40")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0110")
 					(unit 1)
@@ -113757,7 +113757,7 @@
 			(uuid "4b51f92f-75f4-473f-b1a7-48ba58155493")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C20")
 					(unit 1)
@@ -113858,7 +113858,7 @@
 			(uuid "ae8516ea-b94e-4a2d-8325-d06dab23259b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C122")
 					(unit 1)
@@ -114058,7 +114058,7 @@
 			(uuid "3f47877d-4bdf-4f6e-973c-61ed3022db0a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C65")
 					(unit 1)
@@ -114159,7 +114159,7 @@
 			(uuid "459f1ca8-5f4f-4d70-b690-b0bd4ea190d5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R78")
 					(unit 1)
@@ -114359,7 +114359,7 @@
 			(uuid "f5564603-430f-4d7a-aa8e-ddc9faa75acc")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C118")
 					(unit 1)
@@ -114437,7 +114437,7 @@
 			(uuid "30edc2d2-71aa-4a12-a50e-8b34f08578e3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0213")
 					(unit 1)
@@ -114515,7 +114515,7 @@
 			(uuid "bff58a73-32ed-4ab9-8337-9f82ebcf1942")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0187")
 					(unit 1)
@@ -114638,7 +114638,7 @@
 			(uuid "92147de3-e2f0-4169-8db9-c355418862d4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C51")
 					(unit 1)
@@ -114716,7 +114716,7 @@
 			(uuid "02abcce6-0b61-44e5-8b55-df2ecaa1dd7f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0240")
 					(unit 1)
@@ -114817,7 +114817,7 @@
 			(uuid "fcf8c690-03f1-4cc4-aba8-86400e52d9b9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C17")
 					(unit 1)
@@ -114940,7 +114940,7 @@
 			(uuid "3a98ba56-feb4-4e06-bca1-c5b0c93f0fe3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R45")
 					(unit 1)
@@ -115043,7 +115043,7 @@
 			(uuid "26a3fbe4-f00f-4840-bca4-1681e4368cc2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C31")
 					(unit 1)
@@ -115121,7 +115121,7 @@
 			(uuid "a23dec08-5298-446a-9561-a52966506b41")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR011")
 					(unit 1)
@@ -115199,7 +115199,7 @@
 			(uuid "638b93c9-c0ff-4bac-bfa0-273a0123718b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0205")
 					(unit 1)
@@ -115276,7 +115276,7 @@
 			(uuid "767cd6aa-4c19-4609-bba3-d314edbffd33")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR066")
 					(unit 1)
@@ -115355,7 +115355,7 @@
 			(uuid "686db02f-45e5-4ca1-8fec-5c4540951c23")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR091")
 					(unit 1)
@@ -115457,7 +115457,7 @@
 			(uuid "6d32b0fc-d53e-4c72-abae-1da23921a51c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R87")
 					(unit 1)
@@ -115558,7 +115558,7 @@
 			(uuid "76062c8b-a6fb-4b81-89a9-a2affa8438a7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C120")
 					(unit 1)
@@ -115659,7 +115659,7 @@
 			(uuid "7ce2d1b5-ae03-4e57-ab30-c30078088e5b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R91")
 					(unit 1)
@@ -115837,7 +115837,7 @@
 			(uuid "9f1d1731-90f0-4084-8df0-b2af731dfba1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R22")
 					(unit 1)
@@ -115915,7 +115915,7 @@
 			(uuid "7795278c-9899-4593-8ecc-534906323365")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR057")
 					(unit 1)
@@ -116018,7 +116018,7 @@
 			(uuid "9bd166a9-8118-4258-b3c1-68849c44d03c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C16")
 					(unit 1)
@@ -116119,7 +116119,7 @@
 			(uuid "48ba5dc7-0e18-425d-ac27-1631c5af6f28")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C107")
 					(unit 1)
@@ -116319,7 +116319,7 @@
 			(uuid "f2f7feba-41e6-4be8-9349-0963f721b67a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C55")
 					(unit 1)
@@ -116397,7 +116397,7 @@
 			(uuid "81135caf-0c32-494b-ba6c-56e179470a3d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR099")
 					(unit 1)
@@ -116589,7 +116589,7 @@
 			(uuid "3bc7f5a5-e116-4d98-8597-dd1f4b9131d5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C6")
 					(unit 1)
@@ -116690,7 +116690,7 @@
 			(uuid "d5a12482-308b-4c48-9765-e0b6e31cf5ff")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C95")
 					(unit 1)
@@ -116800,7 +116800,7 @@
 			(uuid "8c85f4be-9421-42a1-8ac9-6071564824f9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U28")
 					(unit 1)
@@ -116990,7 +116990,7 @@
 			(uuid "76095832-541a-46a5-91df-c37f7249ce3c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D12")
 					(unit 1)
@@ -117113,7 +117113,7 @@
 			(uuid "d40d681f-ecc8-4a78-9ff1-30b85e419b2b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R123")
 					(unit 1)
@@ -117191,7 +117191,7 @@
 			(uuid "f38ecd43-f2ca-4f4c-ae5a-9924a29abb66")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0217")
 					(unit 1)
@@ -117292,7 +117292,7 @@
 			(uuid "28f5db65-5934-416a-bd36-93b1ccadc8e4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R31")
 					(unit 1)
@@ -117369,7 +117369,7 @@
 			(uuid "f0915697-e111-483c-a970-2de5eada573b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR084")
 					(unit 1)
@@ -117537,7 +117537,7 @@
 			(uuid "a14d0246-1bf9-4398-845c-32d6517d2616")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_72")
 					(unit 1)
@@ -117656,7 +117656,7 @@
 			(uuid "b5fce504-78a5-454c-88cf-cbf1fb27dfe5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J18")
 					(unit 1)
@@ -117734,7 +117734,7 @@
 			(uuid "b522f307-79aa-413b-9eeb-69b2065d3605")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR028")
 					(unit 1)
@@ -117912,7 +117912,7 @@
 			(uuid "8031c344-5154-4c3b-87ec-38ac529b5c40")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R5")
 					(unit 1)
@@ -117990,7 +117990,7 @@
 			(uuid "99db1d80-2315-4247-92fd-4ac8a04df783")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0191")
 					(unit 1)
@@ -118073,7 +118073,7 @@
 			(uuid "443d2122-5c48-4840-b493-80f095e756a2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "JP2")
 					(unit 1)
@@ -118151,7 +118151,7 @@
 			(uuid "a3ba4794-c263-4425-98bd-70964db86bfa")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0147")
 					(unit 1)
@@ -118319,7 +118319,7 @@
 			(uuid "1704313c-a45e-467b-afd1-c463809dbbfb")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_75")
 					(unit 1)
@@ -118397,7 +118397,7 @@
 			(uuid "0e2ba361-2d80-4b48-8fde-d3ea000a0dff")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR026")
 					(unit 1)
@@ -118521,7 +118521,7 @@
 			(uuid "a68ba858-5bc5-4750-b4fa-18c910d0214e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D33")
 					(unit 1)
@@ -118646,7 +118646,7 @@
 			(uuid "4245a9e2-1fec-4bcd-af3e-3ff2c93ed157")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C42")
 					(unit 1)
@@ -118747,7 +118747,7 @@
 			(uuid "3e2d6990-d84e-4b5a-a1ad-282041f9a36a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C98")
 					(unit 1)
@@ -118870,7 +118870,7 @@
 			(uuid "e95f0323-8ba4-44fb-9dd8-93adec1aef22")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R35")
 					(unit 1)
@@ -118993,7 +118993,7 @@
 			(uuid "4844444e-5247-47f6-bc8a-3573169edfd8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R54")
 					(unit 1)
@@ -119070,7 +119070,7 @@
 			(uuid "e26ac431-028d-459c-bf06-684e57989e97")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR040")
 					(unit 1)
@@ -119148,7 +119148,7 @@
 			(uuid "7c808721-2d62-4c14-b504-68e150f66bd8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR067")
 					(unit 1)
@@ -119339,7 +119339,7 @@
 			(uuid "e56bf04f-c592-4d74-919c-71491b738d36")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D34")
 					(unit 1)
@@ -119462,7 +119462,7 @@
 			(uuid "dc7d50a7-586c-4a4d-b2df-ccdfb7b1636c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C19")
 					(unit 1)
@@ -119563,7 +119563,7 @@
 			(uuid "a8c60bb6-8801-47fb-b2af-11b95047a6f3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C101")
 					(unit 1)
@@ -119753,7 +119753,7 @@
 			(uuid "4c72e6d7-3bec-4053-be68-315b227bd422")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D20")
 					(unit 1)
@@ -119942,7 +119942,7 @@
 			(uuid "1f866494-9d53-42a9-9c09-869407c46e3f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R41")
 					(unit 1)
@@ -120020,7 +120020,7 @@
 			(uuid "6535df56-2165-49d7-bc7c-2da78420a19a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR047")
 					(unit 1)
@@ -120143,7 +120143,7 @@
 			(uuid "02938bb0-c071-408e-b7b6-4d23b160ebe4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R51")
 					(unit 1)
@@ -120322,7 +120322,7 @@
 			(uuid "d6108f8e-7ab3-42f0-8104-36430a58b452")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_81")
 					(unit 1)
@@ -120400,7 +120400,7 @@
 			(uuid "7b61e10c-85c1-4756-8ef8-3553574ad247")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0227")
 					(unit 1)
@@ -120478,7 +120478,7 @@
 			(uuid "25d41d3e-8c0b-499b-9380-0bb2c861882f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR073")
 					(unit 1)
@@ -120579,7 +120579,7 @@
 			(uuid "aa603d06-0953-434a-8e76-3ebbd633ff74")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C79")
 					(unit 1)
@@ -120657,7 +120657,7 @@
 			(uuid "be75314c-088f-4f5a-9d29-6c68698c3528")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR077")
 					(unit 1)
@@ -120781,7 +120781,7 @@
 			(uuid "644a2a78-1e12-4800-9fd1-f1b30a44c356")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R122")
 					(unit 1)
@@ -120949,7 +120949,7 @@
 			(uuid "7019f54a-f208-4a35-b04b-10e1ed41763f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_87")
 					(unit 1)
@@ -121073,7 +121073,7 @@
 			(uuid "4e6c7e5f-c075-4498-9990-82987deeb9db")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C53")
 					(unit 1)
@@ -121197,7 +121197,7 @@
 			(uuid "f81a2834-a691-496f-99bd-5973bdae51e1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D31")
 					(unit 1)
@@ -121275,7 +121275,7 @@
 			(uuid "50693fe2-1ae2-4aa8-afdc-b8feeba2bd09")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0221")
 					(unit 1)
@@ -121453,7 +121453,7 @@
 			(uuid "131c367b-d1ee-4012-b138-a4d267a94356")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R75")
 					(unit 1)
@@ -121632,7 +121632,7 @@
 			(uuid "a5967d18-f17f-4939-bab5-8c4addc4ab90")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_83")
 					(unit 1)
@@ -121710,7 +121710,7 @@
 			(uuid "0513cf5f-0fac-43f6-a060-da19152efc3c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0222")
 					(unit 1)
@@ -121811,7 +121811,7 @@
 			(uuid "74ec7e35-1543-42b9-95bf-dc98275f2267")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R72")
 					(unit 1)
@@ -121912,7 +121912,7 @@
 			(uuid "6d5daecc-4d01-412e-bfda-0f7d2900b65b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C87")
 					(unit 1)
@@ -122013,7 +122013,7 @@
 			(uuid "0eac8193-10e3-4f01-a6d1-90486c632295")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C100")
 					(unit 1)
@@ -122213,7 +122213,7 @@
 			(uuid "b5a32e0b-3746-475a-ba4b-237fd5ded971")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C56")
 					(unit 1)
@@ -122291,7 +122291,7 @@
 			(uuid "a3edc49d-30fc-49e8-af72-eb0e78ae0a2e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR04")
 					(unit 1)
@@ -122498,7 +122498,7 @@
 			(uuid "57fcf628-2c67-418c-8da8-5ef21bede3a8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U14")
 					(unit 1)
@@ -122599,7 +122599,7 @@
 			(uuid "48481a5b-2079-40cb-bdff-f376d6aa7910")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C32")
 					(unit 1)
@@ -122700,7 +122700,7 @@
 			(uuid "77909fd8-0722-42ee-8341-1a3cc5d0a5f5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "L2")
 					(unit 1)
@@ -122822,7 +122822,7 @@
 			(uuid "bc21428d-276e-4789-90e2-65a6f6c3440a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Q8")
 					(unit 1)
@@ -123010,7 +123010,7 @@
 			(uuid "9afe073e-b161-4637-8f59-19defcfc560f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D23")
 					(unit 1)
@@ -123200,7 +123200,7 @@
 			(uuid "f3565c89-0ae4-4bda-9819-a942be9e67d1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D13")
 					(unit 1)
@@ -123279,7 +123279,7 @@
 			(uuid "f089dd10-6c68-46a7-b8b3-e69a3f07bbfc")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR03")
 					(unit 1)
@@ -123385,7 +123385,7 @@
 			(uuid "cc284aa6-034a-4834-8743-fa8487406f0c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Q4")
 					(unit 1)
@@ -123486,7 +123486,7 @@
 			(uuid "347ae4c7-5b2d-4d29-a214-e66d771556cc")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C75")
 					(unit 1)
@@ -123564,7 +123564,7 @@
 			(uuid "4c95dfd9-c21b-4ee7-a888-8cd3ef52cd4f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0145")
 					(unit 1)
@@ -123687,7 +123687,7 @@
 			(uuid "55e88a13-0516-431b-9793-6e9ae62357c0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C48")
 					(unit 1)
@@ -123801,7 +123801,7 @@
 			(uuid "81b20b9d-bdac-4f56-97f2-4f996693a8c7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C24")
 					(unit 1)
@@ -123879,7 +123879,7 @@
 			(uuid "3d105f00-9a62-4011-8805-25441ac7460d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0178")
 					(unit 1)
@@ -123993,7 +123993,7 @@
 			(uuid "da88f89c-0116-4b32-9bd6-9e59a4202023")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C29")
 					(unit 1)
@@ -124116,7 +124116,7 @@
 			(uuid "77b5e254-86c2-43d1-b408-d17318d02f9f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R33")
 					(unit 1)
@@ -124194,7 +124194,7 @@
 			(uuid "984b6b81-ca0a-48c1-9f70-460f289eec4b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0143")
 					(unit 1)
@@ -124272,7 +124272,7 @@
 			(uuid "11e4b430-792b-4b03-a3c3-5172016b8ef5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0174")
 					(unit 1)
@@ -124472,7 +124472,7 @@
 			(uuid "e59f8968-2048-4756-8a0c-6a2305c17e0a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C84")
 					(unit 1)
@@ -124672,7 +124672,7 @@
 			(uuid "e3f27db9-4e7c-4a0b-8616-e64d49cb65f3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C54")
 					(unit 1)
@@ -124750,7 +124750,7 @@
 			(uuid "d3397e4e-c703-48d8-b312-4d9139f55083")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR015")
 					(unit 1)
@@ -124874,7 +124874,7 @@
 			(uuid "f91bafdc-853b-428b-93e7-232b969d0bb2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C46")
 					(unit 1)
@@ -124997,7 +124997,7 @@
 			(uuid "e64f759a-3b48-42cc-a32c-80801fdc57c0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R39")
 					(unit 1)
@@ -125075,7 +125075,7 @@
 			(uuid "b7e195ee-ba5e-46ad-a27e-018a69b437e7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0139")
 					(unit 1)
@@ -125264,7 +125264,7 @@
 			(uuid "22b7f8ac-e154-424d-9c6c-349e410078d0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C28")
 					(unit 1)
@@ -125342,7 +125342,7 @@
 			(uuid "05708ff5-c91b-44f4-b390-e9eea729a2b3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0114")
 					(unit 1)
@@ -125531,7 +125531,7 @@
 			(uuid "c9cf5624-e3c1-41b7-ae34-3ac8672cebee")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C112")
 					(unit 1)
@@ -125609,7 +125609,7 @@
 			(uuid "2b30b1a3-ec75-447f-8b07-7af90bdce855")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR031")
 					(unit 1)
@@ -125710,7 +125710,7 @@
 			(uuid "3ddc6748-c586-4055-8edc-195bbb040be6")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C92")
 					(unit 1)
@@ -125788,7 +125788,7 @@
 			(uuid "acb24fd7-a5de-411f-a3ae-cfddf57b27aa")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0186")
 					(unit 1)
@@ -125865,7 +125865,7 @@
 			(uuid "cf89c5a8-3581-4e9e-b15b-df01a8e8e35e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR068")
 					(unit 1)
@@ -125988,7 +125988,7 @@
 			(uuid "810ff51a-9cc8-4663-9158-d90bee9b3ae5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R100")
 					(unit 1)
@@ -126178,7 +126178,7 @@
 			(uuid "ac66ddae-fc23-42c8-b02a-2f52db306e7a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D19")
 					(unit 1)
@@ -126278,7 +126278,7 @@
 			(uuid "73500d0a-94e9-4bb8-8a8b-d2bfcd73794b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U24")
 					(unit 1)
@@ -126625,7 +126625,7 @@
 			(uuid "37bcd74c-673b-4770-9f1a-843b1cc897d1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U19")
 					(unit 1)
@@ -126803,7 +126803,7 @@
 			(uuid "cb0050b6-7f1f-4d95-b301-11c258919e90")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_84")
 					(unit 1)
@@ -126881,7 +126881,7 @@
 			(uuid "62cb1742-6418-490d-ba59-be6bf016e9e9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR051")
 					(unit 1)
@@ -127071,7 +127071,7 @@
 			(uuid "7cc935bd-16bf-4e83-be2f-0b0bc85b05dd")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D8")
 					(unit 1)
@@ -127178,7 +127178,7 @@
 			(uuid "33fe75ec-bf86-495b-9bed-b0ecd96c67b4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "BT2")
 					(unit 1)
@@ -127357,7 +127357,7 @@
 			(uuid "d481a81c-739c-4410-b273-d4448c923657")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_85")
 					(unit 1)
@@ -127603,7 +127603,7 @@
 			(uuid "d1d05077-7627-4985-a9c4-e0d8e180eb6a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J13")
 					(unit 1)
@@ -127681,7 +127681,7 @@
 			(uuid "c3b56242-da11-4193-a918-e2717547916f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR048")
 					(unit 1)
@@ -127759,7 +127759,7 @@
 			(uuid "5ef1f4fe-7135-4515-97e2-eedc7cf5d3a8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0181")
 					(unit 1)
@@ -127951,7 +127951,7 @@
 			(uuid "2287d6d4-668e-4a84-9c13-783d9099c65c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C9")
 					(unit 1)
@@ -128141,7 +128141,7 @@
 			(uuid "bdc26db2-a736-4a7b-8d96-aaffdb319010")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D9")
 					(unit 1)
@@ -128234,7 +128234,7 @@
 			(uuid "48058e08-4410-45a5-9105-9dc4faaa1fff")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "SJ16")
 					(unit 1)
@@ -128336,7 +128336,7 @@
 			(uuid "0e360206-8e6d-47b8-8c8d-9cf978a9a80e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R94")
 					(unit 1)
@@ -128459,7 +128459,7 @@
 			(uuid "c7d9d8ff-a7e4-4082-9056-a4a1cf01fe97")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C18")
 					(unit 1)
@@ -128537,7 +128537,7 @@
 			(uuid "bfb3a408-0fa0-451d-ad21-f36717c77615")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0184")
 					(unit 1)
@@ -128615,7 +128615,7 @@
 			(uuid "09194e22-d128-4840-a938-7280efce929e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR079")
 					(unit 1)
@@ -128693,7 +128693,7 @@
 			(uuid "d545753f-6a46-4797-9139-8277cfcf8764")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0159")
 					(unit 1)
@@ -128906,7 +128906,7 @@
 			(uuid "a41f8d97-f6b6-4e07-bc9a-30a0585fd642")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J8")
 					(unit 1)
@@ -129010,7 +129010,7 @@
 			(uuid "45bc824f-b3ba-41e5-95c8-da4fc4a4a9f7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D28")
 					(unit 1)
@@ -129133,7 +129133,7 @@
 			(uuid "9ad7fec7-4c46-4af3-a3f8-a5bc7cd8c950")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R80")
 					(unit 1)
@@ -129234,7 +129234,7 @@
 			(uuid "c6da660b-c3aa-48d3-98bd-5c694c44c54c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C104")
 					(unit 1)
@@ -129415,7 +129415,7 @@
 			(uuid "530cf6ba-d7b3-4f60-8cc6-5f8006d470d1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D_71")
 					(unit 1)
@@ -129538,7 +129538,7 @@
 			(uuid "ea1eb58b-58ee-4463-8b2e-992e8612abf5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R52")
 					(unit 1)
@@ -129616,7 +129616,7 @@
 			(uuid "29962551-4641-49d6-ab48-967e23d2fba5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR021")
 					(unit 1)
@@ -129706,7 +129706,7 @@
 			(uuid "074a8939-4a0a-4640-acc9-11ef5e025b07")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP6")
 					(unit 1)
@@ -129952,7 +129952,7 @@
 			(uuid "3c7cb75d-9602-43d7-8bc6-1e260dcdc539")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J22")
 					(unit 1)
@@ -130141,7 +130141,7 @@
 			(uuid "d9e9bed5-7a10-4536-ae00-3f535a855334")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D36")
 					(unit 1)
@@ -130219,7 +130219,7 @@
 			(uuid "dac5c4a4-408c-40c1-81b0-9e762d5c0a63")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0188")
 					(unit 1)
@@ -130310,7 +130310,7 @@
 			(uuid "26790fad-b738-4288-8540-f13f5be69c42")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "NT2")
 					(unit 1)
@@ -130388,7 +130388,7 @@
 			(uuid "3def61ad-8045-41c0-b39e-88b538ba2a21")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0202")
 					(unit 1)
@@ -130511,7 +130511,7 @@
 			(uuid "2701fb02-e233-4179-b0ca-c3339abdd428")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R67")
 					(unit 1)
@@ -130594,7 +130594,7 @@
 			(uuid "59a65ca0-ccb8-4566-baa5-5b9645a80961")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "JP1")
 					(unit 1)
@@ -130672,7 +130672,7 @@
 			(uuid "df450928-34ab-40c5-8837-c6682d091264")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0185")
 					(unit 1)
@@ -130861,7 +130861,7 @@
 			(uuid "2828d43c-946d-4031-af55-60d100b3f6a6")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D25")
 					(unit 1)
@@ -131029,7 +131029,7 @@
 			(uuid "630c473c-eb76-4722-8d17-f173047bc160")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_73")
 					(unit 1)
@@ -131289,7 +131289,7 @@
 			(uuid "39abcb53-6645-49d8-8df6-ea35c721cb4d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J10")
 					(unit 1)
@@ -131367,7 +131367,7 @@
 			(uuid "36fb84df-c07f-4624-938f-43061528df48")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0109")
 					(unit 1)
@@ -131445,7 +131445,7 @@
 			(uuid "cd325d8e-c29e-4ee8-8aac-a0f6ce18dfa6")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR016")
 					(unit 1)
@@ -131546,7 +131546,7 @@
 			(uuid "47f491d5-bfe4-4eaa-a19b-cbcf52713786")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R77")
 					(unit 1)
@@ -131625,7 +131625,7 @@
 			(uuid "6c42f17b-5744-4025-b0c9-f4a5cf558dd2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR085")
 					(unit 1)
@@ -131703,7 +131703,7 @@
 			(uuid "582f3c06-1735-4acf-b782-ba4d65d81061")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0167")
 					(unit 1)
@@ -131781,7 +131781,7 @@
 			(uuid "2076b72f-e7e6-485e-b84d-a526dade151e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0219")
 					(unit 1)
@@ -131859,7 +131859,7 @@
 			(uuid "be55c5d0-454c-4a8e-ac39-7b402e467000")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0199")
 					(unit 1)
@@ -132048,7 +132048,7 @@
 			(uuid "78f1ea2d-1ea1-4493-a58c-4fc2049902ef")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D1")
 					(unit 1)
@@ -132226,7 +132226,7 @@
 			(uuid "d33a14c5-0003-4494-9ce9-ba088de4280a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R16")
 					(unit 1)
@@ -132304,7 +132304,7 @@
 			(uuid "170a43fd-fb72-4aae-b430-8965c3acf1cc")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR035")
 					(unit 1)
@@ -132427,7 +132427,7 @@
 			(uuid "cbaba334-d558-4721-a911-447d92779697")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C41")
 					(unit 1)
@@ -132528,7 +132528,7 @@
 			(uuid "b3d9e272-97d7-44a5-839c-b823e8369300")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C81")
 					(unit 1)
@@ -132606,7 +132606,7 @@
 			(uuid "47b33543-ee82-4250-8e5e-22f3c70364b3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR090")
 					(unit 1)
@@ -132684,7 +132684,7 @@
 			(uuid "e1b839f5-ad52-411e-abd9-dbd9fae13a7f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR094")
 					(unit 1)
@@ -132786,7 +132786,7 @@
 			(uuid "f560184b-3440-4124-860f-02b3acb0fec5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D30")
 					(unit 1)
@@ -132964,7 +132964,7 @@
 			(uuid "7e7a0498-829c-4d87-a50e-63cb4c6e1c13")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "F3")
 					(unit 1)
@@ -133065,7 +133065,7 @@
 			(uuid "09d6b502-83fc-4883-a8ba-a0413da258f8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R93")
 					(unit 1)
@@ -133143,7 +133143,7 @@
 			(uuid "9f705d91-d2ba-427f-8e28-11aede67442e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0126")
 					(unit 1)
@@ -133244,7 +133244,7 @@
 			(uuid "4eabcf5c-a16a-481b-a32b-fa442a16a0d0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "L6")
 					(unit 1)
@@ -133322,7 +133322,7 @@
 			(uuid "6b43f675-bf5a-4ce5-b0e8-86ee2defb730")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR060")
 					(unit 1)
@@ -133423,7 +133423,7 @@
 			(uuid "cbc03c1d-692d-42e7-952e-a913c515655c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C123")
 					(unit 1)
@@ -133546,7 +133546,7 @@
 			(uuid "70c07bfa-436e-45ec-8677-06b66a498744")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R104")
 					(unit 1)
@@ -133735,7 +133735,7 @@
 			(uuid "455a6109-3bc4-4e4d-bea4-3f1506d5f538")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D26")
 					(unit 1)
@@ -133858,7 +133858,7 @@
 			(uuid "bf042e65-aad5-466d-8e04-3dc4efc3e500")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R99")
 					(unit 1)
@@ -133959,7 +133959,7 @@
 			(uuid "08fe3cf2-e7ed-4034-a0f8-b0ab8245e7af")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C72")
 					(unit 1)
@@ -134060,7 +134060,7 @@
 			(uuid "084c7529-ee54-42a4-8160-66b95cc0c23c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R88")
 					(unit 1)
@@ -134252,7 +134252,7 @@
 			(uuid "654e1145-2d17-4879-88ef-8835562a9849")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C4")
 					(unit 1)
@@ -134353,7 +134353,7 @@
 			(uuid "308e5fbd-2a58-4f27-bdbe-6f2e578c8887")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R29")
 					(unit 1)
@@ -134477,7 +134477,7 @@
 			(uuid "3fc62dec-6a91-43b0-adc7-d5701942a708")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C36")
 					(unit 1)
@@ -134657,7 +134657,7 @@
 			(uuid "fc00e381-f946-4aa7-9ae8-00b36dc78444")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C1")
 					(unit 1)
@@ -134747,7 +134747,7 @@
 			(uuid "e66bc820-1ace-4658-bef9-a68d8f2a25f2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP4")
 					(unit 1)
@@ -134848,7 +134848,7 @@
 			(uuid "3b5295a5-a82e-4a61-95de-847ee6589cad")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C99")
 					(unit 1)
@@ -134949,7 +134949,7 @@
 			(uuid "b094e7db-5063-4032-ae9c-bb8318801530")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C80")
 					(unit 1)
@@ -135041,7 +135041,7 @@
 			(uuid "694d8a95-b77f-4c73-9bba-155b67c1f331")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "SJ15")
 					(unit 1)
@@ -135119,7 +135119,7 @@
 			(uuid "c76c13df-ccc7-4d85-a3bc-76ad315ac382")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR087")
 					(unit 1)
@@ -135197,7 +135197,7 @@
 			(uuid "5c122197-2973-4b33-a3ef-3df3821e6bd0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0226")
 					(unit 1)
@@ -135287,7 +135287,7 @@
 			(uuid "6fc8a822-3f80-48d7-8976-65ae0ca78bc6")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP10")
 					(unit 1)
@@ -135410,7 +135410,7 @@
 			(uuid "12c8f943-897a-4ea4-aec7-66d5e3546928")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R98")
 					(unit 1)
@@ -135500,7 +135500,7 @@
 			(uuid "8dd5256a-cebe-4f3f-99f7-22dad5879f2c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP12")
 					(unit 1)
@@ -135590,7 +135590,7 @@
 			(uuid "298051df-f374-4df7-a0a6-902588c2597f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP3")
 					(unit 1)
@@ -135713,7 +135713,7 @@
 			(uuid "91b61ff3-bf58-4620-9e68-042c5d79b66d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R32")
 					(unit 1)
@@ -135791,7 +135791,7 @@
 			(uuid "0c296413-c5a7-4859-9c8c-ee3470d84985")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0132")
 					(unit 1)
@@ -135914,7 +135914,7 @@
 			(uuid "46da64a5-82b0-4825-a6b5-ed31d62b60b3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R124")
 					(unit 1)
@@ -135992,7 +135992,7 @@
 			(uuid "6487d47b-cc57-42cb-b08c-962133034dce")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0214")
 					(unit 1)
@@ -136070,7 +136070,7 @@
 			(uuid "d48c8d59-492a-4d71-88f8-ba8e183e9a90")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0146")
 					(unit 1)
@@ -136248,7 +136248,7 @@
 			(uuid "b563c603-23e8-47ec-8ded-cfbd0475aa4e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R17")
 					(unit 1)
@@ -136326,7 +136326,7 @@
 			(uuid "17090716-9b04-4b3c-9dff-ef4a5aefc34a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR095")
 					(unit 1)
@@ -136542,7 +136542,7 @@
 			(uuid "88653271-439c-4def-8ddf-515d394f276b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J15")
 					(unit 1)
@@ -136643,7 +136643,7 @@
 			(uuid "ec68b9d8-0f48-417b-9567-5f6491eff85c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C14")
 					(unit 1)
@@ -136824,7 +136824,7 @@
 			(uuid "c703d9eb-3afa-43f1-9863-c9d3a9026a70")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C3")
 					(unit 1)
@@ -136901,7 +136901,7 @@
 			(uuid "a0c1cc7d-034e-4dfe-9941-8e76058915b1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR054")
 					(unit 1)
@@ -136979,7 +136979,7 @@
 			(uuid "f3d1bc16-201a-4fb4-b6d2-76631ba23d8f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR075")
 					(unit 1)
@@ -137082,7 +137082,7 @@
 			(uuid "0714e0f6-daf6-4e97-8a73-da4ae38c06fa")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C21")
 					(unit 1)
@@ -137160,7 +137160,7 @@
 			(uuid "91a19236-1043-4ee5-bcfa-eeb2ec6e528b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR086")
 					(unit 1)
@@ -137284,7 +137284,7 @@
 			(uuid "0e28ef7e-e8f7-4893-a419-55eeabdfc974")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C47")
 					(unit 1)
@@ -137474,7 +137474,7 @@
 			(uuid "1c70ddd7-4d58-4a0b-be27-604dd0903809")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D5")
 					(unit 1)
@@ -137552,7 +137552,7 @@
 			(uuid "3ddb76e8-caba-4ac8-b230-20c59876280f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0153")
 					(unit 1)
@@ -137631,7 +137631,7 @@
 			(uuid "b7bb0b43-8232-42ab-962f-1ff53e2f63b5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0136")
 					(unit 1)
@@ -137799,7 +137799,7 @@
 			(uuid "85cbed5f-6636-4a6f-ab47-22c3bd03d674")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_76")
 					(unit 1)
@@ -137891,7 +137891,7 @@
 			(uuid "aa0b77cd-6a4b-4682-8a28-834ec95fe15c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "SJ14")
 					(unit 1)
@@ -137981,7 +137981,7 @@
 			(uuid "efd53fd9-e7e2-4501-8e6a-07838d109b28")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP13")
 					(unit 1)
@@ -138159,7 +138159,7 @@
 			(uuid "1f7a8361-db51-4872-bd2c-d566d31ded84")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R7")
 					(unit 1)
@@ -138282,7 +138282,7 @@
 			(uuid "129e3095-a7df-48e2-a9ce-96f39f0bd3cd")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R46")
 					(unit 1)
@@ -138360,7 +138360,7 @@
 			(uuid "edb7ae12-71c9-4e4b-a607-e207dd80685b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR018")
 					(unit 1)
@@ -138461,7 +138461,7 @@
 			(uuid "124cf530-25dd-4479-b146-d53a4f15c91e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C74")
 					(unit 1)
@@ -138562,7 +138562,7 @@
 			(uuid "ae77a187-a7bd-48e5-80fa-3746cc25cf35")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C85")
 					(unit 1)
@@ -138740,7 +138740,7 @@
 			(uuid "0244f11a-002a-40b8-afec-d0599b2c52aa")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R57")
 					(unit 1)
@@ -138908,7 +138908,7 @@
 			(uuid "0e610685-52a8-40f7-a952-68e4ce7dd7a8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_69")
 					(unit 1)
@@ -138986,7 +138986,7 @@
 			(uuid "792992ef-dfa7-4531-96d1-7e78004cbdaf")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0142")
 					(unit 1)
@@ -139109,7 +139109,7 @@
 			(uuid "cd2c987e-0f9e-4ce9-889e-3ee8444bacb6")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C49")
 					(unit 1)
@@ -139210,7 +139210,7 @@
 			(uuid "548b13a9-a37f-4c2b-a57f-5c8792512a7c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C113")
 					(unit 1)
@@ -139288,7 +139288,7 @@
 			(uuid "23bf7c7f-5cc1-49c5-84e4-69c2387ac75a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR029")
 					(unit 1)
@@ -139366,7 +139366,7 @@
 			(uuid "ef36f71e-bf41-441d-a8fd-b9196b0c7698")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0130")
 					(unit 1)
@@ -139443,7 +139443,7 @@
 			(uuid "ddb8beb8-1276-4d82-8e29-e153a0ee2eb0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR053")
 					(unit 1)
@@ -139533,7 +139533,7 @@
 			(uuid "a7b37800-ce49-4612-99fa-77d246c9432c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP5")
 					(unit 1)
@@ -139634,7 +139634,7 @@
 			(uuid "08c1bfa4-1490-4707-bb67-cdd7c5de95d1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C67")
 					(unit 1)
@@ -139712,7 +139712,7 @@
 			(uuid "e9931b09-45e7-415d-834c-7d41196c92e4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR055")
 					(unit 1)
@@ -139789,7 +139789,7 @@
 			(uuid "6115187f-1da1-443a-ad2b-73e341ae410e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR056")
 					(unit 1)
@@ -139867,7 +139867,7 @@
 			(uuid "caaf64ba-8056-4a22-b22d-f8b4d5b1bca0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0207")
 					(unit 1)
@@ -140035,7 +140035,7 @@
 			(uuid "625f0f79-70f2-4b28-9998-6008bf13c6f5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_71")
 					(unit 1)
@@ -140149,7 +140149,7 @@
 			(uuid "7be343a6-7c47-4e5f-ad19-d51e5be7c522")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C15")
 					(unit 1)
@@ -140567,7 +140567,7 @@
 			(uuid "a33a417c-4168-40ce-8a97-5548049fb3f2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Module2")
 					(unit 1)
@@ -140645,7 +140645,7 @@
 			(uuid "04a5981c-483a-40ea-9a3d-4995dc8322d0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0177")
 					(unit 1)
@@ -140749,7 +140749,7 @@
 			(uuid "fb1594eb-51db-4271-90c4-806121bef84e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D27")
 					(unit 1)
@@ -140850,7 +140850,7 @@
 			(uuid "f1a40226-822b-4e2f-9c99-a396277b43b6")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "L3")
 					(unit 1)
@@ -141074,7 +141074,7 @@
 			(uuid "0b5b8920-91c6-4a42-988a-609b3986a55f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U7")
 					(unit 1)
@@ -141175,7 +141175,7 @@
 			(uuid "f60e88d8-96aa-492f-8384-f82c12bb59a2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C96")
 					(unit 1)
@@ -141253,7 +141253,7 @@
 			(uuid "7495ecf1-3a0e-4262-a781-0d312077f00a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0133")
 					(unit 1)
@@ -141331,7 +141331,7 @@
 			(uuid "7bcf86ae-24d7-4acd-a9b1-57f7af2b18f3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR020")
 					(unit 1)
@@ -141409,7 +141409,7 @@
 			(uuid "bae02d9a-b144-415f-8779-fbdcd5d9203e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0196")
 					(unit 1)
@@ -141887,7 +141887,7 @@
 			(uuid "ea4bd2ab-ae4c-4999-ab93-0d01730c2ccd")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J17")
 					(unit 1)
@@ -141965,7 +141965,7 @@
 			(uuid "4b825efd-d2a6-43a7-9bda-09e9bab96bce")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0169")
 					(unit 1)
@@ -142043,7 +142043,7 @@
 			(uuid "3958ff54-488d-4a93-973e-e85aa724ca14")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR049")
 					(unit 1)
@@ -142121,7 +142121,7 @@
 			(uuid "95e8f732-5819-460e-b54a-3ae50b750823")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR022")
 					(unit 1)
@@ -142222,7 +142222,7 @@
 			(uuid "b74d71e4-1cc7-4c71-b3d1-bb4de7d7d234")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R27")
 					(unit 1)
@@ -142301,7 +142301,7 @@
 			(uuid "03837b51-a3db-4083-b8b2-6ba0918b214b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR064")
 					(unit 1)
@@ -142379,7 +142379,7 @@
 			(uuid "e2e6ec7d-4d58-4bba-8daf-9dcf39845400")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0162")
 					(unit 1)
@@ -142557,7 +142557,7 @@
 			(uuid "e2ec9998-bf02-400f-978d-beb25ce559af")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R9")
 					(unit 1)
@@ -142636,7 +142636,7 @@
 			(uuid "4981c239-9da0-47df-84f9-cf7627517194")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0113")
 					(unit 1)
@@ -142713,7 +142713,7 @@
 			(uuid "b44577a3-394d-4ef0-be04-e96670786583")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR045")
 					(unit 1)
@@ -142818,7 +142818,7 @@
 			(uuid "6f5cb468-bb1d-481d-8a3e-130cdafe2fb9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "Q2")
 					(unit 1)
@@ -142896,7 +142896,7 @@
 			(uuid "f5155e18-f9a3-41c6-9d0f-069bd58e5873")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0193")
 					(unit 1)
@@ -143064,7 +143064,7 @@
 			(uuid "93a1fa48-659c-40b7-ab3f-b43cf7a1d651")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_80")
 					(unit 1)
@@ -143336,7 +143336,7 @@
 			(uuid "2b4368f1-cbd9-4fcc-97b7-14c064d90c52")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U20")
 					(unit 1)
@@ -143459,7 +143459,7 @@
 			(uuid "d438461d-87bc-46f8-833d-232d70f5dfec")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C115")
 					(unit 1)
@@ -143469,7 +143469,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 635 271.78 0)
+		(at 647.7 271.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -143480,7 +143480,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7bca9d2-8190-4ae6-adf9-a8212bc007f5")
 		(property "Reference" "#PWR0122"
-			(at 635 275.59 0)
+			(at 647.7 275.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143491,7 +143491,7 @@
 			)
 		)
 		(property "Value" "+5V_CM5"
-			(at 635 266.7 0)
+			(at 647.7 266.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -143501,7 +143501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 635 271.78 0)
+			(at 647.7 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143512,7 +143512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 635 271.78 0)
+			(at 647.7 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143523,7 +143523,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 635 271.78 0)
+			(at 647.7 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143537,7 +143537,7 @@
 			(uuid "27beab35-0e3e-4fd6-96a3-62f0bb3b3a73")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0122")
 					(unit 1)
@@ -143615,7 +143615,7 @@
 			(uuid "6f270d87-9bfe-4aca-b511-7aca9d56c970")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR025")
 					(unit 1)
@@ -143783,7 +143783,7 @@
 			(uuid "5d1be5e4-13ef-44a4-a835-357b5fef9618")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_41")
 					(unit 1)
@@ -143905,7 +143905,7 @@
 			(uuid "57cb3d1e-73ca-4aba-a2e1-1b24664583e9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U1")
 					(unit 1)
@@ -143983,7 +143983,7 @@
 			(uuid "91085dde-7147-480f-8a95-1ebc0610b106")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0201")
 					(unit 1)
@@ -144183,7 +144183,7 @@
 			(uuid "8b20b112-3bd9-4cde-b126-8db781833adb")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C64")
 					(unit 1)
@@ -144261,7 +144261,7 @@
 			(uuid "add4b947-8d61-4b6a-ad81-f3f6dd1c8286")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0160")
 					(unit 1)
@@ -144339,7 +144339,7 @@
 			(uuid "9aaed319-7a2f-4579-a481-d0caf329fe55")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0165")
 					(unit 1)
@@ -144462,7 +144462,7 @@
 			(uuid "13073794-63f1-4cfa-ab84-ac76fbd52e24")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R47")
 					(unit 1)
@@ -144572,7 +144572,7 @@
 			(uuid "8bf61a97-85b7-4265-9989-37da05239df3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U15")
 					(unit 1)
@@ -144679,7 +144679,7 @@
 			(uuid "cf740cf7-9b07-417c-a801-d6597b715524")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "BT1")
 					(unit 1)
@@ -144769,7 +144769,7 @@
 			(uuid "8f43ab55-8e64-4f35-b5f4-6668d464956e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP2")
 					(unit 1)
@@ -144861,7 +144861,7 @@
 			(uuid "31fa7821-53bd-44ed-86c0-646239660aba")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "SJ10")
 					(unit 1)
@@ -145067,7 +145067,7 @@
 			(uuid "29ae563f-748a-4c8f-8af5-5d50ba90319b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "X1")
 					(unit 1)
@@ -145145,7 +145145,7 @@
 			(uuid "164d3568-4ca7-4ffb-b75c-a8ae6a15fb4f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR092")
 					(unit 1)
@@ -145246,7 +145246,7 @@
 			(uuid "839a012e-ee8a-4dbc-8d14-3d667c337adb")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C106")
 					(unit 1)
@@ -145424,7 +145424,7 @@
 			(uuid "e5a99c09-8250-4c27-a054-bb3128bbb206")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R20")
 					(unit 1)
@@ -145602,7 +145602,7 @@
 			(uuid "bab43b51-bbba-43f9-be69-0fe2504eafb2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R3")
 					(unit 1)
@@ -145726,7 +145726,7 @@
 			(uuid "ca88a664-013f-44a7-87d2-ff2142c2d7e4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R103")
 					(unit 1)
@@ -145827,7 +145827,7 @@
 			(uuid "9f3fc0a6-d3fc-46b4-a604-b3c709a57503")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C91")
 					(unit 1)
@@ -145950,7 +145950,7 @@
 			(uuid "cbf9a6af-2a03-42e5-ab04-c6e2d9e47613")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R50")
 					(unit 1)
@@ -146139,7 +146139,7 @@
 			(uuid "0330894d-2a3d-4972-8c96-2f33cd6ed894")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D4")
 					(unit 1)
@@ -146296,7 +146296,7 @@
 			(uuid "71a26602-9dbb-425f-bbae-80193640d6ac")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J12")
 					(unit 1)
@@ -146374,7 +146374,7 @@
 			(uuid "5814f2c4-6dc0-4023-93f2-ffdae804da5a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0198")
 					(unit 1)
@@ -146475,7 +146475,7 @@
 			(uuid "ee71cf18-76ea-42ff-822f-66106e16c0db")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C78")
 					(unit 1)
@@ -146675,7 +146675,7 @@
 			(uuid "a0bd0d0f-06f8-48cb-805e-4adf307e0124")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C58")
 					(unit 1)
@@ -146800,7 +146800,7 @@
 			(uuid "c5a06969-c133-4add-ad1d-5d69dd9be9f4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C43")
 					(unit 1)
@@ -146968,7 +146968,7 @@
 			(uuid "d11b197c-b9cd-4506-b40c-95ddc6d069d9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_40")
 					(unit 1)
@@ -147146,7 +147146,7 @@
 			(uuid "2d3ad86d-f101-48dd-b704-de7e62dc6ec0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R23")
 					(unit 1)
@@ -147336,7 +147336,7 @@
 			(uuid "af6293aa-cac3-4e4c-a507-bcefa16816e0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D14")
 					(unit 1)
@@ -147459,7 +147459,7 @@
 			(uuid "bd0dac21-1ec0-446c-bd53-f257fc0dbd69")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C40")
 					(unit 1)
@@ -147537,7 +147537,7 @@
 			(uuid "89c50d8c-da73-461d-b153-4ef4b4be8b77")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0168")
 					(unit 1)
@@ -147638,7 +147638,7 @@
 			(uuid "93ad5ec9-091b-4591-91b9-54d05995c8bf")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C83")
 					(unit 1)
@@ -147816,7 +147816,7 @@
 			(uuid "c3b5ee67-5884-4c3a-adb0-5365f1ad9675")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "F1")
 					(unit 1)
@@ -147893,7 +147893,7 @@
 			(uuid "262cdb7a-f060-47bb-a032-049cf3a92055")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR062")
 					(unit 1)
@@ -148083,7 +148083,7 @@
 			(uuid "0cf81f16-9e28-4211-9ff3-c58c103152c3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D16")
 					(unit 1)
@@ -148261,7 +148261,7 @@
 			(uuid "a0342e6a-acd7-432a-95cb-4af26269a76c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R4")
 					(unit 1)
@@ -148453,7 +148453,7 @@
 			(uuid "ee1e1e06-90ae-432a-8953-374169e410b3")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C10")
 					(unit 1)
@@ -148653,7 +148653,7 @@
 			(uuid "21edfe5f-7467-4ff3-b332-6c9edd460ed7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C117")
 					(unit 1)
@@ -148745,7 +148745,7 @@
 			(uuid "2401ee69-5a5c-418b-a4d0-4644f6251204")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "SJ13")
 					(unit 1)
@@ -148868,7 +148868,7 @@
 			(uuid "614815b2-b945-40a9-9f11-72432a6b0400")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C52")
 					(unit 1)
@@ -148946,7 +148946,7 @@
 			(uuid "cb732c08-c18d-4a67-b8e3-931283c3b88c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0117")
 					(unit 1)
@@ -149192,7 +149192,7 @@
 			(uuid "ccfbfe4d-793c-474a-8c7f-421e23bf3456")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J6")
 					(unit 1)
@@ -149382,7 +149382,7 @@
 			(uuid "7d5e9a61-098a-4107-9b6e-612288c8a6e9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D17")
 					(unit 1)
@@ -149571,7 +149571,7 @@
 			(uuid "a2cf8c75-09ef-4c46-9678-16f3a5a88088")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D3")
 					(unit 1)
@@ -149649,7 +149649,7 @@
 			(uuid "9fc6ee94-5563-42b1-9624-6306e2019c68")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR078")
 					(unit 1)
@@ -149827,7 +149827,7 @@
 			(uuid "458849f1-ddbf-44f5-b2de-fe0dc6ff5345")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R13")
 					(unit 1)
@@ -149905,7 +149905,7 @@
 			(uuid "dc381e6a-1860-4d63-b0d2-a1838a8db8b9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR083")
 					(unit 1)
@@ -149982,7 +149982,7 @@
 			(uuid "714edf52-9458-4ccb-94b3-d10ae0c25a04")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR034")
 					(unit 1)
@@ -150059,7 +150059,7 @@
 			(uuid "80484125-745a-4bc3-a322-2e7e8f123914")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR043")
 					(unit 1)
@@ -150259,7 +150259,7 @@
 			(uuid "fa2f8343-a8f1-4210-9fa1-3b15b8a31eba")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C68")
 					(unit 1)
@@ -150337,7 +150337,7 @@
 			(uuid "4b830c60-8567-4247-88d8-8af72073e7e8")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR024")
 					(unit 1)
@@ -150460,7 +150460,7 @@
 			(uuid "48388e2b-47c7-413d-b24d-8c5a3676e0de")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R49")
 					(unit 1)
@@ -150538,7 +150538,7 @@
 			(uuid "802abe62-0115-45f5-8fec-82ae763abe4f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0121")
 					(unit 1)
@@ -150661,7 +150661,7 @@
 			(uuid "2fb536c6-7e4f-4eea-a26e-5fb52d770abe")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R37")
 					(unit 1)
@@ -150739,7 +150739,7 @@
 			(uuid "1cb494a6-8b20-443b-bfa0-f465a83b9ca4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0138")
 					(unit 1)
@@ -150907,7 +150907,7 @@
 			(uuid "297e1704-a434-49cd-bef6-a170a1b7807e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_74")
 					(unit 1)
@@ -151075,7 +151075,7 @@
 			(uuid "f9b4f8ea-8192-4598-93fa-7d3d332a8117")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_77")
 					(unit 1)
@@ -151153,7 +151153,7 @@
 			(uuid "42f41f4e-8bc5-4e65-b84b-04a461eb0b03")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR032")
 					(unit 1)
@@ -151254,7 +151254,7 @@
 			(uuid "90868a80-3c9b-474b-b588-88ad93d996e0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R90")
 					(unit 1)
@@ -151332,7 +151332,7 @@
 			(uuid "931c1f60-c3a0-41e9-a9a2-2738888903f9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR096")
 					(unit 1)
@@ -151410,7 +151410,7 @@
 			(uuid "fd416a2e-f28c-47e0-be59-f8a019dfe71e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0125")
 					(unit 1)
@@ -151533,7 +151533,7 @@
 			(uuid "b423b3c1-25a8-4738-b6b9-c5721389e23a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C116")
 					(unit 1)
@@ -151611,7 +151611,7 @@
 			(uuid "9e1cee54-8c01-4ed3-b0dc-25bf02060990")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0124")
 					(unit 1)
@@ -151689,7 +151689,7 @@
 			(uuid "1ccc2593-f608-4017-9be1-7ae8fecc00b9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0128")
 					(unit 1)
@@ -151881,7 +151881,7 @@
 			(uuid "2af55899-673e-4b24-b1d9-1227a02a9b6e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C8")
 					(unit 1)
@@ -151958,7 +151958,7 @@
 			(uuid "a017ac10-45d1-4b8b-bda6-89e383598107")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR038")
 					(unit 1)
@@ -152081,7 +152081,7 @@
 			(uuid "2a341d77-e3b4-4aa6-a442-e91c302b5c2f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R83")
 					(unit 1)
@@ -152171,7 +152171,7 @@
 			(uuid "a9df4b33-44d3-497c-bb92-3d48ef7c000a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP7")
 					(unit 1)
@@ -152249,7 +152249,7 @@
 			(uuid "9e023f6a-5e3e-4b2c-98ca-f61bf83375cd")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR072")
 					(unit 1)
@@ -152374,7 +152374,7 @@
 			(uuid "e3422c5f-4169-4d45-ae21-3191543c8ef0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C44")
 					(unit 1)
@@ -152475,7 +152475,7 @@
 			(uuid "2929c4fc-066f-4709-a69e-5d29acadac95")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R71")
 					(unit 1)
@@ -152553,7 +152553,7 @@
 			(uuid "6fa8c795-2b67-4246-afb4-91ace15735ff")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0149")
 					(unit 1)
@@ -152631,7 +152631,7 @@
 			(uuid "47e8525e-258a-481b-b9a4-aeaa2c72a925")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR02")
 					(unit 1)
@@ -152811,7 +152811,7 @@
 			(uuid "2c43ea46-a286-4def-a400-d99da11fbb64")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C2")
 					(unit 1)
@@ -152912,7 +152912,7 @@
 			(uuid "1dcf3564-93a9-4afe-a22d-84aa144c9f56")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C110")
 					(unit 1)
@@ -153112,7 +153112,7 @@
 			(uuid "8140d415-020b-4fd4-bbd4-399614a62243")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C63")
 					(unit 1)
@@ -153425,7 +153425,7 @@
 			(uuid "c1325b43-a162-4851-86b3-4edf7ca6ce94")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U10")
 					(unit 1)
@@ -153515,7 +153515,7 @@
 			(uuid "90008eb2-01f1-49a0-9d09-7a52fd38391a")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP14")
 					(unit 1)
@@ -153593,7 +153593,7 @@
 			(uuid "b4699f85-2de5-48e3-aac8-a3f602fc6103")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0204")
 					(unit 1)
@@ -153671,7 +153671,7 @@
 			(uuid "46d25fe1-2ecc-4ca7-bbb8-ff4f91a8139e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0161")
 					(unit 1)
@@ -153866,7 +153866,7 @@
 			(uuid "ed117fc5-1511-49d5-884b-af312f30f919")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U18")
 					(unit 1)
@@ -153944,7 +153944,7 @@
 			(uuid "27f85836-874c-45d9-bc54-3b867600cc18")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0131")
 					(unit 1)
@@ -154056,7 +154056,7 @@
 			(uuid "02b8f2ac-9d9f-44b9-894e-1619a80a5393")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J7")
 					(unit 1)
@@ -154246,7 +154246,7 @@
 			(uuid "46c2e38b-0a10-4310-b4b2-5970aa004193")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D10")
 					(unit 1)
@@ -154324,7 +154324,7 @@
 			(uuid "f9ffe802-5e79-4c74-8717-faea0019e6be")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0112")
 					(unit 1)
@@ -154402,7 +154402,7 @@
 			(uuid "2b963cfc-5ac3-4e2f-8b02-b23aeea9d086")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR052")
 					(unit 1)
@@ -154480,7 +154480,7 @@
 			(uuid "a201228c-ec0c-447b-bf57-951802f51c44")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0152")
 					(unit 1)
@@ -154555,6 +154555,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1339119"
+			(at 384.81 549.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "c8cf23ee-c133-4fdf-8e2d-469c45fc64d5")
 		)
@@ -154598,7 +154609,7 @@
 			(uuid "9395ca6a-d078-49c3-b71e-fa9e2b0985b4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "U17")
 					(unit 1)
@@ -154721,7 +154732,7 @@
 			(uuid "3883ce67-01f9-411e-b595-84a41a83f931")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R69")
 					(unit 1)
@@ -154844,7 +154855,7 @@
 			(uuid "6c7f5568-b94f-4236-ba23-faa19f45bc43")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R68")
 					(unit 1)
@@ -154922,7 +154933,7 @@
 			(uuid "8cd712db-49cc-4c22-a9e9-8730fd029e68")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0175")
 					(unit 1)
@@ -155111,7 +155122,7 @@
 			(uuid "f94e80bf-4bf4-4960-8ffa-559958461eeb")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D37")
 					(unit 1)
@@ -155311,7 +155322,7 @@
 			(uuid "43b52b38-aa93-409f-885d-424e4e3f2dc0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C69")
 					(unit 1)
@@ -155412,7 +155423,7 @@
 			(uuid "1f50acce-4495-4dd5-a140-f2aa53c79963")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R73")
 					(unit 1)
@@ -155602,7 +155613,7 @@
 			(uuid "9e7b3716-0e04-4a1f-89a4-39f9985364b6")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D15")
 					(unit 1)
@@ -155680,7 +155691,7 @@
 			(uuid "22fb513a-2ed3-4e42-8151-7f6dacbbd0ce")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0223")
 					(unit 1)
@@ -155872,7 +155883,7 @@
 			(uuid "699d5054-a768-43b0-82fe-264791657b4d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C7")
 					(unit 1)
@@ -155950,7 +155961,7 @@
 			(uuid "a9b92354-9fe7-4078-b068-7c134a4c69ee")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR069")
 					(unit 1)
@@ -156051,7 +156062,7 @@
 			(uuid "7f25eb32-5801-4d8a-8d30-4975607c5fc5")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C88")
 					(unit 1)
@@ -156141,7 +156152,7 @@
 			(uuid "90d914ce-250b-44bc-bc4d-ac8d1a3fc7c9")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP11")
 					(unit 1)
@@ -156319,7 +156330,7 @@
 			(uuid "17545cec-eabf-4ca7-9999-631299b3d701")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R12")
 					(unit 1)
@@ -156442,7 +156453,7 @@
 			(uuid "3172399c-07c8-418d-88b8-a900bdb7307f")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R56")
 					(unit 1)
@@ -156520,7 +156531,7 @@
 			(uuid "9d68db81-6b0a-483d-bf53-4e878bcbe23d")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR076")
 					(unit 1)
@@ -156598,7 +156609,7 @@
 			(uuid "70f5cf01-2af8-45bf-b8a0-03107c52c306")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR050")
 					(unit 1)
@@ -156676,7 +156687,7 @@
 			(uuid "c9d1c427-ded1-438c-999c-fca284d55795")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR098")
 					(unit 1)
@@ -156754,7 +156765,7 @@
 			(uuid "dc708f6e-3c02-48ca-91fa-011df2b7ac44")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0208")
 					(unit 1)
@@ -156922,7 +156933,7 @@
 			(uuid "fc868257-91b3-4526-8425-ae86892308b4")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "K_78")
 					(unit 1)
@@ -157097,7 +157108,7 @@
 			(uuid "866f9995-10dc-4d6f-b998-126d72ad48dc")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "J5")
 					(unit 1)
@@ -157174,7 +157185,7 @@
 			(uuid "9983562a-4a55-4ce5-a246-b422a6b4e8fd")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR01")
 					(unit 1)
@@ -157299,7 +157310,7 @@
 			(uuid "a2244243-1cfb-48af-8bcf-122cc5c84a4e")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C38")
 					(unit 1)
@@ -157377,7 +157388,7 @@
 			(uuid "17db8993-5685-4aa0-a935-01d39b9d435b")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0192")
 					(unit 1)
@@ -157455,7 +157466,7 @@
 			(uuid "3da2f1b4-c380-41fa-b21a-e58fb292b74c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR010")
 					(unit 1)
@@ -157578,7 +157589,7 @@
 			(uuid "6cdd3e4f-6d7e-42a4-aa8a-dfd39301d611")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R38")
 					(unit 1)
@@ -157756,7 +157767,7 @@
 			(uuid "02c469b8-dfc8-41a2-a1b8-17d0f1211776")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R59")
 					(unit 1)
@@ -157834,7 +157845,7 @@
 			(uuid "2b4b80be-3995-4273-8b77-70d5368e3115")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0173")
 					(unit 1)
@@ -157957,7 +157968,7 @@
 			(uuid "6b4d5364-cdb9-4b66-9413-483baa083736")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R44")
 					(unit 1)
@@ -158080,7 +158091,7 @@
 			(uuid "66a441d5-c173-4877-8cf9-82218cccc810")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C50")
 					(unit 1)
@@ -158204,7 +158215,7 @@
 			(uuid "fdd359ef-16bc-48c6-917e-adba40c0c45c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C39")
 					(unit 1)
@@ -158282,7 +158293,7 @@
 			(uuid "8babe845-351d-455b-938d-f1feff853850")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR013")
 					(unit 1)
@@ -158372,7 +158383,7 @@
 			(uuid "913f51ed-b9d7-4281-8c6d-403e1ac7baca")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "TP8")
 					(unit 1)
@@ -158450,7 +158461,7 @@
 			(uuid "ba564cde-e4b8-4cbb-a9ac-0495ed951058")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0134")
 					(unit 1)
@@ -158528,7 +158539,7 @@
 			(uuid "ac86aeac-58da-449b-9f1c-b2f01584098c")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0172")
 					(unit 1)
@@ -158629,7 +158640,7 @@
 			(uuid "ff88bbe9-4961-4c83-88a2-0d1d41e64930")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R64")
 					(unit 1)
@@ -158841,7 +158852,7 @@
 			(uuid "3ab19d6c-0525-463b-8718-4dd90e2914ad")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "D24")
 					(unit 1)
@@ -159019,7 +159030,7 @@
 			(uuid "c23dcaf8-df67-4c7e-bcde-078e53b7c2a7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R6")
 					(unit 1)
@@ -159098,7 +159109,7 @@
 			(uuid "d608e3f5-d4f5-4754-be97-7289b820d9fb")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR0123")
 					(unit 1)
@@ -159221,7 +159232,7 @@
 			(uuid "d82ff944-2d66-4c8b-9b8d-90ef4114cae1")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "R106")
 					(unit 1)
@@ -159322,7 +159333,7 @@
 			(uuid "c4e0965a-6927-4d80-b3da-4f35e1549be7")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C86")
 					(unit 1)
@@ -159399,7 +159410,7 @@
 			(uuid "22f2cf4a-6a1a-4073-8144-87b1840ae256")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR061")
 					(unit 1)
@@ -159500,7 +159511,7 @@
 			(uuid "70cf9e99-0527-4c61-951e-ce0ff95bbba0")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C90")
 					(unit 1)
@@ -159601,7 +159612,7 @@
 			(uuid "2fb21f0a-8211-4590-b068-aa54824d1b22")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "C73")
 					(unit 1)
@@ -159679,7 +159690,7 @@
 			(uuid "79df944c-5620-4e05-ac06-2ea4885886f2")
 		)
 		(instances
-			(project "cyberdeck-alpha"
+			(project "cyberdeck-r1b"
 				(path "/fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
 					(reference "#PWR027")
 					(unit 1)

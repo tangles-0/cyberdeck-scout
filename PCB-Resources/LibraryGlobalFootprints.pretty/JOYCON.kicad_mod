@@ -1,13 +1,13 @@
 (footprint "JOYCON"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "9ac238dc-615a-4d12-9eb5-7b524054581e")
+		(uuid "49234367-53fb-435b-90d0-4b23b807020b")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b28cec01-ec19-40dc-8265-dfb5b0da6f2d")
+		(uuid "49998813-2ec8-48f6-ba2d-441f0031c8fc")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "081b379e-79ae-4665-84ed-7741093c1f8e")
+		(uuid "a52e0e42-8d62-4b31-84c8-b262b40e67ec")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "83decc43-e794-46af-9856-283a3e9bb923")
+		(uuid "063ddbb1-30d2-445c-b179-824fb467404b")
 		(effects
 			(font
 				(size 1 1)
@@ -54,22 +54,23 @@
 		)
 	)
 	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -11 -11.5)
-		(end 11 11.5)
+		(start -7.5 -6.6)
+		(end 7.4 7.9)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "100b7401-1170-4801-b6bc-e28f17110a28")
+		(uuid "659ad889-8c9b-4bd6-86da-16b3e847c526")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "aead1b03-9729-4ed4-b95d-4c16dc186a67")
+		(uuid "b5e5afab-b7ef-4234-9dbf-b90e9c48500c")
 		(effects
 			(font
 				(size 1 1)

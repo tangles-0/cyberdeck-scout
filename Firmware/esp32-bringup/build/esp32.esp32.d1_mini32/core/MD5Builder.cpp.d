@@ -1,0 +1,20 @@
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/esp32-bringup/build/esp32.esp32.d1_mini32/core/MD5Builder.cpp.o: \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/MD5Builder.cpp \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/HEXBuilder.h \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/WString.h \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/pgmspace.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/newlib/platform_include/ctype.h \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/Stream.h \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/Print.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/newlib/platform_include/stdio.h \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/WString.h \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/Printable.h \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/MD5Builder.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_system/include/esp_system.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_common/include/esp_err.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_common/include/esp_compiler.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_common/include/esp_attr.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_common/include/esp_bit_defs.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_common/include/esp_idf_version.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_rom/include/esp_rom_md5.h \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/HashBuilder.h

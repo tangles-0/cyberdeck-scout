@@ -1,14 +1,14 @@
 (footprint "RK10J12E0A0A volume thumbwheel"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "RK10J12E0A0A-1 volume variable resistor thumbwheel rotary potentiometer")
 	(tags "Variable Resistor Potentiometer")
 	(property "Reference" "VR**"
 		(at 4 -4.5 0)
 		(layer "F.SilkS")
-		(uuid "b0f7e458-47d1-4fe2-a237-aa1c5397bf43")
+		(uuid "7960fe78-d517-4a17-a244-ba0dbfebb1c8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at 4 -6.8 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "8cdd1891-271f-43b3-bfba-d38ac576ac3a")
+		(uuid "b5fea306-2d9b-4b5b-a7b2-ab2bda533670")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c9c83313-bdbe-4e7f-97e4-26805ad6b2b2")
+		(uuid "86a7ada8-83ee-4d32-a061-610a374c6bde")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e3dbaa62-82bf-4049-a8ee-9dba6a05198d")
+		(uuid "21b4543b-8b8e-471e-a85e-fb39fa16a577")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2 -3.8)
 		(end -2 0)
@@ -61,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7008f54e-fc1f-47d4-b431-3bf785ea439d")
+		(uuid "e2f5b107-c00f-4205-813e-28778470b8e4")
 	)
 	(fp_line
 		(start 9.35 0)
@@ -71,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "dff5bb76-9e90-4525-9e8c-457269467a2e")
+		(uuid "0b8e259f-e499-493e-a733-559dcf422f40")
 	)
 	(fp_line
 		(start 9.45 -3)
@@ -81,7 +82,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "41759759-3307-4a7c-b1e3-06a021a5d795")
+		(uuid "b949051f-f61f-4701-b8bd-6eae39d072ff")
 	)
 	(fp_line
 		(start 11.15 -5.3)
@@ -91,7 +92,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "4017f2c2-92a0-46d1-8f5f-1ada6ff96daf")
+		(uuid "7572b52e-9acf-4263-b6eb-d87b0111b9a3")
 	)
 	(fp_line
 		(start 11.15 -3)
@@ -101,7 +102,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "41095a6f-4557-4198-a68b-210805296355")
+		(uuid "445f9807-1d4e-486c-a651-b81f97c9761f")
 	)
 	(fp_arc
 		(start -3 -7.5)
@@ -112,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8ad14a81-615c-426e-aaa5-3812db060d76")
+		(uuid "afdd2a73-35b4-45b4-88c3-f6f43f8f1e06")
 	)
 	(fp_arc
 		(start 11 -7.5)
@@ -123,7 +124,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b344b36a-1fa9-4f96-a098-8534f5c4e14d")
+		(uuid "0da07cfe-b51c-4711-b6f8-68b3182bcff7")
 	)
 	(fp_line
 		(start -3.4 -14.5)
@@ -133,7 +134,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "13e258b9-fdfd-40ce-9614-84114b5ab5f8")
+		(uuid "497c1c98-a48b-4563-bbb2-ae3545144bb3")
 	)
 	(fp_line
 		(start -3.4 1.25)
@@ -143,7 +144,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9e9d4055-e0dc-4c53-8523-08b72e7042ec")
+		(uuid "866074a6-8e6c-4c00-81e5-64cb973dd92d")
 	)
 	(fp_line
 		(start 11.4 -14.5)
@@ -153,7 +154,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8af4a74a-9c4a-497c-ad5b-4743bec05118")
+		(uuid "e311b701-af98-4ec8-9d74-081292585a5a")
 	)
 	(fp_line
 		(start 11.4 1.25)
@@ -163,7 +164,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "28e0ab28-5a9f-4fca-81ac-902566bf60e8")
+		(uuid "f2fe8edc-0420-4f29-affb-86f0d41d94bb")
 	)
 	(fp_line
 		(start -3 -7.5)
@@ -173,7 +174,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "86ed5570-75c1-47d6-b5d1-ebdbe96381dc")
+		(uuid "634dc1ef-b466-4c23-9501-bffa3fdf81a2")
 	)
 	(fp_line
 		(start -2 -3.8)
@@ -183,7 +184,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "03d37bf0-02e9-4ef7-b487-926d30fe8f80")
+		(uuid "426d2467-a59d-47b7-9baa-6a531395167f")
 	)
 	(fp_line
 		(start -2 0)
@@ -193,7 +194,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2a701dc3-525c-45fb-a94b-811fc72eec69")
+		(uuid "0beaa5ac-a0dd-46c9-a5c5-6bb2ea3dc68c")
 	)
 	(fp_line
 		(start 9.35 0)
@@ -203,7 +204,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4d78193b-ee8f-4f84-aa9e-5ce4cf46b253")
+		(uuid "17a9d74f-6c80-404c-8a90-92b1bd6bfaa0")
 	)
 	(fp_line
 		(start 11 -7.5)
@@ -213,12 +214,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "190aa4a6-c75b-4549-8b5c-622773ee0ae4")
+		(uuid "fff22be7-9782-4cce-81f5-2db01c7eaedb")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 4 -6.8 0)
 		(layer "F.Fab")
-		(uuid "862818fd-d96a-4fc9-9115-377554f650e7")
+		(uuid "523676d0-35d4-4257-97e9-2bad7bf369b2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -232,7 +233,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0b211d65-fcf6-4cdc-b4d1-bf20e5b5b09a")
+		(uuid "c61a3a1c-5c0c-4e91-a188-c569d529853c")
 	)
 	(pad "2" thru_hole circle
 		(at 2 0)
@@ -240,7 +241,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "062ca4ef-9b53-42a0-9d1a-249790b5cc69")
+		(uuid "fb280db3-5c46-4750-816a-752c7dfa667a")
 	)
 	(pad "3" thru_hole circle
 		(at 4 0)
@@ -248,7 +249,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f3602793-10ea-45a2-85d5-ff4b327d86a7")
+		(uuid "fc8416c1-45aa-4ecf-87ed-ac2556cd704f")
 	)
 	(pad "4" thru_hole circle
 		(at 6 0)
@@ -256,7 +257,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "088a92bc-935a-4523-8655-bce09e220edc")
+		(uuid "31ca1309-a5db-4e8d-8923-d3f79ba59880")
 	)
 	(pad "5" thru_hole circle
 		(at 8 0)
@@ -264,7 +265,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e8d81f8e-cea9-4b9f-ab93-2c9ae6a28deb")
+		(uuid "681cad31-c2eb-4760-bd15-dcc52d7c027c")
 	)
 	(pad "GND" thru_hole circle
 		(at -1 -10)
@@ -272,7 +273,7 @@
 		(drill 1.6125)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d01e7f82-d613-451b-abee-2c5fa6e30386")
+		(uuid "2d3dd5ad-c8af-44bf-ac2a-a0b2962f6b9b")
 	)
 	(pad "GND" thru_hole circle
 		(at 9 -10)
@@ -280,15 +281,15 @@
 		(drill 1.6125)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c6c9c50c-e6f1-4b4b-828f-54a5217f009f")
+		(uuid "94f188c6-e642-4280-ab3b-5792a6a0c9d8")
 	)
 	(embedded_fonts no)
-	(model "G:/My Drive/mPC/kicad/models/thumbwheel/thumbwheel14mm.stp"
+	(model "${TANGLES_MODEL_DIR}/RES-TH_RK10J12E002L.step"
 		(offset
-			(xyz 4 9 -1.5)
+			(xyz 4 7.5 1)
 		)
 		(scale
-			(xyz 1.3 1.3 1.3)
+			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz -0 -0 -0)

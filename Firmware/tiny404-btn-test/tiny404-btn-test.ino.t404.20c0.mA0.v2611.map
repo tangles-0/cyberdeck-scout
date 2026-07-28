@@ -1,0 +1,86 @@
+
+
+Symbols from /home/tangles/.cache/arduino/sketches/8273F150C4B5B073B967CF1A93A75203/tiny404-btn-test.ino.elf:
+
+Name                  Value   Class        Type         Size     Line  Section
+
+__heap_end          |00000000|   W  |            NOTYPE|        |     |*ABS*
+__TEXT_REGION_ORIGIN__|00000000|   W  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__vector_default    |00000000|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:63
+__vectors           |00000000|   T  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:63
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__FUSE_REGION_LENGTH__|0000000a|   A  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__ctors_end         |00000034|   T  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:230
+__ctors_start       |00000034|   T  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:230
+__dtors_end         |00000034|   T  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:230
+__dtors_start       |00000034|   T  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:230
+__init              |00000034|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:230
+__trampolines_end   |00000034|   T  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:230
+__trampolines_start |00000034|   T  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:230
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+_initThreeStuff()   |00000040|   T  |              FUNC|00000018|     |.text	/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:149
+__do_clear_bss      |00000058|   T  |            NOTYPE|00000010|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+.do_clear_bss_loop  |00000060|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+.do_clear_bss_start |00000062|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+__bad_interrupt     |0000006c|   T  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_1          |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_10         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_11         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_12         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_13         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_14         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_15         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_16         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_17         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_18         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_19         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_2          |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_20         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_21         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_22         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_23         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_24         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_25         |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_3          |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_4          |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_5          |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_6          |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_7          |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+__vector_8          |0000006c|   W  |            NOTYPE|        |     |.text	../../../../../crt1/gcrt1.S:209
+digitalWrite        |0000006e|   t  |              FUNC|000000b2|     |.text	/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:241
+__EEPROM_REGION_LENGTH__|00000080|   A  |            NOTYPE|        |     |*ABS*
+__DATA_REGION_LENGTH__|00000100|   A  |            NOTYPE|        |     |*ABS*
+__vector_9          |00000120|   T  |              FUNC|0000005e|     |.text	/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_micros_ISR.h:835
+ovf_end             |0000013c|   t  |            NOTYPE|        |     |.text	/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_micros_ISR.h:950
+sub4                |00000156|   t  |            NOTYPE|        |     |.text	/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_micros_ISR.h:950
+sub_end             |00000170|   t  |            NOTYPE|        |     |.text	/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_micros_ISR.h:950
+main                |0000017e|   T  |              FUNC|000001be|     |.text	/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:49
+_exit               |0000033c|   T  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+exit                |0000033c|   W  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+__stop_program      |0000033e|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+_etext              |00000340|   T  |            NOTYPE|        |     |.text
+__data_load_end     |00000370|   A  |            NOTYPE|        |     |*ABS*
+__data_load_start   |00000370|   a  |            NOTYPE|        |     |*ABS*
+__LOCK_REGION_LENGTH__|00000400|   A  |            NOTYPE|        |     |*ABS*
+__SIGNATURE_REGION_LENGTH__|00000400|   A  |            NOTYPE|        |     |*ABS*
+__USER_SIGNATURE_REGION_LENGTH__|00000400|   A  |            NOTYPE|        |     |*ABS*
+__TEXT_REGION_LENGTH__|00001000|   A  |            NOTYPE|        |     |*ABS*
+__stack             |00003fff|   W  |            NOTYPE|        |     |*ABS*
+__RODATA_PM_OFFSET__|00008000|   A  |            NOTYPE|        |     |*ABS*
+digital_pin_to_timer|00008340|   r  |            OBJECT|0000000c|     |.rodata	/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/variants/txy4/pins_arduino.h:311
+digital_pin_to_bit_position|0000834c|   r  |            OBJECT|0000000c|     |.rodata	/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/variants/txy4/pins_arduino.h:273
+digital_pin_to_port |00008358|   r  |            OBJECT|0000000c|     |.rodata	/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/variants/txy4/pins_arduino.h:254
+digital_pin_to_bit_mask|00008364|   r  |            OBJECT|0000000c|     |.rodata	/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/variants/txy4/pins_arduino.h:292
+batt_led_time       |00803f00|   b  |            OBJECT|00000004|     |.bss	/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:26
+__bss_start         |00803f00|   B  |            NOTYPE|        |     |.bss
+__DATA_REGION_ORIGIN__|00803f00|   A  |            NOTYPE|        |     |*ABS*
+_edata              |00803f00|   D  |            NOTYPE|        |     |.data
+batt_led            |00803f04|   b  |            OBJECT|00000002|     |.bss	/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:25
+timingStruct        |00803f06|   b  |            OBJECT|0000000a|     |.bss	/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:67
+__bss_end           |00803f10|   B  |            NOTYPE|        |     |.bss
+_end                |00803f10|   N  |            NOTYPE|        |     |.comment
+__eeprom_end        |00810000|   N  |            NOTYPE|        |     |.comment

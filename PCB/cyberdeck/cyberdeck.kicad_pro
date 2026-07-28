@@ -627,7 +627,7 @@
       "plot": "output/gerber/",
       "pos_files": "output/",
       "specctra_dsn": "",
-      "step": "../../casing/board-only.step",
+      "step": "board-full.step",
       "svg": "",
       "vrml": ""
     },
@@ -869,6 +869,24 @@
           "label": "PART_REV",
           "name": "PART_REV",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BOM",
+          "name": "BOM",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -927,7 +945,7 @@
         "uuid": "fc12c85f-bd01-4903-a536-b1ffc2e25d7d"
       }
     ],
-    "used_designators": "D_71,#PWR167,#PWR262-263,#PWR293-297,#PWR303,J7,U43-44,R98,R136-143,TP14-15,TP17,TP19-31,D36,D38-41,C55,C169,C177-178",
+    "used_designators": "X6-7,SJ2-5,Q4,D_71,#PWR8,#PWR48,#PWR88-89,#PWR114,#PWR124,#PWR135,#PWR167,#PWR235,#PWR262-263,#PWR274-277,#PWR293-327,J4,J7,J11,J25-27,R20-22,R48-53,R98,R128-129,R136-153,TP14-15,TP17,TP19-31,JP3,JP7,H5,LED2-3,U10-11,U39,U43-45,D1-3,D36,D38-43,C55-65,C169,C177-186,#U$1,#U$8,#U$14,#U$18,#U$20-23,#U$25,#U$28,#U$36-37,#U$40-41,#U$47-49,#U$51,#U$56-57,#U$70-71,#U$75,FB1-4,L1",
     "variants": []
   },
   "sheets": [

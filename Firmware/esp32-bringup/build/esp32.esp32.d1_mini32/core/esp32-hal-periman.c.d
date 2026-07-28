@@ -1,0 +1,31 @@
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/esp32-bringup/build/esp32.esp32.d1_mini32/core/esp32-hal-periman.c.o: \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/esp32-hal-periman.c \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/esp32-hal-log.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/dio_qspi/include/sdkconfig.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_timer/include/esp_timer.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/newlib/platform_include/stdio.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_common/include/esp_err.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_common/include/esp_compiler.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_hw_support/include/esp_etm.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_rom/esp32/include/esp32/rom/ets_sys.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/log/include/esp_log.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_rom/include/esp_rom_sys.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/soc/esp32/include/soc/reset_reasons.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/soc/esp32/include/soc/soc_caps.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/log/include/esp_log_config.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/log/include/esp_log_level.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_common/include/esp_assert.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/log/include/esp_log_color.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/log/include/esp_log_buffer.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/log/include/esp_log_timestamp.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/log/include/esp_log_write.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/log/include/esp_log_format.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/log/include/esp_log_args.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_common/include/esp_macros.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_common/include/esp_assert.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/log/include/esp_log_attr.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_common/include/esp_attr.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/log/include/esp_private/log_attr.h \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/esp32-hal-periman.h \
+ /home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10/cores/esp32/esp32-hal-ldo.h \
+ /home/tangles/.arduino15/packages/esp32/tools/esp32-libs/3.3.10/include/esp_common/include/esp_bit_defs.h

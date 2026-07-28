@@ -1,10 +1,9 @@
 {
-  "additionalFiles": "../..,../..,../..,../..,../..,../..,../..,../..,../..,../..,../..",
-  "builtInLibrariesFolders": "/home/tangles/.arduino15/libraries",
+  "additionalFiles": "../..,../..,../..,../..,../..,../..,../..,../..,../..,../..,../..,../..,../..",
   "compiler.optimization_flags": "-Os",
   "customBuildProperties": "",
-  "fqbn": "esp32:esp32:d1_mini32:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,PartitionScheme=default,DebugLevel=none,EraseFlash=none",
+  "fqbn": "esp32:esp32:d1_mini32",
   "hardwareFolders": "/home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10,/home/tangles/.arduino15/packages/esp32/hardware/esp32/3.3.10",
   "otherLibrariesFolders": "/home/tangles/Arduino/libraries",
-  "sketchLocation": "/media/nvme_raid0/mPC/cyberdeck-scout/esp32-bringup"
+  "sketchLocation": "/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/esp32-bringup"
 }

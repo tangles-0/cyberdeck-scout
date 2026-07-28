@@ -7,3 +7,5 @@
 /PCB/**/*.kicad*-bak
 /PCB/**/#auto_saved_files#
 *.log
+/Firmware/bms-tiny404/build/
+/Firmware/bms-tiny404/dist/

@@ -23,3 +23,40 @@ Repository contents:
   - `/Display Overlays` overlays for the DSI display used in testing
 - Software
   - `/Software` will be used if any custom software is written
+
+// #ifndef PIN_PA0
+// #define PIN_PA0 11
+// #endif
+// #ifndef PIN_PA1
+// #define PIN_PA1 8
+// #endif
+// #ifndef PIN_PA2
+// #define PIN_PA2 9
+// #endif
+// #ifndef PIN_PA3
+// #define PIN_PA3 10
+// #endif
+// #ifndef PIN_PA4
+// #define PIN_PA4 0
+// #endif
+// #ifndef PIN_PA5
+// #define PIN_PA5 1
+// #endif
+// #ifndef PIN_PA6
+// #define PIN_PA6 2
+// #endif
+// #ifndef PIN_PA7
+// #define PIN_PA7 3
+// #endif
+// #ifndef PIN_PB0
+// #define PIN_PB0 7
+// #endif
+// #ifndef PIN_PB1
+// #define PIN_PB1 6
+// #endif
+// #ifndef PIN_PB2
+// #define PIN_PB2 5
+// #endif
+// #ifndef PIN_PB3
+// #define PIN_PB3 4
+// #endif

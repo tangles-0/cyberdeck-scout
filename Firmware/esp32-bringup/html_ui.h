@@ -63,6 +63,7 @@ static const char INDEX_HTML[] PROGMEM = R"HTML(
   <nav>
     <button type="button" class="active" data-tab="tabBq">BQ76905</button>
     <button type="button" data-tab="tabChg">Charger / PD</button>
+    <button type="button" data-tab="tabTd">ATtiny Debug</button>
     <button type="button" data-tab="tabFl">Flash</button>
   </nav>
 
@@ -132,6 +133,44 @@ static const char INDEX_HTML[] PROGMEM = R"HTML(
     <div id="chgStatusTiles" class="tiles"></div>
     <p class="mono" style="color:#888">Raw JSON snapshot (1s page refresh, BQ bridge samples every ~5s)</p>
     <pre class="mono" id="chgOut">{}</pre>
+  </section>
+
+  <section id="tabTd" class="tab">
+    <h2>ATtiny404 debug stream</h2>
+    <p class="mono" style="color:#888">Decoded from the BMS firmware's TX-only debug pin (Tiny PB2 / BATT_LVL_2 net → ESP GPIO, 115200 8N1). Requires the Tiny built with DEBUG=1.</p>
+    <div id="tdNotice" class="notice mono" style="display:none"></div>
+    <div class="hero">
+      <div id="tdLinkCard" class="card neutral">
+        <h3>Serial Link</h3>
+        <div id="tdLink" class="big">-</div>
+        <div id="tdLinkAge" class="subtle mono">-</div>
+      </div>
+      <div id="tdBqCard" class="card neutral">
+        <h3>BQ Reads</h3>
+        <div id="tdBq" class="big">-</div>
+        <div id="tdI2cErr" class="subtle mono">-</div>
+      </div>
+      <div class="card">
+        <h3>Cells</h3>
+        <div class="kv mono">
+          <span>Cell 1</span><strong id="tdC1">-</strong>
+          <span>Cell 2</span><strong id="tdC2">-</strong>
+          <span>Delta</span><strong id="tdDelta">-</strong>
+        </div>
+      </div>
+      <div id="tdStateCard" class="card neutral">
+        <h3>Device</h3>
+        <div id="tdPower" class="big">-</div>
+        <div id="tdBal" class="subtle mono">-</div>
+        <div id="tdMode" class="subtle mono">-</div>
+      </div>
+    </div>
+    <div class="btnBar row">
+      <button type="button" id="tdClear">Clear log</button>
+      <label class="mono"><input type="checkbox" id="tdScroll" checked> Auto-scroll</label>
+    </div>
+    <h2>Event log</h2>
+    <pre class="mono" id="tdLog"></pre>
   </section>
 
   <section id="tabFl" class="tab">
@@ -362,6 +401,55 @@ static const char INDEX_HTML[] PROGMEM = R"HTML(
         catch { chgOut.textContent = t; }
       }catch(e){}
     }
+    let tdSince = 0;
+    document.getElementById('tdClear').addEventListener('click', () => { tdLog.textContent = ''; });
+    async function pollTd(){
+      if (!document.getElementById('tabTd').classList.contains('active')) return;
+      try{
+        const r = await fetch('/api/tinydbg?since=' + tdSince, {cache:'no-store'});
+        const d = await r.json();
+
+        const linkUp = d.line_seen && d.last_line_age_ms < 5000;
+        tdLink.textContent = d.line_seen ? (linkUp ? 'RECEIVING' : 'STALE') : 'NO DATA';
+        tdLinkAge.textContent = d.line_seen ? `last record ${d.last_line_age_ms} ms ago` : 'nothing received yet — check wiring and DEBUG=1 build';
+        setCardState(tdLinkCard, linkUp ? 'good' : (d.line_seen ? 'warn' : 'bad'));
+
+        const haveStatus = d.status_seen && d.status_age_ms < 5000;
+        tdBq.textContent = haveStatus ? (d.bq_valid ? 'OK' : 'FAILING') : '-';
+        tdI2cErr.textContent = haveStatus ? `last I2C error code ${d.i2c_err}` : 'no status record yet';
+        setCardState(tdBqCard, haveStatus ? (d.bq_valid ? 'good' : 'bad') : 'neutral');
+
+        const cellsValid = haveStatus && d.bq_valid;
+        tdC1.textContent = cellsValid ? fmtV(d.c1_mV) : '-';
+        tdC2.textContent = cellsValid ? fmtV(d.c2_mV) : '-';
+        tdDelta.textContent = cellsValid ? Math.abs(d.c1_mV - d.c2_mV) + ' mV' : '-';
+
+        tdPower.textContent = haveStatus ? (d.power_on ? 'POWER ON' : 'POWER OFF') : '-';
+        tdBal.textContent = haveStatus ? (d.balancing ? 'balancing active' : 'not balancing') : '-';
+        if (haveStatus) {
+          const bs = d.bat_status || 0;
+          const mode = (bs & 0x20) ? 'CFGUPDATE (ADC stopped!)'
+                     : (bs & 0x4000) ? 'DEEPSLEEP'
+                     : (bs & 0x8000) ? 'SLEEP' : 'NORMAL';
+          const flags = [(bs & 0x100) ? 'FETs on' : 'FETs OFF'];
+          if (bs & 0x80) flags.push('POR');
+          tdMode.textContent = `BQ ${mode} | ${flags.join(', ')} | 0x${bs.toString(16).padStart(4,'0')}`;
+        } else {
+          tdMode.textContent = '-';
+        }
+        setCardState(tdStateCard, haveStatus ? (d.power_on ? 'good' : 'neutral') : 'neutral');
+
+        tdNotice.style.display = 'none';
+        for (const ev of (d.events || [])) {
+          const t = new Date(Date.now() - ev.age_ms).toLocaleTimeString();
+          tdLog.textContent += `[${t}] ${ev.text}\n`;
+          tdSince = Math.max(tdSince, ev.seq);
+        }
+        if (d.events && d.events.length && tdScroll.checked) {
+          tdLog.scrollTop = tdLog.scrollHeight;
+        }
+      }catch(e){}
+    }
     async function pollFl(){
       try{
         const r = await fetch('/api/flash/status', {cache:'no-store'});
@@ -410,8 +498,9 @@ static const char INDEX_HTML[] PROGMEM = R"HTML(
     });
     setInterval(pollBq, 500);
     setInterval(pollChg, 1000);
+    setInterval(pollTd, 500);
     setInterval(pollFl, 1500);
-    pollBq(); pollChg(); pollFl();
+    pollBq(); pollChg(); pollTd(); pollFl();
   </script>
 </body>
 </html>

@@ -39,21 +39,31 @@ static const uint8_t TINY_BQ_COORDINATOR_ADDR = 0x43;
 static const uint8_t BQ_ROLE_MAGIC = 0xC5;
 static const uint8_t BQ_ROLE_CMD_ESP_MASTER = 0xA1;
 static const uint8_t BQ_ROLE_CMD_TINY_PING = 0x5A;
-static const bool ESP_BQ_ROLE_HANDOFF_ENABLED = true;
+static const bool ESP_BQ_ROLE_HANDOFF_ENABLED = false;
 static const uint32_t BQ_ROLE_HANDOFF_SETTLE_MS = 500;
 static const uint32_t BQ_ROLE_PING_PERIOD_MS = 500;
 static const uint32_t BQ_ROLE_PING_TIMEOUT_MS = 1000;
 static const uint32_t BQ_ROLE_FIRST_PING_GRACE_MS = 8000;
 
 // --- I2Ct: TPS25751 (target) + BQ25792 — charger / PD monitoring ONLY ---
-static const int PIN_I2C_I2CT_SDA = 25;
-static const int PIN_I2C_I2CT_SCL = 26;
+static const int PIN_I2C_I2CT_SDA = 18;
+static const int PIN_I2C_I2CT_SCL = 19;
+static const int PIN_I2C_I2CC_SDA = 25;
+static const int PIN_I2C_I2CC_SCL = 26;
+// static const int PIN_I2C_I2CT_SDA = 25;
+// static const int PIN_I2C_I2CT_SCL = 26;
+// static const int PIN_I2C_I2CC_SDA = 18;
+// static const int PIN_I2C_I2CC_SCL = 19;
 static const uint32_t I2C_I2CT_HZ = 400000;
 
 // --- I2Cc: AT24 EEPROM — programming ONLY (power TPS down first) ---
-static const int PIN_I2C_I2CC_SDA = 18;
-static const int PIN_I2C_I2CC_SCL = 19;
 static const uint32_t I2C_I2CC_HZ = 400000;
+
+// --- ATtiny404 debug serial (BMS firmware DEBUG=1, TX-only on its PB2) ---
+// Wire Tiny PB2 (BATT_LVL_2 net) -> this pin, plus common ground.
+// RX-only; uses UART1 (UPDI owns UART2). Input-only pins 34/35 also work.
+static const int PIN_TINY_DEBUG_RX = 27;
+static const uint32_t TINY_DEBUG_BAUD = 115200;
 
 // --- UPDI (ATtiny404 program flash) ---
 // Match jtag2updi/SerialUPDI wiring:

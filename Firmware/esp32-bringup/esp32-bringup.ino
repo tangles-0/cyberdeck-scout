@@ -16,6 +16,7 @@
 #include "bq76905_service.h"
 #include "charger_service.h"
 #include "flash_jobs.h"
+#include "tiny_debug_service.h"
 #include "html_ui.h"
 
 static WebServer server(80);
@@ -85,6 +86,19 @@ static void handleApiBq() {
 static void handleApiCharger() {
   char buf[3072];
   if (!charger_fill_json(buf, sizeof(buf))) {
+    server.send(500, "application/json", "{\"error\":\"json_overflow\"}");
+    return;
+  }
+  server.send(200, "application/json", buf);
+}
+
+static void handleApiTinyDebug() {
+  uint32_t sinceSeq = 0;
+  if (server.hasArg("since")) {
+    sinceSeq = (uint32_t)server.arg("since").toInt();
+  }
+  char buf[2048];
+  if (!tiny_debug_json(buf, sizeof(buf), sinceSeq)) {
     server.send(500, "application/json", "{\"error\":\"json_overflow\"}");
     return;
   }
@@ -249,6 +263,10 @@ static bool pingTinyTarget() {
 }
 
 static void bqRoleTask() {
+  if (!ESP_BQ_ROLE_HANDOFF_ENABLED) {
+    return;
+  }
+
   const uint32_t now = millis();
 
   if (bqBusRole == BQ_ROLE_DISCOVERY_TARGET) {
@@ -293,11 +311,13 @@ void setup() {
     bq_service_begin(BQI2C);
     bqBusRole = BQ_ROLE_MASTER;
     bq_configure();
+    Serial.println("BQ bus: ESP direct master mode; role handoff disabled");
   }
   ChgI2C.begin(PIN_I2C_I2CT_SDA, PIN_I2C_I2CT_SCL, I2C_I2CT_HZ);
 
   charger_begin(ChgI2C);
   flash_jobs_begin(ChgI2C);
+  tiny_debug_begin();
 
   connect_wifi();
 
@@ -305,6 +325,7 @@ void setup() {
   server.on("/api/bq", handleApiBq);
   server.on("/api/charger", handleApiCharger);
   server.on("/api/flash/status", handleApiFlashStatus);
+  server.on("/api/tinydbg", handleApiTinyDebug);
   server.on("/api/bq/action", HTTP_GET, handleBqAction);
 
   server.on(
@@ -348,5 +369,6 @@ void loop() {
     bq_service_poll();
   }
   charger_poll();
+  tiny_debug_poll();
   delay(1);
 }

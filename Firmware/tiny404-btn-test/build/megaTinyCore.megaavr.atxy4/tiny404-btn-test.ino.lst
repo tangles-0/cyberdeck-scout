@@ -1,0 +1,980 @@
+
+/home/tangles/.cache/arduino/sketches/8273F150C4B5B073B967CF1A93A75203/tiny404-btn-test.ino.elf:     file format elf32-avr
+
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+__vectors():
+../../../../../crt1/gcrt1.S:63
+   0:	19 c0       	rjmp	.+50     	; 0x34 <__ctors_end>
+../../../../../crt1/gcrt1.S:67
+   2:	34 c0       	rjmp	.+104    	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:68
+   4:	33 c0       	rjmp	.+102    	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:69
+   6:	32 c0       	rjmp	.+100    	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:70
+   8:	31 c0       	rjmp	.+98     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:71
+   a:	30 c0       	rjmp	.+96     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:72
+   c:	2f c0       	rjmp	.+94     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:73
+   e:	2e c0       	rjmp	.+92     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:74
+  10:	2d c0       	rjmp	.+90     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:75
+  12:	86 c0       	rjmp	.+268    	; 0x120 <__vector_9>
+../../../../../crt1/gcrt1.S:76
+  14:	2b c0       	rjmp	.+86     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:77
+  16:	2a c0       	rjmp	.+84     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:78
+  18:	29 c0       	rjmp	.+82     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:79
+  1a:	28 c0       	rjmp	.+80     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:80
+  1c:	27 c0       	rjmp	.+78     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:81
+  1e:	26 c0       	rjmp	.+76     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:82
+  20:	25 c0       	rjmp	.+74     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:83
+  22:	24 c0       	rjmp	.+72     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:84
+  24:	23 c0       	rjmp	.+70     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:85
+  26:	22 c0       	rjmp	.+68     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:86
+  28:	21 c0       	rjmp	.+66     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:87
+  2a:	20 c0       	rjmp	.+64     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:88
+  2c:	1f c0       	rjmp	.+62     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:89
+  2e:	1e c0       	rjmp	.+60     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:90
+  30:	1d c0       	rjmp	.+58     	; 0x6c <__bad_interrupt>
+../../../../../crt1/gcrt1.S:91
+  32:	1c c0       	rjmp	.+56     	; 0x6c <__bad_interrupt>
+
+00000034 <__ctors_end>:
+__trampolines_start():
+../../../../../crt1/gcrt1.S:230
+  34:	11 24       	eor	r1, r1
+../../../../../crt1/gcrt1.S:231
+  36:	1f be       	out	0x3f, r1	; 63
+../../../../../crt1/gcrt1.S:232
+  38:	cf ef       	ldi	r28, 0xFF	; 255
+../../../../../crt1/gcrt1.S:234
+  3a:	cd bf       	out	0x3d, r28	; 61
+../../../../../crt1/gcrt1.S:236
+  3c:	df e3       	ldi	r29, 0x3F	; 63
+../../../../../crt1/gcrt1.S:237
+  3e:	de bf       	out	0x3e, r29	; 62
+
+00000040 <_initThreeStuff()>:
+_Z15_initThreeStuffv():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:104
+
+  /* Minimum: Reset if we wound up here through malfunction - this relies on user clearing the  *
+   * register on startup, which is rarely done in Arduino land.                                 */
+  void __attribute__((weak)) init_reset_flags() ;
+  void __attribute__((weak)) init_reset_flags() {
+    uint8_t flags = RSTCTRL.RSTFR;
+  40:	80 91 40 00 	lds	r24, 0x0040	; 0x800040 <digital_pin_to_bit_mask+0x7f7cdc>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:105
+    RSTCTRL.RSTFR = flags;
+  44:	80 93 40 00 	sts	0x0040, r24	; 0x800040 <digital_pin_to_bit_mask+0x7f7cdc>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:106
+    if (flags == 0) {
+  48:	81 11       	cpse	r24, r1
+  4a:	05 c0       	rjmp	.+10     	; 0x56 <_initThreeStuff()+0x16>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:107
+      _PROTECTED_WRITE(RSTCTRL.SWRR, 1);
+  4c:	98 ed       	ldi	r25, 0xD8	; 216
+  4e:	21 e0       	ldi	r18, 0x01	; 1
+  50:	94 bf       	out	0x34, r25	; 52
+  52:	20 93 41 00 	sts	0x0041, r18	; 0x800041 <digital_pin_to_bit_mask+0x7f7cdd>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:109
+    }
+    GPIOR0 = flags;
+  56:	8c bb       	out	0x1c, r24	; 28
+
+00000058 <__do_clear_bss>:
+__do_clear_bss():
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+  58:	2f e3       	ldi	r18, 0x3F	; 63
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2442
+  5a:	a0 e0       	ldi	r26, 0x00	; 0
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2443
+  5c:	bf e3       	ldi	r27, 0x3F	; 63
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2444
+  5e:	01 c0       	rjmp	.+2      	; 0x62 <.do_clear_bss_start>
+
+00000060 <.do_clear_bss_loop>:
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+  60:	1d 92       	st	X+, r1
+
+00000062 <.do_clear_bss_start>:
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+  62:	a0 31       	cpi	r26, 0x10	; 16
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2449
+  64:	b2 07       	cpc	r27, r18
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2450
+  66:	e1 f7       	brne	.-8      	; 0x60 <.do_clear_bss_loop>
+.do_clear_bss_start():
+../../../../../crt1/gcrt1.S:314
+  68:	8a d0       	rcall	.+276    	; 0x17e <main>
+../../../../../crt1/gcrt1.S:315
+  6a:	68 c1       	rjmp	.+720    	; 0x33c <_exit>
+
+0000006c <__bad_interrupt>:
+__vector_22():
+../../../../../crt1/gcrt1.S:209
+  6c:	c9 cf       	rjmp	.-110    	; 0x0 <__vectors>
+
+0000006e <digitalWrite>:
+digitalWrite():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:241
+    default:
+      break;
+  }
+}
+
+void digitalWrite(uint8_t pin, uint8_t val) {
+  6e:	cf 93       	push	r28
+  70:	df 93       	push	r29
+check_valid_digital_pin():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/Arduino.h:888
+#if !defined(NUM_TOTAL_PINS)
+  #define NUM_TOTAL_PINS                (NUM_DIGITAL_PINS) /* Used the same way as NUM_DIGITAL_PINS. so it doesn't mean what it's named  - I didn't make the convention*/
+#endif
+
+inline __attribute__((always_inline)) void check_valid_digital_pin(pin_size_t pin) {
+  if (__builtin_constant_p(pin)) {
+  72:	28 2f       	mov	r18, r24
+  74:	30 e0       	ldi	r19, 0x00	; 0
+digitalWrite():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:244
+  check_valid_digital_pin(pin);
+  /* Get bit mask for pin */
+  uint8_t bit_mask = digitalPinToBitMask(pin);
+  76:	e9 01       	movw	r28, r18
+  78:	cc 59       	subi	r28, 0x9C	; 156
+  7a:	dc 47       	sbci	r29, 0x7C	; 124
+  7c:	88 81       	ld	r24, Y
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:245
+  if (bit_mask == NOT_A_PIN) {
+  7e:	8f 3f       	cpi	r24, 0xFF	; 255
+  80:	09 f4       	brne	.+2      	; 0x84 <__EEPROM_REGION_LENGTH__+0x4>
+  82:	3b c0       	rjmp	.+118    	; 0xfa <__EEPROM_REGION_LENGTH__+0x7a>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:250
+    return;
+  }
+
+  /* Get port */
+  PORT_t *port = digitalPinToPortStruct(pin);
+  84:	a9 01       	movw	r20, r18
+  86:	48 5a       	subi	r20, 0xA8	; 168
+  88:	5c 47       	sbci	r21, 0x7C	; 124
+  8a:	da 01       	movw	r26, r20
+  8c:	ec 91       	ld	r30, X
+  8e:	b0 e2       	ldi	r27, 0x20	; 32
+  90:	eb 9f       	mul	r30, r27
+  92:	f0 01       	movw	r30, r0
+  94:	11 24       	eor	r1, r1
+  96:	fc 5f       	subi	r31, 0xFC	; 252
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:255
+  /* Set output to value
+  This runs regardless of whether the pin is an output,
+  allowing the pin to be staged with
+  changed to an output. Code in the wild relies on this behavior. */
+  if (val == LOW) { /* If LOW */
+  98:	61 11       	cpse	r22, r1
+  9a:	32 c0       	rjmp	.+100    	; 0x100 <__DATA_REGION_LENGTH__>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:256
+    port->OUTCLR = bit_mask;
+  9c:	86 83       	std	Z+6, r24	; 0x06
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:280
+  } else {
+    port->OUTSET = bit_mask;
+  }
+
+  /* Input direction */
+  if (!(port->DIR & bit_mask)) {
+  9e:	90 81       	ld	r25, Z
+  a0:	89 23       	and	r24, r25
+  a2:	a1 f4       	brne	.+40     	; 0xcc <__EEPROM_REGION_LENGTH__+0x4c>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:282
+    /* Get bit position for getting pin ctrl reg */
+    uint8_t bit_pos = digitalPinToBitPosition(pin);
+  a4:	c9 01       	movw	r24, r18
+  a6:	84 5b       	subi	r24, 0xB4	; 180
+  a8:	9c 47       	sbci	r25, 0x7C	; 124
+  aa:	dc 01       	movw	r26, r24
+  ac:	9c 91       	ld	r25, X
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:284
+    /* Calculate where pin control register is */
+    volatile uint8_t *pin_ctrl_reg = getPINnCTRLregister(port, bit_pos);
+  ae:	30 97       	sbiw	r30, 0x00	; 0
+  b0:	81 f1       	breq	.+96     	; 0x112 <__DATA_REGION_LENGTH__+0x12>
+  b2:	98 30       	cpi	r25, 0x08	; 8
+  b4:	70 f5       	brcc	.+92     	; 0x112 <__DATA_REGION_LENGTH__+0x12>
+  b6:	70 96       	adiw	r30, 0x10	; 16
+  b8:	e9 0f       	add	r30, r25
+  ba:	f1 1d       	adc	r31, r1
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:287
+
+    /* Save system status and disable interrupts */
+    uint8_t status = SREG;
+  bc:	9f b7       	in	r25, 0x3f	; 63
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:288
+    cli();
+  be:	f8 94       	cli
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:292
+
+    if (val == LOW) {
+      /* Disable pullup */
+      *pin_ctrl_reg &= ~PORT_PULLUPEN_bm;
+  c0:	80 81       	ld	r24, Z
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:290
+
+    /* Save system status and disable interrupts */
+    uint8_t status = SREG;
+    cli();
+
+    if (val == LOW) {
+  c2:	61 11       	cpse	r22, r1
+  c4:	29 c0       	rjmp	.+82     	; 0x118 <__DATA_REGION_LENGTH__+0x18>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:292
+      /* Disable pullup */
+      *pin_ctrl_reg &= ~PORT_PULLUPEN_bm;
+  c6:	87 7f       	andi	r24, 0xF7	; 247
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:295
+    } else {
+      /* Enable pull-up */
+      *pin_ctrl_reg |= PORT_PULLUPEN_bm;
+  c8:	80 83       	st	Z, r24
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:299
+    }
+
+    /* Restore system status */
+    SREG = status;
+  ca:	9f bf       	out	0x3f, r25	; 63
+turnOffPWM():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:107
+   * any timers with minimum overhead - critical on these parts
+   * Since nothing that will show up here can have more than one
+   * one bit set, binary and will give 0x00 if that bit is cleared
+   * which is NOT_ON_TIMER.
+   */
+  uint8_t digital_pin_timer =  digitalPinToTimer(pin) & __PeripheralControl;
+  cc:	20 5c       	subi	r18, 0xC0	; 192
+  ce:	3c 47       	sbci	r19, 0x7C	; 124
+  d0:	f9 01       	movw	r30, r18
+  d2:	80 81       	ld	r24, Z
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:109
+  /* end megaTinyCore-specific section */
+  if (digital_pin_timer== NOT_ON_TIMER) {
+  d4:	88 23       	and	r24, r24
+  d6:	89 f0       	breq	.+34     	; 0xfa <__EEPROM_REGION_LENGTH__+0x7a>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:116
+  }
+
+  uint8_t bit_mask = digitalPinToBitMask(pin);
+  // TCB_t *timerB;
+
+  switch (digital_pin_timer) {
+  d8:	80 31       	cpi	r24, 0x10	; 16
+  da:	79 f4       	brne	.+30     	; 0xfa <__EEPROM_REGION_LENGTH__+0x7a>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:113
+  /* end megaTinyCore-specific section */
+  if (digital_pin_timer== NOT_ON_TIMER) {
+    return;
+  }
+
+  uint8_t bit_mask = digitalPinToBitMask(pin);
+  dc:	88 81       	ld	r24, Y
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:132
+          }
+          if (bit_mask > 0x04) {  // -> bit_pos > 2 -> output channel controlled by HCMP
+            bit_mask <<= 1;       // mind the gap (between LCMP and HCMP)
+          }
+        #else // Normal parts
+          if (digitalPinToPort(pin) == PB) {        // WO0-WO2, Bitmask has one of these bits 1: 0b00hhhlll.
+  de:	da 01       	movw	r26, r20
+  e0:	9c 91       	ld	r25, X
+  e2:	91 30       	cpi	r25, 0x01	; 1
+  e4:	d9 f4       	brne	.+54     	; 0x11c <__DATA_REGION_LENGTH__+0x1c>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:133
+            if (bit_mask > 0x04) { // Is it one of the three high ones? If so
+  e6:	85 30       	cpi	r24, 0x05	; 5
+  e8:	10 f0       	brcs	.+4      	; 0xee <__EEPROM_REGION_LENGTH__+0x6e>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:134
+              bit_mask <<= 1;      // nudge it 1 place left swap nybbles since that's 1 clock faster than 3 rightshifts.
+  ea:	88 0f       	add	r24, r24
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:135
+              _SWAP(bit_mask);     // swap nybbles since that's 1 clock faster than 3 rightshifts.
+  ec:	82 95       	swap	r24
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:142
+          } else {
+            // Otherwise, it's WO3-5. These will always be on 0b00hhh000,. Here since we ARE working with a high half timer, we need to just leftshift it once.
+            bit_mask <<= 1;
+          }
+        #endif // End if 8 vs normal parts
+        TCA0.SPLIT.CTRLB &= ~bit_mask;
+  ee:	90 91 01 0a 	lds	r25, 0x0A01	; 0x800a01 <digital_pin_to_bit_mask+0x7f869d>
+  f2:	80 95       	com	r24
+  f4:	89 23       	and	r24, r25
+  f6:	80 93 01 0a 	sts	0x0A01, r24	; 0x800a01 <digital_pin_to_bit_mask+0x7f869d>
+digitalWrite():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:312
+   * analogWritten() 255, then digitallyWritten() to HIGH, which
+   * would turn it off for the time between turnOffPWM() and
+   * PORT->OUTCLR)
+   * Since there's no penalty, why make a glitch we don't have to? */
+  turnOffPWM(pin);
+}
+  fa:	df 91       	pop	r29
+  fc:	cf 91       	pop	r28
+  fe:	08 95       	ret
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:257
+  This runs regardless of whether the pin is an output,
+  allowing the pin to be staged with
+  changed to an output. Code in the wild relies on this behavior. */
+  if (val == LOW) { /* If LOW */
+    port->OUTCLR = bit_mask;
+  } else if (val == CHANGE) { /* If TOGGLE
+ 100:	64 30       	cpi	r22, 0x04	; 4
+ 102:	29 f4       	brne	.+10     	; 0x10e <__DATA_REGION_LENGTH__+0xe>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:264
+     * we need to know if it's been set high or low
+     * otherwise the pullup state could get out of
+     * sync with the output bit. Annoying! But we should
+     * have to read it before writing OUTTGL, since that can
+     * have a 1 clock delay. So read first + invert */
+    val = !(port->OUT & bit_mask);
+ 104:	94 81       	ldd	r25, Z+4	; 0x04
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:265
+    port->OUTTGL = bit_mask;
+ 106:	87 83       	std	Z+7, r24	; 0x07
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:270
+    // Now, for the pullup setting part below
+    // we need to know if it's been set high or low
+    // otherwise the pullup state could get out of
+    // sync with the output bit. Annoying!
+    val = port->OUT & bit_mask;
+ 108:	64 81       	ldd	r22, Z+4	; 0x04
+ 10a:	68 23       	and	r22, r24
+ 10c:	c8 cf       	rjmp	.-112    	; 0x9e <__EEPROM_REGION_LENGTH__+0x1e>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:276
+    // val will now be 0 (LOW) if the toggling made it LOW
+    // or bit_mask if not. And further down, we only need to
+    // know if it's
+  /* If HIGH OR  > TOGGLE  */
+  } else {
+    port->OUTSET = bit_mask;
+ 10e:	85 83       	std	Z+5, r24	; 0x05
+ 110:	c6 cf       	rjmp	.-116    	; 0x9e <__EEPROM_REGION_LENGTH__+0x1e>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:284
+  /* Input direction */
+  if (!(port->DIR & bit_mask)) {
+    /* Get bit position for getting pin ctrl reg */
+    uint8_t bit_pos = digitalPinToBitPosition(pin);
+    /* Calculate where pin control register is */
+    volatile uint8_t *pin_ctrl_reg = getPINnCTRLregister(port, bit_pos);
+ 112:	f0 e0       	ldi	r31, 0x00	; 0
+ 114:	e0 e0       	ldi	r30, 0x00	; 0
+ 116:	d2 cf       	rjmp	.-92     	; 0xbc <__EEPROM_REGION_LENGTH__+0x3c>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:295
+    if (val == LOW) {
+      /* Disable pullup */
+      *pin_ctrl_reg &= ~PORT_PULLUPEN_bm;
+    } else {
+      /* Enable pull-up */
+      *pin_ctrl_reg |= PORT_PULLUPEN_bm;
+ 118:	88 60       	ori	r24, 0x08	; 8
+ 11a:	d6 cf       	rjmp	.-84     	; 0xc8 <__EEPROM_REGION_LENGTH__+0x48>
+turnOffPWM():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:139
+              bit_mask <<= 1;      // nudge it 1 place left swap nybbles since that's 1 clock faster than 3 rightshifts.
+              _SWAP(bit_mask);     // swap nybbles since that's 1 clock faster than 3 rightshifts.
+            }
+          } else {
+            // Otherwise, it's WO3-5. These will always be on 0b00hhh000,. Here since we ARE working with a high half timer, we need to just leftshift it once.
+            bit_mask <<= 1;
+ 11c:	88 0f       	add	r24, r24
+ 11e:	e7 cf       	rjmp	.-50     	; 0xee <__EEPROM_REGION_LENGTH__+0x6e>
+
+00000120 <__vector_9>:
+__vector_9():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_micros_ISR.h:839
+  #else
+    ISR(MILLIS_TIMER_VECTOR, ISR_NAKED) {
+      // Common Interrupt header for TCB, TCA and TCD;
+      // Clears the Timer Interrupt flag and pushes the CPU Registers
+      // 7 words / 7 clocks
+      __asm__ __volatile__(
+ 120:	8f 93       	push	r24
+ 122:	82 e0       	ldi	r24, 0x02	; 2
+ 124:	80 93 0b 0a 	sts	0x0A0B, r24	; 0x800a0b <digital_pin_to_bit_mask+0x7f86a7>
+ 128:	8f b7       	in	r24, 0x3f	; 63
+ 12a:	8f 93       	push	r24
+ 12c:	ef 93       	push	r30
+ 12e:	ff 93       	push	r31
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_micros_ISR.h:950
+        [MIINC]  "M" ((0x0000 - MILLIS_INC) & 0xFF),
+        [MINCD]  "M" ((0xFFFF - MILLIS_INC) & 0xFF)
+      );
+  */
+
+      __asm__ __volatile__(
+ 130:	e6 e0       	ldi	r30, 0x06	; 6
+ 132:	ff e3       	ldi	r31, 0x3F	; 63
+ 134:	9f 93       	push	r25
+ 136:	68 94       	set
+ 138:	8f ef       	ldi	r24, 0xFF	; 255
+ 13a:	0d c0       	rjmp	.+26     	; 0x156 <sub4>
+
+0000013c <ovf_end>:
+ 13c:	e8 94       	clt
+ 13e:	84 81       	ldd	r24, Z+4	; 0x04
+ 140:	95 81       	ldd	r25, Z+5	; 0x05
+ 142:	80 5d       	subi	r24, 0xD0	; 208
+ 144:	9c 4f       	sbci	r25, 0xFC	; 252
+ 146:	84 83       	std	Z+4, r24	; 0x04
+ 148:	95 83       	std	Z+5, r25	; 0x05
+ 14a:	88 5e       	subi	r24, 0xE8	; 232
+ 14c:	93 40       	sbci	r25, 0x03	; 3
+ 14e:	80 f0       	brcs	.+32     	; 0x170 <sub_end>
+ 150:	84 83       	std	Z+4, r24	; 0x04
+ 152:	95 83       	std	Z+5, r25	; 0x05
+ 154:	8f ef       	ldi	r24, 0xFF	; 255
+
+00000156 <sub4>:
+ 156:	90 81       	ld	r25, Z
+ 158:	98 1b       	sub	r25, r24
+ 15a:	91 93       	st	Z+, r25
+ 15c:	90 81       	ld	r25, Z
+ 15e:	9f 4f       	sbci	r25, 0xFF	; 255
+ 160:	91 93       	st	Z+, r25
+ 162:	90 81       	ld	r25, Z
+ 164:	9f 4f       	sbci	r25, 0xFF	; 255
+ 166:	91 93       	st	Z+, r25
+ 168:	90 81       	ld	r25, Z
+ 16a:	9f 4f       	sbci	r25, 0xFF	; 255
+ 16c:	91 93       	st	Z+, r25
+ 16e:	36 f3       	brts	.-52     	; 0x13c <ovf_end>
+
+00000170 <sub_end>:
+ 170:	9f 91       	pop	r25
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_micros_ISR.h:1012
+        [MINCD]  "M" ((0xFFFF - MILLIS_INC) & 0xFF)
+      );
+    #endif /* (defined(MILLIS_USE_TIMERB0) || defined(MILLIS_USE_TIMERB1) || defined(MILLIS_USE_TIMERB2) || defined(MILLIS_USE_TIMERB3) || defined(MILLIS_USE_TIMERB4)) */
+    // Common ISR Epilogue for TCA, TCB and TCD, popping register in reverse Order
+    // 6 words, 14 clocks
+    __asm__ __volatile__(
+ 172:	ff 91       	pop	r31
+ 174:	ef 91       	pop	r30
+ 176:	8f 91       	pop	r24
+ 178:	8f bf       	out	0x3f, r24	; 63
+ 17a:	8f 91       	pop	r24
+ 17c:	18 95       	reti
+
+0000017e <main>:
+main():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:460
+  #if (CLOCK_SOURCE == 0)
+    #if (defined(CLOCK_TUNE_INTERNAL))
+      tune_internal(); // Will be inlined as only called once. Just too long and ugly to put two implementations in middle of this.
+    #else
+      #if defined(_MCLK_CTRLB) && defined(F_CPU) && defined(_MAIN_CLOCK_PRESCALER)
+        _PROTECTED_WRITE(CLKCTRL_MCLKCTRLB,_MCLK_CTRLB);
+ 17e:	88 ed       	ldi	r24, 0xD8	; 216
+ 180:	90 e0       	ldi	r25, 0x00	; 0
+ 182:	84 bf       	out	0x34, r24	; 52
+ 184:	90 93 61 00 	sts	0x0061, r25	; 0x800061 <digital_pin_to_bit_mask+0x7f7cfd>
+init_ADC0():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:552
+
+
+/********************************* ADC ****************************************/
+void __attribute__((weak)) init_ADC0() {
+  ADC_t* pADC;
+  _fastPtr_d(pADC, &ADC0);
+ 188:	e0 e0       	ldi	r30, 0x00	; 0
+ 18a:	f6 e0       	ldi	r31, 0x06	; 6
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:573
+   **************************************************************************/
+    //                              30 MHz / 32 = 937 kHz,  32 MHz / 32 =  1 MHz.
+    #if   F_CPU   > 24000000     // 24 MHz / 16 = 1.5 MHz,  25 MHz / 32 =  780 kHz
+      pADC->CTRLC  = ADC_PRESC_DIV32_gc | ADC_REFSEL_VDDREF_gc | ADC_SAMPCAP_bm;
+    #elif F_CPU  >= 12000000    // 16 MHz / 16 = 1.0 MHz,  20 MHz / 16 = 1.25 MHz
+      pADC->CTRLC  = ADC_PRESC_DIV16_gc | ADC_REFSEL_VDDREF_gc | ADC_SAMPCAP_bm;
+ 18c:	83 e5       	ldi	r24, 0x53	; 83
+ 18e:	82 83       	std	Z+2, r24	; 0x02
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:584
+      pADC->CTRLC  =  ADC_PRESC_DIV2_gc | ADC_REFSEL_VDDREF_gc | ADC_SAMPCAP_bm;
+    #endif
+    #if   (F_CPU == 6000000 || F_CPU == 12000000 || F_CPU == 24000000 || F_CPU ==25000000)
+      pADC->SAMPCTRL = (7); // 9 ADC clocks, 12 us
+    #elif (F_CPU == 5000000 || F_CPU == 10000000 || F_CPU == 20000000)
+      pADC->SAMPCTRL = (13);   // 15 ADC clock,s 12 us
+ 190:	8d e0       	ldi	r24, 0x0D	; 13
+ 192:	85 83       	std	Z+5, r24	; 0x05
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:588
+    #else
+      pADC->SAMPCTRL = (10); // 12 ADC clocks, 12 us
+    #endif
+    pADC->CTRLD    = ADC_INITDLY_DLY16_gc;
+ 194:	80 e2       	ldi	r24, 0x20	; 32
+ 196:	83 83       	std	Z+3, r24	; 0x03
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:589
+    pADC->CTRLA    = ADC_ENABLE_bm;
+ 198:	81 e0       	ldi	r24, 0x01	; 1
+ 19a:	80 83       	st	Z, r24
+init_TCA0():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:680
+
+void __attribute__((weak)) init_TCA0() {
+  /*  TYPE A TIMER   */
+  #if !defined(TCA_BUFFERED_3PIN)
+    #if defined(PORTMUX_CTRLC)
+      PORTMUX.CTRLC = TCA_PORTMUX;
+ 19c:	10 92 02 02 	sts	0x0202, r1	; 0x800202 <digital_pin_to_bit_mask+0x7f7e9e>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:684
+    #else
+      PORTMUX.TCAROUTEA = TCA_PORTMUX;
+    #endif
+    TCA0.SPLIT.CTRLD   = TCA_SPLIT_SPLITM_bm;
+ 1a0:	80 93 03 0a 	sts	0x0A03, r24	; 0x800a03 <digital_pin_to_bit_mask+0x7f869f>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:685
+    TCA0.SPLIT.LPER    = PWM_TIMER_PERIOD;
+ 1a4:	8e ef       	ldi	r24, 0xFE	; 254
+ 1a6:	80 93 26 0a 	sts	0x0A26, r24	; 0x800a26 <digital_pin_to_bit_mask+0x7f86c2>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:686
+    TCA0.SPLIT.HPER    = PWM_TIMER_PERIOD;
+ 1aa:	80 93 27 0a 	sts	0x0A27, r24	; 0x800a27 <digital_pin_to_bit_mask+0x7f86c3>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:687
+    TCA0.SPLIT.CTRLA   = (_TIMERA_PRESCALER | TCA_SPLIT_ENABLE_bm);
+ 1ae:	8b e0       	ldi	r24, 0x0B	; 11
+ 1b0:	80 93 00 0a 	sts	0x0A00, r24	; 0x800a00 <digital_pin_to_bit_mask+0x7f869c>
+init_millis():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:339
+  #if defined(MILLIS_USE_TIMERNONE)
+    badCall("init_millis() is only valid with millis time keeping enabled.");
+  #else
+    #if defined(MILLIS_USE_TIMERA0)
+      #if !defined(TCA_BUFFERED_3PIN)
+        TCA0.SPLIT.INTCTRL = TCA_SPLIT_HUNF_bm;
+ 1b4:	82 e0       	ldi	r24, 0x02	; 2
+ 1b6:	80 93 0a 0a 	sts	0x0A0A, r24	; 0x800a0a <digital_pin_to_bit_mask+0x7f86a6>
+main():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/main.cpp:53
+ * just waiting for the DU-series now                                                           */
+int main() {
+  onBeforeInit(); // Emnpty callback called before init but after the .init stuff. First normal code executed
+  init(); // Interrupts are turned on just prior to init() returning.
+  initVariant();
+  if (!onAfterInit()) sei();  // enable interrupts.
+ 1ba:	78 94       	sei
+pinModeFast():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:445
+  vport = (VPORT_t *)(port * 4);
+  volatile uint8_t *pin_ctrl = (volatile uint8_t *) (0x410 + digital_pin_to_port[pin] * 0x20 + digital_pin_to_bit_position[pin]);
+  if (mode == OUTPUT)// || mode == OUTPUT_PULLUP)
+    vport->DIR |= mask;
+  else
+    vport->DIR &= ~mask;
+ 1bc:	05 98       	cbi	0x00, 5	; 0
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:448
+    // 1 clock to set direction
+  if (mode == INPUT_PULLUP)
+    *pin_ctrl |= PORT_PULLUPEN_bm;
+ 1be:	80 91 15 04 	lds	r24, 0x0415	; 0x800415 <digital_pin_to_bit_mask+0x7f80b1>
+ 1c2:	88 60       	ori	r24, 0x08	; 8
+ 1c4:	80 93 15 04 	sts	0x0415, r24	; 0x800415 <digital_pin_to_bit_mask+0x7f80b1>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:445
+  vport = (VPORT_t *)(port * 4);
+  volatile uint8_t *pin_ctrl = (volatile uint8_t *) (0x410 + digital_pin_to_port[pin] * 0x20 + digital_pin_to_bit_position[pin]);
+  if (mode == OUTPUT)// || mode == OUTPUT_PULLUP)
+    vport->DIR |= mask;
+  else
+    vport->DIR &= ~mask;
+ 1c8:	06 98       	cbi	0x00, 6	; 0
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:448
+    // 1 clock to set direction
+  if (mode == INPUT_PULLUP)
+    *pin_ctrl |= PORT_PULLUPEN_bm;
+ 1ca:	80 91 16 04 	lds	r24, 0x0416	; 0x800416 <digital_pin_to_bit_mask+0x7f80b2>
+ 1ce:	88 60       	ori	r24, 0x08	; 8
+ 1d0:	80 93 16 04 	sts	0x0416, r24	; 0x800416 <digital_pin_to_bit_mask+0x7f80b2>
+pinMode():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:51
+    return;                             /* ignore invalid pins passed at runtime */
+  }
+  volatile uint8_t * port_base = (volatile uint8_t *) (uint16_t) ((&PORTA) + digitalPinToPort(pin));
+  if (mode & 0x01) {
+    // OUTPUT mode, so write DIRSET with the mask.
+    *(port_base + 1) = bit_mask;
+ 1d4:	80 e1       	ldi	r24, 0x10	; 16
+ 1d6:	80 93 01 04 	sts	0x0401, r24	; 0x800401 <digital_pin_to_bit_mask+0x7f809d>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:78
+  // by 2 bytes and one clock. And let's hope it is, because the code above would suck too if it was in X.
+  // Handwritten assembly that exploited the knowledge that there will never be a carry would save 1 word and 1 clock.
+  // and could probably save at least several times that in initializing the port_base pointer. But if you're using
+  // pinMode you probably don't care.
+  port_base += (uint8_t) digitalPinToBitPosition(pin);
+  bit_mask = *(port_base + 0x10);
+ 1da:	80 91 14 04 	lds	r24, 0x0414	; 0x800414 <digital_pin_to_bit_mask+0x7f80b0>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:82
+  if (mode & 2) {
+    bit_mask |= 0x08;
+  } else {
+    bit_mask &= 0xF7;
+ 1de:	87 7f       	andi	r24, 0xF7	; 247
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:84
+  }
+  *(port_base + 0x10) = bit_mask;
+ 1e0:	80 93 14 04 	sts	0x0414, r24	; 0x800414 <digital_pin_to_bit_mask+0x7f80b0>
+pinModeFast():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:443
+  uint8_t port = digital_pin_to_port[pin];
+  VPORT_t *vport;
+  vport = (VPORT_t *)(port * 4);
+  volatile uint8_t *pin_ctrl = (volatile uint8_t *) (0x410 + digital_pin_to_port[pin] * 0x20 + digital_pin_to_bit_position[pin]);
+  if (mode == OUTPUT)// || mode == OUTPUT_PULLUP)
+    vport->DIR |= mask;
+ 1e4:	23 9a       	sbi	0x04, 3	; 4
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:450
+    vport->DIR &= ~mask;
+    // 1 clock to set direction
+  if (mode == INPUT_PULLUP)
+    *pin_ctrl |= PORT_PULLUPEN_bm;
+  else //SK 3/16/23 - we were doing something really dumb here. You need to turn off the pullup when set to output too!
+    *pin_ctrl &= ~PORT_PULLUPEN_bm;
+ 1e6:	80 91 33 04 	lds	r24, 0x0433	; 0x800433 <digital_pin_to_bit_mask+0x7f80cf>
+ 1ea:	87 7f       	andi	r24, 0xF7	; 247
+ 1ec:	80 93 33 04 	sts	0x0433, r24	; 0x800433 <digital_pin_to_bit_mask+0x7f80cf>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:443
+  uint8_t port = digital_pin_to_port[pin];
+  VPORT_t *vport;
+  vport = (VPORT_t *)(port * 4);
+  volatile uint8_t *pin_ctrl = (volatile uint8_t *) (0x410 + digital_pin_to_port[pin] * 0x20 + digital_pin_to_bit_position[pin]);
+  if (mode == OUTPUT)// || mode == OUTPUT_PULLUP)
+    vport->DIR |= mask;
+ 1f0:	22 9a       	sbi	0x04, 2	; 4
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:450
+    vport->DIR &= ~mask;
+    // 1 clock to set direction
+  if (mode == INPUT_PULLUP)
+    *pin_ctrl |= PORT_PULLUPEN_bm;
+  else //SK 3/16/23 - we were doing something really dumb here. You need to turn off the pullup when set to output too!
+    *pin_ctrl &= ~PORT_PULLUPEN_bm;
+ 1f2:	80 91 32 04 	lds	r24, 0x0432	; 0x800432 <digital_pin_to_bit_mask+0x7f80ce>
+ 1f6:	87 7f       	andi	r24, 0xF7	; 247
+ 1f8:	80 93 32 04 	sts	0x0432, r24	; 0x800432 <digital_pin_to_bit_mask+0x7f80ce>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:443
+  uint8_t port = digital_pin_to_port[pin];
+  VPORT_t *vport;
+  vport = (VPORT_t *)(port * 4);
+  volatile uint8_t *pin_ctrl = (volatile uint8_t *) (0x410 + digital_pin_to_port[pin] * 0x20 + digital_pin_to_bit_position[pin]);
+  if (mode == OUTPUT)// || mode == OUTPUT_PULLUP)
+    vport->DIR |= mask;
+ 1fc:	21 9a       	sbi	0x04, 1	; 4
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:450
+    vport->DIR &= ~mask;
+    // 1 clock to set direction
+  if (mode == INPUT_PULLUP)
+    *pin_ctrl |= PORT_PULLUPEN_bm;
+  else //SK 3/16/23 - we were doing something really dumb here. You need to turn off the pullup when set to output too!
+    *pin_ctrl &= ~PORT_PULLUPEN_bm;
+ 1fe:	80 91 31 04 	lds	r24, 0x0431	; 0x800431 <digital_pin_to_bit_mask+0x7f80cd>
+ 202:	87 7f       	andi	r24, 0xF7	; 247
+ 204:	80 93 31 04 	sts	0x0431, r24	; 0x800431 <digital_pin_to_bit_mask+0x7f80cd>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:443
+  uint8_t port = digital_pin_to_port[pin];
+  VPORT_t *vport;
+  vport = (VPORT_t *)(port * 4);
+  volatile uint8_t *pin_ctrl = (volatile uint8_t *) (0x410 + digital_pin_to_port[pin] * 0x20 + digital_pin_to_bit_position[pin]);
+  if (mode == OUTPUT)// || mode == OUTPUT_PULLUP)
+    vport->DIR |= mask;
+ 208:	20 9a       	sbi	0x04, 0	; 4
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:450
+    vport->DIR &= ~mask;
+    // 1 clock to set direction
+  if (mode == INPUT_PULLUP)
+    *pin_ctrl |= PORT_PULLUPEN_bm;
+  else //SK 3/16/23 - we were doing something really dumb here. You need to turn off the pullup when set to output too!
+    *pin_ctrl &= ~PORT_PULLUPEN_bm;
+ 20a:	80 91 30 04 	lds	r24, 0x0430	; 0x800430 <digital_pin_to_bit_mask+0x7f80cc>
+ 20e:	87 7f       	andi	r24, 0xF7	; 247
+ 210:	80 93 30 04 	sts	0x0430, r24	; 0x800430 <digital_pin_to_bit_mask+0x7f80cc>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:443
+  uint8_t port = digital_pin_to_port[pin];
+  VPORT_t *vport;
+  vport = (VPORT_t *)(port * 4);
+  volatile uint8_t *pin_ctrl = (volatile uint8_t *) (0x410 + digital_pin_to_port[pin] * 0x20 + digital_pin_to_bit_position[pin]);
+  if (mode == OUTPUT)// || mode == OUTPUT_PULLUP)
+    vport->DIR |= mask;
+ 214:	03 9a       	sbi	0x00, 3	; 0
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:450
+    vport->DIR &= ~mask;
+    // 1 clock to set direction
+  if (mode == INPUT_PULLUP)
+    *pin_ctrl |= PORT_PULLUPEN_bm;
+  else //SK 3/16/23 - we were doing something really dumb here. You need to turn off the pullup when set to output too!
+    *pin_ctrl &= ~PORT_PULLUPEN_bm;
+ 216:	80 91 13 04 	lds	r24, 0x0413	; 0x800413 <digital_pin_to_bit_mask+0x7f80af>
+ 21a:	87 7f       	andi	r24, 0xF7	; 247
+ 21c:	80 93 13 04 	sts	0x0413, r24	; 0x800413 <digital_pin_to_bit_mask+0x7f80af>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:443
+  uint8_t port = digital_pin_to_port[pin];
+  VPORT_t *vport;
+  vport = (VPORT_t *)(port * 4);
+  volatile uint8_t *pin_ctrl = (volatile uint8_t *) (0x410 + digital_pin_to_port[pin] * 0x20 + digital_pin_to_bit_position[pin]);
+  if (mode == OUTPUT)// || mode == OUTPUT_PULLUP)
+    vport->DIR |= mask;
+ 220:	07 9a       	sbi	0x00, 7	; 0
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:450
+    vport->DIR &= ~mask;
+    // 1 clock to set direction
+  if (mode == INPUT_PULLUP)
+    *pin_ctrl |= PORT_PULLUPEN_bm;
+  else //SK 3/16/23 - we were doing something really dumb here. You need to turn off the pullup when set to output too!
+    *pin_ctrl &= ~PORT_PULLUPEN_bm;
+ 222:	80 91 17 04 	lds	r24, 0x0417	; 0x800417 <digital_pin_to_bit_mask+0x7f80b3>
+ 226:	87 7f       	andi	r24, 0xF7	; 247
+ 228:	80 93 17 04 	sts	0x0417, r24	; 0x800417 <digital_pin_to_bit_mask+0x7f80b3>
+setup():
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:22
+  pinModeFast(BATT_LEVEL2_LED_PIN, OUTPUT);
+  pinModeFast(BATT_LEVEL3_LED_PIN, OUTPUT);
+  pinModeFast(BATT_LEVEL4_LED_PIN, OUTPUT);
+  pinModeFast(PWR_CONTROL_PIN, OUTPUT);
+  pinModeFast(CM5_SOFT_PWR_OUT, OUTPUT);
+  digitalWrite(PWR_CONTROL_PIN, LOW);
+ 22c:	60 e0       	ldi	r22, 0x00	; 0
+ 22e:	8a e0       	ldi	r24, 0x0A	; 10
+ 230:	1e df       	rcall	.-452    	; 0x6e <digitalWrite>
+digitalRead():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring_digital.c:363
+
+  /* Get port and check valid port */
+  PORT_t *port = digitalPinToPortStruct(pin);
+
+  /* Read pin value from PORTx.IN register */
+  if (port->IN & bit_mask) {
+ 232:	80 91 08 04 	lds	r24, 0x0408	; 0x800408 <digital_pin_to_bit_mask+0x7f80a4>
+loop():
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:29
+
+int batt_led = 0;
+unsigned int long batt_led_time = 0;
+void loop() {
+  // put your main code here, to run repeatedly:
+  uint8_t pwr_btn = digitalRead(PWR_BUTTON_PIN) ? 0 : 1;
+ 236:	61 e0       	ldi	r22, 0x01	; 1
+ 238:	c8 2f       	mov	r28, r24
+ 23a:	c0 72       	andi	r28, 0x20	; 32
+ 23c:	85 fd       	sbrc	r24, 5
+ 23e:	60 e0       	ldi	r22, 0x00	; 0
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:30
+  digitalWrite(LED_PIN, pwr_btn);
+ 240:	80 e0       	ldi	r24, 0x00	; 0
+ 242:	15 df       	rcall	.-470    	; 0x6e <digitalWrite>
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:32
+
+  if (pwr_btn) {
+ 244:	c1 11       	cpse	r28, r1
+ 246:	6a c0       	rjmp	.+212    	; 0x31c <main+0x19e>
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:33
+    digitalWrite(BATT_LEVEL1_LED_PIN, batt_led != 0);
+ 248:	61 e0       	ldi	r22, 0x01	; 1
+ 24a:	80 91 04 3f 	lds	r24, 0x3F04	; 0x803f04 <batt_led>
+ 24e:	90 91 05 3f 	lds	r25, 0x3F05	; 0x803f05 <batt_led+0x1>
+ 252:	89 2b       	or	r24, r25
+ 254:	09 f4       	brne	.+2      	; 0x258 <main+0xda>
+ 256:	60 e0       	ldi	r22, 0x00	; 0
+ 258:	84 e0       	ldi	r24, 0x04	; 4
+ 25a:	09 df       	rcall	.-494    	; 0x6e <digitalWrite>
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:34
+    digitalWrite(BATT_LEVEL2_LED_PIN, batt_led != 1);
+ 25c:	61 e0       	ldi	r22, 0x01	; 1
+ 25e:	80 91 04 3f 	lds	r24, 0x3F04	; 0x803f04 <batt_led>
+ 262:	90 91 05 3f 	lds	r25, 0x3F05	; 0x803f05 <batt_led+0x1>
+ 266:	01 97       	sbiw	r24, 0x01	; 1
+ 268:	09 f4       	brne	.+2      	; 0x26c <main+0xee>
+ 26a:	60 e0       	ldi	r22, 0x00	; 0
+ 26c:	85 e0       	ldi	r24, 0x05	; 5
+ 26e:	ff de       	rcall	.-514    	; 0x6e <digitalWrite>
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:35
+    digitalWrite(BATT_LEVEL3_LED_PIN, batt_led != 2);
+ 270:	61 e0       	ldi	r22, 0x01	; 1
+ 272:	80 91 04 3f 	lds	r24, 0x3F04	; 0x803f04 <batt_led>
+ 276:	90 91 05 3f 	lds	r25, 0x3F05	; 0x803f05 <batt_led+0x1>
+ 27a:	02 97       	sbiw	r24, 0x02	; 2
+ 27c:	09 f4       	brne	.+2      	; 0x280 <main+0x102>
+ 27e:	60 e0       	ldi	r22, 0x00	; 0
+ 280:	86 e0       	ldi	r24, 0x06	; 6
+ 282:	f5 de       	rcall	.-534    	; 0x6e <digitalWrite>
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:36
+    digitalWrite(BATT_LEVEL4_LED_PIN, batt_led != 3);
+ 284:	61 e0       	ldi	r22, 0x01	; 1
+ 286:	80 91 04 3f 	lds	r24, 0x3F04	; 0x803f04 <batt_led>
+ 28a:	90 91 05 3f 	lds	r25, 0x3F05	; 0x803f05 <batt_led+0x1>
+ 28e:	03 97       	sbiw	r24, 0x03	; 3
+ 290:	09 f4       	brne	.+2      	; 0x294 <main+0x116>
+ 292:	60 e0       	ldi	r22, 0x00	; 0
+ 294:	87 e0       	ldi	r24, 0x07	; 7
+ 296:	eb de       	rcall	.-554    	; 0x6e <digitalWrite>
+millis():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:167
+  unsigned long millis() {
+    // return timer_overflow_count; // for debugging timekeeping issues where these variables are out of scope from the sketch
+    unsigned long m;
+    // disable interrupts while we read timer_millis or we might get an
+    // inconsistent value (e.g. in the middle of a write to timer_millis)
+    uint8_t oldSREG = SREG;
+ 298:	2f b7       	in	r18, 0x3f	; 63
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:168
+    cli();
+ 29a:	f8 94       	cli
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:182
+        if (!(rtccount & 0x8000)) m += 64000;
+      }
+      SREG = oldSREG;
+      m += rtccount - (rtccount >> 5) + (rtccount >> 7);
+    #else
+      m = timingStruct.timer_millis;
+ 29c:	80 91 0a 3f 	lds	r24, 0x3F0A	; 0x803f0a <timingStruct+0x4>
+ 2a0:	90 91 0b 3f 	lds	r25, 0x3F0B	; 0x803f0b <timingStruct+0x5>
+ 2a4:	a0 91 0c 3f 	lds	r26, 0x3F0C	; 0x803f0c <timingStruct+0x6>
+ 2a8:	b0 91 0d 3f 	lds	r27, 0x3F0D	; 0x803f0d <timingStruct+0x7>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:183
+      SREG = oldSREG;
+ 2ac:	2f bf       	out	0x3f, r18	; 63
+loop():
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:37
+    if (millis() - batt_led_time > 100) {
+ 2ae:	40 91 00 3f 	lds	r20, 0x3F00	; 0x803f00 <__DATA_REGION_ORIGIN__>
+ 2b2:	50 91 01 3f 	lds	r21, 0x3F01	; 0x803f01 <__DATA_REGION_ORIGIN__+0x1>
+ 2b6:	60 91 02 3f 	lds	r22, 0x3F02	; 0x803f02 <__DATA_REGION_ORIGIN__+0x2>
+ 2ba:	70 91 03 3f 	lds	r23, 0x3F03	; 0x803f03 <__DATA_REGION_ORIGIN__+0x3>
+ 2be:	84 1b       	sub	r24, r20
+ 2c0:	95 0b       	sbc	r25, r21
+ 2c2:	a6 0b       	sbc	r26, r22
+ 2c4:	b7 0b       	sbc	r27, r23
+ 2c6:	85 36       	cpi	r24, 0x65	; 101
+ 2c8:	91 05       	cpc	r25, r1
+ 2ca:	a1 05       	cpc	r26, r1
+ 2cc:	b1 05       	cpc	r27, r1
+ 2ce:	08 f4       	brcc	.+2      	; 0x2d2 <main+0x154>
+ 2d0:	b0 cf       	rjmp	.-160    	; 0x232 <main+0xb4>
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:38
+      batt_led++;
+ 2d2:	80 91 04 3f 	lds	r24, 0x3F04	; 0x803f04 <batt_led>
+ 2d6:	90 91 05 3f 	lds	r25, 0x3F05	; 0x803f05 <batt_led+0x1>
+ 2da:	01 96       	adiw	r24, 0x01	; 1
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:39
+      if (batt_led == 4) {
+ 2dc:	84 30       	cpi	r24, 0x04	; 4
+ 2de:	91 05       	cpc	r25, r1
+ 2e0:	c1 f0       	breq	.+48     	; 0x312 <main+0x194>
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:38
+    digitalWrite(BATT_LEVEL1_LED_PIN, batt_led != 0);
+    digitalWrite(BATT_LEVEL2_LED_PIN, batt_led != 1);
+    digitalWrite(BATT_LEVEL3_LED_PIN, batt_led != 2);
+    digitalWrite(BATT_LEVEL4_LED_PIN, batt_led != 3);
+    if (millis() - batt_led_time > 100) {
+      batt_led++;
+ 2e2:	80 93 04 3f 	sts	0x3F04, r24	; 0x803f04 <batt_led>
+ 2e6:	90 93 05 3f 	sts	0x3F05, r25	; 0x803f05 <batt_led+0x1>
+millis():
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:167
+  unsigned long millis() {
+    // return timer_overflow_count; // for debugging timekeeping issues where these variables are out of scope from the sketch
+    unsigned long m;
+    // disable interrupts while we read timer_millis or we might get an
+    // inconsistent value (e.g. in the middle of a write to timer_millis)
+    uint8_t oldSREG = SREG;
+ 2ea:	2f b7       	in	r18, 0x3f	; 63
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:168
+    cli();
+ 2ec:	f8 94       	cli
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:182
+        if (!(rtccount & 0x8000)) m += 64000;
+      }
+      SREG = oldSREG;
+      m += rtccount - (rtccount >> 5) + (rtccount >> 7);
+    #else
+      m = timingStruct.timer_millis;
+ 2ee:	80 91 0a 3f 	lds	r24, 0x3F0A	; 0x803f0a <timingStruct+0x4>
+ 2f2:	90 91 0b 3f 	lds	r25, 0x3F0B	; 0x803f0b <timingStruct+0x5>
+ 2f6:	a0 91 0c 3f 	lds	r26, 0x3F0C	; 0x803f0c <timingStruct+0x6>
+ 2fa:	b0 91 0d 3f 	lds	r27, 0x3F0D	; 0x803f0d <timingStruct+0x7>
+/home/tangles/.arduino15/packages/megaTinyCore/hardware/megaavr/2.6.12/cores/megatinycore/wiring.c:183
+      SREG = oldSREG;
+ 2fe:	2f bf       	out	0x3f, r18	; 63
+loop():
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:42
+      if (batt_led == 4) {
+        batt_led = 0;
+      }
+      batt_led_time = millis();
+ 300:	80 93 00 3f 	sts	0x3F00, r24	; 0x803f00 <__DATA_REGION_ORIGIN__>
+ 304:	90 93 01 3f 	sts	0x3F01, r25	; 0x803f01 <__DATA_REGION_ORIGIN__+0x1>
+ 308:	a0 93 02 3f 	sts	0x3F02, r26	; 0x803f02 <__DATA_REGION_ORIGIN__+0x2>
+ 30c:	b0 93 03 3f 	sts	0x3F03, r27	; 0x803f03 <__DATA_REGION_ORIGIN__+0x3>
+ 310:	90 cf       	rjmp	.-224    	; 0x232 <main+0xb4>
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:40
+    digitalWrite(BATT_LEVEL3_LED_PIN, batt_led != 2);
+    digitalWrite(BATT_LEVEL4_LED_PIN, batt_led != 3);
+    if (millis() - batt_led_time > 100) {
+      batt_led++;
+      if (batt_led == 4) {
+        batt_led = 0;
+ 312:	10 92 04 3f 	sts	0x3F04, r1	; 0x803f04 <batt_led>
+ 316:	10 92 05 3f 	sts	0x3F05, r1	; 0x803f05 <batt_led+0x1>
+ 31a:	e7 cf       	rjmp	.-50     	; 0x2ea <main+0x16c>
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:45
+      }
+      batt_led_time = millis();
+    }
+  } else {
+    batt_led = 0;
+ 31c:	10 92 04 3f 	sts	0x3F04, r1	; 0x803f04 <batt_led>
+ 320:	10 92 05 3f 	sts	0x3F05, r1	; 0x803f05 <batt_led+0x1>
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:46
+    digitalWrite(BATT_LEVEL1_LED_PIN, HIGH);
+ 324:	61 e0       	ldi	r22, 0x01	; 1
+ 326:	84 e0       	ldi	r24, 0x04	; 4
+ 328:	a2 de       	rcall	.-700    	; 0x6e <digitalWrite>
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:47
+    digitalWrite(BATT_LEVEL2_LED_PIN, HIGH);
+ 32a:	61 e0       	ldi	r22, 0x01	; 1
+ 32c:	85 e0       	ldi	r24, 0x05	; 5
+ 32e:	9f de       	rcall	.-706    	; 0x6e <digitalWrite>
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:48
+    digitalWrite(BATT_LEVEL3_LED_PIN, HIGH);
+ 330:	61 e0       	ldi	r22, 0x01	; 1
+ 332:	86 e0       	ldi	r24, 0x06	; 6
+ 334:	9c de       	rcall	.-712    	; 0x6e <digitalWrite>
+/media/nvme_raid0/mPC/cyberdeck-scout/Firmware/tiny404-btn-test/tiny404-btn-test.ino:49
+    digitalWrite(BATT_LEVEL4_LED_PIN, HIGH);
+ 336:	61 e0       	ldi	r22, 0x01	; 1
+ 338:	87 e0       	ldi	r24, 0x07	; 7
+ 33a:	7a cf       	rjmp	.-268    	; 0x230 <main+0xb2>
+
+0000033c <_exit>:
+exit():
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+ 33c:	f8 94       	cli
+
+0000033e <__stop_program>:
+__stop_program():
+/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/short-calls/libgcc/../../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+ 33e:	ff cf       	rjmp	.-2      	; 0x33e <__stop_program>
